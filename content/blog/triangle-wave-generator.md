@@ -149,7 +149,7 @@ If you want to remove DC bias from the output, then you'll need to add  a [coupl
 
 ## Example Design
 
-This is an example from my [Sound Reactor](< http:=>) project.
+This is an example from my [Sound Reactor](/blog/led-sound-reactor/) project.
 
 ### Step 1 - Define Criteria
 
