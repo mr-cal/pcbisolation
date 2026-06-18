@@ -46,7 +46,7 @@ jobs:
             --disable-external \
             --ignore-missing-alt \
             --allow-hash-href \
-            --enforce-https=false
+            --no-enforce-https
         continue-on-error: false
 
       - name: Deploy to gh-pages
