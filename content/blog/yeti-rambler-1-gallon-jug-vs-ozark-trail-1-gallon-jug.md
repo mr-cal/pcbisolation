@@ -4,6 +4,9 @@ date: 2020-07-01
 categories: ["misc"]
 tags: ["128 ounces", "4 liters", "4L", "Comparison", "cooler", "", "", "", ""]
 ---
+
+{{< figure-gallery images="/wp-content/uploads/2020/06/gallon-jug-01.jpg,/wp-content/uploads/2020/06/gallon-jug-02.jpg,/wp-content/uploads/2020/06/gallon-jug-03.jpg,/wp-content/uploads/2020/06/gallon-jug-04.jpg,/wp-content/uploads/2020/06/gallon-jug-05.jpg,/wp-content/uploads/2020/06/gallon-jug-06.jpg" >}}
+
 ![](/wp-content/uploads/2020/06/gallon-jug-01-1024x685.jpg)_left: Ozark Trail, right: Yeti_  
   
 This is a comparison of Yeti's [1 gallon Rambler jug](<https://www.yeti.com/en_US/drinkware/rambler-one-gallon-jug/YRAMONEJUG.html>) and Walmart's [Ozark Trail 1 gallon jug.](<https://www.walmart.com/ip/Ozark-Trail-1-Gallon-Double-wall-Vacuum-sealed-Stainless-Steel-Water-Jug/285297047>)

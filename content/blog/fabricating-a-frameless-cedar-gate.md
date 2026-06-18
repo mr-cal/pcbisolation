@@ -3,6 +3,9 @@ title: "Fabricating a frameless cedar gate"
 date: 2023-10-09
 categories: ["DIY"]
 ---
+
+{{< figure-gallery images="/wp-content/uploads/2023/10/frameless-gate-01.jpg,/wp-content/uploads/2023/10/frameless-gate-02.jpg,/wp-content/uploads/2023/10/frameless-gate-04.jpg,/wp-content/uploads/2023/10/frameless-gate-06.jpg,/wp-content/uploads/2023/10/frameless-gate-07.jpg,/wp-content/uploads/2023/10/frameless-gate-08.jpg,/wp-content/uploads/2023/10/frameless-gate-09.jpg,/wp-content/uploads/2023/10/frameless-gate-10.jpg.jpeg" >}}
+
 This gate has no exterior visible from the front and opens large enough for a vehicle and trailer to drive through.
 
 ## Design

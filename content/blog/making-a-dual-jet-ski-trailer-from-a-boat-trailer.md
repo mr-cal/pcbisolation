@@ -3,6 +3,9 @@ title: "Making a dual jet ski trailer from a boat trailer"
 date: 2023-10-09
 categories: ["DIY"]
 ---
+
+{{< figure-gallery images="/wp-content/uploads/2023/10/jet-ski-trailer-01.jpg,/wp-content/uploads/2023/10/jet-ski-trailer-02.jpg,/wp-content/uploads/2023/10/jet-ski-trailer-03.jpg,/wp-content/uploads/2023/10/jet-ski-trailer-04.jpg,/wp-content/uploads/2023/10/jet-ski-trailer-05.jpg,/wp-content/uploads/2023/10/jet-ski-trailer-06.jpg,/wp-content/uploads/2023/10/jet-ski-trailer-07.jpg,/wp-content/uploads/2023/10/jet-ski-trailer-08.jpg,/wp-content/uploads/2023/10/jet-ski-trailer-09.jpg,/wp-content/uploads/2023/10/jet-ski-trailer-10.jpg,/wp-content/uploads/2023/10/jet-ski-trailer-11.jpg,/wp-content/uploads/2023/10/jet-ski-trailer-12.jpg,/wp-content/uploads/2023/10/jet-ski-trailer-13.jpg,/wp-content/uploads/2023/10/jet-ski-trailer-14.jpg,/wp-content/uploads/2023/10/jet-ski-trailer-15.jpg" >}}
+
 I bought an old boat trailer and converted it into a dual jet ski trailer.
 
 ## Boat trailer

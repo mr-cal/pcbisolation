@@ -1,0 +1,12 @@
+{{/* Usage: {{< figure-gallery images="/path/a.jpg,/path/b.jpg" >}} */}}
+<div class="figure-gallery"
+     style="display:flex;flex-wrap:wrap;gap:0.5rem;margin:1.5rem 0;">
+  {{ range (split (.Get "images") ",") }}
+    <figure style="margin:0;flex:1 1 200px;max-width:420px;">
+      <img src="{{ . | safeURL }}"
+           loading="lazy"
+           style="width:100%;height:auto;border-radius:4px;"
+           alt="">
+    </figure>
+  {{ end }}
+</div>
