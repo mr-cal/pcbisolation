@@ -1,0 +1,23 @@
+---
+title: "Kawasaki CSR 250 & 305 1979 \u2013 1982 Manuals"
+date: 2016-09-22
+categories: ["DIY"]
+---
+I had a hard time finding this online for free.
+
+[![kz-csr-250-305-2](/wp-content/uploads/2016/09/kz-csr-250-305-2-238x300.jpg)](<http://pcbisolation.com/downloads/Kawasaki_305_79-82_Manual.pdf>)
+
+ 
+
+This manual is for the following models:  
+Kawasaki KZ CSR 250 1979  
+Kawasaki KZ CSR 250 1980  
+Kawasaki KZ CSR 250 1981  
+Kawasaki KZ CSR 250 1982  
+Kawasaki KZ CSR 305 1981  
+Kawasaki KZ CSR 305 1982
+
+[Click here](<http://pcbisolation.com/downloads/Kawasaki_305_79-82_Manual.pdf>) to download.
+
+Enjoy![  
+](</wp-content/uploads/2016/09/kz-csr-250-305-2.jpg>)
