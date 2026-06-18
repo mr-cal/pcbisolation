@@ -62,6 +62,9 @@ for post in posts:
             failures.append(f"{post.name}: expected figure-gallery shortcode not found")
 
     # Match individual image paths — exclude shortcode images= CSV values (they contain commas)
+    # Skip image existence check when static/ has no media (e.g. in CI without large files).
+    if not (STATIC_DIR / "wp-content").exists():
+        continue
     for img_path in re.findall(r"/wp-content/uploads/[^\s\"',)>]+", text):
         img_path = img_path.rstrip(".,;)")
         if not re.search(r"\.(jpg|jpeg|png|gif|webp|svg|pdf|mp4|zip)$", img_path, re.I):
