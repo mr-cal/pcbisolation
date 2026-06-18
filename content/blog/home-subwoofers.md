@@ -16,10 +16,8 @@ I chose the best subwoofers for the price I could find, Hifonic Brutus 15″s. T
 
 [![hifonics01](/wp-content/uploads/2014/10/hifonics01-1024x539.jpg)](</wp-content/uploads/2014/10/hifonics01.jpg>)
 
-[  
-](</wp-content/uploads/2014/10/hifonics1.jpg>)
 
- 
+
 
 As with all home powered subwoofers, the power supply and amp should be integrated with the box. In an enclosure on the back of the box, I placed the amp. On the back of the other sub, I placed the power supplies. The design was not overly difficult. Most of the time was focused on structural integrity (1000W generates plenty of air pressure and vibrations), and placement of parts, such as connectors, voltage panels, and current panels.
 
