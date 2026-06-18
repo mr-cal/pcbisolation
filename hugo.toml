@@ -1,0 +1,45 @@
+baseURL = "https://pcbisolation.com/"
+languageCode = "en-us"
+title = "PCB Isolation"
+theme = "PaperMod"
+[pagination]
+  pagerSize = 10
+
+[params]
+  description = "PCBs, electronics, and DIY projects"
+  author = "PCB Isolation"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  defaultTheme = "auto"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[[menus.main]]
+  identifier = "blog"
+  name = "Blog"
+  url = "/blog/"
+  weight = 10
+
+[[menus.main]]
+  identifier = "projects"
+  name = "Projects"
+  url = "/projects/"
+  weight = 20
+
+[[menus.main]]
+  identifier = "3d-prints"
+  name = "3D Prints"
+  url = "/3d-prints/"
+  weight = 30
+
+[[menus.main]]
+  identifier = "contact"
+  name = "Contact"
+  url = "/contact/"
+  weight = 40
