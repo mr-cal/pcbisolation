@@ -38,7 +38,7 @@ jobs:
         run: hugo --minify
 
       - name: Install htmlproofer
-        run: gem install html-proofer
+        run: sudo gem install html-proofer
 
       - name: Check links
         run: |
