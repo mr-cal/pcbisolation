@@ -12,12 +12,12 @@ Normally, I look at some of my old code for reference. This is my focused and co
 
 ### Contents
 
-[I/O Registers](</blog/atmel-coding-reference/#IORegisters>)  
-[Bitwise Operators](</blog/atmel-coding-reference/#Bitwise>)  
-[Delays](</blog/atmel-coding-reference/#Delays>)  
-[Interrupts](</blog/atmel-coding-reference/#Interrupts>)  
-[Program Memory](</blog/atmel-coding-reference/#ProgramMemory>)  
-[PWM](</blog/atmel-coding-reference/#PWM>)  
+[I/O Registers](</blog/atmel-coding-reference/#io-registers>)  
+[Bitwise Operators](</blog/atmel-coding-reference/#bitwise-operators>)  
+[Delays](</blog/atmel-coding-reference/#delays>)  
+[Interrupts](</blog/atmel-coding-reference/#interrupts>)  
+[Program Memory](</blog/atmel-coding-reference/#program-memory>)  
+[PWM](</blog/atmel-coding-reference/#pwm>)  
  
 
 ## I/O Registers
