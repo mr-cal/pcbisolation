@@ -6,7 +6,7 @@ categories: ["Circuits"]
    
 While this is not my design, this is my analysis and derivations.
 
-I used this in my [sound reactive lighting project](<http://pcbisolation.com/blog/led-sound-reactor/>).  I had only one op-amp to spare for a triangle wave generator, so I couldn't use the popular [two op-amp design](<http://www.circuitstoday.com/triangular-wave-generator>).
+I used this in my [sound reactive lighting project](</blog/led-sound-reactor/>).  I had only one op-amp to spare for a triangle wave generator, so I couldn't use the popular [two op-amp design](<http://www.circuitstoday.com/triangular-wave-generator>).
 
 For those who are not interested in the details, you can find the final formulas in an example here.
 

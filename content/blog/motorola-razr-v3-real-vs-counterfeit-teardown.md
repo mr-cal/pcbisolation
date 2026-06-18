@@ -11,7 +11,7 @@ tags: ["cell phone", "chinese", "circuit", "", "", "", "", "", "", "", "", "", "
 
 I recently bought a Razr V3 on eBay. The listing below shows that it is made by Motorola. The pictures are of an authentic Razr. However I received a counterfeit Razr. 
 
-PS - I wrote a [quick guide on spotting counterfeit Motorola Razr V3](<https://pcbisolation.com/blog/how-to-spot-a-counterfeit-motorola-razr-v3/>)'s (without disassembly). 
+PS - I wrote a [quick guide on spotting counterfeit Motorola Razr V3](</blog/how-to-spot-a-counterfeit-motorola-razr-v3/>)'s (without disassembly). 
 
 ![](/wp-content/uploads/2019/03/razr-real-fake-teardown-34-1024x799.jpg)
 

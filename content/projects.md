@@ -107,7 +107,7 @@ This is a LED controller for fans of music. You plug in LED lights and a power s
 
 Now add a music source. The lights will react to the bass of the song (pulsing with the beat). You can adjust how sensitive the lights are to the music and more with the control knobs.
 
-The design is entirely analog. It uses 8 op-amps and many discrete components. I found there were plenty of shortcomings to this design, particularly for scalability. Read more [here](<http://pcbisolation.com/blog/led-sound-reactor/>).
+The design is entirely analog. It uses 8 op-amps and many discrete components. I found there were plenty of shortcomings to this design, particularly for scalability. Read more [here](</blog/led-sound-reactor/>).
 
 ## Motorcycle Brake and Turn Light
 
@@ -115,7 +115,7 @@ I was unsatisfied with the brake and turn signal combos available online, so I m
 
 If you're curious about the bike, it's a 1983 Kawasaki CSR 305. Here's [a picture of it](</wp-content/uploads/2016/09/motorcycle-1.jpg>) next to the Mississippi River.
 
-More details about the brake light [here](<http://pcbisolation.com/blog/motorcycle-brake-turn-light/>).
+More details about the brake light [here](</blog/motorcycle-brake-turn-light/>).
 
 ## 
 
@@ -123,4 +123,4 @@ More details about the brake light [here](<http://pcbisolation.com/blog/motorcyc
 
 I designed and built a CNC machine with 12″x12″x4″ of cutting space. It uses 270 oz-in steppers, a regular old router, a HobbyCNC controller, and Mach 3 as the driving software. It's accurate down to at least 1/100″. It cost $400 and is made mostly from MDF. Because it is made of wood, it is designed to be very accurate and adjustable.
 
-Originally I designed it for PCB Isolation Routing. Now, ordering prototype PCB boards online is so cheap, that it isn't worth my time to route myself. It is great for carving wood, making signs, engraving, and other odd jobs. Read more about the design [here](<http://pcbisolation.com/blog/cnc-summary/>). I sold it in 2017.
+Originally I designed it for PCB Isolation Routing. Now, ordering prototype PCB boards online is so cheap, that it isn't worth my time to route myself. It is great for carving wood, making signs, engraving, and other odd jobs. Read more about the design [here](</blog/cnc-summary/>). I sold it in 2017.

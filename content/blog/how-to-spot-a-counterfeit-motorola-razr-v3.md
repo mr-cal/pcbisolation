@@ -30,4 +30,4 @@ Finally, the coloring for the "call" and "hang up" keys are poorly aligned on th
 
 Have you found other indicators that a Razr V3 is fake? Let me know in the comments below.
 
-Want a more in-depth teardown? See my teardown [here](<https://pcbisolation.com/blog/motorola-razr-v3-real-vs-counterfeit-teardown/>).
+Want a more in-depth teardown? See my teardown [here](</blog/motorola-razr-v3-real-vs-counterfeit-teardown/>).

@@ -53,7 +53,7 @@ Not much to say here. It should be of no wonder that you are struggling to contr
 
 There are a few difficulties flying indoors. You are spatially limited, so a bit of your concentration goes towards avoiding walls and not on flying better. Or you may be going too fast.
 
-Read my article on [flying indoors](<http://pcbisolation.com/blog/you-dont-suck-part-ii/>).
+Read my article on [flying indoors](</blog/you-dont-suck-part-ii/>).
 
  
 

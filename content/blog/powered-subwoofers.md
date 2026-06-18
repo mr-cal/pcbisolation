@@ -20,7 +20,7 @@ I picked up two used 6.5″ Kicker Free Air subwoofers. "Free Air" is a misnomer
 
 [![powered-subwoofer-02](/wp-content/uploads/2013/02/powered-subwoofer-02-300x300.jpg)](</wp-content/uploads/2013/02/powered-subwoofer-02.jpg>)
 
-I started by drawing a slanted front prism box. I found [a PDF from Kicker](</wp-content/uploads/2013/02/kicker-freeair.pdf>) that recommended 0.35cu.ft. for each 6.5″ sub and used that to dimension a slanted front prism. I integrated space for the amp and power supply. It became a truncated slanted prism. I drew it up in Inventor, then brought the parts into AutoCAD to get them cut on a CNC machine(not [my CNC](<http://pcbisolation.com/blog/cnc-summary/>)).
+I started by drawing a slanted front prism box. I found [a PDF from Kicker](</wp-content/uploads/2013/02/kicker-freeair.pdf>) that recommended 0.35cu.ft. for each 6.5″ sub and used that to dimension a slanted front prism. I integrated space for the amp and power supply. It became a truncated slanted prism. I drew it up in Inventor, then brought the parts into AutoCAD to get them cut on a CNC machine(not [my CNC](</blog/cnc-summary/>)).
 
  
 
@@ -28,7 +28,7 @@ I started by drawing a slanted front prism box. I found [a PDF from Kicker](</wp
 
 [![powered-subwoofer-04](/wp-content/uploads/2013/02/powered-subwoofer-04-1024x864.jpg)](</wp-content/uploads/2013/02/powered-subwoofer-04.jpg>)
 
-I cut the parts out of a half sheet(4'x4′) of 1/2″ MDF. That cost $15. I used 2 layers of 1/2″ MDF for the front where the speakers mount, for the some additional sturdiness. It turned out to be overkill and unnecessary. These little things don't generate force like [1000 watts into a pair of 15″ subs](<http://pcbisolation.com/blog/home-subwoofers/>).
+I cut the parts out of a half sheet(4'x4′) of 1/2″ MDF. That cost $15. I used 2 layers of 1/2″ MDF for the front where the speakers mount, for the some additional sturdiness. It turned out to be overkill and unnecessary. These little things don't generate force like [1000 watts into a pair of 15″ subs](</blog/home-subwoofers/>).
 
 Assembling the box was as easy as assembling a Lego set of a cube. Each part was within 1/64″ of where it belonged (thank you CNC technologies). Since the absence of any leaks is critical, I resealed every seam with a mixture of wood glue and sawdust. The sawdust makes the glue more viscous and reduces how much glue you apply(I put sawdust in any baked goods I make to save $$$). An alternative to wood glue sawdust is silicone caulk, both stick to wood easily and provide a durable seal.
 
@@ -86,7 +86,7 @@ Since these are closely placed subs, mono sound is fine. I added the audio input
 
 [![powered-subwoofer-11](/wp-content/uploads/2013/02/powered-subwoofer-11-1024x768.jpg)](</wp-content/uploads/2013/02/powered-subwoofer-11.jpg>)
 
-_Update - I accidentally destroyed the Sure amp when one of the outputs touched a grounded surface. It isn't designed for subwoofer frequencies and didn't match the application. I now have an amp from a [Logitech Z340](<http://pcbisolation.com/blog/logitech-z340/>) that is more appropriate._
+_Update - I accidentally destroyed the Sure amp when one of the outputs touched a grounded surface. It isn't designed for subwoofer frequencies and didn't match the application. I now have an amp from a [Logitech Z340](</blog/logitech-z340/>) that is more appropriate._
 
  
 

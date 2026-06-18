@@ -8,7 +8,7 @@ tags: ["18650", "adapter", "battery", "cn-160", "", "", "", "", "", "", "", "", 
 
  
 
-I use Neewer's hot shoe LED lights for a variety of purposes - photography, video, and [scanning negatives](<http://pcbisolation.com/blog/scan-negatives-with-your-camera/>). The [CN-160](<https://www.amazon.com/NEEWER%C2%AE-Dimmable-Digital-Camcorder-Panasonic/dp/B004TJ6JH6>) is incredibly bright and dimmable. Unfortunately, it is designed to take 6xAA batteries. Or, if you have the right camera, you can attach your camera's lithium battery to it. I don't like either option.
+I use Neewer's hot shoe LED lights for a variety of purposes - photography, video, and [scanning negatives](</blog/scan-negatives-with-your-camera/>). The [CN-160](<https://www.amazon.com/NEEWER%C2%AE-Dimmable-Digital-Camcorder-Panasonic/dp/B004TJ6JH6>) is incredibly bright and dimmable. Unfortunately, it is designed to take 6xAA batteries. Or, if you have the right camera, you can attach your camera's lithium battery to it. I don't like either option.
 
 I use [18650 batteries](<https://www.reddit.com/r/flashlight/wiki/18650>) for my headlight and I want to use them here. I added a voltage monitor so I didn't accidentally drain the batteries. I added a DC barrel jack for connecting to a wall adapter. This was for scanning thousands of negatives - I needed full brightness for many hours.
 

@@ -5,7 +5,7 @@ categories: ["DIY"]
 ---
 I had a hard time finding this online for free.
 
-[![kz-csr-250-305-2](/wp-content/uploads/2016/09/kz-csr-250-305-2-238x300.jpg)](<http://pcbisolation.com/downloads/Kawasaki_305_79-82_Manual.pdf>)
+[![kz-csr-250-305-2](/wp-content/uploads/2016/09/kz-csr-250-305-2-238x300.jpg)](<https://pcbisolation.com/downloads/Kawasaki_305_79-82_Manual.pdf>)
 
  
 
@@ -17,7 +17,7 @@ Kawasaki KZ CSR 250 1982
 Kawasaki KZ CSR 305 1981  
 Kawasaki KZ CSR 305 1982
 
-[Click here](<http://pcbisolation.com/downloads/Kawasaki_305_79-82_Manual.pdf>) to download.
+[Click here](<https://pcbisolation.com/downloads/Kawasaki_305_79-82_Manual.pdf>) to download.
 
 Enjoy![  
 ](</wp-content/uploads/2016/09/kz-csr-250-305-2.jpg>)

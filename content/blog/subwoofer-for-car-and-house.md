@@ -35,6 +35,6 @@ I picked up a 45W RMS powered sub from Goodwill for $5. The amplifier inside run
 
 I removed the amp out of the powered sub, screwed it into the back of the tube, surrounded it with wood, and covered it in plexiglass.
 
-I use this subwoofer all the time, normally it is in my car. Since there are [only two cables leading to it](<http://pcbisolation.com/blog/mazda2-subwoofer/>), I can pull it out quickly.
+I use this subwoofer all the time, normally it is in my car. Since there are [only two cables leading to it](</blog/mazda2-subwoofer/>), I can pull it out quickly.
 
 This is the most convenient and versatile subwoofer I have ever used (certainly not the loudest!). First, it's lightweight; I can carry it with one hand. Second, it's durable; I've dropped it a few times, played it outside, in cold weather, and in the snow. Third, I don't feel bad mistreating a sub that costs $6. And most importantly, it makes a nice seat.

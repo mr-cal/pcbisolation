@@ -93,7 +93,7 @@ If you make changes to the part in Inventor, you need to repeat this entire proc
 
 Is your part not properly rotated?
 
-You can manually rotate in Cura, but if you'd like to fix this issue permanently, see my how-to [here](<http://pcbisolation.com/blog/axis-rotation-inventor-cura/>).
+You can manually rotate in Cura, but if you'd like to fix this issue permanently, see my how-to [here](</blog/axis-rotation-inventor-cura/>).
 
 [  
 ](</wp-content/uploads/2018/09/inventor-cura-stl-import-08.jpg>)[![](/wp-content/uploads/2018/09/inventor-cura-stl-import-08-1024x444.jpg)](</wp-content/uploads/2018/09/inventor-cura-stl-import-08.jpg>)
