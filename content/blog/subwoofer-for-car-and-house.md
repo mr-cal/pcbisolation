@@ -3,6 +3,11 @@ title: "Powered Subwoofer for Your Car and House"
 date: 2014-01-05
 categories: ["Audio"]
 tags: ["amp", "amplifier", "car", "cheap", "", "", "", "", "", "", "", "", "", "", ""]
+
+cover:
+  image: "/wp-content/uploads/2015/07/tube_subwoofer_01.jpg"
+  relative: false
+  hidden: false
 ---
 I have a thing for subwoofers, convenience, and low cost. Arguing over DVCs in $300 subs isn't my thing.
 

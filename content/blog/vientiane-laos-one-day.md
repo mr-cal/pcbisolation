@@ -3,6 +3,11 @@ title: "Vientiane in One Long Day \u2013 Walk, Bicycle, and Scooter Routes"
 date: 2017-07-25
 categories: ["travel"]
 tags: ["", "", "", "", "", "", "", "", "", "", ""]
+
+cover:
+  image: "/wp-content/uploads/2017/04/IMG_20170708_105239.jpg"
+  relative: false
+  hidden: false
 ---
 [![](/wp-content/uploads/2017/04/IMG_20170708_105239-1024x683.jpg)](</wp-content/uploads/2017/04/IMG_20170708_105239.jpg>)
 

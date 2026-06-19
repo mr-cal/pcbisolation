@@ -3,6 +3,11 @@ title: "Swapping LEDs and PCB in a Dimmable Nightlight"
 date: 2020-05-11
 categories: ["Circuits", "DIY", "LED/Lighting", "tech"]
 tags: ["1800K", "", "", "", "", ""]
+
+cover:
+  image: "/wp-content/uploads/2020/05/nightlight-01-1024x685.jpg"
+  relative: false
+  hidden: false
 ---
 I've looked and been unsuccessful in finding household nightlights that meet my criteria:
 

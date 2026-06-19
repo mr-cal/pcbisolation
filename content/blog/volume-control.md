@@ -2,6 +2,11 @@
 title: "Simple Automatic Volume Control with Arduino"
 date: 2016-09-20
 categories: ["Audio", "Circuits", "DIY"]
+
+cover:
+  image: "/wp-content/uploads/2016/09/audio-control-1.jpg"
+  relative: false
+  hidden: false
 ---
 This was for a pair of outdoor speakers in front of KMNR, my college radio station. KMNR was receiving complaints for having the music too loud at night.
 

@@ -3,6 +3,11 @@ title: "Building a standing desk with a charging drawer and cable tray"
 date: 2025-05-04
 categories: ["DIY"]
 tags: ["backlight", "cable management", "controller", "", "", "", "", ""]
+
+cover:
+  image: "/wp-content/uploads/2025/05/standing-desk-14.jpg"
+  relative: false
+  hidden: false
 ---
 [![](/wp-content/uploads/2025/05/standing-desk-14-1024x768.jpg)](</wp-content/uploads/2025/05/standing-desk-14.jpg>)
 
@@ -83,7 +88,7 @@ I'm very happy with the final result!
 
 ## Video
 
-https://youtu.be/kmaVLJA67Oc 
+{{< youtube kmaVLJA67Oc >}} 
 
 ## Drawings and cutlist
 

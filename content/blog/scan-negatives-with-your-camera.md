@@ -2,6 +2,11 @@
 title: "How To Scan A Lot Of Film Negatives Using Your Camera"
 date: 2016-12-07
 categories: ["DIY", "photography"]
+
+cover:
+  image: "/wp-content/uploads/2016/12/film-scan-7.jpg"
+  relative: false
+  hidden: false
 ---
 [![](/wp-content/uploads/2016/12/film-scan-7-1024x685.jpg)](</wp-content/uploads/2016/12/film-scan-7.jpg>)
 

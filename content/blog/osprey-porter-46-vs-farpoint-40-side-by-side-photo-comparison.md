@@ -3,6 +3,11 @@ title: "Osprey Porter 46 vs Farpoint 40 \u2013 Side by Side Photo Comparison"
 date: 2017-01-18
 categories: ["travel"]
 tags: ["Backpack", "Carry On", "Comparison", "", "", "", "", "", "", ""]
+
+cover:
+  image: "/wp-content/uploads/2017/02/osprey_porter_46_farpoint_40_1.jpg"
+  relative: false
+  hidden: false
 ---
 [![](/wp-content/uploads/2017/02/osprey_porter_46_farpoint_40_1-1024x685.jpg)](</wp-content/uploads/2017/02/osprey_porter_46_farpoint_40_1.jpg>)
 

@@ -3,6 +3,11 @@ title: "Make Your Own Pedialyte 2.0 \u2013 Full Electrolyte Replacement"
 date: 2017-04-22
 categories: ["DIY", "Health"]
 tags: ["children", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+cover:
+  image: "/wp-content/uploads/2017/04/ORS_Recipe_1.jpg"
+  relative: false
+  hidden: false
 ---
 [![](/wp-content/uploads/2017/04/ORS_Recipe_1-1024x685.jpg)](</wp-content/uploads/2017/04/ORS_Recipe_1.jpg>)
 

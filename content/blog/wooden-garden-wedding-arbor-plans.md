@@ -3,6 +3,11 @@ title: "Wooden Garden/Wedding Arbor Plans"
 date: 2022-10-16
 categories: ["DIY"]
 tags: ["arbor", "arch", "archway", "build", "", "", "", "", "", "", "", ""]
+
+cover:
+  image: "/wp-content/uploads/2022/10/arbor-04-1024x682.jpg"
+  relative: false
+  hidden: false
 ---
 This post contains plans for a wooden arbor or archway for a garden or wedding.
 

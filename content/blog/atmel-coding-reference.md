@@ -2,6 +2,11 @@
 title: "Atmel ATtiny ATmega AVR Quick Code Reference"
 date: 2016-09-28
 categories: ["embedded systems"]
+
+cover:
+  image: "/wp-content/uploads/2016/09/atmel-reference-2.jpg"
+  relative: false
+  hidden: false
 ---
    
 I usually forget bitwise operators, basic variables, and functions when coding in Atmel Studio for an ATtiny or ATmega project.

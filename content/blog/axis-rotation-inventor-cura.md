@@ -3,6 +3,11 @@ title: "How To Fix Axis/Rotation Orientation between Inventor and Cura"
 date: 2018-09-30
 categories: ["3D Printing", "DIY"]
 tags: ["3D", "3D Printer", "3D Printing", "autodesk", "", "", "", "", "", "", "", "", "", ""]
+
+cover:
+  image: "/wp-content/uploads/2018/09/inventor-cura-stl-import-08.jpg"
+  relative: false
+  hidden: false
 ---
  
 

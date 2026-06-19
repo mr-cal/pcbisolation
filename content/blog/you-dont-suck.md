@@ -2,6 +2,11 @@
 title: "You Don\u2019t Suck At Flying A Quad \u2013 You Just Don\u2019t Know What You\u2019re Doing"
 date: 2016-07-13
 categories: ["quadcopter"]
+
+cover:
+  image: "/wp-content/uploads/2016/07/quad-3.jpg"
+  relative: false
+  hidden: false
 ---
 [![quad-3](/wp-content/uploads/2016/07/quad-3-1024x685.jpg)](</wp-content/uploads/2016/07/quad-3.jpg>)
 

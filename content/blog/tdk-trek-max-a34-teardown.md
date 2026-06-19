@@ -3,6 +3,11 @@ title: "TDK Trek Max A34 Teardown"
 date: 2017-04-04
 categories: ["Audio"]
 tags: ["bluetooth", "broken", "charging", "connection", "", "", "", "", "", "", "", "", "", "", ""]
+
+cover:
+  image: "/wp-content/uploads/2017/04/TDK_Trek_A34_1.jpg"
+  relative: false
+  hidden: false
 ---
 [![](/wp-content/uploads/2017/04/TDK_Trek_A34_1-1024x685.jpg)](</wp-content/uploads/2017/04/TDK_Trek_A34_1.jpg>)
 

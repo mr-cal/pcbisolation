@@ -2,6 +2,11 @@
 title: "Kansas I-70 and Nebraska I-80"
 date: 2016-07-08
 categories: ["Uncategorized"]
+
+cover:
+  image: "/wp-content/uploads/2016/07/I70andI80.jpg"
+  relative: false
+  hidden: false
 ---
 [![I-70 and I-80](/wp-content/uploads/2016/07/I70andI80-1024x503.jpg)](</wp-content/uploads/2016/07/I70andI80.jpg>)
 

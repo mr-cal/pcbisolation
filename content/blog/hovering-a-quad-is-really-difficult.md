@@ -2,6 +2,11 @@
 title: "5 Reasons Why Hovering a Quad is Really Difficult"
 date: 2016-07-18
 categories: ["quadcopter"]
+
+cover:
+  image: "/wp-content/uploads/2016/07/quad-4.jpg"
+  relative: false
+  hidden: false
 ---
 The title says it. And you can 10x your skill development as a quad flier with the same amount of practice time.
 

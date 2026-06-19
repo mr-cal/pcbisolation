@@ -3,6 +3,11 @@ title: "How to Export STL File from Inventor to Cura for 3D Printing"
 date: 2018-09-30
 categories: ["3D Printing", "DIY"]
 tags: ["3D", "3D Printing", "autodesk", "", "", "", "", "", "", "", "", ""]
+
+cover:
+  image: "/wp-content/uploads/2018/09/inventor-cura-stl-import-01.jpg"
+  relative: false
+  hidden: false
 ---
  
 

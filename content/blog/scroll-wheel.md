@@ -3,6 +3,11 @@ title: "Making a Computer Jog/Scrolling Wheel"
 date: 2014-07-07
 categories: ["DIY"]
 tags: ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+cover:
+  image: "/wp-content/uploads/2015/07/scroll-wheel-13.jpg"
+  relative: false
+  hidden: false
 ---
  
 

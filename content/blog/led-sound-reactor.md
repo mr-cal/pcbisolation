@@ -2,6 +2,11 @@
 title: "LED Sound Reactor \u2013 All Analog Approach"
 date: 2016-09-02
 categories: ["Audio", "Circuits", "LED/Lighting"]
+
+cover:
+  image: "/wp-content/uploads/2016/08/sound-reactor-1.jpg"
+  relative: false
+  hidden: false
 ---
 [![sound-reactor-1](/wp-content/uploads/2016/08/sound-reactor-1-1024x685.jpg)](</wp-content/uploads/2016/08/sound-reactor-1.jpg>)
 

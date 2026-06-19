@@ -3,6 +3,11 @@ title: "London Good Delivery Bar Ingot Mold \u2013 Design Drawings"
 date: 2023-03-11
 categories: ["DIY", "metalurgy", "tech"]
 tags: ["aluminium", "casting", "copper", "", "", "", "", "", ""]
+
+cover:
+  image: "/wp-content/uploads/2023/03/IMG_0431-1024x768.jpg"
+  relative: false
+  hidden: false
 ---
 [London Good Delivery Bars](<https://en.wikipedia.org/wiki/Good_Delivery>) define [standards](<https://www.lbma.org.uk/publications/good-delivery-rules/technical-specifications>) for gold and silver ingots. These are usually the ingots you see in movies. This post contains drawings I created for molds made from 1/4″ (6mm) mild steel.
 

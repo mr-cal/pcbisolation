@@ -2,6 +2,11 @@
 title: "Motorcycle Brake/Turn Light PCB"
 date: 2016-08-21
 categories: ["Circuits", "DIY", "LED/Lighting"]
+
+cover:
+  image: "/wp-content/uploads/2016/07/Brake-Light-3.jpg"
+  relative: false
+  hidden: false
 ---
 A stranger off eBay got me pulled over, from across the world.
 

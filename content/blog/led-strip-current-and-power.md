@@ -2,6 +2,11 @@
 title: "LED Strip Current Draw and Power Consumption \u2013 A Simple Reference Chart"
 date: 2016-08-01
 categories: ["LED/Lighting"]
+
+cover:
+  image: "/wp-content/uploads/2016/08/led-strip-1.jpg"
+  relative: false
+  hidden: false
 ---
 [![led-strip-1](/wp-content/uploads/2016/08/led-strip-1-1024x685.jpg)](</wp-content/uploads/2016/08/led-strip-1.jpg>)
 

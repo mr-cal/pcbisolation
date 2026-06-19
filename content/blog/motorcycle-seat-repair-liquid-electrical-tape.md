@@ -2,6 +2,11 @@
 title: "Motorcycle Seat Repair \u2013 Liquid Electrical Tape"
 date: 2016-08-31
 categories: ["DIY"]
+
+cover:
+  image: "/wp-content/uploads/2016/07/seat-repair-1.jpg"
+  relative: false
+  hidden: false
 ---
 The #1 vinyl repair kit on Amazon has 2.9 stars. And it's not made to fix an 10″ split seam.
 

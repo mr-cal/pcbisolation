@@ -3,6 +3,11 @@ title: "Adding 18650s and DC Power to Hot Shoe Video LED Light"
 date: 2016-12-22
 categories: ["DIY", "LED/Lighting", "photography"]
 tags: ["18650", "adapter", "battery", "cn-160", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+cover:
+  image: "/wp-content/uploads/2016/12/Hot_Shoe_LED_Light_3.jpg"
+  relative: false
+  hidden: false
 ---
 [![](/wp-content/uploads/2016/12/Hot_Shoe_LED_Light_3-1024x685.jpg)](</wp-content/uploads/2016/12/Hot_Shoe_LED_Light_3.jpg>)
 

@@ -3,6 +3,11 @@ title: "Mazda 2 Quickest Subwoofer Installation Ever"
 date: 2014-06-05
 categories: ["Audio"]
 tags: ["12V", "2012", "amp", "audio", "aux", "auxiliary", "car", "CD", "console", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+cover:
+  image: "/wp-content/uploads/2014/06/mazda2-subwoofer-07.jpg"
+  relative: false
+  hidden: false
 ---
  
 

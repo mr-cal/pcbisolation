@@ -3,6 +3,11 @@ title: "2\u00d715\u2033 Home Subwoofers, Car Amp, & Server Power Supply"
 date: 2014-10-23
 categories: ["Audio", "DIY"]
 tags: ["amp", "audio", "box", "brutus", "car amp", "car subwoofer", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+cover:
+  image: "/wp-content/uploads/2014/10/hifonics03.jpg"
+  relative: false
+  hidden: false
 ---
 After half a semester of college, I learned that my 8″, 40W woofer wasn't enough. I wanted something bigger, but didn't want to have to upgrade again in the future. So I decided on something reasonable for any 10'x15′ dorm room - two 15″ subwoofers powered by a 1000W car amp. My goals: keep it under $400, design it so one of the two subs can be placed in a car and be powered from a 12V source (like a car battery), and build them to be as durable as possible.
 

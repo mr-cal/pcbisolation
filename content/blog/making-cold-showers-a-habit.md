@@ -3,6 +3,11 @@ title: "Making Cold Showers A Habit"
 date: 2017-03-15
 categories: ["Health"]
 tags: ["bath", "cold", "", "", "", "", "", "", "", "", ""]
+
+cover:
+  image: "/wp-content/uploads/2017/04/shower_1.jpg"
+  relative: false
+  hidden: false
 ---
 [![](/wp-content/uploads/2017/04/shower_1.jpg)](</wp-content/uploads/2017/04/shower_1.jpg>)
 

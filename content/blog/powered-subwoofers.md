@@ -3,6 +3,11 @@ title: "Powered Subwoofer & Box Build"
 date: 2013-02-17
 categories: ["Audio"]
 tags: ["amp", "audio", "box", "car", "carpet", "", "", "", "", "", "", "", "", "", ""]
+
+cover:
+  image: "/wp-content/uploads/2014/06/logitech-z340-06.jpg"
+  relative: false
+  hidden: false
 ---
 [![logitech-z340-06](/wp-content/uploads/2014/06/logitech-z340-06-1024x683.jpg)](</wp-content/uploads/2014/06/logitech-z340-06.jpg>)
 

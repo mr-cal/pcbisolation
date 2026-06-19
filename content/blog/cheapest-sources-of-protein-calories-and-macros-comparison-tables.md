@@ -3,6 +3,11 @@ title: "Cheapest Sources Of Protein, Calories, And Macros \u2013 Comparison Tabl
 date: 2017-03-28
 categories: ["Health"]
 tags: ["calories", "cheapest protein", "cost analysis", "cost of protein", "", "", "", "", "", "", "", "", ""]
+
+cover:
+  image: "/wp-content/uploads/2017/04/hot_dogs_1.jpg"
+  relative: false
+  hidden: false
 ---
 [![](/wp-content/uploads/2017/04/hot_dogs_1-1024x685.jpg)](</wp-content/uploads/2017/04/hot_dogs_1.jpg>)
 

@@ -3,6 +3,11 @@ title: "Waterproof, Sound Proof Generator Enclosure"
 date: 2021-08-14
 categories: ["DIY", "embedded systems", "tech"]
 tags: ["box", "", "", "", ""]
+
+cover:
+  image: "/wp-content/uploads/2021/08/generator-enclosure-14.jpg"
+  relative: false
+  hidden: false
 ---
 
 {{< figure-gallery images="/wp-content/uploads/2021/08/generator-enclosure-01.jpg,/wp-content/uploads/2021/08/generator-enclosure-02.jpg,/wp-content/uploads/2021/08/generator-enclosure-03.jpg,/wp-content/uploads/2021/08/generator-enclosure-04.jpg,/wp-content/uploads/2021/08/generator-enclosure-05.jpg,/wp-content/uploads/2021/08/generator-enclosure-06.jpg,/wp-content/uploads/2021/08/generator-enclosure-07.jpg,/wp-content/uploads/2021/08/generator-enclosure-08.jpg,/wp-content/uploads/2021/08/generator-enclosure-09.jpg,/wp-content/uploads/2021/08/generator-enclosure-10.jpg,/wp-content/uploads/2021/08/generator-enclosure-11.jpg,/wp-content/uploads/2021/08/generator-enclosure-12.jpg,/wp-content/uploads/2021/08/generator-enclosure-13.jpg,/wp-content/uploads/2021/08/generator-enclosure-14.jpg,/wp-content/uploads/2021/08/generator-enclosure-15.jpg,/wp-content/uploads/2021/08/generator-enclosure-16.jpg,/wp-content/uploads/2021/08/generator-enclosure-17.jpg,/wp-content/uploads/2021/08/generator-enclosure-18.jpg,/wp-content/uploads/2021/08/generator-enclosure-19.jpg,/wp-content/uploads/2021/08/generator-enclosure-20.jpg" >}}

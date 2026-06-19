@@ -2,6 +2,11 @@
 title: "You Don\u2019t Suck At Flying A Quad \u2013 Part II"
 date: 2016-07-22
 categories: ["quadcopter"]
+
+cover:
+  image: "/wp-content/uploads/2016/07/quad-1.jpg"
+  relative: false
+  hidden: false
 ---
 I could have gone from 1,000 crashes to 100 crashes with a few simple pointers.
 

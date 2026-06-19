@@ -3,6 +3,11 @@ title: "Repairing and Adding Bluetooth to an 80\u2019s \u2013 90\u2019s AC Delco
 date: 2020-06-17
 categories: ["Audio", "Circuits", "DIY", "tech"]
 tags: ["ac delco", "am/fm", "bluetooth", "capacitor", "cassette", "", "", "", ""]
+
+cover:
+  image: "/wp-content/uploads/2020/06/delco-stereo-7.jpg"
+  relative: false
+  hidden: false
 ---
 
 {{< figure-gallery images="/wp-content/uploads/2020/06/delco-stereo-1.jpg,/wp-content/uploads/2020/06/delco-stereo-2.jpg,/wp-content/uploads/2020/06/delco-stereo-3.jpg,/wp-content/uploads/2020/06/delco-stereo-4.jpg,/wp-content/uploads/2020/06/delco-stereo-5.jpg,/wp-content/uploads/2020/06/delco-stereo-6.jpg,/wp-content/uploads/2020/06/delco-stereo-7.jpg,/wp-content/uploads/2020/06/delco-stereo-8.jpg,/wp-content/uploads/2020/06/delco-stereo-9.jpg,/wp-content/uploads/2020/06/delco-stereo-10.jpg,/wp-content/uploads/2020/06/delco-stereo-11.jpg,/wp-content/uploads/2020/06/delco-stereo-12.jpg,/wp-content/uploads/2020/06/delco-stereo-13.jpg" >}}

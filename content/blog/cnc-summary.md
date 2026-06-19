@@ -3,6 +3,11 @@ title: "Designing and Building a CNC Machine"
 date: 2014-10-20
 categories: ["CNC", "DIY"]
 tags: ["aluminium", "assembly", "autocad", "autodesk", "backlash", "box", "bushing", "cheap", "CNC", "CNC design", "CNC machine", "computer", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+cover:
+  image: "/wp-content/uploads/2015/07/cnc_overall_2.jpg"
+  relative: false
+  hidden: false
 ---
  
 

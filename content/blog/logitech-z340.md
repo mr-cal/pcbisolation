@@ -3,6 +3,11 @@ title: "Logitech Z340 2.1 Pinout and Reuse"
 date: 2014-06-08
 categories: ["Audio"]
 tags: ["9 pin", "9 pin minidin", "box", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+cover:
+  image: "/wp-content/uploads/2014/06/logitech-z340-01.jpg"
+  relative: false
+  hidden: false
 ---
 Logitech has a large presence in 2.1 systems, where price and appearance dominate. This sub is designed to trick you, there's more to it than what meets the eye.
 

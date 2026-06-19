@@ -3,6 +3,11 @@ title: "Permanently Mounting a Rearview Mirror (No Mirror Glue)"
 date: 2020-05-18
 categories: ["DIY", "misc"]
 tags: ["3m windshield glue", "chevy", "", "", "", "", "", ""]
+
+cover:
+  image: "/wp-content/uploads/2020/05/rearview-mirror-04-1024x685.jpg"
+  relative: false
+  hidden: false
 ---
 This post details a more permanent mounting for a rearview mirror.
 

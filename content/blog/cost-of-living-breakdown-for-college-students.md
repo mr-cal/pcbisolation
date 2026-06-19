@@ -2,6 +2,11 @@
 title: "Cost of Living Breakdown for College Students"
 date: 2016-09-08
 categories: ["Uncategorized"]
+
+cover:
+  image: "/wp-content/uploads/2016/09/house-2.jpg"
+  relative: false
+  hidden: false
 ---
 [![house-2](/wp-content/uploads/2016/09/house-2-1024x576.jpg)](</wp-content/uploads/2016/09/house-2.jpg>)
 

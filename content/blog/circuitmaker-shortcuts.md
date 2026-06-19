@@ -2,6 +2,11 @@
 title: "Best Shortcuts in CircuitMaker by Altium"
 date: 2016-06-30
 categories: ["Circuits"]
+
+cover:
+  image: "/wp-content/uploads/2016/07/shortcut_link.jpg"
+  relative: false
+  hidden: false
 ---
 Here's a list of the most useful shortcuts in CM - more graphical and intuitive than the built in shortcut list (Ribbon Bar->View->Shortcuts).
 

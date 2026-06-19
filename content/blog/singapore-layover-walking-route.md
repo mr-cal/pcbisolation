@@ -3,6 +3,11 @@ title: "Singapore One Day Layover \u2013 6 to 16 Hour Walking Route"
 date: 2017-09-01
 categories: ["travel"]
 tags: ["1 day", "1 day visa", "2 day", "airport", "best things", "city", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+cover:
+  image: "/wp-content/uploads/2017/08/singapore-route-1.jpg"
+  relative: false
+  hidden: false
 ---
 Singapore is a great place for a 1 day layover. You can fill a day with many of the city's amazing highlights.
 

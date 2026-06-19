@@ -2,6 +2,11 @@
 title: "How To Sleeve Cables and Manage Wires on a Quadcopter"
 date: 2016-08-04
 categories: ["quadcopter"]
+
+cover:
+  image: "/wp-content/uploads/2016/08/quad-10.jpg"
+  relative: false
+  hidden: false
 ---
 If you like your quadcopter looking like a rat's nest, read no further. If you are sophisticated and proper, read on.
 

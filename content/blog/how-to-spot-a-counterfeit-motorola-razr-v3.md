@@ -3,6 +3,11 @@ title: "How To Spot a Counterfeit or Refurbished Motorola Razr V3"
 date: 2019-04-04
 categories: ["Circuits", "embedded systems", "tech"]
 tags: ["chinese", "Comparison", "", "", "", "", "", "", "", ""]
+
+cover:
+  image: "/wp-content/uploads/2019/03/Artboard-1.jpg"
+  relative: false
+  hidden: false
 ---
 _**Note** - There are many versions of the Motorola Razr, each with subtle differences. Even similar version have differences between countries. Not all of the differences of this counterfeit/refurbished Razr will apply to your Razr!_
 

@@ -2,6 +2,11 @@
 title: "Kawasaki CSR 250 & 305 1979 \u2013 1982 Manuals"
 date: 2016-09-22
 categories: ["DIY"]
+
+cover:
+  image: "/wp-content/uploads/2016/09/kz-csr-250-305-2.jpg"
+  relative: false
+  hidden: false
 ---
 I had a hard time finding this online for free.
 

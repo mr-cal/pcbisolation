@@ -3,6 +3,11 @@ title: "Reflow Toaster Oven Build"
 date: 2017-04-14
 categories: ["Circuits", "DIY"]
 tags: ["alignment", "build a reflow oven", "chip", "conversion", "convert", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+cover:
+  image: "/wp-content/uploads/2017/04/Reflow_Oven_5.jpg"
+  relative: false
+  hidden: false
 ---
 [![](/wp-content/uploads/2017/04/Reflow_Oven_5-1024x685.jpg)](</wp-content/uploads/2017/04/Reflow_Oven_5.jpg>)
 

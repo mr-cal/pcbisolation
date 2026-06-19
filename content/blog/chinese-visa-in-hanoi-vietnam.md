@@ -3,6 +3,11 @@ title: "Chinese Visa in Hanoi, Vietnam for 2017"
 date: 2017-08-24
 categories: ["travel"]
 tags: ["airplane", "application", "china", "", "", "", "", "", "", "", "", "", ""]
+
+cover:
+  image: "/wp-content/uploads/2017/08/chinese_visa_3.jpg"
+  relative: false
+  hidden: false
 ---
 You can get a visa to China in Vietnam. It's not particularly easy, but it is quite possible. I write this because there is little tolerance for error - if you forget to submit some paperwork and get denied, you can't reapply in Vietnam. You'll have to apply in another country.
 

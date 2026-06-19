@@ -2,6 +2,11 @@
 title: "Flashlight Adapter for GoPro Mounts and Helmet Mount"
 date: 2016-12-12
 categories: ["DIY", "LED/Lighting"]
+
+cover:
+  image: "/wp-content/uploads/2016/12/flashlight-gopro-mount-8.jpg"
+  relative: false
+  hidden: false
 ---
 [![](/wp-content/uploads/2016/12/flashlight-gopro-mount-8-1024x685.jpg)](</wp-content/uploads/2016/12/flashlight-gopro-mount-8.jpg>)
 

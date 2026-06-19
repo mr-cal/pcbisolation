@@ -3,6 +3,11 @@ title: "Integrate Zooz ZEN34 with Home Assistant"
 date: 2021-06-26
 categories: ["DIY", "networking", "tech"]
 tags: ["", "", "", "", "", "", ""]
+
+cover:
+  image: "/wp-content/uploads/2021/06/zooz-zen34-home-assisstant-setup-01.jpg"
+  relative: false
+  hidden: false
 ---
 This overviews adding a Zooz ZEN34 smart switch to Home Assistant and using it to trigger automations.
 

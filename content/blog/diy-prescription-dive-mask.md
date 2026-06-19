@@ -3,6 +3,11 @@ title: "DIY Prescription Scuba Dive Mask"
 date: 2018-11-05
 categories: ["DIY"]
 tags: ["", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+cover:
+  image: "/wp-content/uploads/2018/11/scuba_goggles_4.jpg"
+  relative: false
+  hidden: false
 ---
 ![](/wp-content/uploads/2018/11/scuba_goggles_4-1024x685.jpg)
 

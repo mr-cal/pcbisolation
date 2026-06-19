@@ -3,6 +3,11 @@ title: "How to Remove and Replace Keys on Lenovo ThinkPad T450s (with pictures)"
 date: 2017-02-21
 categories: ["DIY"]
 tags: ["clean", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+cover:
+  image: "/wp-content/uploads/2017/02/lenovo_t450s_key_replace_2.jpg"
+  relative: false
+  hidden: false
 ---
 [![](/wp-content/uploads/2017/02/lenovo_t450s_key_replace_2-1024x685.jpg)](</wp-content/uploads/2017/02/lenovo_t450s_key_replace_2.jpg>)
 
