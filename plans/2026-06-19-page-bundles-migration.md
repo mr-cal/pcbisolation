@@ -2,9 +2,9 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Migrate 57 blog posts and 3 pages from flat markdown files with images in `static/wp-content/uploads/` to Hugo page bundles, remove 353 WP-generated resized images, and delete all unreferenced static assets.
+**Goal:** Migrate 57 blog posts and 3 pages from flat markdown files with images in `static/wp-content/uploads/` to Hugo page bundles, normalize `.jpeg` → `.jpg` extensions, move unused assets to `unused/`, and remove WP-generated resized copies.
 
-**Architecture:** Each post becomes a directory with `index.md` + its images co-located. A Python migration script handles the transformation: it discovers every image reference per post, copies the original (not the WP-resized version) into the bundle, rewrites paths in the markdown, and deletes no longer needed files from `static/`. Pages (`projects`, `3d-prints`) are treated identically.
+**Architecture:** Each post becomes a directory with `index.md` + its images co-located. A Python migration script handles the transformation: it discovers every image reference per post, resolves the original (not the WP-resized version), normalizes `.jpeg` → `.jpg`, handles same-basename-different-content conflicts by incrementing a numeric suffix (`image.jpg` / `image-2.jpg`), rewrites paths in the markdown, and moves all unreferenced static files to `unused/`. Pages (`projects`, `3d-prints`) are treated identically.
 
 **Tech Stack:** Hugo page bundles, Python 3 (migration script), PaperMod cover image page-resource resolution.
 
@@ -25,9 +25,10 @@ content/
 static/
   wp-content/uploads/
     2015/07/image.jpg          ← original
-    2015/07/image-1024x768.jpg ← WP-generated resize (UNUSED post-migration)
-    2015/07/image-300x225.jpg  ← WP-generated resize (UNUSED post-migration)
+    2015/07/image-1024x768.jpg ← WP-generated resize (unused post-migration)
+    2015/07/image-300x225.jpg  ← WP-generated resize (unused post-migration)
     ...
+unused/                        ← does not exist yet
 ```
 
 ### Target structure
@@ -48,7 +49,9 @@ content/
   contact/
     index.md
 static/
-  wp-content/uploads/       ← empty after migration (removed)
+  wp-content/uploads/       ← gone after migration
+unused/
+  wp-content/uploads/...    ← everything not referenced by any post; human reviews and deletes
 ```
 
 ### Key migration facts
@@ -56,13 +59,22 @@ static/
 - **888 total files** in `static/wp-content/` — 353 are WP-generated resizes
 - **738 unique image refs** in content — **350 point to `-NNNxNNN.jpg` resized versions**
   that must be rewritten to the original filename
-- **5 filename collisions**: `Reflow_Oven_8.jpg`, `cnc_computer_2.jpg`, `Brake-Light-5.jpg`,
-  `sound-reactor-3.jpg`, `frameless-gate-10.jpg.jpeg` — each basename appears under two
-  different year/month paths; resolved by prefixing with `YYYYMM-`
-- **4 images shared between 2 posts** (both reference the same `/wp-content/uploads/` path);
-  the image is copied into each bundle independently
-- **PDFs** (`.pdf`) in `static/wp-content/uploads/` are treated like images — copied into
-  the bundle that references them
+- **Filename collisions** (same basename, different content): three pairs exist:
+  - `Reflow_Oven_8.jpg`: `2017/04/` (3620×2413) vs `slider/` (112×75)
+  - `cnc_computer_2.jpg`: `2015/07/` (1059×834) vs `slider/` (750×591)
+  - `sound-reactor-3.jpg`: `2016/08/` (4234×2831) vs `slider/` (750×502)
+  
+  Resolution: if two different source files would land as the same name in a bundle,
+  the second one is written as `name-2.jpg` and its reference in the markdown is updated
+  to match. (Determined by MD5 comparison — identical files get one copy, no suffix.)
+- **4 images shared between 2 posts** (both reference the same WP path); the file is
+  copied into each bundle independently.
+- **Extension normalization**: `.jpeg` → `.jpg` (rename only — JPEG and JPEG are the same
+  format). Affects `frameless-gate-10.jpg.jpeg` → `frameless-gate-10.jpg` and the one
+  other `.jpeg` file.  `.png`, `.gif`, `.zip`, `.pdf`, `.xlsx`, `.csv` are kept as-is.
+- **PDFs and other non-image files** referenced in content are copied into their bundle.
+- **Non-referenced files** (all WP-resized copies + truly unused originals) are moved to
+  `unused/wp-content/uploads/...` preserving their relative paths.
 
 ### How PaperMod resolves `cover.image` as a page resource
 
@@ -95,13 +107,14 @@ cover:
 | `content/projects/index.md` | **Create** — was `content/projects.md` |
 | `content/3d-prints/index.md` | **Create** — was `content/3d-prints.md` |
 | `content/contact/index.md` | **Create** — was `content/contact.md` |
+| `unused/wp-content/uploads/...` | **Create** — unreferenced static files moved here |
 | `static/wp-content/` | **Delete** entirely after migration |
 
 ---
 
 ## Task 1: Write the audit script
 
-This gives a before/after baseline. Run it before migration to record the current state.
+This gives a before/after baseline. Run before migration to record the current state.
 
 **Files:**
 - Create: `scripts/audit_images.py`
@@ -115,7 +128,6 @@ This gives a before/after baseline. Run it before migration to record the curren
 Usage:
     python scripts/audit_images.py
 """
-import os
 import re
 from collections import defaultdict
 from pathlib import Path
@@ -193,7 +205,7 @@ Unreferenced files:          ~150
 Broken refs (missing file):  0
 ```
 
-Save this output somewhere (e.g., copy to a comment in the migration script).
+Save this output as a comment at the top of `scripts/migrate_to_bundles.py`.
 
 - [ ] **Step 3: Commit**
 
@@ -215,22 +227,27 @@ git commit -m "chore: add image audit script"
 #!/usr/bin/env python3
 """Migrate Hugo flat posts to page bundles.
 
+What it does:
 - Copies each post's referenced images into its bundle directory
-- Rewrites WP-resized refs (image-1024x768.jpg) to originals (image.jpg)
-- Rewrites /wp-content/uploads/YYYY/MM/image.jpg to image.jpg (relative)
+- Strips WP-resized suffixes (image-1024x768.jpg → image.jpg)
+- Rewrites /wp-content/uploads/YYYY/MM/image.jpg → image.jpg (relative)
+- Normalizes .jpeg → .jpg extensions
+- Detects same-basename collisions by MD5:
+    - identical content → one copy, both refs point to same name
+    - different content → second gets -2 suffix (image.jpg / image-2.jpg)
 - Updates cover.image frontmatter to relative path + relative: true
 - Converts content/blog/slug.md → content/blog/slug/index.md
-- Converts content/*.md → content/slug/index.md (for projects, 3d-prints, contact)
-- Disambiguates filename collisions by prefixing with YYYYMM-
+- Converts content/*.md → content/slug/index.md
 
 Run in dry-run mode first (default), then with --apply to make changes.
 
 Usage:
     python scripts/migrate_to_bundles.py          # dry run
     python scripts/migrate_to_bundles.py --apply  # make changes
+    python scripts/migrate_to_bundles.py --post SLUG --apply  # single post
 """
 import argparse
-import os
+import hashlib
 import re
 import shutil
 from pathlib import Path
@@ -239,129 +256,160 @@ ROOT = Path(__file__).parent.parent
 CONTENT = ROOT / "content"
 STATIC_UPLOADS = ROOT / "static" / "wp-content" / "uploads"
 
-# These basenames appear under two different YYYY/MM paths.
-# We disambiguate by prefixing with YYYYMM- when copying.
-KNOWN_COLLISIONS = {
-    "Reflow_Oven_8.jpg",
-    "cnc_computer_2.jpg",
-    "Brake-Light-5.jpg",
-    "sound-reactor-3.jpg",
-    "frameless-gate-10.jpg.jpeg",
-}
-
 WP_PATH_RE = re.compile(
-    r"/wp-content/uploads/(\d{4})/(\d{2})/([^\s\"')\]>]+)"
+    r"/wp-content/uploads/(?:(\d{4})/(\d{2})/|slider/)([^\s\"')\]>]+)"
 )
 RESIZED_RE = re.compile(r"^(.+?)(-\d+x\d+)(\.\w+)$")
 COVER_IMAGE_RE = re.compile(
-    r'^(\s*image:\s*")(/wp-content/uploads/\d{4}/\d{2}/([^"]+))(")',
+    r'^(\s*image:\s*")(/wp-content/uploads/[^"]+/([^"/]+))(")',
     re.MULTILINE,
 )
 COVER_RELATIVE_RE = re.compile(r"^(\s*relative:\s*)false", re.MULTILINE)
 
 
-def original_path(resized_path: str) -> Path:
-    """Return the static/ path for the original file, stripping the -NNNxNNN suffix.
-    
-    If the resized variant is the only thing that exists, returns that path.
+def md5(path: Path) -> str:
+    return hashlib.md5(path.read_bytes()).hexdigest()
+
+
+def normalize_ext(name: str) -> str:
+    """Normalize .jpeg → .jpg. Leave all other extensions unchanged."""
+    if name.endswith(".jpeg"):
+        return name[:-5] + ".jpg"
+    return name
+
+
+def resolve_original(wp_path: str) -> Path | None:
+    """Return the Path of the original (non-resized) file for a /wp-content/... ref.
+
+    Strips -NNNxNNN suffix and checks for the original. Falls back to the resized
+    version if no original exists. Returns None if the file is not found anywhere.
     """
-    m = RESIZED_RE.match(resized_path)
-    if m:
-        original = m.group(1) + m.group(3)  # drop -NNNxNNN
-        orig_static = STATIC_UPLOADS.parent.parent / original.lstrip("/")
-        if orig_static.exists():
-            return orig_static
-    return STATIC_UPLOADS.parent.parent / resized_path.lstrip("/")
+    rel = wp_path.lstrip("/")  # e.g. "wp-content/uploads/2015/07/image-1024x768.jpg"
+    candidate = ROOT / "static" / rel
+    if candidate.exists():
+        # Already the original (no resize suffix), or the only version available
+        m = RESIZED_RE.match(candidate.name)
+        if m:
+            # Try stripping the resize suffix
+            no_resize = candidate.parent / (m.group(1) + m.group(3))
+            if no_resize.exists():
+                return no_resize
+        return candidate
+    return None
 
 
-def target_filename(wp_path: str, year: str, month: str, basename: str) -> str:
-    """Return the filename to use in the bundle, disambiguating collisions."""
-    if basename in KNOWN_COLLISIONS:
-        return f"{year}{month}-{basename}"
-    return basename
+def unique_dest(bundle_dir: Path, name: str, src: Path) -> tuple[Path, str]:
+    """Return a (destination Path, final name) that avoids collisions.
+
+    If a file with `name` already exists in bundle_dir:
+    - same MD5 → reuse the existing file, return its path
+    - different MD5 → append -2, -3, ... until a free name is found
+    """
+    dest = bundle_dir / name
+    if not dest.exists():
+        return dest, name
+    if md5(dest) == md5(src):
+        return dest, name  # identical content, share the file
+    # Different content: find a free -N suffix
+    stem = Path(name).stem
+    ext = Path(name).suffix
+    counter = 2
+    while True:
+        new_name = f"{stem}-{counter}{ext}"
+        new_dest = bundle_dir / new_name
+        if not new_dest.exists():
+            return new_dest, new_name
+        if md5(new_dest) == md5(src):
+            return new_dest, new_name
+        counter += 1
 
 
 def migrate_post(md_path: Path, bundle_dir: Path, apply: bool) -> None:
-    """Migrate a single .md file to a page bundle."""
+    """Migrate one .md file into a page bundle."""
     text = md_path.read_text()
-    new_text = text
 
-    # Collect all image references and plan copies
-    copies: list[tuple[Path, Path]] = []  # (src, dst)
+    # Map original wp path → final bundle filename (built during substitution)
+    path_to_name: dict[str, str] = {}
+    # Queue of (src_path, dest_name) to copy
+    pending_copies: list[tuple[Path, str]] = []
 
-    def replace_ref(match: re.Match) -> str:
-        year, month, raw_basename = match.group(1), match.group(2), match.group(3)
-        src = original_path(match.group(0))
-        new_basename = target_filename(match.group(0), year, month, os.path.basename(src))
-        dst = bundle_dir / new_basename
-        if src.exists():
-            copies.append((src, dst))
-        else:
-            print(f"  MISSING: {match.group(0)}")
-        return new_basename  # relative path in bundle
+    def plan_copy(wp_path: str) -> str:
+        """Determine the bundle filename for a wp_path; record copy if new."""
+        if wp_path in path_to_name:
+            return path_to_name[wp_path]
 
-    new_text = WP_PATH_RE.sub(replace_ref, new_text)
+        src = resolve_original(wp_path)
+        if src is None:
+            print(f"  MISSING: {wp_path}")
+            path_to_name[wp_path] = Path(wp_path).name  # best effort
+            return path_to_name[wp_path]
+
+        name = normalize_ext(src.name)
+        # Resolve collision against already-planned copies
+        # Build a temporary in-memory view of what's in the bundle
+        existing: dict[str, Path] = {}
+        for _, planned_name in pending_copies:
+            existing[planned_name] = src  # placeholder; collision check uses src md5
+        # Use unique_dest logic manually for the planning phase
+        candidate = name
+        counter = 2
+        for planned_src, planned_name in pending_copies:
+            if planned_name == candidate:
+                if md5(planned_src) == md5(src):
+                    break  # same file, reuse
+                candidate = f"{Path(name).stem}-{counter}{Path(name).suffix}"
+                counter += 1
+
+        path_to_name[wp_path] = candidate
+        pending_copies.append((src, candidate))
+        return candidate
+
+    def replace_wp_ref(match: re.Match) -> str:
+        return plan_copy(match.group(0))
+
+    new_text = WP_PATH_RE.sub(replace_wp_ref, text)
 
     # Fix cover.image frontmatter
     def replace_cover(match: re.Match) -> str:
-        full_wp_path = match.group(2)
-        raw_basename = match.group(3)
-        src = original_path(full_wp_path)
-        new_basename = target_filename(
-            full_wp_path,
-            *re.search(r"/(\d{4})/(\d{2})/", full_wp_path).groups(),
-            os.path.basename(src),
-        )
-        if src.exists():
-            copies.append((src, bundle_dir / new_basename))
-        return match.group(1) + new_basename + match.group(4)
+        name = plan_copy(match.group(2))
+        return match.group(1) + name + match.group(4)
 
     new_text = COVER_IMAGE_RE.sub(replace_cover, new_text)
     new_text = COVER_RELATIVE_RE.sub(r"\g<1>true", new_text)
 
-    # Deduplicate copies (same src may appear multiple times)
-    unique_copies = {dst: src for src, dst in copies}
-
     if not apply:
-        print(f"  DRY RUN: {md_path.relative_to(ROOT)} → {bundle_dir.relative_to(ROOT)}/index.md")
-        for dst, src in unique_copies.items():
-            status = "✓" if src.exists() else "✗ MISSING"
-            print(f"    {status} copy {src.name} → {dst.name}")
+        print(f"  DRY RUN → {bundle_dir.name}/index.md  ({len(pending_copies)} assets)")
+        for src, name in pending_copies:
+            print(f"    {'✓' if src.exists() else '✗'} {src.relative_to(ROOT/'static')} → {name}")
         return
 
-    # Apply: create bundle dir, write index.md, copy images
     bundle_dir.mkdir(parents=True, exist_ok=True)
-    index_md = bundle_dir / "index.md"
-    index_md.write_text(new_text)
-    for dst, src in unique_copies.items():
-        if src.exists():
-            shutil.copy2(src, dst)
-    md_path.unlink()  # remove original .md
-    print(f"  ✓ {md_path.name} → {bundle_dir.name}/index.md  ({len(unique_copies)} images)")
+    (bundle_dir / "index.md").write_text(new_text)
+    for src, name in pending_copies:
+        dest = bundle_dir / name
+        if not dest.exists() and src.exists():
+            shutil.copy2(src, dest)
+    md_path.unlink()
+    print(f"  ✓ {md_path.name} → {bundle_dir.name}/  ({len(pending_copies)} assets)")
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--apply", action="store_true", help="Apply changes (default: dry run)")
-    parser.add_argument("--post", help="Migrate only this slug (for testing)")
+    parser.add_argument("--apply", action="store_true")
+    parser.add_argument("--post", help="Migrate only this slug")
     args = parser.parse_args()
 
-    # Blog posts: content/blog/slug.md → content/blog/slug/index.md
-    blog_dir = CONTENT / "blog"
-    for md_path in sorted(blog_dir.glob("*.md")):
+    for md_path in sorted((CONTENT / "blog").glob("*.md")):
         if args.post and md_path.stem != args.post:
             continue
-        bundle_dir = blog_dir / md_path.stem
-        migrate_post(md_path, bundle_dir, args.apply)
+        migrate_post(md_path, CONTENT / "blog" / md_path.stem, args.apply)
 
-    # Top-level pages: content/slug.md → content/slug/index.md
     for md_path in sorted(CONTENT.glob("*.md")):
         if md_path.name == "_index.md":
             continue
         if args.post and md_path.stem != args.post:
             continue
-        bundle_dir = CONTENT / md_path.stem
-        migrate_post(md_path, bundle_dir, args.apply)
+        migrate_post(md_path, CONTENT / md_path.stem, args.apply)
 
 
 if __name__ == "__main__":
@@ -370,50 +418,44 @@ if __name__ == "__main__":
 
 - [ ] **Step 2: Run dry-run on one post to validate**
 
-Pick the cedar gate post (it has images, a PDF, and a cover image):
+Pick the cedar gate post (images, PDF, cover image, `.jpeg` double-extension):
 
 ```bash
 cd ~/dev/cal/pcbisolation
 python scripts/migrate_to_bundles.py --post fabricating-a-frameless-cedar-gate
 ```
 
-Expected output:
+Expected output (no `✗` lines):
 ```
-  DRY RUN: content/blog/fabricating-a-frameless-cedar-gate.md → content/blog/fabricating-a-frameless-cedar-gate/index.md
-    ✓ copy frameless-gate-1.pdf → frameless-gate-1.pdf
-    ✓ copy frameless-gate-10.jpg → 202310-frameless-gate-10.jpg.jpeg
-    ✓ copy frameless-gate-01.jpg → frameless-gate-01.jpg
-    ... (all images)
+  DRY RUN → fabricating-a-frameless-cedar-gate/index.md  (N assets)
+    ✓ wp-content/uploads/2023/10/frameless-gate-1.pdf → frameless-gate-1.pdf
+    ✓ wp-content/uploads/2023/10/frameless-gate-10.jpg.jpeg → frameless-gate-10.jpg
+    ✓ wp-content/uploads/2023/10/frameless-gate-04.jpg → frameless-gate-04.jpg
+    ...
 ```
 
-No `✗ MISSING` lines. If there are any, resolve them before proceeding.
+Note `frameless-gate-10.jpg.jpeg` becomes `frameless-gate-10.jpg`.
 
 - [ ] **Step 3: Run dry-run on all posts**
 
 ```bash
 cd ~/dev/cal/pcbisolation
-python scripts/migrate_to_bundles.py 2>&1 | grep -c "DRY RUN"   # should be 60 (57 posts + 3 pages)
-python scripts/migrate_to_bundles.py 2>&1 | grep "MISSING"       # should be empty
+python scripts/migrate_to_bundles.py 2>&1 | grep -c "DRY RUN"   # expect 60
+python scripts/migrate_to_bundles.py 2>&1 | grep "MISSING"       # expect empty
 ```
 
 Fix any MISSING files before proceeding.
 
-- [ ] **Step 4: Commit the migration script**
+- [ ] **Step 4: Commit the scripts**
 
 ```bash
-git add scripts/migrate_to_bundles.py
-git commit -m "chore: add page bundle migration script (dry-run only)"
+git add scripts/
+git commit -m "chore: add page bundle migration scripts (dry-run validated)"
 ```
 
 ---
 
 ## Task 3: Migrate one post end-to-end, verify the build
-
-Before migrating all 57 posts, validate the full round-trip on one.
-
-**Files:**
-- Create: `content/blog/fabricating-a-frameless-cedar-gate/index.md`
-- Delete: `content/blog/fabricating-a-frameless-cedar-gate.md`
 
 - [ ] **Step 1: Run the migration on one post**
 
@@ -422,46 +464,35 @@ cd ~/dev/cal/pcbisolation
 python scripts/migrate_to_bundles.py --post fabricating-a-frameless-cedar-gate --apply
 ```
 
-Expected:
-```
-  ✓ fabricating-a-frameless-cedar-gate.md → fabricating-a-frameless-cedar-gate/index.md  (N images)
-```
-
 - [ ] **Step 2: Verify bundle contents**
 
 ```bash
 ls content/blog/fabricating-a-frameless-cedar-gate/
-# Should list: index.md, frameless-gate-01.jpg, frameless-gate-1.pdf, etc.
-# Should NOT list: frameless-gate-10.jpg.jpeg (collision → 202310-frameless-gate-10.jpg.jpeg)
+# Should list: index.md, frameless-gate-01.jpg, frameless-gate-10.jpg (normalized), etc.
+# Should NOT list: frameless-gate-10.jpg.jpeg (double extension gone)
 
 grep "frameless-gate" content/blog/fabricating-a-frameless-cedar-gate/index.md | head -5
-# Should show relative paths like: frameless-gate-01.jpg  (no /wp-content/... prefix)
+# Should show relative filenames like: frameless-gate-01.jpg  (no /wp-content/ prefix)
 
-grep "cover:" -A3 content/blog/fabricating-a-frameless-cedar-gate/index.md
-# Should show:
-#   cover:
-#     image: "frameless-gate-04.jpg"  (or similar)
-#     relative: true
-#     hidden: false
+grep -A3 "cover:" content/blog/fabricating-a-frameless-cedar-gate/index.md
+# Should show:  image: "frameless-gate-04.jpg"
+#               relative: true
 ```
 
-- [ ] **Step 3: Build the site and check the post renders correctly**
+- [ ] **Step 3: Build and verify**
 
 ```bash
 cd ~/dev/cal/pcbisolation
-make build    # runs hugo --minify
-# Expected: no ERRORs or WARNs about missing images
-
-make serve &  # start local server
-# Open http://localhost:1313/blog/fabricating-a-frameless-cedar-gate/
-# Verify: cover image, inline images, PDF embed, YouTube embed all render
+make build 2>&1 | grep -E "ERROR|WARN"   # expect: no output
+make serve &
+# Visit http://localhost:1313/blog/fabricating-a-frameless-cedar-gate/
+# Verify: cover image, inline images, PDF embed, YouTube embed all render correctly
 kill %1
 ```
 
 - [ ] **Step 4: Roll back the test post**
 
 ```bash
-# Revert so the full migration in Task 4 starts clean
 git checkout -- content/blog/fabricating-a-frameless-cedar-gate.md
 git clean -fd content/blog/fabricating-a-frameless-cedar-gate/
 ```
@@ -475,49 +506,32 @@ git clean -fd content/blog/fabricating-a-frameless-cedar-gate/
 ```bash
 cd ~/dev/cal/pcbisolation
 python scripts/migrate_to_bundles.py --apply 2>&1 | tee /tmp/migration.log
+grep "MISSING" /tmp/migration.log    # expect: empty
 ```
-
-Check the log for any MISSING files:
-```bash
-grep MISSING /tmp/migration.log
-```
-
-If there are any missing files, investigate and resolve before continuing.
 
 - [ ] **Step 2: Verify all posts are now bundles**
 
 ```bash
-# There should be no .md files directly in content/blog/ (only directories)
-ls content/blog/*.md 2>/dev/null && echo "PROBLEM: flat .md files remain" || echo "OK: all posts are bundles"
-
-# There should be no flat .md files in content/ (except _index.md if it exists)
-ls content/*.md 2>/dev/null | grep -v "_index.md" && echo "PROBLEM: flat pages remain" || echo "OK: all pages are bundles"
-
-# Count bundles
+ls content/blog/*.md 2>/dev/null && echo "PROBLEM: flat .md files remain" || echo "OK"
+ls content/*.md 2>/dev/null | grep -v "_index.md" && echo "PROBLEM" || echo "OK"
 ls -d content/blog/*/ | wc -l   # expect 57
-ls -d content/*/    | wc -l     # expect 57 + 3 pages
 ```
 
-- [ ] **Step 3: Build the site**
+- [ ] **Step 3: Build and validate**
 
 ```bash
-cd ~/dev/cal/pcbisolation
 make build 2>&1 | grep -E "ERROR|WARN"
-# Expected: no output (no errors or warnings)
+make validate    # htmlproofer — expect all internal links pass
 ```
 
-- [ ] **Step 4: Run htmlproofer**
+If htmlproofer reports broken image links, the migration missed a reference (e.g., an
+image path in a shortcode parameter or raw HTML block). Fix in the affected `index.md`:
 
 ```bash
-make validate
-# Expected: all internal links pass
+grep -r "/wp-content" content/ --include="*.md"    # should return nothing
 ```
 
-If htmlproofer reports broken image links, the migration script missed a reference. Fix
-in `index.md` for the affected post. Common cause: dynamic references in shortcodes or
-HTML blocks that the regex didn't match.
-
-- [ ] **Step 5: Commit the migrated content**
+- [ ] **Step 4: Commit**
 
 ```bash
 git add content/
@@ -526,109 +540,97 @@ git commit -m "feat: migrate all posts and pages to Hugo page bundles"
 
 ---
 
-## Task 5: Delete unreferenced and resized static files
+## Task 5: Move unused static assets to `unused/`
 
-Now that images are in bundles, `static/wp-content/` contains only unreferenced files.
+Now that all referenced images are in bundles, everything left in `static/wp-content/`
+is either a WP-resized copy or a file never referenced by any post.
 
-**Files:**
-- Delete: `static/wp-content/` (entire directory)
-
-- [ ] **Step 1: Run the audit to confirm nothing is still referenced**
+- [ ] **Step 1: Confirm nothing is still referenced**
 
 ```bash
 cd ~/dev/cal/pcbisolation
 python scripts/audit_images.py
+# "Refs in content: 0" confirms nothing references /wp-content/... any more
 ```
 
-Expected output after migration:
-```
-Static files total:          888
-  ...
-Refs in content:             0      ← no more /wp-content/... refs
-  to resized versions:       0
-Unreferenced files:          888    ← everything in static/wp-content/ is now orphaned
-Broken refs (missing file):  0      ← images moved to bundles, refs updated
-```
+If refs remain, fix them in content before continuing.
 
-If "Refs in content" is not 0, there are leftover `/wp-content/` references. Find and
-fix them:
+- [ ] **Step 2: Move all remaining static files to `unused/`**
 
 ```bash
-grep -r "/wp-content" content/ --include="*.md" | grep -v "^Binary"
+mkdir -p unused
+mv static/wp-content unused/wp-content
 ```
 
-- [ ] **Step 2: Delete the entire wp-content static directory**
+This preserves the full directory tree under `unused/` so you can browse and identify
+files before permanently deleting them.
 
-```bash
-cd ~/dev/cal/pcbisolation
-rm -rf static/wp-content/
-```
-
-- [ ] **Step 3: Build the site and run htmlproofer**
+- [ ] **Step 3: Build the site**
 
 ```bash
 make build 2>&1 | grep -E "ERROR|WARN"
 make validate
 ```
 
-If htmlproofer reports broken links, the audit missed some references. Restore the
-specific missing file from git:
+If htmlproofer reports broken links, restore the specific file from `unused/` into the
+correct bundle:
 
 ```bash
-git checkout HEAD -- static/wp-content/uploads/YYYY/MM/missing-file.jpg
-# Then copy it to the correct bundle manually and re-delete from static/
+cp unused/wp-content/uploads/YYYY/MM/missing-file.jpg \
+   content/blog/affected-post/missing-file.jpg
+# Then re-run make validate
 ```
 
-- [ ] **Step 4: Check the slider directory**
-
-The `static/wp-content/uploads/slider/` directory holds 112×75px thumbnails that are
-no longer referenced post-migration. Confirm it is gone:
+- [ ] **Step 4: Commit**
 
 ```bash
-ls static/wp-content/ 2>/dev/null && echo "STILL EXISTS" || echo "OK: deleted"
-```
-
-- [ ] **Step 5: Commit the deletion**
-
-```bash
-git add -A static/
-git commit -m "chore: remove static/wp-content/ — all assets moved to page bundles"
+git add -A static/ unused/
+git commit -m "chore: move unused static assets to unused/ for review"
 ```
 
 ---
 
 ## Task 6: Verify the deployed site
 
-- [ ] **Step 1: Push and check CI**
+- [ ] **Step 1: Push and watch CI**
 
 ```bash
 git push
 ```
 
-Watch the CI run at https://github.com/mr-cal/pcbisolation/actions. All steps should
-pass: validate → Hugo build → htmlproofer → gh-pages → vps-infra dispatch.
+All CI steps should pass: validate → Hugo build → htmlproofer → gh-pages → vps-infra dispatch.
+Watch at https://github.com/mr-cal/pcbisolation/actions.
 
-- [ ] **Step 2: Browse the site locally end-to-end**
+- [ ] **Step 2: Browse locally**
 
 ```bash
 cd ~/dev/cal/pcbisolation && make serve
 ```
 
-Spot-check these pages (they cover most image types):
+Spot-check:
 
 | Page | What to verify |
 |---|---|
 | `/blog/` | All post cards show thumbnails |
 | `/blog/fabricating-a-frameless-cedar-gate/` | Images, PDF embed, YouTube embed |
 | `/blog/building-a-standing-desk-with-a-charging-drawer-and-cable-tray/` | Gallery, YouTube embed |
-| `/projects/` | All galleries show full-size images, PhotoSwipe works |
+| `/projects/` | All galleries show full-size images, PhotoSwipe lightbox works |
 | `/3d-prints/` | All images visible, section breaks present |
 
-- [ ] **Step 3: Commit the migration scripts**
+- [ ] **Step 3: Delete `unused/` when you're done reviewing**
+
+Browse `unused/wp-content/uploads/` in your file manager or with:
 
 ```bash
-git add scripts/
-git commit -m "chore: keep migration scripts for reference"
+ls unused/wp-content/uploads/
+# 353 WP-resized copies + unreferenced originals
+```
+
+When satisfied nothing important is there:
+
+```bash
+git rm -r unused/
+git commit -m "chore: delete reviewed unused assets"
 ```
 
 ---
@@ -638,13 +640,18 @@ git commit -m "chore: keep migration scripts for reference"
 ### Why 350 refs point to resized images
 
 WordPress generates multiple sizes on upload (`-150x100`, `-300x225`, `-1024x768`, `-scaled`).
-In post content, WordPress inserts the 1024-wide version for display and links to the
-full-size. The migration script strips the `-NNNxNNN` suffix and resolves to the original.
+In post content, WordPress inserts the 1024-wide version for display and links to the full-size.
+The migration script strips the `-NNNxNNN` suffix and resolves to the original.
+
+### Extension normalization scope
+
+Only `.jpeg` → `.jpg` is done (same format, different extension). Files with `.png`, `.gif`,
+`.zip`, `.pdf`, `.xlsx`, `.csv` are left unchanged — converting formats is out of scope.
 
 ### Future: Hugo image processing
 
-After this migration, images are page resources and Hugo can process them. To generate
-responsive images automatically, change `figure-gallery.html` to use:
+After this migration, images are page resources and Hugo can generate responsive sizes and
+WebP automatically. To enable in `figure-gallery.html`:
 
 ```go
 {{ $img := .Page.Resources.GetMatch $src }}
@@ -654,15 +661,11 @@ responsive images automatically, change `figure-gallery.html` to use:
 {{ end }}
 ```
 
-This would also enable automatic WebP conversion and eliminate the need for large
-original images to be served directly to browsers. This is a separate task.
+This eliminates the need to serve large originals (4000×3000px) to browsers and is a
+natural follow-on task after the bundle migration is stable.
 
-### Slug conflicts
+### Frontmatter `url:` cleanup
 
-`content/contact.md` currently has `url: "/contact/"` in frontmatter. Converting to
-`content/contact/index.md` makes the URL `/contact/` automatically — the `url` override
-in frontmatter can be removed.
-
-Same applies to `content/projects.md` (url: "/projects/") and `content/3d-prints.md`
-(url: "/3d-prints/") — the frontmatter `url` field can be removed after migration since
-Hugo derives the URL from the directory name.
+`content/projects.md`, `content/3d-prints.md`, and `content/contact.md` all have
+`url: "/slug/"` in frontmatter. After migration to `content/slug/index.md`, Hugo derives
+the URL from the directory name automatically. The `url:` override can be removed.
