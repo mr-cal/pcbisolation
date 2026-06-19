@@ -2,7 +2,7 @@
 title: "Mazda 2 Quickest Subwoofer Installation Ever"
 date: 2014-06-05
 categories: ["Audio"]
-tags: ["12V", "2012", "amp", "audio", "aux", "auxiliary", "car", "CD", "console", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+tags: ["12V", "2012", "amp", "audio", "aux", "auxiliary", "car", "CD", "console"]
 
 cover:
   image: "mazda2-subwoofer-07.jpg"
@@ -10,7 +10,7 @@ cover:
 ---
  
 
-[![mazda2-subwoofer-07](mazda2-subwoofer-07.jpg)](<mazda2-subwoofer-07.jpg>)
+![mazda2-subwoofer-07](mazda2-subwoofer-07.jpg)
 
 Running wire, head unit adapters, fuses, and less trunk space all suck. Let's not do that. Modular setups seem more promising.
 
@@ -24,9 +24,9 @@ I started with removing the front section of the center console. It pulls off pr
 
 Look at the auxiliary input, depress the push tabs on the side and pull it out.
 
-[![mazda2-subwoofer-01](mazda2-subwoofer-01.jpg)](<mazda2-subwoofer-01.jpg>)
+![mazda2-subwoofer-01](mazda2-subwoofer-01.jpg)
 
-[![mazda2-subwoofer-02](mazda2-subwoofer-02.jpg)](<mazda2-subwoofer-02.jpg>)
+![mazda2-subwoofer-02](mazda2-subwoofer-02.jpg)
 
  
 
@@ -36,7 +36,7 @@ Depress the green push tabs and wiggle out the board.
 
  
 
-[![mazda2-subwoofer-03](mazda2-subwoofer-03.jpg)](<mazda2-subwoofer-03.jpg>)
+![mazda2-subwoofer-03](mazda2-subwoofer-03.jpg)
 
  
 
@@ -46,7 +46,7 @@ The pinout is very simple here. I am taking the GND and both channels. This is a
 
  
 
-[![mazda2-subwoofer-09](mazda2-subwoofer-09.jpg)](<mazda2-subwoofer-09.jpg>)
+![mazda2-subwoofer-09](mazda2-subwoofer-09.jpg)
 
  
 
@@ -54,7 +54,7 @@ Here are the three wires being pulled off the aux input. Hot glue is your best f
 
  
 
-[![mazda2-subwoofer-04](mazda2-subwoofer-04.jpg)](<mazda2-subwoofer-04.jpg>)
+![mazda2-subwoofer-04](mazda2-subwoofer-04.jpg)
 
  
 
@@ -64,7 +64,7 @@ Test periodically!
 
  
 
-[![mazda2-subwoofer-05](mazda2-subwoofer-05.jpg)](<mazda2-subwoofer-05.jpg>)
+![mazda2-subwoofer-05](mazda2-subwoofer-05.jpg)
 
 To have volume control and keep the left and right channel separate, you need a dual gang pot, or two separate pots. I didn't want to spend $8-$10 on a dual gang pot, so I went with two 10K pots I already had. It's stupider than one pot, but its cheaper and I don't have to combine the left and right channels.
 
@@ -74,7 +74,7 @@ _Update: You can get probably away with one pot pulling the signal from one chan
 
  
 
-[![mazda2-subwoofer-06](mazda2-subwoofer-06.jpg)](<mazda2-subwoofer-06.jpg>)
+![mazda2-subwoofer-06](mazda2-subwoofer-06.jpg)
 
  
 
@@ -90,8 +90,8 @@ Next up, wiring. Everything is terminated with plugs to simplify removal and mai
 
  
 
-[![mazda2-subwoofer-08](mazda2-subwoofer-08-1024x683.jpg)](<mazda2-subwoofer-07.jpg>)
+![mazda2-subwoofer-08](mazda2-subwoofer-08-1024x683.jpg)
 
-[![mazda2-subwoofer-07](mazda2-subwoofer-07.jpg)](<mazda2-subwoofer-07.jpg>)
+![mazda2-subwoofer-07](mazda2-subwoofer-07.jpg)
 
 If I want to reclaim trunk space, I unplug two wires and remove the sub. I really like being able to remove this sub in under 10 seconds. There are two compromises, first is the power, you are limited to 300W (wiring from cigarette lighter).You could run a power line from the battery to overcome this. Second, the subwoofer won't work with CDs or radio, just the auxiliary source. Overall, this is a great compromise between ease-of-install, functionality, and sound.

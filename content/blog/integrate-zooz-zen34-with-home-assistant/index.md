@@ -2,7 +2,7 @@
 title: "Integrate Zooz ZEN34 with Home Assistant"
 date: 2021-06-26
 categories: ["DIY", "networking", "tech"]
-tags: ["", "", "", "", "", "", ""]
+tags: []
 
 cover:
   image: "zooz-zen34-home-assisstant-setup-01.jpg"

@@ -2,7 +2,7 @@
 title: "Fabricating Fold-Down Bench Seats for a Chevy G30 Van"
 date: 2020-06-23
 categories: ["DIY", "travel"]
-tags: ["camper van", "cheverolet", "chevy", "", "", "", "", "", "", "", ""]
+tags: ["camper van", "cheverolet", "chevy"]
 
 cover:
   image: "van-bench-seat-36.jpg"

@@ -13,7 +13,7 @@ The title says it. And you can 10x your skill development as a quad flier with t
 
 ## 1 - Spatial Tasks are Hard
 
-[![quad-4](quad-4.jpg)](<quad-4.jpg>)
+![quad-4](quad-4.jpg)
 
 ## 
 
@@ -45,7 +45,7 @@ The main point is that these little quads don't remain stable like a DJI Phantom
 
 ## 3 - You Bought a Transmitter the Size of a Baby Mouse
 
-[![quad-9](quad-9.jpg)](<quad-9.jpg>)
+![quad-9](quad-9.jpg)
 
 Not much to say here. It should be of no wonder that you are struggling to control a miniature quadcopter with a controller smaller than your fist.
 
@@ -63,7 +63,7 @@ Read my article on [flying indoors](</blog/you-dont-suck-part-ii/>).
 
 ## 5 - You haven't practiced enough
 
-[![quad-8](quad-8.jpg)](<quad-8.jpg>)
+![quad-8](quad-8.jpg)
 
 You equipment and environment can make a big difference in the speed of your mastery. But it boils down to you. Are you mindlessly flying? Or are you paying attention to every maneuver and thinking about how to improve it?
 

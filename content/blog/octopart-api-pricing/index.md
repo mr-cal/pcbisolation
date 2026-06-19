@@ -2,7 +2,7 @@
 title: "Octopart API Pricing Scheme"
 date: 2019-06-06
 categories: ["Circuits", "tech"]
-tags: ["api", "automatic", "bom", "", "", "", "", "", ""]
+tags: ["api", "automatic", "bom"]
 ---
 Octopart, the search engine for electronic and industrial parts, doesn't post the pricing for their [API](<https://octopart.com/api/home>) on their website. There's a bit of irony, since Octopart scrapes pricing from sites like Digikey, who also tries to [hide their pricing](<https://news.ycombinator.com/item?id=168735>).
 

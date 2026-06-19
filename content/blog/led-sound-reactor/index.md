@@ -7,7 +7,7 @@ cover:
   image: "sound-reactor-1.jpg"
   relative: true
 ---
-[![sound-reactor-1](sound-reactor-1.jpg)](<sound-reactor-1.jpg>)
+![sound-reactor-1](sound-reactor-1.jpg)
 
 In the winter of 2013, LED strip lighting hit its tipping point - a big rise in popularity.
 
@@ -33,7 +33,7 @@ A final switch determines whether the lights get brighter or dimmer upon the bas
 
 ## Design - It's Not All Analog
 
-[![sound-reactor-4](sound-reactor-4.jpg)](<sound-reactor-4.jpg>)
+![sound-reactor-4](sound-reactor-4.jpg)
 
 My circuit uses 8 op-amps and no digital circuitry.
 
@@ -46,19 +46,19 @@ Next, we sum both signals into a 4-pole low-pass butterworth. I used Analog Devi
 
 ### Frequency Response (dB)
 
-[![sound-reactor-5](sound-reactor-5.jpg)](<sound-reactor-5.jpg>)
+![sound-reactor-5](sound-reactor-5.jpg)
 
  
 
 ### Frequency Response (V/V)
 
-[![sound-reactor-6](sound-reactor-6.jpg)](<sound-reactor-6.jpg>)
+![sound-reactor-6](sound-reactor-6.jpg)
 
  
 
 So far, we have a buffered, amplified AC signal. I want to convert this into a useable signal, a voltage that show the average intensity. Look at the rectifier circuit below. It's a peak detector, tuned to have a good decay for signals as low as 20Hz.
 
-[![sound-reactor-9](sound-reactor-9.jpg)](<sound-reactor-9.jpg>)
+![sound-reactor-9](sound-reactor-9.jpg)
 
  
 
@@ -74,7 +74,7 @@ This triangle wave generator uses a single op-amp - not a common design. Most tr
 
  
 
-[![sound-reactor-10](sound-reactor-10.jpg)](<sound-reactor-10.jpg>)
+![sound-reactor-10](sound-reactor-10.jpg)
 
  
 
@@ -90,15 +90,15 @@ On the right side, you can see the output goes through a voltage divider with a 
 
 ## PWM and Output Driver
 
-[![sound-reactor-11](sound-reactor-11.jpg)](<sound-reactor-11.jpg>)
+![sound-reactor-11](sound-reactor-11.jpg)
 
 This is the final stage. U2 is the op-amp acting as a comparator. When a triangle wave is compared against a signal, it generates a PWM output (see figure below).
 
-[![sound-reactor-13](sound-reactor-13.jpg)](<sound-reactor-13.jpg>)
+![sound-reactor-13](sound-reactor-13.jpg)
 
  
 
-[![sound-reactor-12](sound-reactor-12.jpg)](<sound-reactor-12.jpg>)
+![sound-reactor-12](sound-reactor-12.jpg)
 
 Brightness is adjusted by moving the triangle wave above or below the audio signal. This is what the output voltage divider and potentiometer in the triangle wave generator are responsible for. The gain of the audio input is responsible for the sensitivity - how much the lighting changes from a bass hit.
 
@@ -106,7 +106,7 @@ To summarize, the two knobs (one for gain and one for DC bias) are used to adjus
 
  
 
-[![sound-reactor-11](sound-reactor-11.jpg)](<sound-reactor-11.jpg>)
+![sound-reactor-11](sound-reactor-11.jpg)
 
 U7 is an inverter. U2 and U7 feed straight into a switch (looks like a potentiometer in the diagram). This switch is for inverting the PWM output. Visually, the LEDs get brighter on the bass hit. Flip the switch and they get dimmer on the bass hit.
 
@@ -116,7 +116,7 @@ The PWM signal then feeds into a MOSFET to drive the LEDs.
 
 ## Virtual Ground
 
-[![sound-reactor-14](sound-reactor-14.jpg)](<sound-reactor-14.jpg>)
+![sound-reactor-14](sound-reactor-14.jpg)
 
 The Sound Reactor is powered by 12V DC. The [virtual ground](<https://tangentsoft.net/elec/vgrounds.html>) is at VCC/2 or 6V. I need a virtual ground for operating op-amps from a single supply.
 
@@ -126,13 +126,13 @@ The virtual ground is used for the input buffers and low pass filter.
 
 ## Designing the Board
 
-[![sound-reactor-18](sound-reactor-18.jpg)](<sound-reactor-18.jpg>)
+![sound-reactor-18](sound-reactor-18.jpg)
 
 The schematic design and simulation was in [LTSpice](<http://www.linear.com/designtools/software/>). Above is an example simulation output. The green signal is a 100Hz tone. The blue signal is the audio input after a LPF and peak detector. The blue signal is compared to the red triangle wave, generating the purple PWM output. The PWM increases duty cycle when the bass note hits, then decays down after ~30ms.
 
  
 
-[![Version 2 designed in FreePCB](sound-reactor-15.jpg)](<sound-reactor-15.jpg>)_Version 2 designed in FreePCB_
+![Version 2 designed in FreePCB](sound-reactor-15.jpg)_Version 2 designed in FreePCB_
 
 For versions 1 and 2, I designed the PCB in FreePCB. Afterwards, I learned there are better free alternatives available ([KiCad ](<http://kicad-pcb.org/>)and [CircuitMaker](<http://circuitmaker.com/>) by Altium) so I don't recommend using FreePCB. Additionally, importing a circuit [from LTSpice to FreePCB](<http://andyc.diy-audio-engineering.org/ltspice_freepcb_1.html>) is tedious.
 
@@ -140,7 +140,7 @@ For versions 1 and 2, I designed the PCB in FreePCB. Afterwards, I learned there
 
  
 
-[![sound-reactor-17](sound-reactor-17.jpg)](<sound-reactor-17.jpg>)_Version 3 designed in CircuitMaker_
+![sound-reactor-17](sound-reactor-17.jpg)_Version 3 designed in CircuitMaker_
 
 For the third and final version, I switched to CircuitMaker. It is Altium's free version of [Altium Designer](<http://www.altium.com/>) designed for hobbyists and DIY. CircuitMaker is very similar to Altium, it feels like a stripped down, simpler version.
 
@@ -148,7 +148,7 @@ For the third and final version, I switched to CircuitMaker. It is Altium's free
 
  
 
-[![sound-reactor-2](sound-reactor-2.jpg)](<sound-reactor-2.jpg>)_from left to right: version 1, 2, and 3_
+![sound-reactor-2](sound-reactor-2.jpg)_from left to right: version 1, 2, and 3_
 
 Version 2 changes:
 
@@ -178,7 +178,7 @@ Version 3 changes:
 
 ## Why I Failed
 
-[![sound-reactor-3](sound-reactor-3.jpg)](<sound-reactor-3.jpg>)
+![sound-reactor-3](sound-reactor-3.jpg)
 
   1. The fundamental problem is the all analog approach. I thought it'd be simpler, but look at schematics. It's not simple. High unique part count. 4 dual op-amps costs nearly as much as a microcontroller. The potentiometers could be replaced with buttons in a digital design, lowering the cost further.  
 And further, it's really not all analog. I'm using analog components to simulate a digital function - PWM. Hell, I'm driving a discrete digital devices - Light Emitting Diodes.

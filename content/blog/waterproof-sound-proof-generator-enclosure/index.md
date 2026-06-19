@@ -2,7 +2,7 @@
 title: "Waterproof, Sound Proof Generator Enclosure"
 date: 2021-08-14
 categories: ["DIY", "embedded systems", "tech"]
-tags: ["box", "", "", "", ""]
+tags: ["box"]
 
 cover:
   image: "generator-enclosure-14.jpg"
@@ -35,7 +35,7 @@ The enclosure is made of a few layers:
 
 I used aluminum tread plate so the enclosure would be waterproof, lightweight, and not rust. 
 
-[![](generator-enclosure-14.jpg)](<generator-enclosure-14.jpg>)_1 of the 3 baffles is cross-sectioned in the upper left_
+![](generator-enclosure-14.jpg)_1 of the 3 baffles is cross-sectioned in the upper left_
 
 The air inlet, air outlet, and exhaust outlet have a series of baffles to keep waterproof. They are covered with a screen to keep bugs out (not pictured)
 
@@ -53,7 +53,7 @@ It significantly reduces the noise and didn't appear to restrict the exhaust flo
 
 ### Secondary gas tank
 
-[![](generator-enclosure-01.jpg)](<generator-enclosure-01.jpg>)
+![](generator-enclosure-01.jpg)
 
 To get more runtime, I bought [this gas tank](<https://www.amazon.com/gp/product/B07TXBHK3D>). It is sold as a drop-in replacement for larger generators. It adds another 5 gallons in addition to the internal 0.75 gallon tank.
 
@@ -61,7 +61,7 @@ I ran the gas line into the generator's gas cap. It required some modification o
 
 ### Easy Access
 
-[![](generator-enclosure-02.jpg)](<generator-enclosure-02.jpg>)
+![](generator-enclosure-02.jpg)
 
 I used [this marine access](<https://www.amazon.com/gp/product/B00L4QMF2A>) panel for waterproof access to the inside. It is not supposed to be mounted vertically, so I added a small gutter above it. It is completely waterproof.
 

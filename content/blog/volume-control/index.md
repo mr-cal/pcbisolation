@@ -21,17 +21,17 @@ The potentiometers are Microchip's [MCP4131](<http://ww1.microchip.com/downloads
 
 I also added a status LED to indicate when the audio was being attenuated.
 
-[![audio-control-1](audio-control-1.jpg)](<audio-control-1.jpg>)
+![audio-control-1](audio-control-1.jpg)
 
  
 
 ## Implementation
 
-[![audio-control-2](audio-control-2.jpg)](<audio-control-2.jpg>)_Bottom Board - Arduino Uno, Red Board - RTC, Green Board - Audio Control Circuit_
+![audio-control-2](audio-control-2.jpg)_Bottom Board - Arduino Uno, Red Board - RTC, Green Board - Audio Control Circuit_
 
  
 
-[![audio-control-3](audio-control-3.jpg)](<audio-control-3.jpg>)_Board mounted on a Lepai amp_
+![audio-control-3](audio-control-3.jpg)_Board mounted on a Lepai amp_
 
  
 

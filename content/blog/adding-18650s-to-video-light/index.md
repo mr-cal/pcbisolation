@@ -2,13 +2,13 @@
 title: "Adding 18650s and DC Power to Hot Shoe Video LED Light"
 date: 2016-12-22
 categories: ["DIY", "LED/Lighting", "photography"]
-tags: ["18650", "adapter", "battery", "cn-160", "", "", "", "", "", "", "", "", "", "", "", ""]
+tags: ["18650", "adapter", "battery", "cn-160"]
 
 cover:
   image: "Hot_Shoe_LED_Light_3.jpg"
   relative: true
 ---
-[![](Hot_Shoe_LED_Light_3.jpg)](<Hot_Shoe_LED_Light_3.jpg>)
+![](Hot_Shoe_LED_Light_3.jpg)
 
  
 
@@ -20,7 +20,7 @@ I use [18650 batteries](<https://www.reddit.com/r/flashlight/wiki/18650>) for my
 
  
 
-[![](Hot_Shoe_LED_Light_4.jpg)](<Hot_Shoe_LED_Light_4.jpg>)
+![](Hot_Shoe_LED_Light_4.jpg)
 
 Notice the parts are just loosely fitted in the back. Not a very professional, but the back cover secures everything well. The voltage monitor came from eBay (search for "Two Wire LCD Voltmeter"). The battery holder and 2.1mm barrel jack also came from eBay.
 
@@ -28,7 +28,7 @@ Notice the parts are just loosely fitted in the back. Not a very professional, b
 
  
 
-[![](Hot_Shoe_LED_Light_6.jpg)](<Hot_Shoe_LED_Light_6.jpg>)
+![](Hot_Shoe_LED_Light_6.jpg)
 
 Begin by removing the highlighted screws.
 
@@ -36,7 +36,7 @@ Begin by removing the highlighted screws.
 
  
 
-[![](Hot_Shoe_LED_Light_8.jpg)](<Hot_Shoe_LED_Light_8.jpg>)
+![](Hot_Shoe_LED_Light_8.jpg)
 
 The front will come apart, revealing four more screws. Remove them.
 
@@ -44,7 +44,7 @@ The front will come apart, revealing four more screws. Remove them.
 
  
 
-[![](Hot_Shoe_LED_Light_9.jpg)](<Hot_Shoe_LED_Light_9.jpg>)
+![](Hot_Shoe_LED_Light_9.jpg)
 
 Stick all your wires inside and solder them to the existing power input leads.
 
@@ -52,7 +52,7 @@ Stick all your wires inside and solder them to the existing power input leads.
 
  
 
-[![](Hot_Shoe_LED_Light_1.jpg)](<Hot_Shoe_LED_Light_1.jpg>)
+![](Hot_Shoe_LED_Light_1.jpg)
 
 This unit can accept 6 x 1.5V AA, or a maximum of 9V. I used 2 18650 batteries in parallel, which give a maximum voltage of 8.4V. The batteries last a few hours, but 4 batteries (2 x 2 configuration) would be most ideal.
 

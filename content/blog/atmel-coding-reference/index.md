@@ -12,7 +12,7 @@ I usually forget bitwise operators, basic variables, and functions when coding i
 
 Normally, I look at some of my old code for reference. This is my focused and consolidated version of the important building blocks.
 
-[![atmel-reference-2](atmel-reference-2.jpg)](<atmel-reference-2.jpg>)
+![atmel-reference-2](atmel-reference-2.jpg)
 
 ### Contents
 
@@ -350,7 +350,7 @@ The simple linear PWM ramp in the example above doesn't look good when driving a
 
  
 
-[![simple linear ramp and anti-log ramp](atmel-reference-1.jpg)](<atmel-reference-1.jpg>)_simple linear ramp and anti-log ramp_
+![simple linear ramp and anti-log ramp](atmel-reference-1.jpg)_simple linear ramp and anti-log ramp_
 
  
 

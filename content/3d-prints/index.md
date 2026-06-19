@@ -13,7 +13,7 @@ Design files and STLs can be downloaded for free on my [Thingiverse page](<https
 
 ### Drawer mount for standing desk height controller
 
-[![](standing-desk-16.jpg)](<standing-desk-16.jpg>)
+![](standing-desk-16.jpg)
 
 _[thingiverse page](<https://www.thingiverse.com/thing:7028564>)_
 
@@ -22,7 +22,7 @@ _[thingiverse page](<https://www.thingiverse.com/thing:7028564>)_
 
 ### Monitor Webcam/Hotshoe Mount
 
-[![](webcam-mount-08.jpg)](<webcam-mount-08.jpg>)
+![](webcam-mount-08.jpg)
 
 _[thingiverse page](<https://www.thingiverse.com/thing:7028593>)_
 
@@ -31,7 +31,7 @@ _[thingiverse page](<https://www.thingiverse.com/thing:7028593>)_
 
 ### Angle Grinder Dust Shroud with Vacuum Attachment
 
-[![](dewalt-dust-shroud-01-1024x768.jpg)](<dewalt-dust-shroud-01-scaled.jpg>)
+![](dewalt-dust-shroud-01-1024x768.jpg)
 
 _[thingiverse page](<https://www.thingiverse.com/thing:5359687>)_
 
@@ -40,14 +40,14 @@ _[thingiverse page](<https://www.thingiverse.com/thing:5359687>)_
 
 ### Discrete Nightstand Lamp
 
-[![](3D_Printer_66.jpg)](<3D_Printer_66.jpg>)
+![](3D_Printer_66.jpg)
 
 {{< section-break >}}
 
 
 ### Bobbin Holders
 
-[![](P1270007.jpg)](<P1270007.jpg>)
+![](P1270007.jpg)
 
 [_thingiverse page_](<https://www.thingiverse.com/thing:3972617>)
 
@@ -56,7 +56,7 @@ _[thingiverse page](<https://www.thingiverse.com/thing:5359687>)_
 
 ### 1/2″ Socket Trays
 
-[![](3D_Printer_127.jpg)](<3D_Printer_127.jpg>)
+![](3D_Printer_127.jpg)
 
 [_thingiverse page_](<https://www.thingiverse.com/thing:4931867>)
 
@@ -65,7 +65,7 @@ _[thingiverse page](<https://www.thingiverse.com/thing:5359687>)_
 
 ### 1/4″ Socket Trays
 
-[![](3D_Printer_125.jpg)](<3D_Printer_125.jpg>)
+![](3D_Printer_125.jpg)
 
 [_thingiverse page_](<https://www.thingiverse.com/thing:4931865>)
 
@@ -74,7 +74,7 @@ _[thingiverse page](<https://www.thingiverse.com/thing:5359687>)_
 
 ### XL Socket Trays
 
-[![](3D_Printer_132.jpg)](<3D_Printer_132.jpg>)
+![](3D_Printer_132.jpg)
 
 [_thingiverse page_](<https://www.thingiverse.com/thing:4931878>)
 
@@ -83,14 +83,14 @@ _[thingiverse page](<https://www.thingiverse.com/thing:5359687>)_
 
 ### Wrench Trays
 
-[![](3D_Printer_131.jpg)](<3D_Printer_131.jpg>)
+![](3D_Printer_131.jpg)
 
 {{< section-break >}}
 
 
 ### Line Wrench Trays
 
-[![](3D_Printer_129.jpg)](<3D_Printer_129.jpg>)
+![](3D_Printer_129.jpg)
 
 _[thingiverse page](<https://www.thingiverse.com/thing:4931886>)_
 
@@ -99,7 +99,7 @@ _[thingiverse page](<https://www.thingiverse.com/thing:4931886>)_
 
 ### Crowfoot Wrench Trays
 
-[![](3D_Printer_126.jpg)](<3D_Printer_126.jpg>)
+![](3D_Printer_126.jpg)
 
 _[thingiverse page](<https://www.thingiverse.com/thing:4931879>)_
 
@@ -108,7 +108,7 @@ _[thingiverse page](<https://www.thingiverse.com/thing:4931879>)_
 
 ### Hex and Torx Socket Trays
 
-[![](3D_Printer_128.jpg)](<3D_Printer_128.jpg>)
+![](3D_Printer_128.jpg)
 
 _thingiverse pages:[1](<https://www.thingiverse.com/thing:4931904>), [2](<https://www.thingiverse.com/thing:4931903>)_
 
@@ -117,7 +117,7 @@ _thingiverse pages:[1](<https://www.thingiverse.com/thing:4931904>), [2](<https:
 
 ### Adapter and Driver Trays
 
-[![](3D_Printer_124.jpg)](<3D_Printer_124.jpg>)
+![](3D_Printer_124.jpg)
 
 _thingiverse pages:[1](<https://www.thingiverse.com/thing:4931914>), [2](<https://www.thingiverse.com/thing:4931912>), [3](<https://www.thingiverse.com/thing:4931905>), [4](<https://www.thingiverse.com/thing:4931896>), [5](<https://www.thingiverse.com/thing:4931894>)_
 
@@ -126,7 +126,7 @@ _thingiverse pages:[1](<https://www.thingiverse.com/thing:4931914>), [2](<https:
 
 ### Spark Plug Socket Tray
 
-[![](3D_Printer_130.jpg)](<3D_Printer_130.jpg>)
+![](3D_Printer_130.jpg)
 
 [_thingiverse page_](<https://www.thingiverse.com/thing:4931890>)
 
@@ -135,7 +135,7 @@ _thingiverse pages:[1](<https://www.thingiverse.com/thing:4931914>), [2](<https:
 
 ### Bit Driver Tray
 
-[![](P1270008.jpg)](<P1270008.jpg>)
+![](P1270008.jpg)
 
 [_thingiverse page_](<https://www.thingiverse.com/thing:3972599>)
 
@@ -144,7 +144,7 @@ _thingiverse pages:[1](<https://www.thingiverse.com/thing:4931914>), [2](<https:
 
 ### Scuba Goggle Glasses Mount
 
-[![](3D_Printer_61.jpg)](<3D_Printer_61.jpg>)
+![](3D_Printer_61.jpg)
 
 _[thingiverse page](<https://www.thingiverse.com/thing:3196365>)_
 
@@ -153,14 +153,14 @@ _[thingiverse page](<https://www.thingiverse.com/thing:3196365>)_
 
 ### Phone Mount for Bicycle
 
-[![](3D_Printer_56.jpg)](<3D_Printer_56.jpg>)
+![](3D_Printer_56.jpg)
 
 {{< section-break >}}
 
 
 ### Phone Mount for Yamaha FZ-07
 
-[![](3D_Printer_90.jpg)](<3D_Printer_90.jpg>)
+![](3D_Printer_90.jpg)
 
 [_thingiverse page_](<https://www.thingiverse.com/thing:3684029>)
 
@@ -169,7 +169,7 @@ _[thingiverse page](<https://www.thingiverse.com/thing:3196365>)_
 
 ### End Cap for Eames-style Chair
 
-[![](3D_Printer_36.jpg)](<3D_Printer_36.jpg>)
+![](3D_Printer_36.jpg)
 
 [_thingiverse page_](<https://www.thingiverse.com/thing:3109587>)
 
@@ -178,7 +178,7 @@ _[thingiverse page](<https://www.thingiverse.com/thing:3196365>)_
 
 ### Trigger Guard for Chemtronics Flux-Off
 
-[![](3D_Printer_41.jpg)](<3D_Printer_41.jpg>)
+![](3D_Printer_41.jpg)
 
 [_thingiverse page_](<https://www.thingiverse.com/thing:3109560>)
 
@@ -187,21 +187,21 @@ _[thingiverse page](<https://www.thingiverse.com/thing:3196365>)_
 
 ### LX100 Camera Grip
 
-[![](3D_Printer_35.jpg)](<3D_Printer_35.jpg>)
+![](3D_Printer_35.jpg)
 
 {{< section-break >}}
 
 
 ### Phone Mount for Camera Hot Shoe
 
-[![](3D_Printer_43.jpg)](<3D_Printer_43.jpg>)
+![](3D_Printer_43.jpg)
 
 {{< section-break >}}
 
 
 ### Controller Enclosure for Ender 3 3D Printer
 
-[![](3D_Printer_78.jpg)](<3D_Printer_78.jpg>)
+![](3D_Printer_78.jpg)
 
 _[thingiverse page](<https://www.thingiverse.com/thing:3127377>)_
 
@@ -210,7 +210,7 @@ _[thingiverse page](<https://www.thingiverse.com/thing:3127377>)_
 
 ### Fan Mount
 
-[![](3D_Printer_40.jpg)](<3D_Printer_40.jpg>)
+![](3D_Printer_40.jpg)
 
 _[thingiverse page](<https://www.thingiverse.com/thing:3107913>)_
 
@@ -219,7 +219,7 @@ _[thingiverse page](<https://www.thingiverse.com/thing:3107913>)_
 
 ### Scraper Holder for Ender 3 3D Printer
 
-[![](3D_Printer_42.jpg)](<3D_Printer_42.jpg>)
+![](3D_Printer_42.jpg)
 
 _[thingiverse page](<https://www.thingiverse.com/thing:3110615>)_
 
@@ -228,7 +228,7 @@ _[thingiverse page](<https://www.thingiverse.com/thing:3110615>)_
 
 ### Filament Spool Holder for Ender 3 3D Printer
 
-[![](3D_Printer_39.jpg)](<3D_Printer_39.jpg>)
+![](3D_Printer_39.jpg)
 
 _[thingiverse page](<https://www.thingiverse.com/thing:3107952>)_
 
@@ -237,7 +237,7 @@ _[thingiverse page](<https://www.thingiverse.com/thing:3107952>)_
 
 ### Fan Guards
 
-[![](3D_Printer_104.jpg)](<3D_Printer_104.jpg>)
+![](3D_Printer_104.jpg)
 
 _thingiverse pages:[1](<https://www.thingiverse.com/thing:3684120>), [2](<https://www.thingiverse.com/thing:3684111>)_
 
@@ -246,6 +246,6 @@ _thingiverse pages:[1](<https://www.thingiverse.com/thing:3684120>), [2](<https:
 
 ### Front and Rear Drawers for Ender 3 3D Printer
 
-[![](3D_Printer_38.jpg)](<3D_Printer_38.jpg>)
+![](3D_Printer_38.jpg)
 
 [_thingiverse page_](<https://www.thingiverse.com/thing:3109527>)

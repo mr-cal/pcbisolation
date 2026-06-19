@@ -2,7 +2,7 @@
 title: "How To Spot a Counterfeit or Refurbished Motorola Razr V3"
 date: 2019-04-04
 categories: ["Circuits", "embedded systems", "tech"]
-tags: ["chinese", "Comparison", "", "", "", "", "", "", "", ""]
+tags: ["chinese", "Comparison"]
 
 cover:
   image: "Artboard-1.jpg"

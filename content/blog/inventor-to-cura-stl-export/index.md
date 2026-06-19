@@ -2,7 +2,7 @@
 title: "How to Export STL File from Inventor to Cura for 3D Printing"
 date: 2018-09-30
 categories: ["3D Printing", "DIY"]
-tags: ["3D", "3D Printing", "autodesk", "", "", "", "", "", "", "", "", ""]
+tags: ["3D", "3D Printing", "autodesk"]
 
 cover:
   image: "inventor-cura-stl-import-01.jpg"
@@ -18,7 +18,7 @@ This how-to is for exporting a part from Autodesk Inventor and importing to Ulti
 
 Open your part in Autodesk Inventor
 
-[![](inventor-cura-stl-import-01.jpg)](<inventor-cura-stl-import-01.jpg>)
+![](inventor-cura-stl-import-01.jpg)
 
  
 
@@ -28,7 +28,7 @@ Open your part in Autodesk Inventor
 
 Go to File->Export->CAD Format
 
-[![](inventor-cura-stl-import-02.jpg)](<inventor-cura-stl-import-02.jpg>)
+![](inventor-cura-stl-import-02.jpg)
 
  
 
@@ -40,7 +40,7 @@ A "Save As" box should appear.
 
 Click "Options"
 
-[![](inventor-cura-stl-import-03.jpg)](<inventor-cura-stl-import-03.jpg>)
+![](inventor-cura-stl-import-03.jpg)
 
  
 
@@ -65,7 +65,7 @@ Open Cura
 
 Click the "Open" icon in the upper left corner
 
-[![](inventor-cura-stl-import-05.jpg)](<inventor-cura-stl-import-05.jpg>)
+![](inventor-cura-stl-import-05.jpg)
 
  
 
@@ -75,7 +75,7 @@ Click the "Open" icon in the upper left corner
 
 Open your .STL file
 
-[![](inventor-cura-stl-import-06.jpg)](<inventor-cura-stl-import-06.jpg>)
+![](inventor-cura-stl-import-06.jpg)
 
  
 
@@ -87,7 +87,7 @@ Your part should now be imported into Cura.
 
 If you make changes to the part in Inventor, you need to repeat this entire process.
 
-[![](inventor-cura-stl-import-07.jpg)](<inventor-cura-stl-import-07.jpg>)
+![](inventor-cura-stl-import-07.jpg)
 
  
 
@@ -100,6 +100,6 @@ Is your part not properly rotated?
 You can manually rotate in Cura, but if you'd like to fix this issue permanently, see my how-to [here](</blog/axis-rotation-inventor-cura/>).
 
 [  
-](<inventor-cura-stl-import-08.jpg>)[![](inventor-cura-stl-import-08.jpg)](<inventor-cura-stl-import-08.jpg>)
+](<inventor-cura-stl-import-08.jpg>)![](inventor-cura-stl-import-08.jpg)
 
  

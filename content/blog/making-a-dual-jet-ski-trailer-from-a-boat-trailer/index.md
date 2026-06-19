@@ -12,7 +12,7 @@ I bought an old boat trailer and converted it into a dual jet ski trailer.
 
 ## Boat trailer
 
-[![](jet-ski-trailer-01.jpg)](<jet-ski-trailer-01.jpg>)
+![](jet-ski-trailer-01.jpg)
 
 Originally, someone stripped this boat trailer in preparation for making a utility trailer. They gave up on the project and I bought it for $250.
 

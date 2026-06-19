@@ -2,7 +2,7 @@
 title: "Repairing and Adding Bluetooth to an 80\u2019s \u2013 90\u2019s AC Delco Radio"
 date: 2020-06-17
 categories: ["Audio", "Circuits", "DIY", "tech"]
-tags: ["ac delco", "am/fm", "bluetooth", "capacitor", "cassette", "", "", "", ""]
+tags: ["ac delco", "am/fm", "bluetooth", "capacitor", "cassette"]
 
 cover:
   image: "delco-stereo-7.jpg"

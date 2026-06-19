@@ -11,7 +11,7 @@ I could have gone from 1,000 crashes to 100 crashes with a few simple pointers.
 
 There are two big reasons why you are crashing. This is for the pilots who moving from beginner and intermediate.
 
-[![quad-1](quad-1.jpg)](<quad-1.jpg>)
+![quad-1](quad-1.jpg)
 
 ## Reason 1 - Your Brain
 
@@ -25,7 +25,7 @@ You spend 100% of your mental effort on the banked turn and realize you are appr
 
 Here's what I suggest. Find somewhere big to practice, so you don't have to think about obstacle avoidance. Microquads do well outdoors, provided there is no wind. In the midwest, dawn and dusk are often windless.
 
-[![quad-6](quad-6.jpg)](<quad-6.jpg>)
+![quad-6](quad-6.jpg)
 
 ## Reason 2 - Speed
 

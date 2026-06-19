@@ -2,7 +2,7 @@
 title: "Motorola Razr V3: Real vs Counterfeit Teardown"
 date: 2019-03-31
 categories: ["Circuits", "embedded systems", "tech"]
-tags: ["cell phone", "chinese", "circuit", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+tags: ["cell phone", "chinese", "circuit"]
 
 cover:
   image: "razr-real-fake-teardown-01.jpg"

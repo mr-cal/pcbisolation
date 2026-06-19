@@ -2,13 +2,13 @@
 title: "Cheapest Sources Of Protein, Calories, And Macros \u2013 Comparison Tables"
 date: 2017-03-28
 categories: ["Health"]
-tags: ["calories", "cheapest protein", "cost analysis", "cost of protein", "", "", "", "", "", "", "", "", ""]
+tags: ["calories", "cheapest protein", "cost analysis", "cost of protein"]
 
 cover:
   image: "hot_dogs_1.jpg"
   relative: true
 ---
-[![](hot_dogs_1.jpg)](<hot_dogs_1.jpg>)
+![](hot_dogs_1.jpg)
 
 Recently I looked at the back of a hot dog package and I regret it. Not because of the ingredients list. The nutrition facts.
 

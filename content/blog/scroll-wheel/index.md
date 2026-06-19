@@ -2,7 +2,7 @@
 title: "Making a Computer Jog/Scrolling Wheel"
 date: 2014-07-07
 categories: ["DIY"]
-tags: ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+tags: []
 
 cover:
   image: "scroll-wheel-13.jpg"
@@ -10,7 +10,7 @@ cover:
 ---
  
 
-[![scroll-wheel-13](scroll-wheel-13.jpg)](<scroll-wheel-13.jpg>)
+![scroll-wheel-13](scroll-wheel-13.jpg)
 
 The idea is simple, take the scrolling mechanism out of a mouse, and move it to a large, heavy spinning wheel of some sort. The benefits of this, scrolling long webpages and folders is tireless and editing video is a quicker process, as you are able to scrub easily and quickly. The more you use a jog wheel, the quicker and more painless navigating and using a computer becomes.
 
@@ -18,7 +18,7 @@ You can buy jog wheels. A popular consumer version is the [Griffin Powermate](<h
 
  
 
-[![scroll-wheel-01](scroll-wheel-01.jpg)](<scroll-wheel-01.jpg>)Encoder is visible to the right of the wheel, it is the narrow gear. Farther to the right are the ridges responsible for the 'click-click' feel.
+![scroll-wheel-01](scroll-wheel-01.jpg)Encoder is visible to the right of the wheel, it is the narrow gear. Farther to the right are the ridges responsible for the 'click-click' feel.
 
 There are two types of mice you will encounter and only one type will work for this project.
 
@@ -34,7 +34,7 @@ I removed the wheel and unsoldered the IR LED and receiver. The IR receiver actu
 
  
 
-[![scroll-wheel-03](scroll-wheel-03.jpg)](<scroll-wheel-03.jpg>)
+![scroll-wheel-03](scroll-wheel-03.jpg)
 
  
 
@@ -46,9 +46,9 @@ Note, the motor isn't being used as motor, it simply acts as a spinning mount fo
 
  
 
-[![scroll-wheel-02](scroll-wheel-02.jpg)](<scroll-wheel-02.jpg>)
+![scroll-wheel-02](scroll-wheel-02.jpg)
 
-[![scroll-wheel-08](scroll-wheel-08.jpg)](<scroll-wheel-08.jpg>)
+![scroll-wheel-08](scroll-wheel-08.jpg)
 
  
 
@@ -60,13 +60,13 @@ This jar lid will be the optical encoding wheel. I hollowed out the center and c
 
  
 
-[![scroll-wheel-04](scroll-wheel-04.jpg)](<scroll-wheel-04.jpg>)
+![scroll-wheel-04](scroll-wheel-04.jpg)
 
-[![scroll-wheel-05](scroll-wheel-05.jpg)](<scroll-wheel-05.jpg>)
+![scroll-wheel-05](scroll-wheel-05.jpg)
 
-[![scroll-wheel-06](scroll-wheel-06.jpg)](<scroll-wheel-06.jpg>)
+![scroll-wheel-06](scroll-wheel-06.jpg)
 
-[![scroll-wheel-09](scroll-wheel-09-300x225.jpg)](<scroll-wheel-06.jpg>)
+![scroll-wheel-09](scroll-wheel-09-300x225.jpg)
 
  
 
@@ -76,7 +76,7 @@ Here you can see the IR LED on the right (it blends in with the hot glue) and IR
 
  
 
-[![scroll-wheel-11](scroll-wheel-11.jpg)](<scroll-wheel-11.jpg>)
+![scroll-wheel-11](scroll-wheel-11.jpg)
 
  
 
@@ -86,7 +86,7 @@ The home stretch. I added a power indicator LED, a few strips of plastic to prot
 
  
 
-[![scroll-wheel-12](scroll-wheel-12.jpg)](<scroll-wheel-12.jpg>)
+![scroll-wheel-12](scroll-wheel-12.jpg)
 
  
 
@@ -94,6 +94,6 @@ The home stretch. I added a power indicator LED, a few strips of plastic to prot
 
 And there you have it, a homemade DIY jog wheel!
 
-[![scroll-wheel-13](scroll-wheel-13.jpg)](<scroll-wheel-13.jpg>)
+![scroll-wheel-13](scroll-wheel-13.jpg)
 
  

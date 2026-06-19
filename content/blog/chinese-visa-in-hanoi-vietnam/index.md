@@ -2,7 +2,7 @@
 title: "Chinese Visa in Hanoi, Vietnam for 2017"
 date: 2017-08-24
 categories: ["travel"]
-tags: ["airplane", "application", "china", "", "", "", "", "", "", "", "", "", ""]
+tags: ["airplane", "application", "china"]
 
 cover:
   image: "chinese_visa_3.jpg"
@@ -41,7 +41,7 @@ After submitting the proper paperwork (listed below), you'll be given this recei
 
  
 
-[![](chinese_visa_3.jpg)](<chinese_visa_3.jpg>)
+![](chinese_visa_3.jpg)
 
  
 
@@ -53,11 +53,11 @@ Find the newest application form [here](<http://www.china-embassy.org/eng/visas/
 
 You’ll need an itinerary. See an example itinerary below (don't plagiarize!).
 
-[![](chinese_visa_2.jpg)](<chinese_visa_2.jpg>)
+![](chinese_visa_2.jpg)
 
 The application asks for a reference. As a tourist, you don't need this.
 
-[![](chinese_visa_1.jpg)](<chinese_visa_1.jpg>)
+![](chinese_visa_1.jpg)
 
 They asked for a local phone number. I provided them with my hostel’s phone number. They didn't call.
 
@@ -100,7 +100,7 @@ Maybe. You have to have a good reason to need a long visa (student, work, spouse
 
 Go back to the embassy. Hand them your receipt. They’ll hand you the following piece of paper, showing your application has been approved.
 
-[![](chinese_visa_6.jpg)](<chinese_visa_6.jpg>)
+![](chinese_visa_6.jpg)
 
  
 

@@ -2,13 +2,13 @@
 title: "TDK Trek Max A34 Teardown"
 date: 2017-04-04
 categories: ["Audio"]
-tags: ["bluetooth", "broken", "charging", "connection", "", "", "", "", "", "", "", "", "", "", ""]
+tags: ["bluetooth", "broken", "charging", "connection"]
 
 cover:
   image: "TDK_Trek_A34_1.jpg"
   relative: true
 ---
-[![](TDK_Trek_A34_1.jpg)](<TDK_Trek_A34_1.jpg>)
+![](TDK_Trek_A34_1.jpg)
 
 This is a great bluetooth speaker - loud, good sound quality, waterproof, and durable. Yet sometimes it has bluetooth problems, playback problems, and doesn't work when in motion (like in a backpack).
 
@@ -18,7 +18,7 @@ I opened this up to look for issues. I found none. Note that you are removing gl
 
  
 
-[![](TDK_Trek_A34_2.jpg)](<TDK_Trek_A34_2.jpg>)
+![](TDK_Trek_A34_2.jpg)
 
 Start by removing 11 screws from the bottom. 4 of those screws are hidden under the rubber feet. You can get to them by only partially lifting up the feet. The bottom battery cover pry up with a plastic tool.
 
@@ -26,13 +26,13 @@ Start by removing 11 screws from the bottom. 4 of those screws are hidden under 
 
  
 
-[![](TDK_Trek_A34_3.jpg)](<TDK_Trek_A34_3.jpg>)
+![](TDK_Trek_A34_3.jpg)
 
 The battery is revealed. It's a 7.2V 2300mAh Ni-MH. Remove the battery. If you are just replacing the battery, you're done here.
 
  
 
-[![](TDK_Trek_A34_4.jpg)](<TDK_Trek_A34_4.jpg>)
+![](TDK_Trek_A34_4.jpg)
 
 Remove the four screws underneath the battery.
 
@@ -40,7 +40,7 @@ Remove the four screws underneath the battery.
 
  
 
-[![](TDK_Trek_A34_5.jpg)](<TDK_Trek_A34_5.jpg>)
+![](TDK_Trek_A34_5.jpg)
 
 Cut and pry away the glue sealing the hole for the connector. You can use hot glue during reassembly.
 
@@ -50,7 +50,7 @@ Now the entire bottom plastic can be removed. Pull from one side. It's glued dow
 
  
 
-[![](TDK_Trek_A34_6.jpg)](<TDK_Trek_A34_6.jpg>)
+![](TDK_Trek_A34_6.jpg)
 
 Use a flat edge or plastic tool to get under the edge of the rubber top.
 
@@ -58,7 +58,7 @@ Use a flat edge or plastic tool to get under the edge of the rubber top.
 
  
 
-[![](TDK_Trek_A34_7.jpg)](<TDK_Trek_A34_7.jpg>)
+![](TDK_Trek_A34_7.jpg)
 
 Once you get under it, slowly peel it up. If you peel carefully, the glue will stay intact and is reusable for reassembly.
 
@@ -66,7 +66,7 @@ Once you get under it, slowly peel it up. If you peel carefully, the glue will s
 
  
 
-[![](TDK_Trek_A34_8.jpg)](<TDK_Trek_A34_8.jpg>)
+![](TDK_Trek_A34_8.jpg)
 
 On the top of the speaker, there's 10 screws. Once the screws are out, pull up firmly on one side of the top plastic. It should remove similar to the bottom plastic. The above picture is after the top plastic is removed.
 
@@ -74,7 +74,7 @@ On the top of the speaker, there's 10 screws. Once the screws are out, pull up f
 
  
 
-[![](TDK_Trek_A34_10.jpg)](<TDK_Trek_A34_10.jpg>)
+![](TDK_Trek_A34_10.jpg)
 
  
 
@@ -92,7 +92,7 @@ Pull up and out. The grill will slip over a lip and be free. It has a small amou
 
  
 
-[![](TDK_Trek_A34_11.jpg)](<TDK_Trek_A34_11.jpg>)
+![](TDK_Trek_A34_11.jpg)
 
 Remove the 8 screws on the back.
 
@@ -100,7 +100,7 @@ Remove the 8 screws on the back.
 
  
 
-[![](TDK_Trek_A34_12.jpg)](<TDK_Trek_A34_12.jpg>)
+![](TDK_Trek_A34_12.jpg)
 
 The case should now split in half.
 
@@ -108,7 +108,7 @@ The case should now split in half.
 
  
 
-[![](TDK_Trek_A34_13.jpg)](<TDK_Trek_A34_13.jpg>)
+![](TDK_Trek_A34_13.jpg)
 
 And we're in like Flynn! To get the board out, you'd have to remove a lot of glue. I didn't bother with this.
 
@@ -118,9 +118,9 @@ Interesting to note the 8-pin programming head hidden under the rubber foot in t
 
  
 
-[![](TDK_Trek_A34_14.jpg)](<TDK_Trek_A34_14.jpg>)
+![](TDK_Trek_A34_14.jpg)
 
-[![](TDK_Trek_A34_15.jpg)](<TDK_Trek_A34_15.jpg>)
+![](TDK_Trek_A34_15.jpg)
 
 Notable components:
 
@@ -134,7 +134,7 @@ Bluetooth is a prebuilt FCC certified module - [CSR BC05](<https://www.bluetooth
 
  
 
-[![](TDK_Trek_A34_17.jpg)](<TDK_Trek_A34_17.jpg>)
+![](TDK_Trek_A34_17.jpg)
 
 Upon reassembly, I added some extra adhesive to the top. It's the adhesive used for repairing phone screens.
 
@@ -142,6 +142,6 @@ Upon reassembly, I added some extra adhesive to the top. It's the adhesive used 
 
  
 
-[![](TDK_Trek_A34_16.jpg)](<TDK_Trek_A34_16.jpg>)
+![](TDK_Trek_A34_16.jpg)
 
  

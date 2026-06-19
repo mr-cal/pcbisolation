@@ -2,13 +2,13 @@
 title: "Vientiane in One Long Day \u2013 Walk, Bicycle, and Scooter Routes"
 date: 2017-07-25
 categories: ["travel"]
-tags: ["", "", "", "", "", "", "", "", "", "", ""]
+tags: []
 
 cover:
   image: "IMG_20170708_105239.jpg"
   relative: true
 ---
-[![](IMG_20170708_105239.jpg)](<IMG_20170708_105239.jpg>)
+![](IMG_20170708_105239.jpg)
 
 You can see the highlights of Vientiane, Laos in one long day.
 

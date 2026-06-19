@@ -7,7 +7,7 @@ cover:
   image: "quad-3.jpg"
   relative: true
 ---
-[![quad-3](quad-3.jpg)](<quad-3.jpg>)
+![quad-3](quad-3.jpg)
 
 The same scene plays out everytime I see someone fly a quadcopter indoors… They lift it off the ground, hover for a few seconds, move back and forth, then a spectator roars.
 
@@ -17,7 +17,7 @@ This is not easy. First, it is a not simple to hold a microquad in one position 
 
 You struggle with the landing, whether it is a pair of hands or a coffee table. How discouraging. Why is landing so hard? Isn't takeoff and landing the first and the easiest things you should learn?
 
-[![quad-7](quad-7.jpg)](<quad-7.jpg>)
+![quad-7](quad-7.jpg)
 
  
 

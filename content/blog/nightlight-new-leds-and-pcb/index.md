@@ -2,7 +2,7 @@
 title: "Swapping LEDs and PCB in a Dimmable Nightlight"
 date: 2020-05-11
 categories: ["Circuits", "DIY", "LED/Lighting", "tech"]
-tags: ["1800K", "", "", "", "", ""]
+tags: ["1800K"]
 
 cover:
   image: "nightlight-01-1024x685.jpg"

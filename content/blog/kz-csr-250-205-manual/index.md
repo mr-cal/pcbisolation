@@ -9,7 +9,7 @@ cover:
 ---
 I had a hard time finding this online for free.
 
-[![kz-csr-250-305-2](kz-csr-250-305-2.jpg)](<https://pcbisolation.com/downloads/Kawasaki_305_79-82_Manual.pdf>)
+[![kz-csr-250-305-2](kz-csr-250-305-2.jpg)](<Kawasaki_305_79-82_Manual.pdf>)
 
  
 
@@ -21,7 +21,6 @@ Kawasaki KZ CSR 250 1982
 Kawasaki KZ CSR 305 1981  
 Kawasaki KZ CSR 305 1982
 
-[Click here](<https://pcbisolation.com/downloads/Kawasaki_305_79-82_Manual.pdf>) to download.
+[Click here](<Kawasaki_305_79-82_Manual.pdf>) to download.
 
-Enjoy![  
-](<kz-csr-250-305-2.jpg>)
+Enjoy

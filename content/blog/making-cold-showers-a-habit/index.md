@@ -2,13 +2,13 @@
 title: "Making Cold Showers A Habit"
 date: 2017-03-15
 categories: ["Health"]
-tags: ["bath", "cold", "", "", "", "", "", "", "", "", ""]
+tags: ["bath", "cold"]
 
 cover:
   image: "shower_1.jpg"
   relative: true
 ---
-[![](shower_1.jpg)](<shower_1.jpg>)
+![](shower_1.jpg)
 
  
 

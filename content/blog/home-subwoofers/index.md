@@ -2,7 +2,7 @@
 title: "2\u00d715\u2033 Home Subwoofers, Car Amp, & Server Power Supply"
 date: 2014-10-23
 categories: ["Audio", "DIY"]
-tags: ["amp", "audio", "box", "brutus", "car amp", "car subwoofer", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+tags: ["amp", "audio", "box", "brutus", "car amp", "car subwoofer"]
 
 cover:
   image: "hifonics03.jpg"
@@ -16,16 +16,16 @@ I chose the best subwoofers for the price I could find, Hifonic Brutus 15″s. T
 
  
 
-[![hifonics03](hifonics03.jpg)](<hifonics03.jpg>)
+![hifonics03](hifonics03.jpg)
 
-[![hifonics01](hifonics01.jpg)](<hifonics01.jpg>)
+![hifonics01](hifonics01.jpg)
 
 
 
 
 As with all home powered subwoofers, the power supply and amp should be integrated with the box. In an enclosure on the back of the box, I placed the amp. On the back of the other sub, I placed the power supplies. The design was not overly difficult. Most of the time was focused on structural integrity (1000W generates plenty of air pressure and vibrations), and placement of parts, such as connectors, voltage panels, and current panels.
 
-[![](hifonics02.jpg)](<hifonics02.jpg>)
+![](hifonics02.jpg)
 
  
 
@@ -35,7 +35,7 @@ I bought two 3/4″ sheets of MDF, which is an excellent material for subwoofer 
 
  
 
-[![](hifonics04.jpg)](<hifonics04.jpg>)
+![](hifonics04.jpg)
 
  
 
@@ -43,7 +43,7 @@ I bought two 3/4″ sheets of MDF, which is an excellent material for subwoofer 
 
 Each part of the box is wood glued and screwed together, then the edges are caulked. Two 14″ sections of 4″ diameter PVC are placed for ports. The inner edges on each end of the tubes are sanded, to prevent port chuffing.
 
-[![](hifonics05.jpg)](<hifonics05.jpg>)
+![](hifonics05.jpg)
 
  
 
@@ -53,7 +53,7 @@ For a finished look, I covered the boxes in carpet and added corner covers. I me
 
 Originally, I had 3 server PSUs to power the subwoofer. I was under the impression that these power supplies could run in parallel. Each power supply outputs 28 amps at 12V, which is 3 x 342W or 1026W. Unfortunately, they do not run in parallel gracefully. If one of the units is putting out 11.9V while another is outputting 12.1V, then large amounts of current will flow from the 12.1V source to the 11.9V source, which can damage many components, including the voltage correction circuitry. Two of the supplies failed after a few hours of use. I was down to 342W, which was enough for dormies to hear a floor above and below, but wasn't enough for me.
 
-[![](hifonics06.jpg)](<hifonics06.jpg>)
+![](hifonics06.jpg)
 
  
 
@@ -61,7 +61,7 @@ Originally, I had 3 server PSUs to power the subwoofer. I was under the impressi
 
 There exists a power supply for large servers that only outputs 12V. They usually come in redundant pairs, and the one I found on eBay, supplies 106A. This 1300W device is a little bigger than a standard ATX PSU, and can be bought used for $15-$20. They are very popular in the RC community for their ability to charge numerous Lithium batteries quickly.
 
-[![hifonics08](hifonics08.jpg)](<hifonics08.jpg>)
+![hifonics08](hifonics08.jpg)
 
  
 
@@ -73,7 +73,7 @@ You have two options here:
 
 -Make a circuit that measures the temperature and controls the fan speed at reasonable volumes
 
-[![hifonics09](hifonics09.jpg)](<hifonics09.jpg>)
+![hifonics09](hifonics09.jpg)
 
  
 
@@ -95,7 +95,7 @@ In summary, I use a microcontroller to control the fans to my liking. And I tric
 
  
 
-[![hifonics11](hifonics11.jpg)](<hifonics11.jpg>)
+![hifonics11](hifonics11.jpg)
 
  
 
@@ -105,12 +105,12 @@ This is a TMA 1000.1 mono subwoofer car amp. As far as non-name brand amplifiers
 
  
 
-[![hifonics10](hifonics10.jpg)](<hifonics10.jpg>)
+![hifonics10](hifonics10.jpg)
 
  
 
 Fully assembled, this is what the subwoofers look like. Each box is 22″x25″x18″ and require two people to move. It cost under $400 for both. To buy something like this new, I would easily have spend over $1500. They are loud, probably unnecessarily loud. But that's not the point, they are a result of my favorite process: imagining and implementing. Plus they're fun to use.
 
-[![hifonics07](hifonics07.jpg)](<hifonics07.jpg>)
+![hifonics07](hifonics07.jpg)
 
  

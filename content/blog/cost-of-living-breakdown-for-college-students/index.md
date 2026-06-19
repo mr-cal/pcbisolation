@@ -7,7 +7,7 @@ cover:
   image: "house-2.jpg"
   relative: true
 ---
-[![house-2](house-2.jpg)](<house-2.jpg>)
+![house-2](house-2.jpg)
 
 I spent 3 years in a 5 bedroom house in Rolla Missouri. I kept careful track of finances for the first 2 years.
 
@@ -60,7 +60,7 @@ Our highest electricity bill was in September at $297. The house was built in 19
 
 We have a gas heater, water heater, and stove. Our monthly cost of gas averages $50 in the winter months and $30 in the summer months. The house is unoccupied in the summer months.
 
-[![house-1](house-1.jpg)](<house-1.jpg>)
+![house-1](house-1.jpg)
 
 ## Rent
 

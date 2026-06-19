@@ -2,7 +2,7 @@
 title: "Zhangjiajie National Park PDF Maps [English]"
 date: 2017-09-25
 categories: ["travel"]
-tags: ["brochure", "chinese", "", "", "", "", "", "", "", "", "", ""]
+tags: ["brochure", "chinese"]
 
 cover:
   image: "Zhangjiajie-National-Park-Map-1-1.jpg"
@@ -12,7 +12,7 @@ cover:
 
 Download [PDF](<Zhangjiajie-National-Park-Map-1.pdf>) or full size [JPG](<Zhangjiajie-National-Park-Map-1-1.jpg>)
 
-[![](Zhangjiajie-National-Park-Map-1-1.jpg)](<Zhangjiajie-National-Park-Map-1-1.jpg>)
+![](Zhangjiajie-National-Park-Map-1-1.jpg)
 
  
 
@@ -20,4 +20,4 @@ Download [PDF](<Zhangjiajie-National-Park-Map-1.pdf>) or full size [JPG](<Zhangj
 
 Download [PDF](<Zhangjiajie-National-Park-Map-2.pdf>) or full size [JPG](<Zhangjiajie-National-Park-Map-2-1.jpg>)
 
-[![](Zhangjiajie-National-Park-Map-2-1.jpg)](<Zhangjiajie-National-Park-Map-2-1.jpg>)
+![](Zhangjiajie-National-Park-Map-2-1.jpg)

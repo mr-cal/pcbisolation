@@ -2,7 +2,7 @@
 title: "Yeti Rambler 1 Gallon Jug vs Ozark Trail 1 Gallon Jug"
 date: 2020-07-01
 categories: ["misc"]
-tags: ["128 ounces", "4 liters", "4L", "Comparison", "cooler", "", "", "", ""]
+tags: ["128 ounces", "4 liters", "4L", "Comparison", "cooler"]
 
 cover:
   image: "gallon-jug-01.jpg"
