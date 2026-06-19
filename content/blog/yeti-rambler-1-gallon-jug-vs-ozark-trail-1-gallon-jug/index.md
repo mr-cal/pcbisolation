@@ -33,7 +33,7 @@ The Ozark Trail has an outside diameter 6.2″ of Yeti has an outside diameter o
 
 ## Lid
 
-{< figure-gallery images="gallon-jug-05.jpg,gallon-jug-06.jpg" >}
+{{< figure-gallery images="gallon-jug-05.jpg,gallon-jug-06.jpg" >}}
 
 The biggest differences between the two are the lids and drinking caps.
 

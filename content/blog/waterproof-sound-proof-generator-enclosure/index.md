@@ -9,7 +9,7 @@ cover:
   relative: true
 ---
 
-{< figure-gallery images="generator-enclosure-13.jpg,generator-enclosure-12.jpg" >}
+{{< figure-gallery images="generator-enclosure-13.jpg,generator-enclosure-12.jpg" >}}
 
 For RVs and vans, generators are very useful but very loud. I wanted an enclosure that is both waterproof and noise dampening. It's hard to find something like this, because it's not easy to encase an engine and keep it cool.
 
@@ -19,7 +19,7 @@ I used a [Wen 56235i](<https://www.amazon.com/WEN-56235i-2350-Watt-Generator-Lig
 
 ### Frame
 
-{< figure-gallery images="generator-enclosure-07.jpg,generator-enclosure-16.jpg" >}
+{{< figure-gallery images="generator-enclosure-07.jpg,generator-enclosure-16.jpg" >}}
 
 The enclosure is made of a few layers:
 
@@ -41,7 +41,7 @@ The air inlet, air outlet, and exhaust outlet have a series of baffles to keep w
 
 ### Extra Muffler
 
-{< figure-gallery images="generator-enclosure-05.jpg,generator-enclosure-06.jpg,generator-enclosure-15.jpg" >}
+{{< figure-gallery images="generator-enclosure-05.jpg,generator-enclosure-06.jpg,generator-enclosure-15.jpg" >}}
 
 I added a 2″ tube to my generator's exhaust outlet, which originally had a 1/2″ outlet.
 
@@ -49,7 +49,7 @@ The generator's exhaust now connects to flexible steel tube, which then goes thr
 
 It significantly reduces the noise and didn't appear to restrict the exhaust flow.
 
-{< figure-gallery images="generator-enclosure-15.jpg,generator-enclosure-08.jpg,generator-enclosure-09.jpg" >}
+{{< figure-gallery images="generator-enclosure-15.jpg,generator-enclosure-08.jpg,generator-enclosure-09.jpg" >}}
 
 ### Secondary gas tank
 
@@ -83,9 +83,9 @@ The inner lining of the ducts are lined in automotive carpet to dampen the noise
 
 I built a fan controller using a temperature based PID controller. This was done with an Arduino and a custom shield and OLED display. It worked great while testing, but there was too much EMI inside the enclosure while the generator was running. I improved it with some hardening of the circuit board, but I wasn't willing to put in anymore effort into the PID controller since the enclosure was overheating with the fans running at 100%.
 
-{< figure-gallery images="generator-enclosure-20.jpg,generator-enclosure-19.jpg,generator-enclosure-03.jpg,generator-enclosure-04.jpg" >}
+{{< figure-gallery images="generator-enclosure-20.jpg,generator-enclosure-19.jpg,generator-enclosure-03.jpg,generator-enclosure-04.jpg" >}}
 
-{< figure-gallery images="generator-enclosure-11.jpg,generator-enclosure-10.jpg" >}
+{{< figure-gallery images="generator-enclosure-11.jpg,generator-enclosure-10.jpg" >}}
 
 ### Performance
 

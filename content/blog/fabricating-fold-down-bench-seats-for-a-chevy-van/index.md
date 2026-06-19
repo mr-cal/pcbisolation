@@ -21,9 +21,9 @@ As of 2019, it's very difficult to find aftermarket seats like this in the U.S. 
 
 ## Seats
 
-{< figure-gallery images="van-bench-seat-11.jpg,van-bench-seat-12.jpg" >}
+{{< figure-gallery images="van-bench-seat-11.jpg,van-bench-seat-12.jpg" >}}
 
-{< figure-gallery images="van-bench-seat-14.jpg,van-bench-seat-15.jpg" >}
+{{< figure-gallery images="van-bench-seat-14.jpg,van-bench-seat-15.jpg" >}}
 
 ![](van-bench-seat-31.jpg)_Ford Econoline bench seats_
 
@@ -35,7 +35,7 @@ In order to support the benches in the lay-down position, I added pipe ends to h
 
 ![](van-bench-seat-16.jpg)_Left: original frame Right: finished frame_
 
-{< figure-gallery images="van-bench-seat-17.jpg,van-bench-seat-42.jpg" >}
+{{< figure-gallery images="van-bench-seat-17.jpg,van-bench-seat-42.jpg" >}}
 
 I sanded and painted the seat frames and added extra reinforcing bars at the top of the backrest. The top was very weak, so it had got all bent from the previous owner.
 
@@ -45,7 +45,7 @@ Before I get into the mounting of the new seats in the van, let's take a quick a
 
 ## Flooring
 
-{< figure-gallery images="van-bench-seat-18.jpg,van-bench-seat-26.jpg" >}
+{{< figure-gallery images="van-bench-seat-18.jpg,van-bench-seat-26.jpg" >}}
 
 ![](van-bench-seat-25.gif)_Photos in order: original mat, original flooring, new lining, new mat_
 
@@ -59,7 +59,7 @@ There was one corner where sitting water must have sat for a long time. I had to
 
 ## Front Seat Mounts
 
-{< figure-gallery images="van-bench-seat-04.jpg,van-bench-seat-03.jpg,van-bench-seat-07.jpg,van-bench-seat-08.jpg,van-bench-seat-09.jpg,van-bench-seat-10.jpg" >}
+{{< figure-gallery images="van-bench-seat-04.jpg,van-bench-seat-03.jpg,van-bench-seat-07.jpg,van-bench-seat-08.jpg,van-bench-seat-09.jpg,van-bench-seat-10.jpg" >}}
 
 The Ford Econoline seats have high quality, metal mounting brackets with quick-disconnect levers. This is one of the primary reasons I bought these seats - they can be installed and removed quickly without any tools.
 
@@ -69,7 +69,7 @@ The front seats mounts are made of 1/4″ steel plate and bolted into the origin
 
 ## Rear Seat Mounts
 
-{< figure-gallery images="van-bench-seat-03.jpg,van-bench-seat-05.jpg,van-bench-seat-18.jpg,van-bench-seat-06.jpg,van-bench-seat-19.jpg,van-bench-seat-20.jpg,van-bench-seat-21.jpg" >}
+{{< figure-gallery images="van-bench-seat-03.jpg,van-bench-seat-05.jpg,van-bench-seat-18.jpg,van-bench-seat-06.jpg,van-bench-seat-19.jpg,van-bench-seat-20.jpg,van-bench-seat-21.jpg" >}}
 
 For the rear bench seat, I had to mount it lower to get a comfortable seat height and angle. I cut holes into the floor and welded in custom mounting brackets. For extra safety and peace of mind, I added reinforcing metal straps to keep the seat firmly attached.
 
@@ -85,7 +85,7 @@ This picture shows how the legs attach to the seats.
 
 ## Mattress
 
-{< figure-gallery images="van-bench-seat-28.jpg,van-bench-seat-29.jpg,van-bench-seat-30.jpg,van-bench-seat-39.jpg,van-bench-seat-37.jpg,van-bench-seat-38.jpg,van-bench-seat-40.jpg" >}
+{{< figure-gallery images="van-bench-seat-28.jpg,van-bench-seat-29.jpg,van-bench-seat-30.jpg,van-bench-seat-39.jpg,van-bench-seat-37.jpg,van-bench-seat-38.jpg,van-bench-seat-40.jpg" >}}
 
 To make a perfectly flat sleeping surface, I cut mattress inserts out of a foam queen-sized mattress. I made mattress covers and a set of mattress toppers. It's very comfortable.
 

@@ -22,25 +22,25 @@ If the phone would have worked, I wouldn't have cared. But it wouldn't get a sig
 I decided to purchase an authentic Razr V3 to for a comparison teardown.
 The authentic black Razr is on the left. The counterfeit silver Razr is on the right.
 
-{< figure-gallery images="razr-real-fake-teardown-01.jpg,razr-real-fake-teardown-36.jpg" >}
+{{< figure-gallery images="razr-real-fake-teardown-01.jpg,razr-real-fake-teardown-36.jpg" >}}
 
 The most obvious error on the fake phone - the keyboard is the wrong color! It should be reflective silver, not black.
 
-{< figure-gallery images="razr-real-fake-teardown-36.jpg,razr-real-fake-teardown-02.jpg,razr-real-fake-teardown-04.jpg" >}
+{{< figure-gallery images="razr-real-fake-teardown-36.jpg,razr-real-fake-teardown-02.jpg,razr-real-fake-teardown-04.jpg" >}}
 
 The display and UI looks very similar between the phones. I couldn't tell a difference. The counterfeit phone was significantly quicker than the real phone (we'll find out why, shortly). It's fun to look at an older mobile UX. I noticed a few interesting things. The camera is buried underneath two submenus, image filenames are shown when opening each image, and each SMS text is separate (texts aren't organized into conversations).
 
-{< figure-gallery images="razr-real-fake-teardown-04.jpg,razr-real-fake-teardown-07.jpg,razr-real-fake-teardown-06.jpg" >}
+{{< figure-gallery images="razr-real-fake-teardown-04.jpg,razr-real-fake-teardown-07.jpg,razr-real-fake-teardown-06.jpg" >}}
 
 The counterfeit phone looks new from the outside, but contains a dirty (used) motherboard. This is odd. In the picture above, you can see wear marks from a grounding clip that was never installed. **It seems the counterfeit phone has a used motherboard?**
 
-{< figure-gallery images="razr-real-fake-teardown-37.jpg,razr-real-fake-teardown-10.jpg" >}
+{{< figure-gallery images="razr-real-fake-teardown-37.jpg,razr-real-fake-teardown-10.jpg" >}}
 
 ![](razr-real-fake-teardown-13.jpg)The clear plastic pieces in the center are the antennas
 
 On the back of the board, the counterfeit phone's EMI shielding is rusting. Hm…
 
-{< figure-gallery images="razr-real-fake-teardown-38.jpg,razr-real-fake-teardown-39.jpg" >}
+{{< figure-gallery images="razr-real-fake-teardown-38.jpg,razr-real-fake-teardown-39.jpg" >}}
 
 On the front of the motherboard:
 
@@ -63,7 +63,7 @@ Broadcom BCM2035KWB Bluetooth 1.1/1.2 Controller
 Broadcom BCM2035KWB Bluetooth 1.1/1.2 Controller
   * RF Micro Devices RF6027 Front End RF IC
 
-{< figure-gallery images="razr-real-fake-teardown-40.jpg,razr-real-fake-teardown-41.jpg" >}
+{{< figure-gallery images="razr-real-fake-teardown-40.jpg,razr-real-fake-teardown-41.jpg" >}}
 
 Authentic (left) | Counterfeit (right)
 ---|---
@@ -76,17 +76,17 @@ Authentic (left) | Counterfeit (right)
   * Freescale SC13890P23A PMIC and Audio
   * RF Micro Devices RF3178 GSM PMIC and Tx
 
-{< figure-gallery images="razr-real-fake-teardown-14.jpg,razr-real-fake-teardown-16.jpg,razr-real-fake-teardown-17.jpg,razr-real-fake-teardown-21.jpg,razr-real-fake-teardown-22.jpg" >}
+{{< figure-gallery images="razr-real-fake-teardown-14.jpg,razr-real-fake-teardown-16.jpg,razr-real-fake-teardown-17.jpg,razr-real-fake-teardown-21.jpg,razr-real-fake-teardown-22.jpg" >}}
 
 Moving on to the display, there aren't many differences between the two.
 
 I suspect the camera module is made by the same manufacturer.
 
-{< figure-gallery images="razr-real-fake-teardown-30.jpg,razr-real-fake-teardown-31.jpg" >}
+{{< figure-gallery images="razr-real-fake-teardown-30.jpg,razr-real-fake-teardown-31.jpg" >}}
 
 The flexible keypad circuit are quite similar.
 
-{< figure-gallery images="razr-real-fake-teardown-27.jpg,razr-real-fake-teardown-29.jpg" >}
+{{< figure-gallery images="razr-real-fake-teardown-27.jpg,razr-real-fake-teardown-29.jpg" >}}
 
 ![](razr-real-fake-teardown-32.jpg)
 

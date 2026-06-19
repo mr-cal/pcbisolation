@@ -21,7 +21,7 @@ There isn't much material online about these stereos, so I had to reverse-engine
 
 ### Capacitor Replacements
 
-{< figure-gallery images="delco-stereo-1.jpg,delco-stereo-9.jpg" >}
+{{< figure-gallery images="delco-stereo-1.jpg,delco-stereo-9.jpg" >}}
 
 There were three issues with my stereo:
 
@@ -65,7 +65,7 @@ I added JST-XH connectors and a few extra inches of wire to all the board-to-boa
 
 ## Adding Bluetooth
 
-{< figure-gallery images="delco-stereo-2.jpg,delco-stereo-3.jpg,delco-stereo-13.jpg" >}
+{{< figure-gallery images="delco-stereo-2.jpg,delco-stereo-3.jpg,delco-stereo-13.jpg" >}}
 
 I wanted to add bluetooth to this stereo without losing any functionality of the stereo and without adding a completely second amplifier.
 
