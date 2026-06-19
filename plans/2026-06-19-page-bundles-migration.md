@@ -29,7 +29,7 @@ static/
     2015/07/image-300x225.jpg  ← WP-generated resize (goes to unused/ post-migration)
     slider/                    ← tiny Smart Slider thumbnails (goes to unused/)
     ...
-unused/                        ← does not exist yet
+unused/                        ← does not exist yet (flat directory)
 ```
 
 ### Target structure
@@ -52,7 +52,9 @@ content/
 static/
   wp-content/uploads/       ← gone after migration
 unused/
-  wp-content/uploads/...    ← WP resizes + unreferenced originals; review then delete
+  image.jpg                 ← all unreferenced files, flat (no subdirectories)
+  image-1024x768.jpg        ← WP resizes also flat here
+  ...
 ```
 
 ### Key migration facts
@@ -101,7 +103,7 @@ cover:
 | `content/projects/index.md` | **Create** — was `content/projects.md` |
 | `content/3d-prints/index.md` | **Create** — was `content/3d-prints.md` |
 | `content/contact/index.md` | **Create** — was `content/contact.md` |
-| `unused/wp-content/uploads/...` | **Create** — unreferenced static files moved here |
+| `unused/*.jpg` (flat) | **Create** — all unreferenced static files moved here, flat |
 | `static/wp-content/` | **Delete** entirely after migration |
 
 ---
@@ -487,10 +489,11 @@ git commit -m "feat: migrate all posts and pages to Hugo page bundles"
 
 ---
 
-## Task 5: Move unused static assets to `unused/`
+## Task 5: Move unused static assets to `unused/` (flat)
 
 All references now use bundle-relative paths. Everything in `static/wp-content/` is either
-a WP-resized copy or an unreferenced original.
+a WP-resized copy or an unreferenced original. Move them all into a single flat directory
+so you can browse them at once and decide what to keep.
 
 - [ ] **Step 1: Confirm no /wp-content/ refs remain**
 
@@ -500,11 +503,46 @@ python scripts/audit_images.py
 # "Refs in content: 0" — nothing references /wp-content/... any more
 ```
 
-- [ ] **Step 2: Move to `unused/`**
+- [ ] **Step 2: Flatten and move to `unused/`**
+
+```python
+#!/usr/bin/env python3
+"""Move all files from static/wp-content/ to unused/ as a flat directory.
+
+Handles basename collisions (same name, different paths) by appending -2, -3, etc.
+"""
+import shutil
+from pathlib import Path
+
+ROOT = Path(__file__).parent.parent
+SRC = ROOT / "static" / "wp-content"
+DST = ROOT / "unused"
+DST.mkdir(exist_ok=True)
+
+for src_file in sorted(SRC.rglob("*")):
+    if not src_file.is_file():
+        continue
+    dest = DST / src_file.name
+    if dest.exists():
+        # Collision: different paths produced the same basename
+        stem, suffix = src_file.stem, src_file.suffix
+        counter = 2
+        while dest.exists():
+            dest = DST / f"{stem}-{counter}{suffix}"
+            counter += 1
+    shutil.move(str(src_file), dest)
+
+shutil.rmtree(SRC)
+print(f"Moved files to {DST}")
+print(f"Files in unused/: {len(list(DST.iterdir()))}")
+```
+
+Save as `scripts/flatten_unused.py` and run:
 
 ```bash
-mkdir -p unused
-mv static/wp-content unused/wp-content
+python scripts/flatten_unused.py
+ls unused/ | wc -l   # expect ~888
+ls static/wp-content 2>/dev/null && echo "PROBLEM" || echo "OK: static/wp-content gone"
 ```
 
 - [ ] **Step 3: Build and validate**
@@ -518,15 +556,16 @@ If htmlproofer reports broken links, restore the specific file from `unused/` in
 correct bundle:
 
 ```bash
-cp unused/wp-content/uploads/YYYY/MM/missing-file.jpg \
-   content/blog/affected-post/missing-file.jpg
+cp unused/missing-file.jpg content/blog/affected-post/missing-file.jpg
 ```
+
+Then re-run `make validate`.
 
 - [ ] **Step 4: Commit**
 
 ```bash
-git add -A static/ unused/
-git commit -m "chore: move unused static assets to unused/ for review"
+git add -A scripts/ static/ unused/
+git commit -m "chore: move unused static assets to unused/ (flat) for review"
 ```
 
 ---
@@ -558,14 +597,14 @@ Spot-check:
 | `/projects/` | All galleries show full-size images, PhotoSwipe lightbox works |
 | `/3d-prints/` | All images visible, section breaks present |
 
-- [ ] **Step 3: Delete `unused/` once reviewed**
+- [ ] **Step 3: Review `unused/` at your leisure**
 
 ```bash
-ls unused/wp-content/uploads/   # 888 files: 353 WP-resizes + unreferenced originals
-# Review in file manager or with: find unused/ -name "*.jpg" | wc -l
-git rm -r unused/
-git commit -m "chore: delete reviewed unused assets"
+ls unused/ | wc -l          # ~888 files: 353 WP-resizes + unreferenced originals
+ls unused/*.jpg | head -20  # browse the flat list
 ```
+
+Delete the directory when you're done — this is a manual step outside the plan.
 
 ---
 
