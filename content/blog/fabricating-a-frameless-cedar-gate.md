@@ -15,7 +15,9 @@ This gate has no exterior visible from the front and opens large enough for a ve
 
 ## Design
 
-You can download this as a PDF [here](</wp-content/uploads/2023/10/frameless-gate-1.pdf>).
+You can download this as a PDF [here](/wp-content/uploads/2023/10/frameless-gate-1.pdf).
+
+{{< pdf-embed src="/wp-content/uploads/2023/10/frameless-gate-1.pdf" height="500" >}}
 
 ## Frame
 
@@ -32,6 +34,8 @@ The posts are 3″ square tube at 1/8″ thick and 10′ long. I dug a 5′ deep
 I used weld-on hinges to attach the gate. I made an adjustable bracket, which allows me to get a perfectly aligned gate. If the gate sags in the future, I can compensate with the adjustable brackets.
 
 ## Video
+
+{{< youtube eeMA75z-8To >}}
 
 ## End Result
 

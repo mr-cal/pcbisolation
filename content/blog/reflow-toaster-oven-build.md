@@ -124,3 +124,5 @@ Board after reflow.  Looks great!
  
 
 And finally, a 5x speed up of the reflow process in my oven.
+
+{{< youtube X1J8pOWAp0Q >}}

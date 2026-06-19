@@ -20,3 +20,5 @@ Below you'll find a pdf and jpegs with the dimensions.
 [![](/wp-content/uploads/2023/03/ingot-mold-page-1-1024x783.png)](</wp-content/uploads/2023/03/ingot-mold-page-1.png>) [![](/wp-content/uploads/2023/03/ingot-mold-page-2-1024x787.png)](</wp-content/uploads/2023/03/ingot-mold-page-2.png>)
 
 See the creation of the molds below:
+
+{{< youtube Nej6UTunMn4 >}}
