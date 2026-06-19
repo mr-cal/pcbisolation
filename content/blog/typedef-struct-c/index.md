@@ -2,6 +2,10 @@
 title: "Why Typedef Is Used For Structs In C"
 date: 2016-10-18
 categories: ["embedded systems"]
+
+cover:
+  image: "typedef-1-thumbnail.jpg"
+  relative: true
 ---
 At first glance, adding a typedef to a struct in C seems to complicate the definition. However, it simplifies the declaration of the structure. This is not always recommend, as it can add a layer of obfuscation.
 
