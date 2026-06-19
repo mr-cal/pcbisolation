@@ -22,11 +22,11 @@ If the phone would have worked, I wouldn't have cared. But it wouldn't get a sig
 I decided to purchase an authentic Razr V3 to for a comparison teardown.
 The authentic black Razr is on the left. The counterfeit silver Razr is on the right.
 
-{{< figure-gallery images="razr-real-fake-teardown-01.jpg,razr-real-fake-teardown-36.jpg" >}}
+{{< figure-gallery images="razr-real-fake-teardown-01.jpg" >}}
 
 The most obvious error on the fake phone - the keyboard is the wrong color! It should be reflective silver, not black.
 
-{{< figure-gallery images="razr-real-fake-teardown-36.jpg,razr-real-fake-teardown-02.jpg,razr-real-fake-teardown-04.jpg" >}}
+{{< figure-gallery images="razr-real-fake-teardown-36.jpg,razr-real-fake-teardown-02.jpg" >}}
 
 The display and UI looks very similar between the phones. I couldn't tell a difference. The counterfeit phone was significantly quicker than the real phone (we'll find out why, shortly). It's fun to look at an older mobile UX. I noticed a few interesting things. The camera is buried underneath two submenus, image filenames are shown when opening each image, and each SMS text is separate (texts aren't organized into conversations).
 

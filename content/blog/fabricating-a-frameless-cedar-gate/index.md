@@ -40,4 +40,4 @@ I used weld-on hinges to attach the gate. I made an adjustable bracket, which al
 
 The gate turned out really great. It is easy to open and sturdy. I can easily drive a vehicle through the gate.
 
-{{< figure-gallery images="frameless-gate-06.jpg,frameless-gate-07.jpg,frameless-gate-08.jpg,frameless-gate-09.jpg" >}}
+{{< figure-gallery images="frameless-gate-08.jpg,frameless-gate-09.jpg,frameless-gate-07.jpg,frameless-gate-06.jpg" >}}

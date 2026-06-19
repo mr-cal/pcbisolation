@@ -41,7 +41,7 @@ The air inlet, air outlet, and exhaust outlet have a series of baffles to keep w
 
 ### Extra Muffler
 
-{{< figure-gallery images="generator-enclosure-05.jpg,generator-enclosure-06.jpg,generator-enclosure-15.jpg" >}}
+{{< figure-gallery images="generator-enclosure-05.jpg,generator-enclosure-06.jpg" >}}
 
 I added a 2″ tube to my generator's exhaust outlet, which originally had a 1/2″ outlet.
 
@@ -83,7 +83,7 @@ The inner lining of the ducts are lined in automotive carpet to dampen the noise
 
 I built a fan controller using a temperature based PID controller. This was done with an Arduino and a custom shield and OLED display. It worked great while testing, but there was too much EMI inside the enclosure while the generator was running. I improved it with some hardening of the circuit board, but I wasn't willing to put in anymore effort into the PID controller since the enclosure was overheating with the fans running at 100%.
 
-{{< figure-gallery images="generator-enclosure-20.jpg,generator-enclosure-19.jpg,generator-enclosure-03.jpg,generator-enclosure-04.jpg" >}}
+{{< figure-gallery images="generator-enclosure-20.jpg,generator-enclosure-19.jpg,generator-enclosure-03.jpg,generator-enclosure-04.jpg,generator-enclosure-18.jpg" >}}
 
 {{< figure-gallery images="generator-enclosure-11.jpg,generator-enclosure-10.jpg" >}}
 

@@ -18,7 +18,7 @@ Originally, someone stripped this boat trailer in preparation for making a utili
 
 ## Design
 
-{{< figure-gallery images="jet-ski-trailer-11.jpg,jet-ski-trailer-10.jpg,jet-ski-trailer-03.jpg" >}}
+{{< figure-gallery images="jet-ski-trailer-11.jpg,jet-ski-trailer-10.jpg" >}}
 
 In Solidworks, I added the rails for the jet skis to sit on and adjustable winching mechanisms.
 
