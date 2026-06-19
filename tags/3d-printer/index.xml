@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>3D Printer on PCB Isolation</title><link>https://pcbisolation.com/tags/3d-printer/</link><description>Recent content in 3D Printer on PCB Isolation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 30 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://pcbisolation.com/tags/3d-printer/index.xml" rel="self" type="application/rss+xml"/><item><title>How To Fix Axis/Rotation Orientation between Inventor and Cura</title><link>https://pcbisolation.com/blog/axis-rotation-inventor-cura/</link><pubDate>Sun, 30 Sep 2018 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/axis-rotation-inventor-cura/</guid><description>&lt;p>This how-to is for correcting axis orientations or rotation issues when exporting a file from Inventor to Cura.&lt;/p>
+&lt;p>&lt;a href="inventor-cura-stl-import-08.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/axis-rotation-inventor-cura/inventor-cura-stl-import-08.jpg">&lt;/a>&lt;/p>
+&lt;p>&lt;em>improper orientation causes this issue in Cura&lt;/em>&lt;/p>
+&lt;h2 id="step-1">Step 1&lt;/h2>
+&lt;p>Open Inventor.&lt;/p>
+&lt;p>Export as an STL and import into Cura (how to export a STL here)&lt;/p>
+&lt;p>Do not rotate the model in Cura&lt;/p>
+&lt;p>&lt;a href="inventor-cura-stl-import-08.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/axis-rotation-inventor-cura/inventor-cura-stl-import-08.jpg">&lt;/a>&lt;/p>
+&lt;h2 id="step-2">Step 2&lt;/h2>
+&lt;p>Rotate your view in Inventor to match the Cura model. This will make the next steps more intuitive.&lt;/p></description></item></channel></rss>

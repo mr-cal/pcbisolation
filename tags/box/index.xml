@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Box on PCB Isolation</title><link>https://pcbisolation.com/tags/box/</link><description>Recent content in Box on PCB Isolation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 14 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pcbisolation.com/tags/box/index.xml" rel="self" type="application/rss+xml"/><item><title>Waterproof, Sound Proof Generator Enclosure</title><link>https://pcbisolation.com/blog/waterproof-sound-proof-generator-enclosure/</link><pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/waterproof-sound-proof-generator-enclosure/</guid><description>&lt;div class="figure-gallery"
+style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:0.75rem;margin:1.5rem 0;">
+&lt;a href="generator-enclosure-13.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="generator-enclosure-13.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;a href="generator-enclosure-12.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="generator-enclosure-12.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;/div>
+&lt;p>For RVs and vans, generators are very useful but very loud. I wanted an enclosure that is both waterproof and noise dampening. It&amp;rsquo;s hard to find something like this, because it&amp;rsquo;s not easy to encase an engine and keep it cool.&lt;/p>
+&lt;p>In the end, I failed to keep the generator cool enough to for more than 2 hours.&lt;/p>
+&lt;p>I used a &lt;a href="https://www.amazon.com/WEN-56235i-2350-Watt-Generator-Lightweight/dp/B085828BQ6">Wen 56235i&lt;/a> generator. It is a cheaper variant of the Honda EU2200 series.&lt;/p></description></item><item><title>2×15″ Home Subwoofers, Car Amp, &amp; Server Power Supply</title><link>https://pcbisolation.com/blog/home-subwoofers/</link><pubDate>Thu, 23 Oct 2014 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/home-subwoofers/</guid><description>&lt;p>After half a semester of college, I learned that my 8″, 40W woofer wasn&amp;rsquo;t enough. I wanted something bigger, but didn&amp;rsquo;t want to have to upgrade again in the future. So I decided on something reasonable for any 10&amp;rsquo;x15′ dorm room - two 15″ subwoofers powered by a 1000W car amp. My goals: keep it under $400, design it so one of the two subs can be placed in a car and be powered from a 12V source (like a car battery), and build them to be as durable as possible.&lt;/p></description></item><item><title>Designing and Building a CNC Machine</title><link>https://pcbisolation.com/blog/cnc-summary/</link><pubDate>Mon, 20 Oct 2014 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/cnc-summary/</guid><description>&lt;p>&lt;a href="cnc_overall_2.jpg">&lt;img alt="cnc_overall_2" loading="lazy" src="https://pcbisolation.com/blog/cnc-summary/cnc_overall_2.jpg">&lt;/a>&lt;/p>
+&lt;p>In May 2012, the end of my junior year of high school, I began to develop great interest in a personal CNC machine. A CNC machine is a beautiful thing, and the process of homebuilding a CNC machine emcompasses design, building, and utilization. The design demonstrates creativity and planning, building demonstrates an understanding of mechanics and craftsmanship, and utilization restarts the process at design again. A tool to make new things, limited mostly by one&amp;rsquo;s creativity.&lt;/p></description></item><item><title>Logitech Z340 2.1 Pinout and Reuse</title><link>https://pcbisolation.com/blog/logitech-z340/</link><pubDate>Sun, 08 Jun 2014 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/logitech-z340/</guid><description>&lt;p>Logitech has a large presence in 2.1 systems, where price and appearance dominate. This sub is designed to trick you, there&amp;rsquo;s more to it than what meets the eye.&lt;/p>
+&lt;p>I picked up a used Logitech Z340 2.1, sans the 2. I got a woofer with no satellites or volume control.&lt;/p>
+&lt;p>&lt;a href="logitech-z340-01.jpg">&lt;img alt="logitech-z340-01" loading="lazy" src="https://pcbisolation.com/blog/logitech-z340/logitech-z340-01.jpg">&lt;/a>notice in the corner - Mr. Happy Hammer 🙂&lt;/p>
+&lt;p>&lt;a href="logitech-z340-02.jpg">&lt;img alt="logitech-z340-02" loading="lazy" src="https://pcbisolation.com/blog/logitech-z340/logitech-z340-02.jpg">&lt;/a>8″ subwoofer (4″ speaker + cardboard)&lt;/p>
+&lt;p>Since I don&amp;rsquo;t have the satellites, this is of no value to me. And the speaker isn&amp;rsquo;t of much value either, so I want the amplifier out of this.&lt;/p></description></item><item><title>Powered Subwoofer &amp; Box Build</title><link>https://pcbisolation.com/blog/powered-subwoofers/</link><pubDate>Sun, 17 Feb 2013 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/powered-subwoofers/</guid><description>&lt;p>&lt;a href="logitech-z340-06.jpg">&lt;img alt="logitech-z340-06" loading="lazy" src="https://pcbisolation.com/blog/powered-subwoofers/logitech-z340-06.jpg">&lt;/a>&lt;/p>
+&lt;p>Kicker&amp;rsquo;s Free Airs left a legacy in the market. They have almost no enclosure requirements and are often drop-in upgrades.&lt;/p>
+&lt;p>I picked up two used 6.5″ Kicker Free Air subwoofers. &amp;ldquo;Free Air&amp;rdquo; is a misnomer, they still need an enclosure. However the enclosure space can be relatively large. The trunk of your car could be considered an enclosure, as long as the space in front of these speaker is sealed off from the space behind these speakers. I don&amp;rsquo;t plan to put these in a car, they are going to be for a home sound system. I like the early 2000&amp;rsquo;s sub look that these Kickers have: thickly stitched cones, paint chipped rusting frame, rotting seal, and corroded leads. At one point they were very nice, now they are fair. I can deal with fair speakers if they are free.&lt;/p></description></item></channel></rss>

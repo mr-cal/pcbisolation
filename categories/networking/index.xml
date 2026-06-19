@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Networking on PCB Isolation</title><link>https://pcbisolation.com/categories/networking/</link><description>Recent content in Networking on PCB Isolation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 26 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pcbisolation.com/categories/networking/index.xml" rel="self" type="application/rss+xml"/><item><title>Integrate Zooz ZEN34 with Home Assistant</title><link>https://pcbisolation.com/blog/integrate-zooz-zen34-with-home-assistant/</link><pubDate>Sat, 26 Jun 2021 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/integrate-zooz-zen34-with-home-assistant/</guid><description>&lt;p>This overviews adding a Zooz ZEN34 smart switch to Home Assistant and using it to trigger automations.&lt;/p>
+&lt;p>This guide was written for HA 2021.6.6.&lt;/p>
+&lt;h2 id="prerequisites">Prerequisites&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a href="https://www.home-assistant.io/">Home Assistant&lt;/a>&lt;/li>
+&lt;li>Z-Wave USB Hub&lt;br>
+I recommend either the &lt;a href="https://aeotec.com/z-wave-usb-stick/z-stick-7.html">Aeotec Z-Stick 7&lt;/a> or &lt;a href="https://aeotec.com/z-wave-usb-stick/">Z-Stick 5&lt;/a>.&lt;/li>
+&lt;li>Z-Wave JS integration on Home Assistant&lt;br>
+See setup instructions &lt;a href="https://help.aeotec.com/support/solutions/articles/6000246295-setup-home-assistant-with-z-stick-7">here&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="https://www.amazon.com/gp/product/B08TMWLY74">Zooz ZEN34 Smart Wireless Z-Wave Switch&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;h2 id="add-zen34-to-z-wavejs">Add ZEN34 to Z-WaveJS&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Remove paper battery tabs from switch to power on switch&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Login to Home Assistant&lt;/p></description></item><item><title>Quick Overheating Router Fix</title><link>https://pcbisolation.com/blog/overheating-router-fix/</link><pubDate>Sun, 11 Aug 2013 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/overheating-router-fix/</guid><description>&lt;p>The DLink DIR-655 is an excellent router. It supports Dynamic DNS, Port Forwarding, Virtual Servers, DMZ and much more. Problem is, in the awful heat and humidity of the midwest, it overheats during periods of high traffic, like large file downloads.&lt;/p>
+&lt;p>Three quick fixes, A) move it to a basement or cooler spot of your house, B) drill holes in the case, or C) add a fan.&lt;/p>
+&lt;p>&lt;a href="router-fan-01.jpg">&lt;img alt="router-fan-01" loading="lazy" src="https://pcbisolation.com/blog/overheating-router-fix/router-fan-01.jpg">&lt;/a>&lt;br>
+The DIR655 has a usb output on the back designed for printers and network storage. I pulled power from that port. I wired a small computer fan to a USB male plug (5V and gnd). Many 12V computer fans will spin off 5V. To disassemble, I took two screws under the feet at the bottom and popped the top off.&lt;/p></description></item></channel></rss>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>LED/Lighting on PCB Isolation</title><link>https://pcbisolation.com/categories/led/lighting/</link><description>Recent content in LED/Lighting on PCB Isolation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 11 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://pcbisolation.com/categories/led/lighting/index.xml" rel="self" type="application/rss+xml"/><item><title>Swapping LEDs and PCB in a Dimmable Nightlight</title><link>https://pcbisolation.com/blog/nightlight-new-leds-and-pcb/</link><pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/nightlight-new-leds-and-pcb/</guid><description>&lt;p>I&amp;rsquo;ve looked and been unsuccessful in finding household nightlights that meet my criteria:&lt;/p>
+&lt;ul>
+&lt;li>auto on/off&lt;/li>
+&lt;li>dimmable&lt;/li>
+&lt;li>1800K CCT&lt;/li>
+&lt;li>decent CRI&lt;/li>
+&lt;li>uniform illumination&lt;/li>
+&lt;li>no flickering&lt;/li>
+&lt;li>power efficient&lt;/li>
+&lt;/ul>
+&lt;p>The closest I found was &lt;a href="https://www.amazon.com/gp/product/B078NH96RT/">this nightlight&lt;/a>. I like everything about it except the 3000K CCT. I believe it&amp;rsquo;s a bit too cool for a nightlight.&lt;/p>
+&lt;p>&lt;img loading="lazy" src="https://pcbisolation.com/blog/nightlight-new-leds-and-pcb/nightlight-01-1024x685.jpg">&lt;/p>
+&lt;p>I ended up swapping the 3000K LEDs for 2200K LEDs. I would have preferred 1800K, but was unable to source them on Digikey.&lt;/p></description></item><item><title>Adding 18650s and DC Power to Hot Shoe Video LED Light</title><link>https://pcbisolation.com/blog/adding-18650s-to-video-light/</link><pubDate>Thu, 22 Dec 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/adding-18650s-to-video-light/</guid><description>&lt;p>&lt;a href="Hot_Shoe_LED_Light_3.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/adding-18650s-to-video-light/Hot_Shoe_LED_Light_3.jpg">&lt;/a>&lt;/p>
+&lt;p>I use Neewer&amp;rsquo;s hot shoe LED lights for a variety of purposes - photography, video, and &lt;a href="https://pcbisolation.com/blog/scan-negatives-with-your-camera/">scanning negatives&lt;/a>. The &lt;a href="https://www.amazon.com/NEEWER%C2%AE-Dimmable-Digital-Camcorder-Panasonic/dp/B004TJ6JH6">CN-160&lt;/a> is incredibly bright and dimmable. Unfortunately, it is designed to take 6xAA batteries. Or, if you have the right camera, you can attach your camera&amp;rsquo;s lithium battery to it. I don&amp;rsquo;t like either option.&lt;/p>
+&lt;p>I use &lt;a href="https://www.reddit.com/r/flashlight/wiki/18650">18650 batteries&lt;/a> for my headlight and I want to use them here. I added a voltage monitor so I didn&amp;rsquo;t accidentally drain the batteries. I added a DC barrel jack for connecting to a wall adapter. This was for scanning thousands of negatives - I needed full brightness for many hours.&lt;/p></description></item><item><title>Flashlight Adapter for GoPro Mounts and Helmet Mount</title><link>https://pcbisolation.com/blog/flashlight-gopro-mount/</link><pubDate>Mon, 12 Dec 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/flashlight-gopro-mount/</guid><description>&lt;p>&lt;a href="flashlight-gopro-mount-8.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/flashlight-gopro-mount/flashlight-gopro-mount-8.jpg">&lt;/a>&lt;/p>
+&lt;p>This how-to concerns making an adapter to hold a flashlight on a standard gopro mount. It allows you to mount a flashlight to a helmet or anywhere else you&amp;rsquo;d need a securely mounted flashlight.&lt;/p>
+&lt;p>There are a few 3D-printed gopro flashlight holders on &lt;a href="http://www.thingiverse.com">thingiverse.com&lt;/a>, but they all seem to be either bulky or fragile and all require a screwdriver for installation and removal. My design uses a gopro mount, is secure, and forgiving to abuse. It uses velcro to accommodate many different flashlight and makes removing the flashlight very quick.&lt;/p></description></item><item><title>LED Sound Reactor – All Analog Approach</title><link>https://pcbisolation.com/blog/led-sound-reactor/</link><pubDate>Fri, 02 Sep 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/led-sound-reactor/</guid><description>&lt;p>&lt;a href="sound-reactor-1.jpg">&lt;img alt="sound-reactor-1" loading="lazy" src="https://pcbisolation.com/blog/led-sound-reactor/sound-reactor-1.jpg">&lt;/a>&lt;/p>
+&lt;p>In the winter of 2013, LED strip lighting hit its tipping point - a big rise in popularity.&lt;/p>
+&lt;p>A year beforehand, in 2012, I had an idea to build a controller for LED strip lighting. A sound reactive LED controller - to make the lights get brighter on the bass notes. Biggest problem - I didn&amp;rsquo;t know how to make one.&lt;/p>
+&lt;p>I finally started getting comfortable with electronics in 2014.&lt;/p></description></item><item><title>Motorcycle Brake/Turn Light PCB</title><link>https://pcbisolation.com/blog/motorcycle-brake-turn-light/</link><pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/motorcycle-brake-turn-light/</guid><description>&lt;p>A stranger off eBay got me pulled over, from across the world.&lt;/p>
+&lt;p>I have a 1983 Kawasaki CSR 305 that has a hint of a cafe racer. For the look, I replaced the stock brake and turn lights with a LED brake/turn light combo from eBay. It was manufactured overseas, &lt;em>very&lt;/em> cheaply.&lt;/p>
+&lt;p>&lt;a href="Brake-Light-3.jpg">&lt;img alt="Brake-Light-3" loading="lazy" src="https://pcbisolation.com/blog/motorcycle-brake-turn-light/Brake-Light-3.jpg">&lt;/a>&lt;em>typical cheap brake/turn light&lt;/em>&lt;/p>
+&lt;p>Something failed and the lights went out…at night…while riding. This upset the local authorities.&lt;/p></description></item><item><title>LED Strip Current Draw and Power Consumption – A Simple Reference Chart</title><link>https://pcbisolation.com/blog/led-strip-current-and-power/</link><pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/led-strip-current-and-power/</guid><description>&lt;p>&lt;a href="led-strip-1.jpg">&lt;img alt="led-strip-1" loading="lazy" src="https://pcbisolation.com/blog/led-strip-current-and-power/led-strip-1.jpg">&lt;/a>&lt;/p>
+&lt;p>Trying to figure out which power supply, transformer, or wire gauge you need for a LED strip project? Look no further.&lt;/p>
+&lt;p>The tables below show the current and power draw for RGB LED strips in both Metric and Imperial units.&lt;/p>
+&lt;h3 id="metric">Metric&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Type&lt;/th>
+&lt;th>&lt;strong>LEDs per meter&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>LEDs per segment&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Segment Length&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Segments per meter&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Current per meter&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Current per segment&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Power per meter&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Power per segment&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>RGB - One Color On&lt;/td>
+&lt;td>30&lt;/td>
+&lt;td>3&lt;/td>
+&lt;td>10 cm&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>0.2 A&lt;/td>
+&lt;td>20 mA&lt;/td>
+&lt;td>2.4 W&lt;/td>
+&lt;td>0.24 W&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RGB - All Colors On&lt;/td>
+&lt;td>30&lt;/td>
+&lt;td>3&lt;/td>
+&lt;td>10 cm&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>0.6 A&lt;/td>
+&lt;td>60 mA&lt;/td>
+&lt;td>7.2 W&lt;/td>
+&lt;td>0.72 W&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RGB - One Color On&lt;/td>
+&lt;td>60&lt;/td>
+&lt;td>3&lt;/td>
+&lt;td>5 cm&lt;/td>
+&lt;td>20&lt;/td>
+&lt;td>0.4 A&lt;/td>
+&lt;td>20 mA&lt;/td>
+&lt;td>4.8 W&lt;/td>
+&lt;td>0.24 W&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RGB - All Colors On&lt;/td>
+&lt;td>60&lt;/td>
+&lt;td>3&lt;/td>
+&lt;td>5 cm&lt;/td>
+&lt;td>20&lt;/td>
+&lt;td>1.2 A&lt;/td>
+&lt;td>60 mA&lt;/td>
+&lt;td>14.4 W&lt;/td>
+&lt;td>0.72 W&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="imperial">Imperial&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Type&lt;/th>
+&lt;th>&lt;strong>LEDs per foot&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>LEDs per segment&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Segment Length&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Segments per foot&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Current per foot&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Current per segment&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Power per foot&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Power per segment&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>RGB - One Color On&lt;/td>
+&lt;td>9&lt;/td>
+&lt;td>3&lt;/td>
+&lt;td>3.94 in&lt;/td>
+&lt;td>3&lt;/td>
+&lt;td>60 mA&lt;/td>
+&lt;td>20 mA&lt;/td>
+&lt;td>0.73 W&lt;/td>
+&lt;td>0.24 W&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RGB - All Colors On&lt;/td>
+&lt;td>9&lt;/td>
+&lt;td>3&lt;/td>
+&lt;td>3.94 in&lt;/td>
+&lt;td>3&lt;/td>
+&lt;td>180 mA&lt;/td>
+&lt;td>60 mA&lt;/td>
+&lt;td>2.2 W&lt;/td>
+&lt;td>0.72 W&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RGB - One Color On&lt;/td>
+&lt;td>18&lt;/td>
+&lt;td>3&lt;/td>
+&lt;td>1.97 in&lt;/td>
+&lt;td>6&lt;/td>
+&lt;td>120 mA&lt;/td>
+&lt;td>20 mA&lt;/td>
+&lt;td>1.46 W&lt;/td>
+&lt;td>0.24 W&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RGB - All Colors On&lt;/td>
+&lt;td>18&lt;/td>
+&lt;td>3&lt;/td>
+&lt;td>1.97 in&lt;/td>
+&lt;td>6&lt;/td>
+&lt;td>360 mA&lt;/td>
+&lt;td>60 mA&lt;/td>
+&lt;td>4.4 W&lt;/td>
+&lt;td>0.72 W&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Notice any errors? Comment below.&lt;/p></description></item></channel></rss>

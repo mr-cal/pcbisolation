@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Circuits on PCB Isolation</title><link>https://pcbisolation.com/categories/circuits/</link><description>Recent content in Circuits on PCB Isolation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://pcbisolation.com/categories/circuits/index.xml" rel="self" type="application/rss+xml"/><item><title>Repairing and Adding Bluetooth to an 80’s – 90’s AC Delco Radio</title><link>https://pcbisolation.com/blog/repairing-and-adding-bluetooth-to-a-90s-delco-radio/</link><pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/repairing-and-adding-bluetooth-to-a-90s-delco-radio/</guid><description>&lt;p>&lt;img loading="lazy" src="https://pcbisolation.com/blog/repairing-and-adding-bluetooth-to-a-90s-delco-radio/delco-stereo-7.jpg">&lt;em>AC Delco Model 16131355&lt;/em>&lt;/p>
+&lt;p>This post details the repair of a early 1991 AC Delco stereo. AC Delco made many variants of this stereo for both Chevrolet and GM cars, trucks, and vans from the early 80&amp;rsquo;s to the mid-90&amp;rsquo;s. While many of the stereos have more or less features (cassette players, radio presets, etc), the amplifier section of the radio is fairly standard and unchanged.&lt;/p>
+&lt;h2 id="internal-pinout-and-schematic">Internal Pinout and Schematic&lt;/h2>
+&lt;p>&lt;img loading="lazy" src="https://pcbisolation.com/blog/repairing-and-adding-bluetooth-to-a-90s-delco-radio/delco-stereo-11.jpg">&lt;/p></description></item><item><title>Swapping LEDs and PCB in a Dimmable Nightlight</title><link>https://pcbisolation.com/blog/nightlight-new-leds-and-pcb/</link><pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/nightlight-new-leds-and-pcb/</guid><description>&lt;p>I&amp;rsquo;ve looked and been unsuccessful in finding household nightlights that meet my criteria:&lt;/p>
+&lt;ul>
+&lt;li>auto on/off&lt;/li>
+&lt;li>dimmable&lt;/li>
+&lt;li>1800K CCT&lt;/li>
+&lt;li>decent CRI&lt;/li>
+&lt;li>uniform illumination&lt;/li>
+&lt;li>no flickering&lt;/li>
+&lt;li>power efficient&lt;/li>
+&lt;/ul>
+&lt;p>The closest I found was &lt;a href="https://www.amazon.com/gp/product/B078NH96RT/">this nightlight&lt;/a>. I like everything about it except the 3000K CCT. I believe it&amp;rsquo;s a bit too cool for a nightlight.&lt;/p>
+&lt;p>&lt;img loading="lazy" src="https://pcbisolation.com/blog/nightlight-new-leds-and-pcb/nightlight-01-1024x685.jpg">&lt;/p>
+&lt;p>I ended up swapping the 3000K LEDs for 2200K LEDs. I would have preferred 1800K, but was unable to source them on Digikey.&lt;/p></description></item><item><title>Octopart API Pricing Scheme</title><link>https://pcbisolation.com/blog/octopart-api-pricing/</link><pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/octopart-api-pricing/</guid><description>&lt;p>Octopart, the search engine for electronic and industrial parts, doesn&amp;rsquo;t post the pricing for their &lt;a href="https://octopart.com/api/home">API&lt;/a> on their website. There&amp;rsquo;s a bit of irony, since Octopart scrapes pricing from sites like Digikey, who also tries to &lt;a href="https://news.ycombinator.com/item?id=168735">hide their pricing&lt;/a>.&lt;/p>
+&lt;p>The Octopart API is a great resource for pricing BOMs. &lt;a href="https://github.com/xesscorp/KiCost">KiCost&lt;/a> is a great example of tool that uses the Octopart API (although KiCost has &lt;a href="https://github.com/xesscorp/KiCost/issues/357#issuecomment-495579269">moved away from Octopart&lt;/a> due to the paywall).&lt;/p>
+&lt;p>As of June 2019, the Octopart API is as follows:&lt;/p></description></item><item><title>How To Spot a Counterfeit or Refurbished Motorola Razr V3</title><link>https://pcbisolation.com/blog/how-to-spot-a-counterfeit-motorola-razr-v3/</link><pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/how-to-spot-a-counterfeit-motorola-razr-v3/</guid><description>&lt;p>&lt;em>&lt;strong>Note&lt;/strong> - There are many versions of the Motorola Razr, each with subtle differences. Even similar version have differences between countries. Not all of the differences of this counterfeit/refurbished Razr will apply to your Razr!&lt;/em>&lt;/p>
+&lt;p>This applies specifically to the Motorola Razr V3, but you can find similar discrepancies on a Razr V2 or V3i.&lt;/p>
+&lt;p>If you have a feeling the phone is fake, that&amp;rsquo;s a good indicator that it is.&lt;/p></description></item><item><title>Motorola Razr V3: Real vs Counterfeit Teardown</title><link>https://pcbisolation.com/blog/motorola-razr-v3-real-vs-counterfeit-teardown/</link><pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/motorola-razr-v3-real-vs-counterfeit-teardown/</guid><description>&lt;p>&lt;img loading="lazy" src="https://pcbisolation.com/blog/motorola-razr-v3-real-vs-counterfeit-teardown/razr-real-fake-teardown-01.jpg">Left- Authentic Razr V3, Right - Counterfeit Razr V3&lt;/p>
+&lt;p>I recently bought a Razr V3 on eBay. The listing below shows that it is made by Motorola. The pictures are of an authentic Razr. However I received a counterfeit Razr.&lt;/p>
+&lt;p>PS - I wrote a &lt;a href="https://pcbisolation.com/blog/how-to-spot-a-counterfeit-motorola-razr-v3/">quick guide on spotting counterfeit Motorola Razr V3&lt;/a>&amp;rsquo;s (without disassembly).&lt;/p>
+&lt;p>&lt;img loading="lazy" src="https://pcbisolation.com/blog/motorola-razr-v3-real-vs-counterfeit-teardown/razr-real-fake-teardown-34.jpg">&lt;/p>
+&lt;p>If the phone would have worked, I wouldn&amp;rsquo;t have cared. But it wouldn&amp;rsquo;t get a signal with my SIM, so I complained and got a refund.&lt;/p></description></item><item><title>Reflow Toaster Oven Build</title><link>https://pcbisolation.com/blog/reflow-toaster-oven-build/</link><pubDate>Fri, 14 Apr 2017 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/reflow-toaster-oven-build/</guid><description>&lt;p>&lt;a href="Reflow_Oven_5.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/reflow-toaster-oven-build/Reflow_Oven_5.jpg">&lt;/a>&lt;/p>
+&lt;p>This is a conversion of a convection toaster oven into a SMD reflow oven. I took a standard toaster oven then added insulation, ControlLeo2 controller, temperature sensor, cooling fan, and a front panel. It has excellent thermal properties and follows a reflow profile well.&lt;/p>
+&lt;p>I bought the &lt;a href="http://www.whizoo.com/">ControlLeo2 &lt;/a>for the reflow controller. It features PID control and is overall good. Still has shortcomings. I had to heavily modify it to make it fit in the front panel. A different LCD (8×2 or 8×4) and a new PCB layout would make this board slim enough to fit. Additionally, I had some issues with LCD corruption and had to modify the software. I am also disappointed with the lack of PID control for the cooling fan.&lt;/p></description></item><item><title>Simple Automatic Volume Control with Arduino</title><link>https://pcbisolation.com/blog/volume-control/</link><pubDate>Tue, 20 Sep 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/volume-control/</guid><description>&lt;p>This was for a pair of outdoor speakers in front of KMNR, my college radio station. KMNR was receiving complaints for having the music too loud at night.&lt;/p>
+&lt;p>An Arduino checks clock and adjusts volume using digital potentiometers This post is a walkthrough of the design and implementation.&lt;/p>
+&lt;h2 id="design">Design&lt;/h2>
+&lt;p>I interfaced an Arduino with a RTC (real time clock) to get the time. The RTC is Maxim&amp;rsquo;s DS1307 and it should last 17 years on it&amp;rsquo;s backup battery. It communicates over I2C and you can find already written code &lt;a href="https://www.sparkfun.com/products/12708">here&lt;/a>.&lt;/p></description></item><item><title>Designing a Single Op-Amp Triangle Wave Generator</title><link>https://pcbisolation.com/blog/triangle-wave-generator/</link><pubDate>Sun, 11 Sep 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/triangle-wave-generator/</guid><description>&lt;p>While this is not my design, this is my analysis and derivations.&lt;/p>
+&lt;p>I used this in my &lt;a href="https://pcbisolation.com/blog/led-sound-reactor/">sound reactive lighting project&lt;/a>. I had only one op-amp to spare for a triangle wave generator, so I couldn&amp;rsquo;t use the popular &lt;a href="http://www.circuitstoday.com/triangular-wave-generator">two op-amp design&lt;/a>.&lt;/p>
+&lt;p>For those who are not interested in the details, you can find the final formulas in an example here.&lt;/p>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>&lt;a href="triangle-wave-60.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/triangle-wave-generator/triangle-wave-60.jpg">&lt;/a>&lt;/p>
+&lt;p>&lt;em>view this circuit simulation&lt;a href="http://falstad.com/circuit/circuitjs.html?cct=$+17+0.000005+0.8031194996067259+65+5+50%0Aa+640+416+752+416+8+11.715+0+1000000+5.639494375233213+5.473682756038428+100000%0Ar+528+304+528+384+0+100000%0Ar+528+432+528+512+0+100000%0Ac+816+480+816+528+0+1.0000000000000001e-7+5.639494375233213%0Aw+528+304+528+272+0%0Aw+640+352+640+400+0%0Ar+656+496+704+496+0+520000%0Ar+752+416+816+416+0+24900%0Aw+640+432+528+432+0%0Aw+528+432+528+384+0%0Aw+640+432+640+496+0%0Aw+640+496+656+496+0%0Aw+704+496+752+496+0%0Aw+752+496+752+416+0%0Aw+816+416+816+480+0%0Aw+864+416+816+416+0%0Aw+640+352+816+352+0%0Aw+816+352+816+416+0%0Aw+528+512+528+528+0%0Ag+528+528+528+544+0%0Ag+816+528+816+544+0%0AR+528+272+528+240+0+0+40+12+0+0+0.5%0Ax+484+348+501+351+4+14+R1%0Ax+479+481+496+484+4+14+R2%0Ax+673+526+690+529+4+14+R3%0Ax+778+442+795+445+4+14+R4%0Ax+782+514+799+517+4+14+C1%0Ax+520+222+543+225+4+14+Vcc%0Ax+608+450+625+453+4+14+V3%0Ax+738+405+755+408+4+14+V1%0Ax+826+403+843+406+4+14+V2%0Ao+15+8+0+4362+10+0.1+0+2+15+3%0A">here&lt;/a>&lt;/em>&lt;/p>
+&lt;p>&lt;strong>This single op-amp circuit uses positive feedback with hysteresis to create a square wave, which charges and discharges an RC circuit, which roughly produces a triangle wave.&lt;/strong>&lt;/p></description></item><item><title>LED Sound Reactor – All Analog Approach</title><link>https://pcbisolation.com/blog/led-sound-reactor/</link><pubDate>Fri, 02 Sep 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/led-sound-reactor/</guid><description>&lt;p>&lt;a href="sound-reactor-1.jpg">&lt;img alt="sound-reactor-1" loading="lazy" src="https://pcbisolation.com/blog/led-sound-reactor/sound-reactor-1.jpg">&lt;/a>&lt;/p>
+&lt;p>In the winter of 2013, LED strip lighting hit its tipping point - a big rise in popularity.&lt;/p>
+&lt;p>A year beforehand, in 2012, I had an idea to build a controller for LED strip lighting. A sound reactive LED controller - to make the lights get brighter on the bass notes. Biggest problem - I didn&amp;rsquo;t know how to make one.&lt;/p>
+&lt;p>I finally started getting comfortable with electronics in 2014.&lt;/p></description></item><item><title>Motorcycle Brake/Turn Light PCB</title><link>https://pcbisolation.com/blog/motorcycle-brake-turn-light/</link><pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/motorcycle-brake-turn-light/</guid><description>&lt;p>A stranger off eBay got me pulled over, from across the world.&lt;/p>
+&lt;p>I have a 1983 Kawasaki CSR 305 that has a hint of a cafe racer. For the look, I replaced the stock brake and turn lights with a LED brake/turn light combo from eBay. It was manufactured overseas, &lt;em>very&lt;/em> cheaply.&lt;/p>
+&lt;p>&lt;a href="Brake-Light-3.jpg">&lt;img alt="Brake-Light-3" loading="lazy" src="https://pcbisolation.com/blog/motorcycle-brake-turn-light/Brake-Light-3.jpg">&lt;/a>&lt;em>typical cheap brake/turn light&lt;/em>&lt;/p>
+&lt;p>Something failed and the lights went out…at night…while riding. This upset the local authorities.&lt;/p></description></item><item><title>Best Shortcuts in CircuitMaker by Altium</title><link>https://pcbisolation.com/blog/circuitmaker-shortcuts/</link><pubDate>Thu, 30 Jun 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/circuitmaker-shortcuts/</guid><description>&lt;p>Here&amp;rsquo;s a list of the most useful shortcuts in CM - more graphical and intuitive than the built in shortcut list (Ribbon Bar-&amp;gt;View-&amp;gt;Shortcuts).&lt;/p>
+&lt;p>&lt;a href="shortcut_link.jpg">&lt;img alt="shortcut_link" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/shortcut_link.jpg">&lt;/a>&lt;em>Above - Shortcut List Location&lt;/em>&lt;/p>
+&lt;p>Pro Tip: When the tools aren&amp;rsquo;t working correctly, press ESC a few times.&lt;/p>
+&lt;h1 id="schematic-shortcuts">Schematic Shortcuts&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Crtl+Scroll&lt;/th>
+&lt;th>Zoom&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Center Button - Click Hold and Drag&lt;/td>
+&lt;td>Zoom&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Pg Up/Down&lt;/td>
+&lt;td>Zoom (Great for laptops)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Right Button - Click Hold Drag&lt;/td>
+&lt;td>Pan&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl+A&lt;/td>
+&lt;td>Select &lt;strong>A&lt;/strong> ll&lt;/td>
+&lt;td>&lt;a href="SchCtrlA.jpg">&lt;img alt="Sch+Ctrl+A" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/SchCtrlA.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Crtl+C&lt;/td>
+&lt;td>&lt;strong>C&lt;/strong> opy&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl+X&lt;/td>
+&lt;td>Cut&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl+V&lt;/td>
+&lt;td>Paste&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl+D&lt;/td>
+&lt;td>&lt;strong>D&lt;/strong> uplicate&lt;/td>
+&lt;td>&lt;a href="SchCtrlD.jpg">&lt;img alt="Sch+Ctrl+D" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/SchCtrlD.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>W&lt;/td>
+&lt;td>&lt;strong>W&lt;/strong> ire (for opening wiring tool)&lt;/td>
+&lt;td>&lt;a href="SchW.jpg">&lt;img alt="Sch+Ctrl+W" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/SchW.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Space&lt;/td>
+&lt;td>Change Wiring Path - Only works when wiring&lt;/td>
+&lt;td>&lt;a href="SchSpace2.jpg">&lt;img alt="Sch+Space2" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/SchSpace2.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Shift+Space&lt;/td>
+&lt;td>Change Wiring Angles - Only works when wiring&lt;/td>
+&lt;td>&lt;a href="SchShiftSpace3.jpg">&lt;img alt="Sch+Shift+Space3" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/SchShiftSpace3.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Space&lt;/td>
+&lt;td>Rotate Selected Object&lt;/td>
+&lt;td>&lt;a href="SchRotate.jpg">&lt;img alt="Sch+Rotate" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/SchRotate.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Tab or Double Click&lt;/td>
+&lt;td>Edit Properties of selected object&lt;/td>
+&lt;td>&lt;a href="SchTab.jpg">&lt;img alt="Sch+Tab" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/SchTab.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>G&lt;/td>
+&lt;td>Toggle &lt;strong>G&lt;/strong> rid Size (look in bottom left-hand corner)&lt;/td>
+&lt;td>&lt;a href="SchG.jpg">&lt;img alt="Sch+G" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/SchG.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Z&lt;/td>
+&lt;td>Add Ground&lt;/td>
+&lt;td>&lt;a href="SchZ.jpg">&lt;img alt="Sch+Z" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/SchZ.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>V&lt;/td>
+&lt;td>Add &lt;strong>V&lt;/strong> CC (press TAB to quickly change net name)&lt;/td>
+&lt;td>&lt;a href="SchV.jpg">&lt;img alt="Sch+V" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/SchV.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>T&lt;/td>
+&lt;td>&lt;strong>T&lt;/strong> ext (press TAB to change text)&lt;/td>
+&lt;td>&lt;a href="SchT.jpg">&lt;img alt="Sch+T" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/SchT.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>N&lt;/td>
+&lt;td>&lt;strong>N&lt;/strong> et Label (press TAB to change text)&lt;/td>
+&lt;td>&lt;a href="SchN.jpg">&lt;img alt="Sch+N" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/SchN.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>C&lt;/td>
+&lt;td>Place &lt;strong>C&lt;/strong> omponent&lt;/td>
+&lt;td>&lt;a href="SchC.jpg">&lt;img alt="Sch+C" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/SchC.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>X&lt;/td>
+&lt;td>Flip left/right (&lt;strong>X&lt;/strong> -Axis)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Y&lt;/td>
+&lt;td>Flip up/down (&lt;strong>Y&lt;/strong> -Axis)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Esc&lt;/td>
+&lt;td>&lt;strong>E&lt;/strong> xit Tool&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl+Tab&lt;/td>
+&lt;td>Go to Next Tab&lt;/td>
+&lt;td>&lt;a href="SchCrtlTab.jpg">&lt;img alt="Sch+Crtl+Tab" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/SchCrtlTab.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl+Shift+Tab&lt;/td>
+&lt;td>Go to Previous Tab&lt;/td>
+&lt;td>&lt;a href="SchCrtlTab.jpg">&lt;img alt="Sch+Crtl+Tab" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/SchCrtlTab.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="pcb-shortcuts">PCB Shortcuts&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Crtl+Scroll&lt;/th>
+&lt;th>Zoom&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Center Button - Click Hold and Drag&lt;/td>
+&lt;td>Zoom&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Pg Up/Down&lt;/td>
+&lt;td>Zoom (Great for laptops)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Shift+Pg Up/Down&lt;/td>
+&lt;td>Precise Zoom (Great for laptops)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Right Button - Click Hold Drag&lt;/td>
+&lt;td>Pan&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Esc&lt;/td>
+&lt;td>Exit Tool (so very useful)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl+A&lt;/td>
+&lt;td>Select All&lt;/td>
+&lt;td>&lt;a href="PCBCtrlA.jpg">&lt;img alt="PCB+Ctrl+A" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/PCBCtrlA.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Crtl+C&lt;/td>
+&lt;td>Copy&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl+X&lt;/td>
+&lt;td>Cut&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl+V&lt;/td>
+&lt;td>Paste&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>R&lt;/td>
+&lt;td>Route Trace&lt;/td>
+&lt;td>&lt;a href="PCBR.jpg">&lt;img alt="PCB+R" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/PCBR.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Space&lt;/td>
+&lt;td>Change Routing Path - Only works when routing&lt;/td>
+&lt;td>&lt;a href="PCBSpace2.jpg">&lt;img alt="PCB+Space2" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/PCBSpace2.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Shift+Space&lt;/td>
+&lt;td>Change Routing Angles - Only works when routing&lt;/td>
+&lt;td>&lt;a href="PCBShiftSpace2.jpg">&lt;img alt="PCB+Shift+Space2" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/PCBShiftSpace2.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Space&lt;/td>
+&lt;td>Rotate Selected Object&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>G&lt;/td>
+&lt;td>Toggle Grid Size (look in bottom left-hand corner)&lt;/td>
+&lt;td>&lt;a href="PCBG.jpg">&lt;img alt="PCB+G" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/PCBG.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Shift+S&lt;/td>
+&lt;td>Single Layer View (Toggle visibility of all layers except for the active layer)&lt;/td>
+&lt;td>&lt;a href="PCBShiftS3.jpg">&lt;img alt="PCB+Shift+S3" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/PCBShiftS3.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Backspace&lt;/td>
+&lt;td>Undo Trace Segements of selected trace&lt;/td>
+&lt;td>&lt;a href="PCBBackspace3.jpg">&lt;img alt="PCB+Backspace3" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/PCBBackspace3.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Tab or Double Click&lt;/td>
+&lt;td>Edit Properties of selected object&lt;/td>
+&lt;td>&lt;a href="PCBTab.jpg">&lt;img alt="PCB+Tab" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/PCBTab.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Have a favorite not listed? Leave it in the comments below.&lt;/p></description></item></channel></rss>

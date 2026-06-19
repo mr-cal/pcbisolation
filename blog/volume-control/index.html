@@ -1,0 +1,261 @@
+<!doctype html><html lang=en dir=auto data-theme=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Simple Automatic Volume Control with Arduino | PCB Isolation</title>
+<meta name=keywords content><meta name=description content="This was for a pair of outdoor speakers in front of KMNR, my college radio station. KMNR was receiving complaints for having the music too loud at night.
+An Arduino checks clock and adjusts volume using digital potentiometers This post is a walkthrough of the design and implementation.
+Design
+I interfaced an Arduino with a RTC (real time clock) to get the time. The RTC is Maxim&rsquo;s DS1307 and it should last 17 years on it&rsquo;s backup battery. It communicates over I2C and you can find already written code here."><meta name=author content="PCB Isolation"><link rel=canonical href=https://pcbisolation.com/blog/volume-control/><link crossorigin=anonymous href=/assets/css/stylesheet.bba1f2b9e702d80d048e11be078673a07bf37e53aade29a57d0afda5ade90eb4.css integrity="sha256-u6HyuecC2A0EjhG+B4ZzoHvzflOq3imlfQr9pa3pDrQ=" rel="preload stylesheet" as=style><link rel=icon href=https://pcbisolation.com/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://pcbisolation.com/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://pcbisolation.com/favicon-32x32.png><link rel=apple-touch-icon href=https://pcbisolation.com/apple-touch-icon.png><link rel=mask-icon href=https://pcbisolation.com/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=https://pcbisolation.com/blog/volume-control/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51);color-scheme:dark}.list{background:var(--theme)}.toc{background:var(--entry)}}</style></noscript><script>localStorage.getItem("pref-theme")==="dark"?document.querySelector("html").dataset.theme="dark":localStorage.getItem("pref-theme")==="light"?document.querySelector("html").dataset.theme="light":window.matchMedia("(prefers-color-scheme: dark)").matches?document.querySelector("html").dataset.theme="dark":document.querySelector("html").dataset.theme="light"</script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@5/dist/photoswipe.css><meta property="og:url" content="https://pcbisolation.com/blog/volume-control/"><meta property="og:site_name" content="PCB Isolation"><meta property="og:title" content="Simple Automatic Volume Control with Arduino"><meta property="og:description" content="This was for a pair of outdoor speakers in front of KMNR, my college radio station. KMNR was receiving complaints for having the music too loud at night.
+An Arduino checks clock and adjusts volume using digital potentiometers This post is a walkthrough of the design and implementation.
+Design I interfaced an Arduino with a RTC (real time clock) to get the time. The RTC is Maxim’s DS1307 and it should last 17 years on it’s backup battery. It communicates over I2C and you can find already written code here."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="blog"><meta property="article:published_time" content="2016-09-20T00:00:00+00:00"><meta property="article:modified_time" content="2016-09-20T00:00:00+00:00"><meta property="og:image" content="https://pcbisolation.com/blog/volume-control/audio-control-1.jpg"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://pcbisolation.com/blog/volume-control/audio-control-1.jpg"><meta name=twitter:title content="Simple Automatic Volume Control with Arduino"><meta name=twitter:description content="This was for a pair of outdoor speakers in front of KMNR, my college radio station. KMNR was receiving complaints for having the music too loud at night.
+An Arduino checks clock and adjusts volume using digital potentiometers This post is a walkthrough of the design and implementation.
+Design I interfaced an Arduino with a RTC (real time clock) to get the time. The RTC is Maxim’s DS1307 and it should last 17 years on it’s backup battery. It communicates over I2C and you can find already written code here."><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Blogs","item":"https://pcbisolation.com/blog/"},{"@type":"ListItem","position":2,"name":"Simple Automatic Volume Control with Arduino","item":"https://pcbisolation.com/blog/volume-control/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Simple Automatic Volume Control with Arduino","name":"Simple Automatic Volume Control with Arduino","description":"This was for a pair of outdoor speakers in front of KMNR, my college radio station. KMNR was receiving complaints for having the music too loud at night.\nAn Arduino checks clock and adjusts volume using digital potentiometers This post is a walkthrough of the design and implementation.\nDesign I interfaced an Arduino with a RTC (real time clock) to get the time. The RTC is Maxim\u0026rsquo;s DS1307 and it should last 17 years on it\u0026rsquo;s backup battery. It communicates over I2C and you can find already written code here.\n","keywords":[],"articleBody":"This was for a pair of outdoor speakers in front of KMNR, my college radio station. KMNR was receiving complaints for having the music too loud at night.\nAn Arduino checks clock and adjusts volume using digital potentiometers This post is a walkthrough of the design and implementation.\nDesign I interfaced an Arduino with a RTC (real time clock) to get the time. The RTC is Maxim’s DS1307 and it should last 17 years on it’s backup battery. It communicates over I2C and you can find already written code here.\nTo control the volume, I use a resistor and potentiometer to form a voltage divider. Both are 10k, so the audio output can be anywhere between 0% and 50% of the original input.\nThe potentiometers are Microchip’s MCP4131, which are adjusted digitally over SPI. It has 128 discrete values of resistance. The MCP4131 multiplexes SDI and SDO, but you shouldn’t ever have to read data out of the pot, you can ignore SDO. I had no problem controlling both pots via SPI at the same time.\nI also added a status LED to indicate when the audio was being attenuated.\nImplementation Bottom Board - Arduino Uno, Red Board - RTC, Green Board - Audio Control Circuit\nBoard mounted on a Lepai amp\nCode Ok, here’s where it gets ugly. The RTC doesn’t keep track of daylight savings, because it varies based on your location and government.\nSound Control /* * @name: SoundControl * @auth: John Kovacs * @date: 9 September 2016 * * This program is used to control the outdoor speakers of KMNR. * From 10a to 8p, we run the speakers at full volume. * * Past 8p, we attenuate the signal using a voltage divider. One of the * resistors is a digital potentiometer controlled via SPI. * * We use the ds1307 RTC to get time and date. Battery should last at least 17 years. * The ds1307 communicates over I2C. * * The Status LED indicates when the device is running at full volume. * */ #include #include byte clockAddress = 0x68; // I2C address for RTC byte potAddress = 0x00; // SPI address for pots byte CS = 10; // chip select, active low byte STATUS_LED = 8; byte HIGH_OUT = 100; // high resistance value (10k ohms / 128 ) byte LOW_OUT = 10; // low resistance value byte second, minute, hour, dayOfWeek, dayOfMonth, month, year; //////////////////////////////////////////////////////////////////// // @name: bcdToDec() // @desc: Convert binary coded decimal to normal decimal numbers //////////////////////////////////////////////////////////////////// byte bcdToDec(byte val) { return ( (val/16*10) + (val%16) ); } //////////////////////////////////////////////////////////////////// // @name: getDateDs1307() // @desc: Gets the date and time from the ds1307 and stores it // to global variables //////////////////////////////////////////////////////////////////// void getDateDs1307() { // Reset the register pointer Wire.beginTransmission(clockAddress); Wire.write(byte(0x00)); Wire.endTransmission(); Wire.requestFrom(int(clockAddress), 7); // A few of these need masks because certain bits are control bits second = bcdToDec(Wire.read() \u0026amp; 0x7f); minute = bcdToDec(Wire.read()); // Need to change this if 12 hour am/pm hour = bcdToDec(Wire.read() \u0026amp; 0x3f); dayOfWeek = bcdToDec(Wire.read()); dayOfMonth = bcdToDec(Wire.read()); month = bcdToDec(Wire.read()); year = bcdToDec(Wire.read()); } //////////////////////////////////////////////////////////////////// // @name: digitalPotWrite() // @desc: sends a byte value to the 10kohm pots // 0 = 0 ohms, 128 = 10k ohms //////////////////////////////////////////////////////////////////// int digitalPotWrite(byte value) { digitalWrite(CS, LOW); SPI.transfer(potAddress); SPI.transfer(value); digitalWrite(CS, HIGH); } //////////////////////////////////////////////////////////////////// // @name: setup() // @desc: runs once at startup //////////////////////////////////////////////////////////////////// void setup() { pinMode(STATUS_LED, OUTPUT); pinMode(CS, OUTPUT); Wire.begin(); SPI.begin(); } //////////////////////////////////////////////////////////////////// // @name: loop() // @desc: runs continously //////////////////////////////////////////////////////////////////// void loop() { getDateDs1307(); // if time is past the start time and before the end time if( hour \u0026gt;= 10 \u0026amp; hour \u0026lt; 20 ) { digitalPotWrite(HIGH_OUT); // then turn up the volume! digitalWrite(STATUS_LED, HIGH); } else { digitalPotWrite(LOW_OUT); // else, turn down the volume digitalWrite(STATUS_LED, LOW); } delay(300000); // run every 5 minutes } Sound Control with Daylights Savings Time /* * @name: SoundControlDST * @auth: John Kovacs * @date: 9 September 2016 * * This program is used to control the outdoor speakers of KMNR. * From 10a to 8p, we run the speakers at full volume. * * Past 8p, we attenuate the signal using a voltage divider. One of the * resistors is a digital potentiometer controlled via SPI. * * We use the ds1307 RTC to get time and date. Battery should last at least 17 years. * The ds1307 communicates over I2C. * * The Status LED indicates when the device is running at full volume. * * * DAYLIGHT SAVINGS * ------------------------------------- * The RTC does not track daylight savings. Government and location affect this * too much, so it is too difficult to implement. * * In the spring, an hour is gained. It happens on the second sunday of march. * Thus the spring change will occur between 3/8 and 3/14, regardless of the year. * * In the fall, hour is lost. It happens on the first sunday on november. * And the fall change will occur between 11/1 and 11/7, regardless of the year. * * We set this up in September, so we are in daylight savings. Ho hum. * * When daylight savings end (winter months), we will subtract an hour from our time * * Because we don't want to turn on daylight savings to early or too late, Craig and I * devised an overly complicated set of rules to change the times of the sound control. * * Here's how it works: * Between the dates 11/7 and 3/8, we subtract an hour from the start time. * Between the dates 11/1 and 3/14, we subtract an hour from the end time. * * So it doesn't make sense. Sue me. We're pretty sure this is the most surefire way * to maximize the amount of time we blast KMNR. * * The speakers should turn on at 10am and off at 8p. Exception - during the transition * periods 11/1 to 11/7 and 3/8 to 3/14, that won't be true. * */ #include #include byte clockAddress = 0x68; // I2C address for RTC byte potAddress = 0x00; // SPI address for pots byte CS = 10; // chip select, active low byte STATUS_LED = 8; byte HIGH_OUT = 100; // high resistance value (10k ohms / 128 ) byte LOW_OUT = 10; // low resistance value byte second, minute, hour, dayOfWeek, dayOfMonth, month, year; //////////////////////////////////////////////////////////////////// // @name: bcdToDec() // @desc: Convert binary coded decimal to normal decimal numbers //////////////////////////////////////////////////////////////////// byte bcdToDec(byte val) { return ( (val/16*10) + (val%16) ); } //////////////////////////////////////////////////////////////////// // @name: subtractBeg() // @desc: determines if we should subtract an hour from the // start of when the audio goes full volume // @retn: true, if an hour should be subtracted //////////////////////////////////////////////////////////////////// bool subtractBeg() { // if you are between 11/7 and 3/8 if( (month == 11 \u0026amp; dayOfMonth \u0026gt;= 7 ) | (month == 12) | (month == 1) | (month == 2) | (month == 3 \u0026amp; dayOfMonth \u0026lt;=8 ) ) { // then subtract an hour from the beginning of the day return true; } // else you are between 3/9 and 11/6, so do not subtract an hour return false; } //////////////////////////////////////////////////////////////////// // @name: subtractEnd() // @desc: determines if we should subtract an hour from the // end of when the audio goes full volume // @retn: true, if an hour should be subtracted //////////////////////////////////////////////////////////////////// bool subtractEnd() { // if you are between 11/1 and 3/14 if( (month == 11) | (month == 12) | (month == 1) | (month == 2) | (month == 3 \u0026amp; dayOfMonth \u0026lt;=14 ) ) { // then subtract an hour from the end of the day return true; } // else you are between 3/15 and 10/31, so do not subtract an hour return false; } //////////////////////////////////////////////////////////////////// // @name: getDateDs1307() // @desc: Gets the date and time from the ds1307 and stores it // to global variables //////////////////////////////////////////////////////////////////// void getDateDs1307() { // Reset the register pointer Wire.beginTransmission(clockAddress); Wire.write(byte(0x00)); Wire.endTransmission(); Wire.requestFrom(int(clockAddress), 7); // A few of these need masks because certain bits are control bits second = bcdToDec(Wire.read() \u0026amp; 0x7f); minute = bcdToDec(Wire.read()); // Need to change this if 12 hour am/pm hour = bcdToDec(Wire.read() \u0026amp; 0x3f); dayOfWeek = bcdToDec(Wire.read()); dayOfMonth = bcdToDec(Wire.read()); month = bcdToDec(Wire.read()); year = bcdToDec(Wire.read()); } //////////////////////////////////////////////////////////////////// // @name: digitalPotWrite() // @desc: sends a byte value to the 10kohm pots // 0 = 0 ohms, 128 = 10k ohms //////////////////////////////////////////////////////////////////// int digitalPotWrite(byte value) { digitalWrite(CS, LOW); SPI.transfer(potAddress); SPI.transfer(value); digitalWrite(CS, HIGH); } //////////////////////////////////////////////////////////////////// // @name: setup() // @desc: runs once at startup //////////////////////////////////////////////////////////////////// void setup() { pinMode(STATUS_LED, OUTPUT); pinMode(CS, OUTPUT); Wire.begin(); SPI.begin(); } //////////////////////////////////////////////////////////////////// // @name: loop() // @desc: runs continously //////////////////////////////////////////////////////////////////// void loop() { getDateDs1307(); // if time is past the start time and before the end time if( hour \u0026gt;= 10 - subtractBeg() \u0026amp; hour \u0026lt; 20 - subtractEnd() ) { digitalPotWrite(HIGH_OUT); // then turn up the volume! digitalWrite(STATUS_LED, HIGH); } else { digitalPotWrite(LOW_OUT); // else, turn down the volume digitalWrite(STATUS_LED, LOW); } delay(300000); } ","wordCount":"1497","inLanguage":"en","image":"https://pcbisolation.com/blog/volume-control/audio-control-1.jpg","datePublished":"2016-09-20T00:00:00Z","dateModified":"2016-09-20T00:00:00Z","author":{"@type":"Person","name":"PCB Isolation"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://pcbisolation.com/blog/volume-control/"},"publisher":{"@type":"Organization","name":"PCB Isolation","logo":{"@type":"ImageObject","url":"https://pcbisolation.com/favicon.ico"}}}</script></head><body id=top><header class=header><nav class=header-nav><div class=logo><a href=https://pcbisolation.com/ accesskey=h title="PCB Isolation (Alt + H)">PCB Isolation</a><div class=logo-switches><button id=theme-toggle class=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme"><svg class="moon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg class="sun" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu class=menu><li><a href=https://pcbisolation.com/blog/ title=Blog><span>Blog</span></a></li><li><a href=https://pcbisolation.com/projects/ title=Projects><span>Projects</span></a></li><li><a href=https://pcbisolation.com/3d-prints/ title="3D Prints"><span>3D Prints</span></a></li><li><a href=https://pcbisolation.com/contact/ title=Contact><span>Contact</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><nav class=breadcrumbs role=navigation aria-label=Breadcrumb><a href=/>Home</a>
+<svg viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"/></svg>
+<a href=/blog/>Blogs</a><svg viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"/></svg></nav><h1 class="post-title entry-hint-parent">Simple Automatic Volume Control with Arduino</h1><div class=post-meta><span title='2016-09-20 00:00:00 +0000 UTC'>September 20, 2016</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>PCB Isolation</span></div></header><div class="post-content md-content"><p>This was for a pair of outdoor speakers in front of KMNR, my college radio station. KMNR was receiving complaints for having the music too loud at night.</p><p>An Arduino checks clock and adjusts volume using digital potentiometers This post is a walkthrough of the design and implementation.</p><h2 id=design>Design<a hidden class=anchor aria-hidden=true href=#design>#</a></h2><p>I interfaced an Arduino with a RTC (real time clock) to get the time. The RTC is Maxim&rsquo;s DS1307 and it should last 17 years on it&rsquo;s backup battery. It communicates over I2C and you can find already written code <a href=https://www.sparkfun.com/products/12708>here</a>.</p><p>To control the volume, I use a resistor and potentiometer to form a voltage divider. Both are 10k, so the audio output can be anywhere between 0% and 50% of the original input.</p><p>The potentiometers are Microchip&rsquo;s <a href=http://ww1.microchip.com/downloads/en/DeviceDoc/22060b.pdf>MCP4131</a>, which are adjusted digitally over SPI. It has 128 discrete values of resistance. The MCP4131 multiplexes SDI and SDO, but you shouldn&rsquo;t ever have to read data out of the pot, you can ignore SDO. I had no problem controlling both pots via SPI at the same time.</p><p>I also added a status LED to indicate when the audio was being attenuated.</p><p><a href=audio-control-1.jpg><img alt=audio-control-1 loading=lazy src=/blog/volume-control/audio-control-1.jpg></a></p><h2 id=implementation>Implementation<a hidden class=anchor aria-hidden=true href=#implementation>#</a></h2><p><a href=audio-control-2.jpg><img alt=audio-control-2 loading=lazy src=/blog/volume-control/audio-control-2.jpg></a><em>Bottom Board - Arduino Uno, Red Board - RTC, Green Board - Audio Control Circuit</em></p><p><a href=audio-control-3.jpg><img alt=audio-control-3 loading=lazy src=/blog/volume-control/audio-control-3.jpg></a><em>Board mounted on a Lepai amp</em></p><h2 id=code>Code<a hidden class=anchor aria-hidden=true href=#code>#</a></h2><p>Ok, here&rsquo;s where it gets ugly. The RTC doesn&rsquo;t keep track of daylight savings, because it varies based on your location and government.</p><h3 id=sound-control>Sound Control<a hidden class=anchor aria-hidden=true href=#sound-control>#</a></h3><pre><code>/*
+* @name: SoundControl
+* @auth: John Kovacs
+* @date: 9 September 2016
+*
+* This program is used to control the outdoor speakers of KMNR.
+* From 10a to 8p, we run the speakers at full volume.
+*
+* Past 8p, we attenuate the signal using a voltage divider. One of the
+* resistors is a digital potentiometer controlled via SPI.
+*
+* We use the ds1307 RTC to get time and date. Battery should last at least 17 years.
+* The ds1307 communicates over I2C.
+*
+* The Status LED indicates when the device is running at full volume.
+*
+*/
+
+#include
+#include
+
+byte clockAddress = 0x68; // I2C address for RTC
+byte potAddress = 0x00; // SPI address for pots
+
+byte CS = 10; // chip select, active low
+byte STATUS_LED = 8;
+
+byte HIGH_OUT = 100; // high resistance value (10k ohms / 128 )
+byte LOW_OUT = 10; // low resistance value
+
+byte second, minute, hour, dayOfWeek, dayOfMonth, month, year;
+
+////////////////////////////////////////////////////////////////////
+// @name: bcdToDec()
+// @desc: Convert binary coded decimal to normal decimal numbers
+////////////////////////////////////////////////////////////////////
+byte bcdToDec(byte val)
+{
+return ( (val/16*10) + (val%16) );
+}
+
+////////////////////////////////////////////////////////////////////
+// @name: getDateDs1307()
+// @desc: Gets the date and time from the ds1307 and stores it
+// to global variables
+////////////////////////////////////////////////////////////////////
+void getDateDs1307() {
+// Reset the register pointer
+Wire.beginTransmission(clockAddress);
+Wire.write(byte(0x00));
+Wire.endTransmission();
+
+Wire.requestFrom(int(clockAddress), 7);
+
+// A few of these need masks because certain bits are control bits
+second = bcdToDec(Wire.read() &amp;amp; 0x7f);
+minute = bcdToDec(Wire.read());
+
+// Need to change this if 12 hour am/pm
+hour = bcdToDec(Wire.read() &amp;amp; 0x3f);
+dayOfWeek = bcdToDec(Wire.read());
+dayOfMonth = bcdToDec(Wire.read());
+month = bcdToDec(Wire.read());
+year = bcdToDec(Wire.read());
+
+}
+
+////////////////////////////////////////////////////////////////////
+// @name: digitalPotWrite()
+// @desc: sends a byte value to the 10kohm pots
+// 0 = 0 ohms, 128 = 10k ohms
+////////////////////////////////////////////////////////////////////
+int digitalPotWrite(byte value)
+{
+digitalWrite(CS, LOW);
+SPI.transfer(potAddress);
+SPI.transfer(value);
+digitalWrite(CS, HIGH);
+}
+
+////////////////////////////////////////////////////////////////////
+// @name: setup()
+// @desc: runs once at startup
+////////////////////////////////////////////////////////////////////
+void setup() {
+pinMode(STATUS_LED, OUTPUT);
+pinMode(CS, OUTPUT);
+Wire.begin();
+SPI.begin();
+}
+
+////////////////////////////////////////////////////////////////////
+// @name: loop()
+// @desc: runs continously
+////////////////////////////////////////////////////////////////////
+void loop() {
+
+getDateDs1307();
+
+// if time is past the start time and before the end time
+if( hour &amp;gt;= 10 &amp;amp; hour &amp;lt; 20 ) {
+digitalPotWrite(HIGH_OUT); // then turn up the volume!
+digitalWrite(STATUS_LED, HIGH);
+}
+else {
+digitalPotWrite(LOW_OUT); // else, turn down the volume
+digitalWrite(STATUS_LED, LOW);
+}
+
+delay(300000); // run every 5 minutes
+}
+</code></pre><h3 id=sound-control-with-daylights-savings-time>Sound Control with Daylights Savings Time<a hidden class=anchor aria-hidden=true href=#sound-control-with-daylights-savings-time>#</a></h3><pre><code>/*
+* @name: SoundControlDST
+* @auth: John Kovacs
+* @date: 9 September 2016
+*
+* This program is used to control the outdoor speakers of KMNR.
+* From 10a to 8p, we run the speakers at full volume.
+*
+* Past 8p, we attenuate the signal using a voltage divider. One of the
+* resistors is a digital potentiometer controlled via SPI.
+*
+* We use the ds1307 RTC to get time and date. Battery should last at least 17 years.
+* The ds1307 communicates over I2C.
+*
+* The Status LED indicates when the device is running at full volume.
+*
+*
+* DAYLIGHT SAVINGS
+* -------------------------------------
+* The RTC does not track daylight savings. Government and location affect this
+* too much, so it is too difficult to implement.
+*
+* In the spring, an hour is gained. It happens on the second sunday of march.
+* Thus the spring change will occur between 3/8 and 3/14, regardless of the year.
+*
+* In the fall, hour is lost. It happens on the first sunday on november.
+* And the fall change will occur between 11/1 and 11/7, regardless of the year.
+*
+* We set this up in September, so we are in daylight savings. Ho hum.
+*
+* When daylight savings end (winter months), we will subtract an hour from our time
+*
+* Because we don't want to turn on daylight savings to early or too late, Craig and I
+* devised an overly complicated set of rules to change the times of the sound control.
+*
+* Here's how it works:
+* Between the dates 11/7 and 3/8, we subtract an hour from the start time.
+* Between the dates 11/1 and 3/14, we subtract an hour from the end time.
+*
+* So it doesn't make sense. Sue me. We're pretty sure this is the most surefire way
+* to maximize the amount of time we blast KMNR.
+*
+* The speakers should turn on at 10am and off at 8p. Exception - during the transition
+* periods 11/1 to 11/7 and 3/8 to 3/14, that won't be true.
+*
+*/
+
+#include
+#include
+
+byte clockAddress = 0x68; // I2C address for RTC
+byte potAddress = 0x00; // SPI address for pots
+
+byte CS = 10; // chip select, active low
+byte STATUS_LED = 8;
+
+byte HIGH_OUT = 100; // high resistance value (10k ohms / 128 )
+byte LOW_OUT = 10; // low resistance value
+
+byte second, minute, hour, dayOfWeek, dayOfMonth, month, year;
+
+////////////////////////////////////////////////////////////////////
+// @name: bcdToDec()
+// @desc: Convert binary coded decimal to normal decimal numbers
+////////////////////////////////////////////////////////////////////
+byte bcdToDec(byte val)
+{
+return ( (val/16*10) + (val%16) );
+}
+
+////////////////////////////////////////////////////////////////////
+// @name: subtractBeg()
+// @desc: determines if we should subtract an hour from the
+// start of when the audio goes full volume
+// @retn: true, if an hour should be subtracted
+////////////////////////////////////////////////////////////////////
+bool subtractBeg()
+{
+// if you are between 11/7 and 3/8
+if( (month == 11 &amp;amp; dayOfMonth &amp;gt;= 7 ) |
+(month == 12) |
+(month == 1) |
+(month == 2) |
+(month == 3 &amp;amp; dayOfMonth &amp;lt;=8 ) )
+{
+// then subtract an hour from the beginning of the day
+return true;
+}
+
+// else you are between 3/9 and 11/6, so do not subtract an hour
+return false;
+
+}
+
+////////////////////////////////////////////////////////////////////
+// @name: subtractEnd()
+// @desc: determines if we should subtract an hour from the
+// end of when the audio goes full volume
+// @retn: true, if an hour should be subtracted
+////////////////////////////////////////////////////////////////////
+bool subtractEnd()
+{
+// if you are between 11/1 and 3/14
+if( (month == 11) |
+(month == 12) |
+(month == 1) |
+(month == 2) |
+(month == 3 &amp;amp; dayOfMonth &amp;lt;=14 ) ) { // then subtract an hour from the end of the day return true; } // else you are between 3/15 and 10/31, so do not subtract an hour return false; } //////////////////////////////////////////////////////////////////// // @name: getDateDs1307() // @desc: Gets the date and time from the ds1307 and stores it // to global variables //////////////////////////////////////////////////////////////////// void getDateDs1307() { // Reset the register pointer Wire.beginTransmission(clockAddress); Wire.write(byte(0x00)); Wire.endTransmission(); Wire.requestFrom(int(clockAddress), 7); // A few of these need masks because certain bits are control bits second = bcdToDec(Wire.read() &amp;amp; 0x7f); minute = bcdToDec(Wire.read()); // Need to change this if 12 hour am/pm hour = bcdToDec(Wire.read() &amp;amp; 0x3f); dayOfWeek = bcdToDec(Wire.read()); dayOfMonth = bcdToDec(Wire.read()); month = bcdToDec(Wire.read()); year = bcdToDec(Wire.read()); } //////////////////////////////////////////////////////////////////// // @name: digitalPotWrite() // @desc: sends a byte value to the 10kohm pots // 0 = 0 ohms, 128 = 10k ohms //////////////////////////////////////////////////////////////////// int digitalPotWrite(byte value) { digitalWrite(CS, LOW); SPI.transfer(potAddress); SPI.transfer(value); digitalWrite(CS, HIGH); } //////////////////////////////////////////////////////////////////// // @name: setup() // @desc: runs once at startup //////////////////////////////////////////////////////////////////// void setup() { pinMode(STATUS_LED, OUTPUT); pinMode(CS, OUTPUT); Wire.begin(); SPI.begin(); } //////////////////////////////////////////////////////////////////// // @name: loop() // @desc: runs continously //////////////////////////////////////////////////////////////////// void loop() { getDateDs1307(); // if time is past the start time and before the end time if( hour &amp;gt;= 10 - subtractBeg() &amp;amp; hour &amp;lt; 20 - subtractEnd() ) {
+digitalPotWrite(HIGH_OUT); // then turn up the volume!
+digitalWrite(STATUS_LED, HIGH);
+}
+else {
+digitalPotWrite(LOW_OUT); // else, turn down the volume
+digitalWrite(STATUS_LED, LOW);
+}
+
+delay(300000);
+}
+</code></pre></div><footer class=post-footer><ul class=post-tags></ul><nav class=paginav><a class=prev href=https://pcbisolation.com/blog/kz-csr-250-205-manual/><span class=title>« Prev</span>
+<span>Kawasaki CSR 250 & 305 1979 – 1982 Manuals</span>
+</a><a class=next href=https://pcbisolation.com/blog/triangle-wave-generator/><span class=title>Next »</span>
+<span>Designing a Single Op-Amp Triangle Wave Generator</span></a></nav></footer><div class=remark42-container style=margin-top:2rem><div id=remark42></div><script>var remark_config={host:"https://comments.pcbisolation.com",site_id:"pcbisolation",components:["embed"],theme:window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"};(function(){var e=document,t=e.createElement("script");t.src=remark_config.host+"/web/embed.js",t.defer=!0,(e.head||e.body).appendChild(t)})()</script></div></article></main><footer class=footer><span>&copy; 2026 <a href=https://pcbisolation.com/>PCB Isolation</a></span> ·
+<span>Powered by
+<a href="https://gohugo.io/?utm_source=papermod" rel=noopener target=_blank>Hugo</a> &
+        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top id=top-link class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey=g><svg viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up"><polyline points="17 11 12 6 7 11"/><polyline points="17 18 12 13 7 18"/></svg>
+</a><script type=module>
+import PhotoSwipeLightbox from 'https://cdn.jsdelivr.net/npm/photoswipe@5/dist/photoswipe-lightbox.esm.js';
+
+document.querySelectorAll('.figure-gallery').forEach((gallery, i) => {
+  if (!gallery.id) gallery.id = 'pswp-gallery-' + i;
+  const lightbox = new PhotoSwipeLightbox({
+    gallery: '#' + gallery.id,
+    children: 'a',
+    pswpModule: () => import('https://cdn.jsdelivr.net/npm/photoswipe@5/dist/photoswipe.esm.js'),
+    wheelToZoom: true,
+    bgOpacity: 0.9,
+  });
+  lightbox.init();
+});
+</script><script>let menu=document.getElementById("menu");if(menu){const e=localStorage.getItem("menu-scroll-position");e&&(menu.scrollLeft=parseInt(e,10)),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}}document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var toplink=document.getElementById("top-link");window.onscroll=function(){const e=window.innerHeight;document.body.scrollTop>e||document.documentElement.scrollTop>e?toplink.classList.remove("hidden"):toplink.classList.add("hidden")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{const e=document.querySelector("html");e.dataset.theme==="dark"?(e.dataset.theme="light",localStorage.setItem("pref-theme","light")):(e.dataset.theme="dark",localStorage.setItem("pref-theme","dark"))})</script><script>document.querySelectorAll("pre > code").forEach(e=>{const n=e.parentNode.parentNode,t=document.createElement("button");t.classList.add("copy-code"),t.innerHTML="copy";function s(){t.innerHTML="copied!",setTimeout(()=>{t.innerHTML="copy"},2e3)}t.addEventListener("click",t=>{if("clipboard"in navigator){navigator.clipboard.writeText(e.textContent),s();return}const n=document.createRange();n.selectNodeContents(e);const o=window.getSelection();o.removeAllRanges(),o.addRange(n);try{document.execCommand("copy"),s()}catch{}o.removeRange(n)}),n.classList.contains("highlight")?n.appendChild(t):n.parentNode.firstChild==n||(e.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName=="TABLE"?e.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(t):e.parentNode.appendChild(t))})</script></body></html>

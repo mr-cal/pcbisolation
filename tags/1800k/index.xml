@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>1800K on PCB Isolation</title><link>https://pcbisolation.com/tags/1800k/</link><description>Recent content in 1800K on PCB Isolation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 11 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://pcbisolation.com/tags/1800k/index.xml" rel="self" type="application/rss+xml"/><item><title>Swapping LEDs and PCB in a Dimmable Nightlight</title><link>https://pcbisolation.com/blog/nightlight-new-leds-and-pcb/</link><pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/nightlight-new-leds-and-pcb/</guid><description>&lt;p>I&amp;rsquo;ve looked and been unsuccessful in finding household nightlights that meet my criteria:&lt;/p>
+&lt;ul>
+&lt;li>auto on/off&lt;/li>
+&lt;li>dimmable&lt;/li>
+&lt;li>1800K CCT&lt;/li>
+&lt;li>decent CRI&lt;/li>
+&lt;li>uniform illumination&lt;/li>
+&lt;li>no flickering&lt;/li>
+&lt;li>power efficient&lt;/li>
+&lt;/ul>
+&lt;p>The closest I found was &lt;a href="https://www.amazon.com/gp/product/B078NH96RT/">this nightlight&lt;/a>. I like everything about it except the 3000K CCT. I believe it&amp;rsquo;s a bit too cool for a nightlight.&lt;/p>
+&lt;p>&lt;img loading="lazy" src="https://pcbisolation.com/blog/nightlight-new-leds-and-pcb/nightlight-01-1024x685.jpg">&lt;/p>
+&lt;p>I ended up swapping the 3000K LEDs for 2200K LEDs. I would have preferred 1800K, but was unable to source them on Digikey.&lt;/p></description></item></channel></rss>

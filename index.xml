@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>PCB Isolation</title><link>https://pcbisolation.com/</link><description>Recent content on PCB Isolation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 04 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://pcbisolation.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Building a standing desk with a charging drawer and cable tray</title><link>https://pcbisolation.com/blog/building-a-standing-desk-with-a-charging-drawer-and-cable-tray/</link><pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/building-a-standing-desk-with-a-charging-drawer-and-cable-tray/</guid><description>&lt;p>&lt;a href="standing-desk-14.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/building-a-standing-desk-with-a-charging-drawer-and-cable-tray/standing-desk-14.jpg">&lt;/a>&lt;/p>
+&lt;p>This standing desk features a drawer for charging electronics, a cable tray for managing cables, Blum drawer sliders, backlights, outlets on the sides, and a hidden desk-height controller.&lt;/p>
+&lt;h2 id="hardware">Hardware&lt;/h2>
+&lt;ul>
+&lt;li>Frame - &lt;a href="https://www.amazon.com/dp/B09DY37YSP">Topsky electric adjustable standing desk frame&lt;/a>&lt;/li>
+&lt;li>Sliders - Blum &lt;a href="https://www.amazon.com/dp/B018UQC602">12″&lt;/a> and &lt;a href="https://www.amazon.com/dp/B018UQC63O">15″ Tandem drawer slides&lt;/a>&lt;/li>
+&lt;li>Outlets - &lt;a href="https://www.amazon.com/dp/B08ZNSL1DB">Anker AC / USB-C outlet&lt;/a>&lt;/li>
+&lt;li>USB charger - &lt;a href="https://www.amazon.com/dp/B0CM6WDH6S">112W Anker USB desktop charger&lt;/a>&lt;/li>
+&lt;li>Power strips - &lt;a href="https://www.amazon.com/dp/B014EKQ5AA">Amazon Basics 6 outlet surge protectors&lt;/a>&lt;/li>
+&lt;li>Extension cord - &lt;a href="https://www.amazon.com/dp/B0CHYYRR6B">TROND Flat 3 outlet extension cord, 10ft&lt;/a>&lt;/li>
+&lt;li>Backlight dimmer - &lt;a href="https://www.amazon.com/dp/B07Y2XC225">ALOVECO 12 Volt DC Dimmer&lt;/a>&lt;/li>
+&lt;li>Backlights - &lt;a href="https://www.amazon.com/dp/B0C4DY6JZS">COB 12V LED Strips, 3000K&lt;/a>&lt;/li>
+&lt;li>Monitor arms - &lt;a href="https://www.amazon.com/dp/B0C8D3SPTX">ErgoFocus Single Monitor Desk Mount&lt;/a>&lt;/li>
+&lt;li>Monitors - &lt;a href="https://www.amazon.com/Dell-Inspiron-5400-Touchscreen-Computer/dp/B0B1319VJ4">Dell G3223Q 32-Inch 4K, 144Hz &lt;/a>&lt;/li>
+&lt;li>Webcam - &lt;a href="https://www.amazon.com/Anker-PowerConf-Microphones-Adjustable-Correction/dp/B09MFMTMPD">Anker C200 Webcam&lt;/a>&lt;/li>
+&lt;li>Webcam arm - &lt;a href="https://www.amazon.com/dp/B08LYPGW1K">GorillaPod Arm Smart&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>The lumber cutlist can be found at the bottom of this post.&lt;/p></description></item><item><title>Fabricating a frameless cedar gate</title><link>https://pcbisolation.com/blog/fabricating-a-frameless-cedar-gate/</link><pubDate>Mon, 09 Oct 2023 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/fabricating-a-frameless-cedar-gate/</guid><description>&lt;p>This gate has no exterior visible from the front and opens large enough for a vehicle and trailer to drive through.&lt;/p>
+&lt;h2 id="design">Design&lt;/h2>
+&lt;div class="figure-gallery"
+style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:0.75rem;margin:1.5rem 0;">
+&lt;a href="frameless-gate-01.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="frameless-gate-01.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;a href="frameless-gate-02.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="frameless-gate-02.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;/div>
+&lt;p>You can download this as a PDF &lt;a href="frameless-gate-1.pdf">here&lt;/a>.&lt;/p>
+&lt;div class="pdf-embed" style="margin:1.5rem 0;">
+&lt;iframe src="frameless-gate-1.pdf"
+width="100%"
+height="500px"
+style="border:1px solid #444;border-radius:4px;"
+loading="lazy">
+&lt;p>Your browser does not support embedded PDFs.
+&lt;a href="frameless-gate-1.pdf">Download the PDF&lt;/a> instead.&lt;/p>
+&lt;/iframe>
+&lt;/div>
+&lt;h2 id="frame">Frame&lt;/h2>
+&lt;p>&lt;a href="frameless-gate-10.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/fabricating-a-frameless-cedar-gate/frameless-gate-10.jpg">&lt;/a>&lt;/p>
+&lt;p>The frame is made of 3/4″ angle iron at 1/8″ thick as the frame. I ended up double up on the angle iron (welding them back-to-back). I wish I would have used a thinner-walled square tube instead. It would have been much stronger for the same weight and price.&lt;/p></description></item><item><title>Making a dual jet ski trailer from a boat trailer</title><link>https://pcbisolation.com/blog/making-a-dual-jet-ski-trailer-from-a-boat-trailer/</link><pubDate>Mon, 09 Oct 2023 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/making-a-dual-jet-ski-trailer-from-a-boat-trailer/</guid><description>&lt;p>I bought an old boat trailer and converted it into a dual jet ski trailer.&lt;/p>
+&lt;h2 id="boat-trailer">Boat trailer&lt;/h2>
+&lt;p>&lt;a href="jet-ski-trailer-01.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/making-a-dual-jet-ski-trailer-from-a-boat-trailer/jet-ski-trailer-01.jpg">&lt;/a>&lt;/p>
+&lt;p>Originally, someone stripped this boat trailer in preparation for making a utility trailer. They gave up on the project and I bought it for $250.&lt;/p>
+&lt;h2 id="design">Design&lt;/h2>
+&lt;div class="figure-gallery"
+style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:0.75rem;margin:1.5rem 0;">
+&lt;a href="jet-ski-trailer-11.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="jet-ski-trailer-11.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;a href="jet-ski-trailer-10.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="jet-ski-trailer-10.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;/div>
+&lt;p>In Solidworks, I added the rails for the jet skis to sit on and adjustable winching mechanisms.&lt;/p></description></item><item><title>London Good Delivery Bar Ingot Mold – Design Drawings</title><link>https://pcbisolation.com/blog/london-good-delivery-bar-ingot-mold-drawings/</link><pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/london-good-delivery-bar-ingot-mold-drawings/</guid><description>&lt;p>&lt;a href="https://en.wikipedia.org/wiki/Good_Delivery">London Good Delivery Bars&lt;/a> define &lt;a href="https://www.lbma.org.uk/publications/good-delivery-rules/technical-specifications">standards&lt;/a> for gold and silver ingots. These are usually the ingots you see in movies. This post contains drawings I created for molds made from 1/4″ (6mm) mild steel.&lt;/p>
+&lt;p>&lt;a href="IMG_0431-scaled.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/london-good-delivery-bar-ingot-mold-drawings/IMG_0431-1024x768.jpg">&lt;/a>&lt;/p>
+&lt;p>Below you&amp;rsquo;ll find a pdf and jpegs with the dimensions.&lt;/p>
+&lt;p>&lt;a href="london-good-delivery-bar-ingot-mold.pdf">london-good-delivery-bar-ingot-mold&lt;/a>&lt;a href="london-good-delivery-bar-ingot-mold.pdf">Download&lt;/a>&lt;/p>
+&lt;p>&lt;a href="ingot-mold-page-1.png">&lt;img loading="lazy" src="https://pcbisolation.com/blog/london-good-delivery-bar-ingot-mold-drawings/ingot-mold-page-1.png">&lt;/a> &lt;a href="ingot-mold-page-2.png">&lt;img loading="lazy" src="https://pcbisolation.com/blog/london-good-delivery-bar-ingot-mold-drawings/ingot-mold-page-2.png">&lt;/a>&lt;/p>
+&lt;p>See the creation of the molds below:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Nej6UTunMn4?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
+&lt;/div></description></item><item><title>Wooden Garden/Wedding Arbor Plans</title><link>https://pcbisolation.com/blog/wooden-garden-wedding-arbor-plans/</link><pubDate>Sun, 16 Oct 2022 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/wooden-garden-wedding-arbor-plans/</guid><description>&lt;p>This post contains plans for a wooden arbor or archway for a garden or wedding.&lt;/p>
+&lt;p>&lt;a href="arbor-04-scaled.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/wooden-garden-wedding-arbor-plans/arbor-04-1024x682.jpg">&lt;/a>&lt;/p>
+&lt;p>I used cedar for this arbor. The total cost was about $200. You can find the plans at the bottom of this post. Otherwise, read on for some notes and details about the process.&lt;/p>
+&lt;h2 id="building-the-arbor">Building the arbor&lt;/h2>
+&lt;p>The curved section is the most challenging part of the design. There are 3 approaches:&lt;/p>
+&lt;h4 id="option-1---steam-formingbending">Option 1 - Steam forming/bending&lt;/h4>
+&lt;p>This involves heating and steaming wood, then bending it into the right shape. I chose not to do this because of a lack of experience and equipment.&lt;/p></description></item><item><title>Waterproof, Sound Proof Generator Enclosure</title><link>https://pcbisolation.com/blog/waterproof-sound-proof-generator-enclosure/</link><pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/waterproof-sound-proof-generator-enclosure/</guid><description>&lt;div class="figure-gallery"
+style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:0.75rem;margin:1.5rem 0;">
+&lt;a href="generator-enclosure-13.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="generator-enclosure-13.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;a href="generator-enclosure-12.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="generator-enclosure-12.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;/div>
+&lt;p>For RVs and vans, generators are very useful but very loud. I wanted an enclosure that is both waterproof and noise dampening. It&amp;rsquo;s hard to find something like this, because it&amp;rsquo;s not easy to encase an engine and keep it cool.&lt;/p>
+&lt;p>In the end, I failed to keep the generator cool enough to for more than 2 hours.&lt;/p>
+&lt;p>I used a &lt;a href="https://www.amazon.com/WEN-56235i-2350-Watt-Generator-Lightweight/dp/B085828BQ6">Wen 56235i&lt;/a> generator. It is a cheaper variant of the Honda EU2200 series.&lt;/p></description></item><item><title>Integrate Zooz ZEN34 with Home Assistant</title><link>https://pcbisolation.com/blog/integrate-zooz-zen34-with-home-assistant/</link><pubDate>Sat, 26 Jun 2021 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/integrate-zooz-zen34-with-home-assistant/</guid><description>&lt;p>This overviews adding a Zooz ZEN34 smart switch to Home Assistant and using it to trigger automations.&lt;/p>
+&lt;p>This guide was written for HA 2021.6.6.&lt;/p>
+&lt;h2 id="prerequisites">Prerequisites&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a href="https://www.home-assistant.io/">Home Assistant&lt;/a>&lt;/li>
+&lt;li>Z-Wave USB Hub&lt;br>
+I recommend either the &lt;a href="https://aeotec.com/z-wave-usb-stick/z-stick-7.html">Aeotec Z-Stick 7&lt;/a> or &lt;a href="https://aeotec.com/z-wave-usb-stick/">Z-Stick 5&lt;/a>.&lt;/li>
+&lt;li>Z-Wave JS integration on Home Assistant&lt;br>
+See setup instructions &lt;a href="https://help.aeotec.com/support/solutions/articles/6000246295-setup-home-assistant-with-z-stick-7">here&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="https://www.amazon.com/gp/product/B08TMWLY74">Zooz ZEN34 Smart Wireless Z-Wave Switch&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;h2 id="add-zen34-to-z-wavejs">Add ZEN34 to Z-WaveJS&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Remove paper battery tabs from switch to power on switch&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Login to Home Assistant&lt;/p></description></item><item><title>Yeti Rambler 1 Gallon Jug vs Ozark Trail 1 Gallon Jug</title><link>https://pcbisolation.com/blog/yeti-rambler-1-gallon-jug-vs-ozark-trail-1-gallon-jug/</link><pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/yeti-rambler-1-gallon-jug-vs-ozark-trail-1-gallon-jug/</guid><description>&lt;p>&lt;img loading="lazy" src="https://pcbisolation.com/blog/yeti-rambler-1-gallon-jug-vs-ozark-trail-1-gallon-jug/gallon-jug-01.jpg">&lt;em>left: Ozark Trail, right: Yeti&lt;/em>&lt;/p>
+&lt;p>This is a comparison of Yeti&amp;rsquo;s &lt;a href="https://www.yeti.com/en_US/drinkware/rambler-one-gallon-jug/YRAMONEJUG.html">1 gallon Rambler jug&lt;/a> and Walmart&amp;rsquo;s &lt;a href="https://www.walmart.com/ip/Ozark-Trail-1-Gallon-Double-wall-Vacuum-sealed-Stainless-Steel-Water-Jug/285297047">Ozark Trail 1 gallon jug.&lt;/a>&lt;/p>
+&lt;p>Both are stainless steel, double-wall insulated. The Yeti jug costs $130 and the Walmart jug costs $30.&lt;/p>
+&lt;h2 id="body">Body&lt;/h2>
+&lt;p>&lt;img loading="lazy" src="https://pcbisolation.com/blog/yeti-rambler-1-gallon-jug-vs-ozark-trail-1-gallon-jug/gallon-jug-02.jpg">&lt;em>left: Ozark Trail, right: Yeti&lt;/em>&lt;/p>
+&lt;p>Physically, they are very similar. There are no noticeable differences in the steel or the construction of the steel. The thickness between the two steel walls is also similar for both jugs.&lt;/p></description></item><item><title>Fabricating Fold-Down Bench Seats for a Chevy G30 Van</title><link>https://pcbisolation.com/blog/fabricating-fold-down-bench-seats-for-a-chevy-van/</link><pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/fabricating-fold-down-bench-seats-for-a-chevy-van/</guid><description>&lt;p>&lt;img loading="lazy" src="https://pcbisolation.com/blog/fabricating-fold-down-bench-seats-for-a-chevy-van/van-bench-seat-36.jpg">&lt;/p>
+&lt;p>This post details my process of building and adding fold-down bench seats to an old van.&lt;/p>
+&lt;p>&lt;img loading="lazy" src="https://pcbisolation.com/blog/fabricating-fold-down-bench-seats-for-a-chevy-van/van-bench-seat-32.gif">&lt;/p>
+&lt;p>I&amp;rsquo;ve been restoring a &amp;lsquo;91 Chevy G30. I want to be able to use it as a roadtripping and camping van, but not lose the ability to haul cargo and passengers. Ideally, my van would have 2-3 rows of removable seats that can fold down into a large bed.&lt;/p>
+&lt;p>As of 2019, it&amp;rsquo;s very difficult to find aftermarket seats like this in the U.S. There are seats like &lt;a href="https://www.scopema.com/langGB/pdts_BANQUETTES.php">this&lt;/a> or &lt;a href="http://www.eclipsecustomcampers.com/options/seating/rib-altair-3p-seat-bed/">this&lt;/a>, but they are $3,000+ and ship from Europe. There are also some cheaper &lt;a href="https://www.autozone.com/interior/seat/bestop-seat-39437-15/315165_311042_6071_136166">fold-n-tumble seats&lt;/a> for Jeeps, but they are too narrow.&lt;/p></description></item><item><title>Repairing and Adding Bluetooth to an 80’s – 90’s AC Delco Radio</title><link>https://pcbisolation.com/blog/repairing-and-adding-bluetooth-to-a-90s-delco-radio/</link><pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/repairing-and-adding-bluetooth-to-a-90s-delco-radio/</guid><description>&lt;p>&lt;img loading="lazy" src="https://pcbisolation.com/blog/repairing-and-adding-bluetooth-to-a-90s-delco-radio/delco-stereo-7.jpg">&lt;em>AC Delco Model 16131355&lt;/em>&lt;/p>
+&lt;p>This post details the repair of a early 1991 AC Delco stereo. AC Delco made many variants of this stereo for both Chevrolet and GM cars, trucks, and vans from the early 80&amp;rsquo;s to the mid-90&amp;rsquo;s. While many of the stereos have more or less features (cassette players, radio presets, etc), the amplifier section of the radio is fairly standard and unchanged.&lt;/p>
+&lt;h2 id="internal-pinout-and-schematic">Internal Pinout and Schematic&lt;/h2>
+&lt;p>&lt;img loading="lazy" src="https://pcbisolation.com/blog/repairing-and-adding-bluetooth-to-a-90s-delco-radio/delco-stereo-11.jpg">&lt;/p></description></item><item><title>Permanently Mounting a Rearview Mirror (No Mirror Glue)</title><link>https://pcbisolation.com/blog/permanently-mounting-a-rearview-mirror/</link><pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/permanently-mounting-a-rearview-mirror/</guid><description>&lt;p>This post details a more permanent mounting for a rearview mirror.&lt;/p>
+&lt;p>I bought an old vehicle with a rearview mirror that was laying on the ground next to an empty bottle of rearview mirror glue. I bought a new bottle of 3M rearview mirror glue kit and reattached the mirror by devoutly following the instructions in a good weather. Still, the mirror fell off a few weeks later after I adjusted it too aggressively.&lt;/p></description></item><item><title>Swapping LEDs and PCB in a Dimmable Nightlight</title><link>https://pcbisolation.com/blog/nightlight-new-leds-and-pcb/</link><pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/nightlight-new-leds-and-pcb/</guid><description>&lt;p>I&amp;rsquo;ve looked and been unsuccessful in finding household nightlights that meet my criteria:&lt;/p>
+&lt;ul>
+&lt;li>auto on/off&lt;/li>
+&lt;li>dimmable&lt;/li>
+&lt;li>1800K CCT&lt;/li>
+&lt;li>decent CRI&lt;/li>
+&lt;li>uniform illumination&lt;/li>
+&lt;li>no flickering&lt;/li>
+&lt;li>power efficient&lt;/li>
+&lt;/ul>
+&lt;p>The closest I found was &lt;a href="https://www.amazon.com/gp/product/B078NH96RT/">this nightlight&lt;/a>. I like everything about it except the 3000K CCT. I believe it&amp;rsquo;s a bit too cool for a nightlight.&lt;/p>
+&lt;p>&lt;img loading="lazy" src="https://pcbisolation.com/blog/nightlight-new-leds-and-pcb/nightlight-01-1024x685.jpg">&lt;/p>
+&lt;p>I ended up swapping the 3000K LEDs for 2200K LEDs. I would have preferred 1800K, but was unable to source them on Digikey.&lt;/p></description></item><item><title>Octopart API Pricing Scheme</title><link>https://pcbisolation.com/blog/octopart-api-pricing/</link><pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/octopart-api-pricing/</guid><description>&lt;p>Octopart, the search engine for electronic and industrial parts, doesn&amp;rsquo;t post the pricing for their &lt;a href="https://octopart.com/api/home">API&lt;/a> on their website. There&amp;rsquo;s a bit of irony, since Octopart scrapes pricing from sites like Digikey, who also tries to &lt;a href="https://news.ycombinator.com/item?id=168735">hide their pricing&lt;/a>.&lt;/p>
+&lt;p>The Octopart API is a great resource for pricing BOMs. &lt;a href="https://github.com/xesscorp/KiCost">KiCost&lt;/a> is a great example of tool that uses the Octopart API (although KiCost has &lt;a href="https://github.com/xesscorp/KiCost/issues/357#issuecomment-495579269">moved away from Octopart&lt;/a> due to the paywall).&lt;/p>
+&lt;p>As of June 2019, the Octopart API is as follows:&lt;/p></description></item><item><title>How To Spot a Counterfeit or Refurbished Motorola Razr V3</title><link>https://pcbisolation.com/blog/how-to-spot-a-counterfeit-motorola-razr-v3/</link><pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/how-to-spot-a-counterfeit-motorola-razr-v3/</guid><description>&lt;p>&lt;em>&lt;strong>Note&lt;/strong> - There are many versions of the Motorola Razr, each with subtle differences. Even similar version have differences between countries. Not all of the differences of this counterfeit/refurbished Razr will apply to your Razr!&lt;/em>&lt;/p>
+&lt;p>This applies specifically to the Motorola Razr V3, but you can find similar discrepancies on a Razr V2 or V3i.&lt;/p>
+&lt;p>If you have a feeling the phone is fake, that&amp;rsquo;s a good indicator that it is.&lt;/p></description></item><item><title>Motorola Razr V3: Real vs Counterfeit Teardown</title><link>https://pcbisolation.com/blog/motorola-razr-v3-real-vs-counterfeit-teardown/</link><pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/motorola-razr-v3-real-vs-counterfeit-teardown/</guid><description>&lt;p>&lt;img loading="lazy" src="https://pcbisolation.com/blog/motorola-razr-v3-real-vs-counterfeit-teardown/razr-real-fake-teardown-01.jpg">Left- Authentic Razr V3, Right - Counterfeit Razr V3&lt;/p>
+&lt;p>I recently bought a Razr V3 on eBay. The listing below shows that it is made by Motorola. The pictures are of an authentic Razr. However I received a counterfeit Razr.&lt;/p>
+&lt;p>PS - I wrote a &lt;a href="https://pcbisolation.com/blog/how-to-spot-a-counterfeit-motorola-razr-v3/">quick guide on spotting counterfeit Motorola Razr V3&lt;/a>&amp;rsquo;s (without disassembly).&lt;/p>
+&lt;p>&lt;img loading="lazy" src="https://pcbisolation.com/blog/motorola-razr-v3-real-vs-counterfeit-teardown/razr-real-fake-teardown-34.jpg">&lt;/p>
+&lt;p>If the phone would have worked, I wouldn&amp;rsquo;t have cared. But it wouldn&amp;rsquo;t get a signal with my SIM, so I complained and got a refund.&lt;/p></description></item><item><title>DIY Prescription Scuba Dive Mask</title><link>https://pcbisolation.com/blog/diy-prescription-dive-mask/</link><pubDate>Mon, 05 Nov 2018 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/diy-prescription-dive-mask/</guid><description>&lt;p>&lt;img loading="lazy" src="https://pcbisolation.com/blog/diy-prescription-dive-mask/scuba_goggles_4.jpg">&lt;/p>
+&lt;p>This is a custom bracket for holding a pair of prescription lenses inside a scuba dive mask.&lt;/p>
+&lt;p>The goggles here are the &lt;a href="https://www.atomicaquatics.com/masks_frameless2.html">Atomic Frameless 2&lt;/a>. These goggles are great quality, have a wide field-of view, and have enough clearance to fit a pair of glasses inside.&lt;/p>
+&lt;p>&lt;img loading="lazy" src="https://pcbisolation.com/blog/diy-prescription-dive-mask/scuba_goggles_1-1024x685.jpg">&lt;/p>
+&lt;p>I designed the bracket in Autodesk Inventor and printed it on a 3D printer. You can find my design files on Thingiverse &lt;a href="https://www.thingiverse.com/thing:3196365">here&lt;/a>. If you want to customize this bracket to fit your specific glasses and mask, you can get a free copy of Autodesk Fusion 360 &lt;a href="https://www.autodesk.com/products/fusion-360/overview">here&lt;/a>.&lt;/p></description></item><item><title>How to Export STL File from Inventor to Cura for 3D Printing</title><link>https://pcbisolation.com/blog/inventor-to-cura-stl-export/</link><pubDate>Sun, 30 Sep 2018 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/inventor-to-cura-stl-export/</guid><description>&lt;p>This how-to is for exporting a part from Autodesk Inventor and importing to Ultimaker Cura for 3D Printing. Once you export a STL file, it can be used with programs other than Cura.&lt;/p>
+&lt;h2 id="step-1">Step 1&lt;/h2>
+&lt;p>Open your part in Autodesk Inventor&lt;/p>
+&lt;p>&lt;a href="inventor-cura-stl-import-01.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/inventor-to-cura-stl-export/inventor-cura-stl-import-01.jpg">&lt;/a>&lt;/p>
+&lt;h2 id="step-2">Step 2&lt;/h2>
+&lt;p>Go to File-&amp;gt;Export-&amp;gt;CAD Format&lt;/p>
+&lt;p>&lt;a href="inventor-cura-stl-import-02.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/inventor-to-cura-stl-export/inventor-cura-stl-import-02.jpg">&lt;/a>&lt;/p>
+&lt;h2 id="step-3">Step 3&lt;/h2>
+&lt;p>A &amp;ldquo;Save As&amp;rdquo; box should appear.&lt;/p>
+&lt;p>Click &amp;ldquo;Options&amp;rdquo;&lt;/p>
+&lt;p>&lt;a href="inventor-cura-stl-import-03.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/inventor-to-cura-stl-export/inventor-cura-stl-import-03.jpg">&lt;/a>&lt;/p>
+&lt;h2 id="step-4">Step 4&lt;/h2>
+&lt;p>Confirm &amp;ldquo;Units&amp;rdquo; is the same as the units you designed in. If this is incorrect, the part will be the wrong size in Cura.&lt;/p></description></item><item><title>How To Fix Axis/Rotation Orientation between Inventor and Cura</title><link>https://pcbisolation.com/blog/axis-rotation-inventor-cura/</link><pubDate>Sun, 30 Sep 2018 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/axis-rotation-inventor-cura/</guid><description>&lt;p>This how-to is for correcting axis orientations or rotation issues when exporting a file from Inventor to Cura.&lt;/p>
+&lt;p>&lt;a href="inventor-cura-stl-import-08.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/axis-rotation-inventor-cura/inventor-cura-stl-import-08.jpg">&lt;/a>&lt;/p>
+&lt;p>&lt;em>improper orientation causes this issue in Cura&lt;/em>&lt;/p>
+&lt;h2 id="step-1">Step 1&lt;/h2>
+&lt;p>Open Inventor.&lt;/p>
+&lt;p>Export as an STL and import into Cura (how to export a STL here)&lt;/p>
+&lt;p>Do not rotate the model in Cura&lt;/p>
+&lt;p>&lt;a href="inventor-cura-stl-import-08.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/axis-rotation-inventor-cura/inventor-cura-stl-import-08.jpg">&lt;/a>&lt;/p>
+&lt;h2 id="step-2">Step 2&lt;/h2>
+&lt;p>Rotate your view in Inventor to match the Cura model. This will make the next steps more intuitive.&lt;/p></description></item><item><title>Zhangjiajie National Park PDF Maps [English]</title><link>https://pcbisolation.com/blog/zhangjiajie-park-map/</link><pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/zhangjiajie-park-map/</guid><description>&lt;h1 id="map-1">Map 1&lt;/h1>
+&lt;p>Download &lt;a href="Zhangjiajie-National-Park-Map-1.pdf">PDF&lt;/a> or full size &lt;a href="Zhangjiajie-National-Park-Map-1-1.jpg">JPG&lt;/a>&lt;/p>
+&lt;p>&lt;a href="Zhangjiajie-National-Park-Map-1-1.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/zhangjiajie-park-map/Zhangjiajie-National-Park-Map-1-1.jpg">&lt;/a>&lt;/p>
+&lt;h1 id="map-2">Map 2&lt;/h1>
+&lt;p>Download &lt;a href="Zhangjiajie-National-Park-Map-2.pdf">PDF&lt;/a> or full size &lt;a href="Zhangjiajie-National-Park-Map-2-1.jpg">JPG&lt;/a>&lt;/p>
+&lt;p>&lt;a href="Zhangjiajie-National-Park-Map-2-1.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/zhangjiajie-park-map/Zhangjiajie-National-Park-Map-2-1.jpg">&lt;/a>&lt;/p></description></item><item><title>Singapore One Day Layover – 6 to 16 Hour Walking Route</title><link>https://pcbisolation.com/blog/singapore-layover-walking-route/</link><pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/singapore-layover-walking-route/</guid><description>&lt;p>Singapore is a great place for a 1 day layover. You can fill a day with many of the city&amp;rsquo;s amazing highlights.&lt;/p>
+&lt;p>&lt;a href="singapore-route-1.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/singapore-layover-walking-route/singapore-route-1.jpg">&lt;/a>&lt;/p>
+&lt;h2 id="arriving-at-the-airport">Arriving at the Airport&lt;/h2>
+&lt;p>The airport has baggage storage for s$11-20/day depending on the weight. Citizens of all countries not listed &lt;a href="https://www.ica.gov.sg/#/visitor/visitor_entryvisa">here&lt;/a> can get a free visa on arrival for 30 days.&lt;/p>
+&lt;p>You can take the metro straight from Changi Airport. You&amp;rsquo;ll be tempted to buy the s$10 1-day unlimited metro pass, but skip this. 4 metro rides total to about s$8 so it&amp;rsquo;s cheaper al-carte. Plus, you won&amp;rsquo;t have an additional s$10 deposit to collect on returning to the airport.&lt;/p></description></item><item><title>Chinese Visa in Hanoi, Vietnam for 2017</title><link>https://pcbisolation.com/blog/chinese-visa-in-hanoi-vietnam/</link><pubDate>Thu, 24 Aug 2017 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/chinese-visa-in-hanoi-vietnam/</guid><description>&lt;p>You can get a visa to China in Vietnam. It&amp;rsquo;s not particularly easy, but it is quite possible. I write this because there is little tolerance for error - if you forget to submit some paperwork and get denied, you can&amp;rsquo;t reapply in Vietnam. You&amp;rsquo;ll have to apply in another country.&lt;/p>
+&lt;p>The following is for a US citizen, but the requirements are identical for most countries, except Americans pay much more for the visa!&lt;/p></description></item><item><title>Vientiane in One Long Day – Walk, Bicycle, and Scooter Routes</title><link>https://pcbisolation.com/blog/vientiane-laos-one-day/</link><pubDate>Tue, 25 Jul 2017 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/vientiane-laos-one-day/</guid><description>&lt;p>&lt;a href="IMG_20170708_105239.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/vientiane-laos-one-day/IMG_20170708_105239.jpg">&lt;/a>&lt;/p>
+&lt;p>You can see the highlights of Vientiane, Laos in one long day.&lt;/p>
+&lt;p>A scooter will be the cheapest way if you want to see the downtown sights + Buddha park.&lt;/p>
+&lt;p>A bicycle will allow you to see everything in 5 hours.&lt;/p>
+&lt;p>Walking is a great option as well, as you can use a tuktuk at the end of the day!&lt;/p>
+&lt;h3 id="sights">Sights&lt;/h3>
+&lt;p>&lt;strong>A&lt;/strong> - &lt;a href="https://en.wikipedia.org/wiki/Wat_Si_Saket">Sisaket Temple&lt;/a>&lt;/p>
+&lt;p>&lt;strong>B&lt;/strong> - &lt;a href="https://www.renown-travel.com/laos/temples/that-dam.html">That Dam&lt;/a>&lt;/p>
+&lt;p>&lt;strong>C&lt;/strong> - &lt;a href="https://en.wikipedia.org/wiki/Patuxai">Patuxay Monument &lt;/a>&lt;/p></description></item><item><title>Make Your Own Pedialyte 2.0 – Full Electrolyte Replacement</title><link>https://pcbisolation.com/blog/make-your-own-pedialyte/</link><pubDate>Sat, 22 Apr 2017 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/make-your-own-pedialyte/</guid><description>&lt;p>&lt;a href="ORS_Recipe_1.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/make-your-own-pedialyte/ORS_Recipe_1.jpg">&lt;/a>&lt;/p>
+&lt;p>This ORS (oral rehydration solution) is 10 times cheaper than Pedialyte and contains a wider array of electrolytes. Gatorade, in comparison, is a &lt;a href="https://paleoleap.com/all-about-electrolytes/">low electrolyte, high sugar mix&lt;/a> and has nothing on this ORS besides marketing.&lt;/p>
+&lt;p>I wanted something to mute hangovers or to drink after a long day of sweating. But I don&amp;rsquo;t want to spend $4 on Pedialyte or drink a gallon of sugary Gatorade. This ORS closely follows the nutritional profile of Pedialyte. The ingredients are similar too, excluding Pedialyte&amp;rsquo;s additives to improve solubility and shelf life. As a powder, it is more convenient. Compared to a $4 bottle of Pedialyte, 1 liter of this ORS costs about 41 cents!&lt;/p></description></item><item><title>Reflow Toaster Oven Build</title><link>https://pcbisolation.com/blog/reflow-toaster-oven-build/</link><pubDate>Fri, 14 Apr 2017 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/reflow-toaster-oven-build/</guid><description>&lt;p>&lt;a href="Reflow_Oven_5.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/reflow-toaster-oven-build/Reflow_Oven_5.jpg">&lt;/a>&lt;/p>
+&lt;p>This is a conversion of a convection toaster oven into a SMD reflow oven. I took a standard toaster oven then added insulation, ControlLeo2 controller, temperature sensor, cooling fan, and a front panel. It has excellent thermal properties and follows a reflow profile well.&lt;/p>
+&lt;p>I bought the &lt;a href="http://www.whizoo.com/">ControlLeo2 &lt;/a>for the reflow controller. It features PID control and is overall good. Still has shortcomings. I had to heavily modify it to make it fit in the front panel. A different LCD (8×2 or 8×4) and a new PCB layout would make this board slim enough to fit. Additionally, I had some issues with LCD corruption and had to modify the software. I am also disappointed with the lack of PID control for the cooling fan.&lt;/p></description></item><item><title>TDK Trek Max A34 Teardown</title><link>https://pcbisolation.com/blog/tdk-trek-max-a34-teardown/</link><pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/tdk-trek-max-a34-teardown/</guid><description>&lt;p>&lt;a href="TDK_Trek_A34_1.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/tdk-trek-max-a34-teardown/TDK_Trek_A34_1.jpg">&lt;/a>&lt;/p>
+&lt;p>This is a great bluetooth speaker - loud, good sound quality, waterproof, and durable. Yet sometimes it has bluetooth problems, playback problems, and doesn&amp;rsquo;t work when in motion (like in a backpack).&lt;/p>
+&lt;p>I opened this up to look for issues. I found none. Note that you are removing glued pieces and may lose some waterproofing. Mine still seems very water resistant, but I wouldn&amp;rsquo;t dunk it in a lake.&lt;/p></description></item><item><title>Cheapest Sources Of Protein, Calories, And Macros – Comparison Tables</title><link>https://pcbisolation.com/blog/cheapest-sources-of-protein-calories-and-macros-comparison-tables/</link><pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/cheapest-sources-of-protein-calories-and-macros-comparison-tables/</guid><description>&lt;p>&lt;a href="hot_dogs_1.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/cheapest-sources-of-protein-calories-and-macros-comparison-tables/hot_dogs_1.jpg">&lt;/a>&lt;/p>
+&lt;p>Recently I looked at the back of a hot dog package and I regret it. Not because of the ingredients list. The nutrition facts.&lt;/p>
+&lt;p>Think about this. One pound of pork has 95g of protein. One pound of chicken breast contains 136g of protein. One pound of cheap hot dogs (&lt;em>which are composed of pork and chicken&lt;/em>) contains just &lt;strong>32g of protein&lt;/strong>. And yet, they aren&amp;rsquo;t much cheaper than chicken breast!&lt;/p></description></item><item><title>Making Cold Showers A Habit</title><link>https://pcbisolation.com/blog/making-cold-showers-a-habit/</link><pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/making-cold-showers-a-habit/</guid><description>&lt;p>&lt;a href="shower_1.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/making-cold-showers-a-habit/shower_1.jpg">&lt;/a>&lt;/p>
+&lt;p>Cold showers are like meditating - there should be more of it in your life, but it&amp;rsquo;s difficult to habitualize. I enjoy hot showers, so cold showers are difficult for me. And most of the advice on the subject hinders rather than helps. Below are the techniques and mindset that has helped me habitualize cold morning showers.&lt;/p>
+&lt;p>&lt;strong>Use less water pressure.&lt;/strong> My shower&amp;rsquo;s water pressure rivals a fire hydrant, which isn&amp;rsquo;t very pleasant. I&amp;rsquo;ve found partially turning on the shower, so less water comes out, improves the experience.&lt;/p></description></item><item><title>How to Remove and Replace Keys on Lenovo ThinkPad T450s (with pictures)</title><link>https://pcbisolation.com/blog/lenovo-t450s-key-replacement/</link><pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/lenovo-t450s-key-replacement/</guid><description>&lt;p>&lt;a href="lenovo_t450s_key_replace_2.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/lenovo-t450s-key-replacement/lenovo_t450s_key_replace_2.jpg">&lt;/a>&lt;/p>
+&lt;p>This guide is for removing keys off a Lenovo ThinkPad T450s and should also work for the T430, T440, T450, and T460.&lt;/p>
+&lt;p>There are fragile retaining clips on the underside of each key. Repetitive removal will surely break them. Once the clip breaks, it must be replaced.&lt;/p>
+&lt;h2 id="key-removal">Key Removal&lt;/h2>
+&lt;p>&lt;a href="lenovo_t450s_key_replace_4.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/lenovo-t450s-key-replacement/lenovo_t450s_key_replace_4.jpg">&lt;/a>&lt;/p>
+&lt;p>Wedge your finger underneath the upper left and pull directly up until you hear a single click.&lt;/p>
+&lt;p>&lt;a href="lenovo_t450s_key_replace_5.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/lenovo-t450s-key-replacement/lenovo_t450s_key_replace_5.jpg">&lt;/a>&lt;/p>
+&lt;p>Now wedge your finger underneath the upper right and pull directly up until you hear another single click.&lt;/p></description></item><item><title>Osprey Porter 46 vs Farpoint 40 – Side by Side Photo Comparison</title><link>https://pcbisolation.com/blog/osprey-porter-46-vs-farpoint-40-side-by-side-photo-comparison/</link><pubDate>Wed, 18 Jan 2017 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/osprey-porter-46-vs-farpoint-40-side-by-side-photo-comparison/</guid><description>&lt;p>&lt;a href="osprey_porter_46_farpoint_40_1.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/osprey-porter-46-vs-farpoint-40-side-by-side-photo-comparison/osprey_porter_46_farpoint_40_1.jpg">&lt;/a>&lt;/p>
+&lt;p>The &lt;a href="https://www.ospreypacks.com/us/en/product/porter-46-PORTER46.html">Osprey Porter 46&lt;/a> and &lt;a href="https://www.ospreypacks.com/us/en/product/farpoint-40-FARPNT40.html">Osprey Farpoint 40&lt;/a> backpacks are both excellent choices for travel backpacks. I was looking for an ideal backpack for long-term travel and was considering these two. Both backpacks seem quite similar online but are very different in real life. Each is suited to different styles of travel.&lt;/p>
+&lt;p>The Porter 46 is luggage styled like a backpack. The Farpoint 40 is a backpack styled like luggage.&lt;/p>
+&lt;p>This is a set of side-by-side comparison photos of the two backpacks along with some of my thoughts about them.&lt;/p></description></item><item><title>Adding 18650s and DC Power to Hot Shoe Video LED Light</title><link>https://pcbisolation.com/blog/adding-18650s-to-video-light/</link><pubDate>Thu, 22 Dec 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/adding-18650s-to-video-light/</guid><description>&lt;p>&lt;a href="Hot_Shoe_LED_Light_3.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/adding-18650s-to-video-light/Hot_Shoe_LED_Light_3.jpg">&lt;/a>&lt;/p>
+&lt;p>I use Neewer&amp;rsquo;s hot shoe LED lights for a variety of purposes - photography, video, and &lt;a href="https://pcbisolation.com/blog/scan-negatives-with-your-camera/">scanning negatives&lt;/a>. The &lt;a href="https://www.amazon.com/NEEWER%C2%AE-Dimmable-Digital-Camcorder-Panasonic/dp/B004TJ6JH6">CN-160&lt;/a> is incredibly bright and dimmable. Unfortunately, it is designed to take 6xAA batteries. Or, if you have the right camera, you can attach your camera&amp;rsquo;s lithium battery to it. I don&amp;rsquo;t like either option.&lt;/p>
+&lt;p>I use &lt;a href="https://www.reddit.com/r/flashlight/wiki/18650">18650 batteries&lt;/a> for my headlight and I want to use them here. I added a voltage monitor so I didn&amp;rsquo;t accidentally drain the batteries. I added a DC barrel jack for connecting to a wall adapter. This was for scanning thousands of negatives - I needed full brightness for many hours.&lt;/p></description></item><item><title>Flashlight Adapter for GoPro Mounts and Helmet Mount</title><link>https://pcbisolation.com/blog/flashlight-gopro-mount/</link><pubDate>Mon, 12 Dec 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/flashlight-gopro-mount/</guid><description>&lt;p>&lt;a href="flashlight-gopro-mount-8.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/flashlight-gopro-mount/flashlight-gopro-mount-8.jpg">&lt;/a>&lt;/p>
+&lt;p>This how-to concerns making an adapter to hold a flashlight on a standard gopro mount. It allows you to mount a flashlight to a helmet or anywhere else you&amp;rsquo;d need a securely mounted flashlight.&lt;/p>
+&lt;p>There are a few 3D-printed gopro flashlight holders on &lt;a href="http://www.thingiverse.com">thingiverse.com&lt;/a>, but they all seem to be either bulky or fragile and all require a screwdriver for installation and removal. My design uses a gopro mount, is secure, and forgiving to abuse. It uses velcro to accommodate many different flashlight and makes removing the flashlight very quick.&lt;/p></description></item><item><title>How To Scan A Lot Of Film Negatives Using Your Camera</title><link>https://pcbisolation.com/blog/scan-negatives-with-your-camera/</link><pubDate>Wed, 07 Dec 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/scan-negatives-with-your-camera/</guid><description>&lt;p>&lt;a href="film-scan-7.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/scan-negatives-with-your-camera/film-scan-7.jpg">&lt;/a>&lt;/p>
+&lt;p>Most dedicated film scanners don&amp;rsquo;t scan negatives as well as your camera. If you spend anywhere between $50-$200, you&amp;rsquo;ll first spend a few hours reading polarized Amazon reviews and end up with a cheap plastic scanner with a little sensor and quite average resolution. For better quality you have to jump up to $500+ to get a professional quality scanner. They are usually quite slow and designed for scanning just a few pictures then bringing them to Photoshop to touch them up.&lt;/p></description></item><item><title>How to Check Lumix LX100 Shutter Count (Graphic)</title><link>https://pcbisolation.com/blog/how-to-check-lumix-lx100-shutter-count-graphic/</link><pubDate>Sun, 04 Dec 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/how-to-check-lumix-lx100-shutter-count-graphic/</guid><description>&lt;p>A simple guide to checking the shutter count, power on count, and flash fire count on a Lumix LX100. Find the full resolution image &lt;a href="LX100-Check-Shutter-Count.jpg">here&lt;/a>.&lt;/p>
+&lt;p>&lt;img alt="lx100-check-shutter-count" loading="lazy" src="https://pcbisolation.com/blog/how-to-check-lumix-lx100-shutter-count-graphic/LX100-Check-Shutter-Count.jpg">&lt;/p></description></item><item><title>Why Typedef Is Used For Structs In C</title><link>https://pcbisolation.com/blog/typedef-struct-c/</link><pubDate>Tue, 18 Oct 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/typedef-struct-c/</guid><description>&lt;p>At first glance, adding a typedef to a struct in C seems to complicate the definition. However, it simplifies the declaration of the structure. This is not always recommend, as it can add a layer of obfuscation.&lt;/p>
+&lt;h3 id="structures">Structures&lt;/h3>
+&lt;p>Here is how a normal structure is defined in C.&lt;/p>
+&lt;pre>&lt;code>#include &amp;lt;stdio.h&amp;gt;
+#include &amp;lt;string.h&amp;gt;
+struct Cat { // defining Cat structure
+char name[20]; // members of Cat structure
+int age;
+int weight;
+};
+int main() {
+struct Cat myCat; // declaring Cat structure, myCat
+strcpy( myCat.name, &amp;quot;Cleopatra&amp;quot;); // setting member values
+myCat.age = 4;
+myCat.weight = 10;
+return 0;
+}
+&lt;/code>&lt;/pre>
+&lt;p>In the example above, notice declaring myCat on Line 11 is &amp;ldquo;struct Cats myCat&amp;rdquo;. We are about to see how typedef will shorten this.&lt;/p></description></item><item><title>Atmel ATtiny ATmega AVR Quick Code Reference</title><link>https://pcbisolation.com/blog/atmel-coding-reference/</link><pubDate>Wed, 28 Sep 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/atmel-coding-reference/</guid><description>&lt;p>I usually forget bitwise operators, basic variables, and functions when coding in Atmel Studio for an ATtiny or ATmega project.&lt;/p>
+&lt;p>Normally, I look at some of my old code for reference. This is my focused and consolidated version of the important building blocks.&lt;/p>
+&lt;p>&lt;a href="atmel-reference-2.jpg">&lt;img alt="atmel-reference-2" loading="lazy" src="https://pcbisolation.com/blog/atmel-coding-reference/atmel-reference-2.jpg">&lt;/a>&lt;/p>
+&lt;h3 id="contents">Contents&lt;/h3>
+&lt;p>&lt;a href="https://pcbisolation.com/blog/atmel-coding-reference/#io-registers">I/O Registers&lt;/a>&lt;br>
+&lt;a href="https://pcbisolation.com/blog/atmel-coding-reference/#bitwise-operators">Bitwise Operators&lt;/a>&lt;br>
+&lt;a href="https://pcbisolation.com/blog/atmel-coding-reference/#delays">Delays&lt;/a>&lt;br>
+&lt;a href="https://pcbisolation.com/blog/atmel-coding-reference/#interrupts">Interrupts&lt;/a>&lt;br>
+&lt;a href="https://pcbisolation.com/blog/atmel-coding-reference/#program-memory">Program Memory&lt;/a>&lt;br>
+&lt;a href="https://pcbisolation.com/blog/atmel-coding-reference/#pwm">PWM&lt;/a>&lt;/p>
+&lt;h2 id="io-registers">I/O Registers&lt;/h2>
+&lt;ul>
+&lt;li>DDR &lt;em>x&lt;/em> - Data Direction Register - Configures each pin as an input or output. The 0th bit refers to the 0th pin of the port and the 7th bit refers to the 7th bit of the port.&lt;/li>
+&lt;li>PORT &lt;em>x&lt;/em> - Data Register - The value of the pin, used for reading input or writing output&lt;/li>
+&lt;li>P &lt;em>x&lt;/em> &lt;em>n&lt;/em> - The nth bit of port x. PB0 refers to the 0th bit of port B and PE7 refers to the 7th bit of port E.&lt;/li>
+&lt;li>&lt;em>x&lt;/em> - letter (e.g. B, D, E, F, G)&lt;/li>
+&lt;li>&lt;em>n&lt;/em> - number (0, 1, 2, … 7)&lt;/li>
+&lt;/ul>
+&lt;p>Note that you still should refer to the datasheet for the specifics on these registers and how to set their values.&lt;/p></description></item><item><title>Kawasaki CSR 250 &amp; 305 1979 – 1982 Manuals</title><link>https://pcbisolation.com/blog/kz-csr-250-205-manual/</link><pubDate>Thu, 22 Sep 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/kz-csr-250-205-manual/</guid><description>&lt;p>I had a hard time finding this online for free.&lt;/p>
+&lt;p>&lt;a href="https://pcbisolation.com/downloads/Kawasaki_305_79-82_Manual.pdf">&lt;img alt="kz-csr-250-305-2" loading="lazy" src="https://pcbisolation.com/blog/kz-csr-250-205-manual/kz-csr-250-305-2.jpg">&lt;/a>&lt;/p>
+&lt;p>This manual is for the following models:&lt;br>
+Kawasaki KZ CSR 250 1979&lt;br>
+Kawasaki KZ CSR 250 1980&lt;br>
+Kawasaki KZ CSR 250 1981&lt;br>
+Kawasaki KZ CSR 250 1982&lt;br>
+Kawasaki KZ CSR 305 1981&lt;br>
+Kawasaki KZ CSR 305 1982&lt;/p>
+&lt;p>&lt;a href="https://pcbisolation.com/downloads/Kawasaki_305_79-82_Manual.pdf">Click here&lt;/a> to download.&lt;/p>
+&lt;p>Enjoy&lt;img alt="&lt;br>\n" loading="lazy" src="https://pcbisolation.com/blog/kz-csr-250-205-manual/kz-csr-250-305-2.jpg">&lt;/p></description></item><item><title>Simple Automatic Volume Control with Arduino</title><link>https://pcbisolation.com/blog/volume-control/</link><pubDate>Tue, 20 Sep 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/volume-control/</guid><description>&lt;p>This was for a pair of outdoor speakers in front of KMNR, my college radio station. KMNR was receiving complaints for having the music too loud at night.&lt;/p>
+&lt;p>An Arduino checks clock and adjusts volume using digital potentiometers This post is a walkthrough of the design and implementation.&lt;/p>
+&lt;h2 id="design">Design&lt;/h2>
+&lt;p>I interfaced an Arduino with a RTC (real time clock) to get the time. The RTC is Maxim&amp;rsquo;s DS1307 and it should last 17 years on it&amp;rsquo;s backup battery. It communicates over I2C and you can find already written code &lt;a href="https://www.sparkfun.com/products/12708">here&lt;/a>.&lt;/p></description></item><item><title>Designing a Single Op-Amp Triangle Wave Generator</title><link>https://pcbisolation.com/blog/triangle-wave-generator/</link><pubDate>Sun, 11 Sep 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/triangle-wave-generator/</guid><description>&lt;p>While this is not my design, this is my analysis and derivations.&lt;/p>
+&lt;p>I used this in my &lt;a href="https://pcbisolation.com/blog/led-sound-reactor/">sound reactive lighting project&lt;/a>. I had only one op-amp to spare for a triangle wave generator, so I couldn&amp;rsquo;t use the popular &lt;a href="http://www.circuitstoday.com/triangular-wave-generator">two op-amp design&lt;/a>.&lt;/p>
+&lt;p>For those who are not interested in the details, you can find the final formulas in an example here.&lt;/p>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>&lt;a href="triangle-wave-60.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/triangle-wave-generator/triangle-wave-60.jpg">&lt;/a>&lt;/p>
+&lt;p>&lt;em>view this circuit simulation&lt;a href="http://falstad.com/circuit/circuitjs.html?cct=$+17+0.000005+0.8031194996067259+65+5+50%0Aa+640+416+752+416+8+11.715+0+1000000+5.639494375233213+5.473682756038428+100000%0Ar+528+304+528+384+0+100000%0Ar+528+432+528+512+0+100000%0Ac+816+480+816+528+0+1.0000000000000001e-7+5.639494375233213%0Aw+528+304+528+272+0%0Aw+640+352+640+400+0%0Ar+656+496+704+496+0+520000%0Ar+752+416+816+416+0+24900%0Aw+640+432+528+432+0%0Aw+528+432+528+384+0%0Aw+640+432+640+496+0%0Aw+640+496+656+496+0%0Aw+704+496+752+496+0%0Aw+752+496+752+416+0%0Aw+816+416+816+480+0%0Aw+864+416+816+416+0%0Aw+640+352+816+352+0%0Aw+816+352+816+416+0%0Aw+528+512+528+528+0%0Ag+528+528+528+544+0%0Ag+816+528+816+544+0%0AR+528+272+528+240+0+0+40+12+0+0+0.5%0Ax+484+348+501+351+4+14+R1%0Ax+479+481+496+484+4+14+R2%0Ax+673+526+690+529+4+14+R3%0Ax+778+442+795+445+4+14+R4%0Ax+782+514+799+517+4+14+C1%0Ax+520+222+543+225+4+14+Vcc%0Ax+608+450+625+453+4+14+V3%0Ax+738+405+755+408+4+14+V1%0Ax+826+403+843+406+4+14+V2%0Ao+15+8+0+4362+10+0.1+0+2+15+3%0A">here&lt;/a>&lt;/em>&lt;/p>
+&lt;p>&lt;strong>This single op-amp circuit uses positive feedback with hysteresis to create a square wave, which charges and discharges an RC circuit, which roughly produces a triangle wave.&lt;/strong>&lt;/p></description></item><item><title>Cost of Living Breakdown for College Students</title><link>https://pcbisolation.com/blog/cost-of-living-breakdown-for-college-students/</link><pubDate>Thu, 08 Sep 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/cost-of-living-breakdown-for-college-students/</guid><description>&lt;p>&lt;a href="house-2.jpg">&lt;img alt="house-2" loading="lazy" src="https://pcbisolation.com/blog/cost-of-living-breakdown-for-college-students/house-2.jpg">&lt;/a>&lt;/p>
+&lt;p>I spent 3 years in a 5 bedroom house in Rolla Missouri. I kept careful track of finances for the first 2 years.&lt;/p>
+&lt;h2 id="bank-account">Bank Account&lt;/h2>
+&lt;p>I setup a new bank account for the house. When I say &amp;lsquo;house&amp;rsquo;, I really mean the 5 of us roommates and our house, but I say house because our house is pretty special to us. It&amp;rsquo;s &lt;em>the house&lt;/em>.&lt;/p>
+&lt;p>Every month, we write checks or use paypal to get our monthly rent into the house bank account. All bills are written through the same bank account. As we graduate and new students replace our spots in the house, we add their names on the bank account, transferring the ownership.&lt;/p></description></item><item><title>LED Sound Reactor – All Analog Approach</title><link>https://pcbisolation.com/blog/led-sound-reactor/</link><pubDate>Fri, 02 Sep 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/led-sound-reactor/</guid><description>&lt;p>&lt;a href="sound-reactor-1.jpg">&lt;img alt="sound-reactor-1" loading="lazy" src="https://pcbisolation.com/blog/led-sound-reactor/sound-reactor-1.jpg">&lt;/a>&lt;/p>
+&lt;p>In the winter of 2013, LED strip lighting hit its tipping point - a big rise in popularity.&lt;/p>
+&lt;p>A year beforehand, in 2012, I had an idea to build a controller for LED strip lighting. A sound reactive LED controller - to make the lights get brighter on the bass notes. Biggest problem - I didn&amp;rsquo;t know how to make one.&lt;/p>
+&lt;p>I finally started getting comfortable with electronics in 2014.&lt;/p></description></item><item><title>Motorcycle Seat Repair – Liquid Electrical Tape</title><link>https://pcbisolation.com/blog/motorcycle-seat-repair-liquid-electrical-tape/</link><pubDate>Wed, 31 Aug 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/motorcycle-seat-repair-liquid-electrical-tape/</guid><description>&lt;p>The #1 vinyl repair kit on Amazon has 2.9 stars. And it&amp;rsquo;s not made to fix an 10″ split seam.&lt;/p>
+&lt;p>&lt;a href="seat-repair-1.jpg">&lt;img alt="seat-repair-1" loading="lazy" src="https://pcbisolation.com/blog/motorcycle-seat-repair-liquid-electrical-tape/seat-repair-1.jpg">&lt;/a>&lt;/p>
+&lt;p>There isn&amp;rsquo;t a whole lot you can do to hide a 10″ split, which is a problem for my 83 Kawasaki 305. A friend had success using Liquid Electrical Tape to fix the seat of a &lt;a href="https://en.wikipedia.org/wiki/Honda_CBR1000RR">Honda CBR1000rr&lt;/a>.&lt;/p>
+&lt;p>There doesn&amp;rsquo;t seem to be a whole lot of talk online about this. This is the repair for people who use close-enough nail polish to touch up body paint.&lt;/p></description></item><item><title>Motorcycle Brake/Turn Light PCB</title><link>https://pcbisolation.com/blog/motorcycle-brake-turn-light/</link><pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/motorcycle-brake-turn-light/</guid><description>&lt;p>A stranger off eBay got me pulled over, from across the world.&lt;/p>
+&lt;p>I have a 1983 Kawasaki CSR 305 that has a hint of a cafe racer. For the look, I replaced the stock brake and turn lights with a LED brake/turn light combo from eBay. It was manufactured overseas, &lt;em>very&lt;/em> cheaply.&lt;/p>
+&lt;p>&lt;a href="Brake-Light-3.jpg">&lt;img alt="Brake-Light-3" loading="lazy" src="https://pcbisolation.com/blog/motorcycle-brake-turn-light/Brake-Light-3.jpg">&lt;/a>&lt;em>typical cheap brake/turn light&lt;/em>&lt;/p>
+&lt;p>Something failed and the lights went out…at night…while riding. This upset the local authorities.&lt;/p></description></item><item><title>How To Sleeve Cables and Manage Wires on a Quadcopter</title><link>https://pcbisolation.com/blog/quad-wire-management/</link><pubDate>Thu, 04 Aug 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/quad-wire-management/</guid><description>&lt;p>If you like your quadcopter looking like a rat&amp;rsquo;s nest, read no further. If you are sophisticated and proper, read on.&lt;/p>
+&lt;p>&lt;a href="quad-10.jpg">&lt;img alt="quad-10" loading="lazy" src="https://pcbisolation.com/blog/quad-wire-management/quad-10.jpg">&lt;/a>&lt;/p>
+&lt;p>This is a quick visual how-to for managing and tidying wires on a multicopter or drone.&lt;/p>
+&lt;p>&lt;a href="quad-12.jpg">&lt;img alt="quad-12" loading="lazy" src="https://pcbisolation.com/blog/quad-wire-management/quad-12.jpg">&lt;/a>&lt;/p>
+&lt;p>Here is a wiring harness for a Flip 32 Deluxe flight controller. I only need 3 of the wires here.&lt;/p>
+&lt;h2 id="step-1---cut-cable">Step 1 - Cut Cable&lt;/h2>
+&lt;p>&lt;a href="quad-13.jpg">&lt;img alt="quad-13" loading="lazy" src="https://pcbisolation.com/blog/quad-wire-management/quad-13.jpg">&lt;/a>&lt;/p>
+&lt;p>Test fit and cut to length. Leave some extra length.&lt;/p></description></item><item><title>LED Strip Current Draw and Power Consumption – A Simple Reference Chart</title><link>https://pcbisolation.com/blog/led-strip-current-and-power/</link><pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/led-strip-current-and-power/</guid><description>&lt;p>&lt;a href="led-strip-1.jpg">&lt;img alt="led-strip-1" loading="lazy" src="https://pcbisolation.com/blog/led-strip-current-and-power/led-strip-1.jpg">&lt;/a>&lt;/p>
+&lt;p>Trying to figure out which power supply, transformer, or wire gauge you need for a LED strip project? Look no further.&lt;/p>
+&lt;p>The tables below show the current and power draw for RGB LED strips in both Metric and Imperial units.&lt;/p>
+&lt;h3 id="metric">Metric&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Type&lt;/th>
+&lt;th>&lt;strong>LEDs per meter&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>LEDs per segment&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Segment Length&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Segments per meter&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Current per meter&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Current per segment&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Power per meter&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Power per segment&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>RGB - One Color On&lt;/td>
+&lt;td>30&lt;/td>
+&lt;td>3&lt;/td>
+&lt;td>10 cm&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>0.2 A&lt;/td>
+&lt;td>20 mA&lt;/td>
+&lt;td>2.4 W&lt;/td>
+&lt;td>0.24 W&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RGB - All Colors On&lt;/td>
+&lt;td>30&lt;/td>
+&lt;td>3&lt;/td>
+&lt;td>10 cm&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>0.6 A&lt;/td>
+&lt;td>60 mA&lt;/td>
+&lt;td>7.2 W&lt;/td>
+&lt;td>0.72 W&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RGB - One Color On&lt;/td>
+&lt;td>60&lt;/td>
+&lt;td>3&lt;/td>
+&lt;td>5 cm&lt;/td>
+&lt;td>20&lt;/td>
+&lt;td>0.4 A&lt;/td>
+&lt;td>20 mA&lt;/td>
+&lt;td>4.8 W&lt;/td>
+&lt;td>0.24 W&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RGB - All Colors On&lt;/td>
+&lt;td>60&lt;/td>
+&lt;td>3&lt;/td>
+&lt;td>5 cm&lt;/td>
+&lt;td>20&lt;/td>
+&lt;td>1.2 A&lt;/td>
+&lt;td>60 mA&lt;/td>
+&lt;td>14.4 W&lt;/td>
+&lt;td>0.72 W&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="imperial">Imperial&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Type&lt;/th>
+&lt;th>&lt;strong>LEDs per foot&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>LEDs per segment&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Segment Length&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Segments per foot&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Current per foot&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Current per segment&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Power per foot&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Power per segment&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>RGB - One Color On&lt;/td>
+&lt;td>9&lt;/td>
+&lt;td>3&lt;/td>
+&lt;td>3.94 in&lt;/td>
+&lt;td>3&lt;/td>
+&lt;td>60 mA&lt;/td>
+&lt;td>20 mA&lt;/td>
+&lt;td>0.73 W&lt;/td>
+&lt;td>0.24 W&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RGB - All Colors On&lt;/td>
+&lt;td>9&lt;/td>
+&lt;td>3&lt;/td>
+&lt;td>3.94 in&lt;/td>
+&lt;td>3&lt;/td>
+&lt;td>180 mA&lt;/td>
+&lt;td>60 mA&lt;/td>
+&lt;td>2.2 W&lt;/td>
+&lt;td>0.72 W&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RGB - One Color On&lt;/td>
+&lt;td>18&lt;/td>
+&lt;td>3&lt;/td>
+&lt;td>1.97 in&lt;/td>
+&lt;td>6&lt;/td>
+&lt;td>120 mA&lt;/td>
+&lt;td>20 mA&lt;/td>
+&lt;td>1.46 W&lt;/td>
+&lt;td>0.24 W&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RGB - All Colors On&lt;/td>
+&lt;td>18&lt;/td>
+&lt;td>3&lt;/td>
+&lt;td>1.97 in&lt;/td>
+&lt;td>6&lt;/td>
+&lt;td>360 mA&lt;/td>
+&lt;td>60 mA&lt;/td>
+&lt;td>4.4 W&lt;/td>
+&lt;td>0.72 W&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Notice any errors? Comment below.&lt;/p></description></item><item><title>You Don’t Suck At Flying A Quad – Part II</title><link>https://pcbisolation.com/blog/you-dont-suck-part-ii/</link><pubDate>Fri, 22 Jul 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/you-dont-suck-part-ii/</guid><description>&lt;p>I could have gone from 1,000 crashes to 100 crashes with a few simple pointers.&lt;/p>
+&lt;p>There are two big reasons why you are crashing. This is for the pilots who moving from beginner and intermediate.&lt;/p>
+&lt;p>&lt;a href="quad-1.jpg">&lt;img alt="quad-1" loading="lazy" src="https://pcbisolation.com/blog/you-dont-suck-part-ii/quad-1.jpg">&lt;/a>&lt;/p>
+&lt;h2 id="reason-1---your-brain">Reason 1 - Your Brain&lt;/h2>
+&lt;p>Imagine flying a microquad in a gymnasium. You can practice a banked turn and go wildly off target without crashing. Then you bring it back toward you and try again.&lt;/p></description></item><item><title>5 Reasons Why Hovering a Quad is Really Difficult</title><link>https://pcbisolation.com/blog/hovering-a-quad-is-really-difficult/</link><pubDate>Mon, 18 Jul 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/hovering-a-quad-is-really-difficult/</guid><description>&lt;p>The title says it. And you can 10x your skill development as a quad flier with the same amount of practice time.&lt;/p>
+&lt;h2 id="1---spatial-tasks-are-hard">1 - Spatial Tasks are Hard&lt;/h2>
+&lt;p>&lt;a href="quad-4.jpg">&lt;img alt="quad-4" loading="lazy" src="https://pcbisolation.com/blog/hovering-a-quad-is-really-difficult/quad-4.jpg">&lt;/a>&lt;/p>
+&lt;h2>&lt;/h2>
+&lt;p>It easy to keep a position in 2D space, because you can place a marker or a cone on the ground. In the air, you can&amp;rsquo;t mark the spot you are trying to hover by.&lt;/p>
+&lt;p>Targeting a point in 3D space and maintaining a quadcopter is difficult, because it&amp;rsquo;s hard to remember where that point was, especially when a little quad is zooming all around that point.&lt;/p></description></item><item><title>You Don’t Suck At Flying A Quad – You Just Don’t Know What You’re Doing</title><link>https://pcbisolation.com/blog/you-dont-suck/</link><pubDate>Wed, 13 Jul 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/you-dont-suck/</guid><description>&lt;p>&lt;a href="quad-3.jpg">&lt;img alt="quad-3" loading="lazy" src="https://pcbisolation.com/blog/you-dont-suck/quad-3.jpg">&lt;/a>&lt;/p>
+&lt;p>The same scene plays out everytime I see someone fly a quadcopter indoors… They lift it off the ground, hover for a few seconds, move back and forth, then a spectator roars.&lt;/p>
+&lt;p>&amp;ldquo;&lt;em>Land it in my hands!&lt;/em> &amp;quot;&lt;/p>
+&lt;p>This is not easy. First, it is a not simple to hold a microquad in one position for 5-10 seconds as you lower into someone&amp;rsquo;s hand. Second, hands are small - much smaller than the floor. Third, you get some &lt;a href="http://www.rchelicopterfun.com/ground-effect.html">Ground Effect&lt;/a> and maybe &lt;a href="http://quadcopter101.blogspot.com/2014/10/vortex-ring-state-wobble-of-death.html">Vortex Ring State&lt;/a> from hitting your own &lt;a href="https://www.reddit.com/r/Multicopter/comments/1ud0be/can_you_school_me_on_prop_wash/">prop wash&lt;/a>; all make holding a precise position that much harder. Fourth, if you bought a microquad, the motors heat up and slow down mid-flight - throwing off the trim you wasted an entire battery perfecting.&lt;/p></description></item><item><title>Kansas I-70 and Nebraska I-80</title><link>https://pcbisolation.com/blog/kansas-i-70-vs-nebraska-i-80/</link><pubDate>Fri, 08 Jul 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/kansas-i-70-vs-nebraska-i-80/</guid><description>&lt;p>&lt;a href="I70andI80.jpg">&lt;img alt="I-70 and I-80" loading="lazy" src="https://pcbisolation.com/blog/kansas-i-70-vs-nebraska-i-80/I70andI80.jpg">&lt;/a>&lt;/p>
+&lt;p>Trying to decide which one to take? I&amp;rsquo;ve driven both, so you don&amp;rsquo;t have to.&lt;/p>
+&lt;p>I-80 through Nebraska runs on slow, gradual hills. Driving to from Kansas City to Denver is deceiving, because after the 5 hours through Kansas, you still have 3 hours in Colorado that looks remarkably similar to Kansas.&lt;/p>
+&lt;p>There isn&amp;rsquo;t much along the highway either. Few towns, trees, signs, or radio stations.&lt;/p>
+&lt;p>&lt;a href="I-70.jpg">&lt;img alt="Highway I-70" loading="lazy" src="https://pcbisolation.com/blog/kansas-i-70-vs-nebraska-i-80/I-70.jpg">&lt;/a>&lt;em>Highway I-70 through Kansas&lt;/em>&lt;/p></description></item><item><title>Best Shortcuts in CircuitMaker by Altium</title><link>https://pcbisolation.com/blog/circuitmaker-shortcuts/</link><pubDate>Thu, 30 Jun 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/circuitmaker-shortcuts/</guid><description>&lt;p>Here&amp;rsquo;s a list of the most useful shortcuts in CM - more graphical and intuitive than the built in shortcut list (Ribbon Bar-&amp;gt;View-&amp;gt;Shortcuts).&lt;/p>
+&lt;p>&lt;a href="shortcut_link.jpg">&lt;img alt="shortcut_link" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/shortcut_link.jpg">&lt;/a>&lt;em>Above - Shortcut List Location&lt;/em>&lt;/p>
+&lt;p>Pro Tip: When the tools aren&amp;rsquo;t working correctly, press ESC a few times.&lt;/p>
+&lt;h1 id="schematic-shortcuts">Schematic Shortcuts&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Crtl+Scroll&lt;/th>
+&lt;th>Zoom&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Center Button - Click Hold and Drag&lt;/td>
+&lt;td>Zoom&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Pg Up/Down&lt;/td>
+&lt;td>Zoom (Great for laptops)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Right Button - Click Hold Drag&lt;/td>
+&lt;td>Pan&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl+A&lt;/td>
+&lt;td>Select &lt;strong>A&lt;/strong> ll&lt;/td>
+&lt;td>&lt;a href="SchCtrlA.jpg">&lt;img alt="Sch+Ctrl+A" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/SchCtrlA.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Crtl+C&lt;/td>
+&lt;td>&lt;strong>C&lt;/strong> opy&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl+X&lt;/td>
+&lt;td>Cut&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl+V&lt;/td>
+&lt;td>Paste&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl+D&lt;/td>
+&lt;td>&lt;strong>D&lt;/strong> uplicate&lt;/td>
+&lt;td>&lt;a href="SchCtrlD.jpg">&lt;img alt="Sch+Ctrl+D" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/SchCtrlD.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>W&lt;/td>
+&lt;td>&lt;strong>W&lt;/strong> ire (for opening wiring tool)&lt;/td>
+&lt;td>&lt;a href="SchW.jpg">&lt;img alt="Sch+Ctrl+W" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/SchW.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Space&lt;/td>
+&lt;td>Change Wiring Path - Only works when wiring&lt;/td>
+&lt;td>&lt;a href="SchSpace2.jpg">&lt;img alt="Sch+Space2" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/SchSpace2.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Shift+Space&lt;/td>
+&lt;td>Change Wiring Angles - Only works when wiring&lt;/td>
+&lt;td>&lt;a href="SchShiftSpace3.jpg">&lt;img alt="Sch+Shift+Space3" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/SchShiftSpace3.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Space&lt;/td>
+&lt;td>Rotate Selected Object&lt;/td>
+&lt;td>&lt;a href="SchRotate.jpg">&lt;img alt="Sch+Rotate" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/SchRotate.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Tab or Double Click&lt;/td>
+&lt;td>Edit Properties of selected object&lt;/td>
+&lt;td>&lt;a href="SchTab.jpg">&lt;img alt="Sch+Tab" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/SchTab.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>G&lt;/td>
+&lt;td>Toggle &lt;strong>G&lt;/strong> rid Size (look in bottom left-hand corner)&lt;/td>
+&lt;td>&lt;a href="SchG.jpg">&lt;img alt="Sch+G" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/SchG.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Z&lt;/td>
+&lt;td>Add Ground&lt;/td>
+&lt;td>&lt;a href="SchZ.jpg">&lt;img alt="Sch+Z" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/SchZ.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>V&lt;/td>
+&lt;td>Add &lt;strong>V&lt;/strong> CC (press TAB to quickly change net name)&lt;/td>
+&lt;td>&lt;a href="SchV.jpg">&lt;img alt="Sch+V" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/SchV.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>T&lt;/td>
+&lt;td>&lt;strong>T&lt;/strong> ext (press TAB to change text)&lt;/td>
+&lt;td>&lt;a href="SchT.jpg">&lt;img alt="Sch+T" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/SchT.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>N&lt;/td>
+&lt;td>&lt;strong>N&lt;/strong> et Label (press TAB to change text)&lt;/td>
+&lt;td>&lt;a href="SchN.jpg">&lt;img alt="Sch+N" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/SchN.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>C&lt;/td>
+&lt;td>Place &lt;strong>C&lt;/strong> omponent&lt;/td>
+&lt;td>&lt;a href="SchC.jpg">&lt;img alt="Sch+C" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/SchC.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>X&lt;/td>
+&lt;td>Flip left/right (&lt;strong>X&lt;/strong> -Axis)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Y&lt;/td>
+&lt;td>Flip up/down (&lt;strong>Y&lt;/strong> -Axis)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Esc&lt;/td>
+&lt;td>&lt;strong>E&lt;/strong> xit Tool&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl+Tab&lt;/td>
+&lt;td>Go to Next Tab&lt;/td>
+&lt;td>&lt;a href="SchCrtlTab.jpg">&lt;img alt="Sch+Crtl+Tab" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/SchCrtlTab.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl+Shift+Tab&lt;/td>
+&lt;td>Go to Previous Tab&lt;/td>
+&lt;td>&lt;a href="SchCrtlTab.jpg">&lt;img alt="Sch+Crtl+Tab" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/SchCrtlTab.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="pcb-shortcuts">PCB Shortcuts&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Crtl+Scroll&lt;/th>
+&lt;th>Zoom&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Center Button - Click Hold and Drag&lt;/td>
+&lt;td>Zoom&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Pg Up/Down&lt;/td>
+&lt;td>Zoom (Great for laptops)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Shift+Pg Up/Down&lt;/td>
+&lt;td>Precise Zoom (Great for laptops)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Right Button - Click Hold Drag&lt;/td>
+&lt;td>Pan&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Esc&lt;/td>
+&lt;td>Exit Tool (so very useful)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl+A&lt;/td>
+&lt;td>Select All&lt;/td>
+&lt;td>&lt;a href="PCBCtrlA.jpg">&lt;img alt="PCB+Ctrl+A" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/PCBCtrlA.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Crtl+C&lt;/td>
+&lt;td>Copy&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl+X&lt;/td>
+&lt;td>Cut&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl+V&lt;/td>
+&lt;td>Paste&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>R&lt;/td>
+&lt;td>Route Trace&lt;/td>
+&lt;td>&lt;a href="PCBR.jpg">&lt;img alt="PCB+R" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/PCBR.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Space&lt;/td>
+&lt;td>Change Routing Path - Only works when routing&lt;/td>
+&lt;td>&lt;a href="PCBSpace2.jpg">&lt;img alt="PCB+Space2" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/PCBSpace2.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Shift+Space&lt;/td>
+&lt;td>Change Routing Angles - Only works when routing&lt;/td>
+&lt;td>&lt;a href="PCBShiftSpace2.jpg">&lt;img alt="PCB+Shift+Space2" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/PCBShiftSpace2.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Space&lt;/td>
+&lt;td>Rotate Selected Object&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>G&lt;/td>
+&lt;td>Toggle Grid Size (look in bottom left-hand corner)&lt;/td>
+&lt;td>&lt;a href="PCBG.jpg">&lt;img alt="PCB+G" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/PCBG.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Shift+S&lt;/td>
+&lt;td>Single Layer View (Toggle visibility of all layers except for the active layer)&lt;/td>
+&lt;td>&lt;a href="PCBShiftS3.jpg">&lt;img alt="PCB+Shift+S3" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/PCBShiftS3.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Backspace&lt;/td>
+&lt;td>Undo Trace Segements of selected trace&lt;/td>
+&lt;td>&lt;a href="PCBBackspace3.jpg">&lt;img alt="PCB+Backspace3" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/PCBBackspace3.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Tab or Double Click&lt;/td>
+&lt;td>Edit Properties of selected object&lt;/td>
+&lt;td>&lt;a href="PCBTab.jpg">&lt;img alt="PCB+Tab" loading="lazy" src="https://pcbisolation.com/blog/circuitmaker-shortcuts/PCBTab.jpg">&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Have a favorite not listed? Leave it in the comments below.&lt;/p></description></item><item><title>2×15″ Home Subwoofers, Car Amp, &amp; Server Power Supply</title><link>https://pcbisolation.com/blog/home-subwoofers/</link><pubDate>Thu, 23 Oct 2014 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/home-subwoofers/</guid><description>&lt;p>After half a semester of college, I learned that my 8″, 40W woofer wasn&amp;rsquo;t enough. I wanted something bigger, but didn&amp;rsquo;t want to have to upgrade again in the future. So I decided on something reasonable for any 10&amp;rsquo;x15′ dorm room - two 15″ subwoofers powered by a 1000W car amp. My goals: keep it under $400, design it so one of the two subs can be placed in a car and be powered from a 12V source (like a car battery), and build them to be as durable as possible.&lt;/p></description></item><item><title>Designing and Building a CNC Machine</title><link>https://pcbisolation.com/blog/cnc-summary/</link><pubDate>Mon, 20 Oct 2014 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/cnc-summary/</guid><description>&lt;p>&lt;a href="cnc_overall_2.jpg">&lt;img alt="cnc_overall_2" loading="lazy" src="https://pcbisolation.com/blog/cnc-summary/cnc_overall_2.jpg">&lt;/a>&lt;/p>
+&lt;p>In May 2012, the end of my junior year of high school, I began to develop great interest in a personal CNC machine. A CNC machine is a beautiful thing, and the process of homebuilding a CNC machine emcompasses design, building, and utilization. The design demonstrates creativity and planning, building demonstrates an understanding of mechanics and craftsmanship, and utilization restarts the process at design again. A tool to make new things, limited mostly by one&amp;rsquo;s creativity.&lt;/p></description></item><item><title>Making a Computer Jog/Scrolling Wheel</title><link>https://pcbisolation.com/blog/scroll-wheel/</link><pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/scroll-wheel/</guid><description>&lt;p>&lt;a href="scroll-wheel-13.jpg">&lt;img alt="scroll-wheel-13" loading="lazy" src="https://pcbisolation.com/blog/scroll-wheel/scroll-wheel-13.jpg">&lt;/a>&lt;/p>
+&lt;p>The idea is simple, take the scrolling mechanism out of a mouse, and move it to a large, heavy spinning wheel of some sort. The benefits of this, scrolling long webpages and folders is tireless and editing video is a quicker process, as you are able to scrub easily and quickly. The more you use a jog wheel, the quicker and more painless navigating and using a computer becomes.&lt;/p></description></item><item><title>Logitech Z340 2.1 Pinout and Reuse</title><link>https://pcbisolation.com/blog/logitech-z340/</link><pubDate>Sun, 08 Jun 2014 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/logitech-z340/</guid><description>&lt;p>Logitech has a large presence in 2.1 systems, where price and appearance dominate. This sub is designed to trick you, there&amp;rsquo;s more to it than what meets the eye.&lt;/p>
+&lt;p>I picked up a used Logitech Z340 2.1, sans the 2. I got a woofer with no satellites or volume control.&lt;/p>
+&lt;p>&lt;a href="logitech-z340-01.jpg">&lt;img alt="logitech-z340-01" loading="lazy" src="https://pcbisolation.com/blog/logitech-z340/logitech-z340-01.jpg">&lt;/a>notice in the corner - Mr. Happy Hammer 🙂&lt;/p>
+&lt;p>&lt;a href="logitech-z340-02.jpg">&lt;img alt="logitech-z340-02" loading="lazy" src="https://pcbisolation.com/blog/logitech-z340/logitech-z340-02.jpg">&lt;/a>8″ subwoofer (4″ speaker + cardboard)&lt;/p>
+&lt;p>Since I don&amp;rsquo;t have the satellites, this is of no value to me. And the speaker isn&amp;rsquo;t of much value either, so I want the amplifier out of this.&lt;/p></description></item><item><title>Mazda 2 Quickest Subwoofer Installation Ever</title><link>https://pcbisolation.com/blog/mazda2-subwoofer/</link><pubDate>Thu, 05 Jun 2014 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/mazda2-subwoofer/</guid><description>&lt;p>&lt;a href="mazda2-subwoofer-07.jpg">&lt;img alt="mazda2-subwoofer-07" loading="lazy" src="https://pcbisolation.com/blog/mazda2-subwoofer/mazda2-subwoofer-07.jpg">&lt;/a>&lt;/p>
+&lt;p>Running wire, head unit adapters, fuses, and less trunk space all suck. Let&amp;rsquo;s not do that. Modular setups seem more promising.&lt;/p>
+&lt;p>A few months ago, &lt;a href="http://pcbisolation.wordpress.com/2014/01/05/sixdollarsub/">I assembled a $6 tube subwoofer&lt;/a> that could be used in a house or in a car. I only recently set up my car for this sub. It took an hour. No new head unit required.&lt;/p>
+&lt;p>There&amp;rsquo;s only one real compromise to this, only the audio coming from the auxiliary port is sent to the sub. That&amp;rsquo;s how I listen to music 95% of the time, so no subwoofer with the CD player or radio is fine for me. I tapped into the auxiliary output right next to the cigarette lighter, so I ran power from there. The cigarette lighter is only on when the car is on, so I don&amp;rsquo;t have to worry about draining the battery when the car is off. There are no power supply issues, as the cigarette lighter supplies 20A, while the sub only draws 4A max.&lt;/p></description></item><item><title>Powered Subwoofer for Your Car and House</title><link>https://pcbisolation.com/blog/subwoofer-for-car-and-house/</link><pubDate>Sun, 05 Jan 2014 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/subwoofer-for-car-and-house/</guid><description>&lt;p>I have a thing for subwoofers, convenience, and low cost. Arguing over DVCs in $300 subs isn&amp;rsquo;t my thing.&lt;/p>
+&lt;p>This 8-inch tube subwoofer was $1 a garage sale.&lt;/p>
+&lt;p>&lt;a href="tube_subwoofer_01.jpg">&lt;img alt="tube_subwoofer_01" loading="lazy" src="https://pcbisolation.com/blog/subwoofer-for-car-and-house/tube_subwoofer_01.jpg">&lt;/a>&lt;/p>
+&lt;p>Tube subs are popular for their size and portability, you can set it in a car trunk or behind a truck seat with no thought or effort. The enclosure is plastic so they are lightweight. To reclaim trunk space, pull it out.&lt;/p></description></item><item><title>Quick Overheating Router Fix</title><link>https://pcbisolation.com/blog/overheating-router-fix/</link><pubDate>Sun, 11 Aug 2013 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/overheating-router-fix/</guid><description>&lt;p>The DLink DIR-655 is an excellent router. It supports Dynamic DNS, Port Forwarding, Virtual Servers, DMZ and much more. Problem is, in the awful heat and humidity of the midwest, it overheats during periods of high traffic, like large file downloads.&lt;/p>
+&lt;p>Three quick fixes, A) move it to a basement or cooler spot of your house, B) drill holes in the case, or C) add a fan.&lt;/p>
+&lt;p>&lt;a href="router-fan-01.jpg">&lt;img alt="router-fan-01" loading="lazy" src="https://pcbisolation.com/blog/overheating-router-fix/router-fan-01.jpg">&lt;/a>&lt;br>
+The DIR655 has a usb output on the back designed for printers and network storage. I pulled power from that port. I wired a small computer fan to a USB male plug (5V and gnd). Many 12V computer fans will spin off 5V. To disassemble, I took two screws under the feet at the bottom and popped the top off.&lt;/p></description></item><item><title>Powered Subwoofer &amp; Box Build</title><link>https://pcbisolation.com/blog/powered-subwoofers/</link><pubDate>Sun, 17 Feb 2013 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/powered-subwoofers/</guid><description>&lt;p>&lt;a href="logitech-z340-06.jpg">&lt;img alt="logitech-z340-06" loading="lazy" src="https://pcbisolation.com/blog/powered-subwoofers/logitech-z340-06.jpg">&lt;/a>&lt;/p>
+&lt;p>Kicker&amp;rsquo;s Free Airs left a legacy in the market. They have almost no enclosure requirements and are often drop-in upgrades.&lt;/p>
+&lt;p>I picked up two used 6.5″ Kicker Free Air subwoofers. &amp;ldquo;Free Air&amp;rdquo; is a misnomer, they still need an enclosure. However the enclosure space can be relatively large. The trunk of your car could be considered an enclosure, as long as the space in front of these speaker is sealed off from the space behind these speakers. I don&amp;rsquo;t plan to put these in a car, they are going to be for a home sound system. I like the early 2000&amp;rsquo;s sub look that these Kickers have: thickly stitched cones, paint chipped rusting frame, rotting seal, and corroded leads. At one point they were very nice, now they are fair. I can deal with fair speakers if they are free.&lt;/p></description></item><item><title>3D Prints</title><link>https://pcbisolation.com/3d-prints/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/3d-prints/</guid><description>&lt;p>I designed all of these parts in Solidworks or Autodesk Inventor. I use an Ender 3 3D printer with ABS.&lt;/p>
+&lt;p>Design files and STLs can be downloaded for free on my &lt;a href="https://www.thingiverse.com/jckz82/designs">Thingiverse page&lt;/a>.&lt;/p>
+&lt;hr class="section-break">
+&lt;h3 id="drawer-mount-for-standing-desk-height-controller">Drawer mount for standing desk height controller&lt;/h3>
+&lt;p>&lt;a href="standing-desk-16.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/3d-prints/standing-desk-16.jpg">&lt;/a>&lt;/p>
+&lt;p>&lt;em>&lt;a href="https://www.thingiverse.com/thing:7028564">thingiverse page&lt;/a>&lt;/em>&lt;/p>
+&lt;hr class="section-break">
+&lt;h3 id="monitor-webcamhotshoe-mount">Monitor Webcam/Hotshoe Mount&lt;/h3>
+&lt;p>&lt;a href="webcam-mount-08.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/3d-prints/webcam-mount-08.jpg">&lt;/a>&lt;/p>
+&lt;p>&lt;em>&lt;a href="https://www.thingiverse.com/thing:7028593">thingiverse page&lt;/a>&lt;/em>&lt;/p>
+&lt;hr class="section-break">
+&lt;h3 id="angle-grinder-dust-shroud-with-vacuum-attachment">Angle Grinder Dust Shroud with Vacuum Attachment&lt;/h3>
+&lt;p>&lt;a href="dewalt-dust-shroud-01-scaled.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/3d-prints/dewalt-dust-shroud-01-1024x768.jpg">&lt;/a>&lt;/p>
+&lt;p>&lt;em>&lt;a href="https://www.thingiverse.com/thing:5359687">thingiverse page&lt;/a>&lt;/em>&lt;/p>
+&lt;hr class="section-break">
+&lt;h3 id="discrete-nightstand-lamp">Discrete Nightstand Lamp&lt;/h3>
+&lt;p>&lt;a href="3D_Printer_66.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/3d-prints/3D_Printer_66.jpg">&lt;/a>&lt;/p>
+&lt;hr class="section-break">
+&lt;h3 id="bobbin-holders">Bobbin Holders&lt;/h3>
+&lt;p>&lt;a href="P1270007.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/3d-prints/P1270007.jpg">&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.thingiverse.com/thing:3972617">&lt;em>thingiverse page&lt;/em>&lt;/a>&lt;/p>
+&lt;hr class="section-break">
+&lt;h3 id="12-socket-trays">1/2″ Socket Trays&lt;/h3>
+&lt;p>&lt;a href="3D_Printer_127.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/3d-prints/3D_Printer_127.jpg">&lt;/a>&lt;/p></description></item><item><title>Contact</title><link>https://pcbisolation.com/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/contact/</guid><description>&lt;p>I&amp;rsquo;m Cal, I have a degree in Electrical and Computer Engineering from the Missouri University of Science and Technology.&lt;/p>
+&lt;p>I&amp;rsquo;m interested in PCB design, embedded systems, and Internet of Things applications.&lt;/p>
+&lt;p>Contact me at &lt;a href="mailto:callahankovacs@gmail.com">callahankovacs@gmail.com&lt;/a>&lt;/p></description></item><item><title>Projects</title><link>https://pcbisolation.com/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/projects/</guid><description>&lt;p>(ordered by newest projects first)&lt;/p>
+&lt;h2 id="little-nugget-v2---5v-2a-power-supply">Little Nugget v2 - 5V 2A Power Supply&lt;/h2>
+&lt;div class="figure-gallery"
+style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:0.75rem;margin:1.5rem 0;">
+&lt;a href="little-nugget-v2-01.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="little-nugget-v2-01.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;a href="little-nugget-v2-02.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="little-nugget-v2-02.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;/div>
+&lt;p>This 5 Volt 2 Amp power supply runs off a single Li-Ion cell and is charged via micro USB. It has 2 USB type A outputs.&lt;/p>
+&lt;p>The input can provide power to the output and charge the battery simultaneously. When the input power is removed, the battery supplies power to the output.&lt;/p></description></item></channel></rss>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Tech on PCB Isolation</title><link>https://pcbisolation.com/categories/tech/</link><description>Recent content in Tech on PCB Isolation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 11 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pcbisolation.com/categories/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>London Good Delivery Bar Ingot Mold – Design Drawings</title><link>https://pcbisolation.com/blog/london-good-delivery-bar-ingot-mold-drawings/</link><pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/london-good-delivery-bar-ingot-mold-drawings/</guid><description>&lt;p>&lt;a href="https://en.wikipedia.org/wiki/Good_Delivery">London Good Delivery Bars&lt;/a> define &lt;a href="https://www.lbma.org.uk/publications/good-delivery-rules/technical-specifications">standards&lt;/a> for gold and silver ingots. These are usually the ingots you see in movies. This post contains drawings I created for molds made from 1/4″ (6mm) mild steel.&lt;/p>
+&lt;p>&lt;a href="IMG_0431-scaled.jpg">&lt;img loading="lazy" src="https://pcbisolation.com/blog/london-good-delivery-bar-ingot-mold-drawings/IMG_0431-1024x768.jpg">&lt;/a>&lt;/p>
+&lt;p>Below you&amp;rsquo;ll find a pdf and jpegs with the dimensions.&lt;/p>
+&lt;p>&lt;a href="london-good-delivery-bar-ingot-mold.pdf">london-good-delivery-bar-ingot-mold&lt;/a>&lt;a href="london-good-delivery-bar-ingot-mold.pdf">Download&lt;/a>&lt;/p>
+&lt;p>&lt;a href="ingot-mold-page-1.png">&lt;img loading="lazy" src="https://pcbisolation.com/blog/london-good-delivery-bar-ingot-mold-drawings/ingot-mold-page-1.png">&lt;/a> &lt;a href="ingot-mold-page-2.png">&lt;img loading="lazy" src="https://pcbisolation.com/blog/london-good-delivery-bar-ingot-mold-drawings/ingot-mold-page-2.png">&lt;/a>&lt;/p>
+&lt;p>See the creation of the molds below:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Nej6UTunMn4?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
+&lt;/div></description></item><item><title>Waterproof, Sound Proof Generator Enclosure</title><link>https://pcbisolation.com/blog/waterproof-sound-proof-generator-enclosure/</link><pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/waterproof-sound-proof-generator-enclosure/</guid><description>&lt;div class="figure-gallery"
+style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:0.75rem;margin:1.5rem 0;">
+&lt;a href="generator-enclosure-13.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="generator-enclosure-13.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;a href="generator-enclosure-12.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="generator-enclosure-12.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;/div>
+&lt;p>For RVs and vans, generators are very useful but very loud. I wanted an enclosure that is both waterproof and noise dampening. It&amp;rsquo;s hard to find something like this, because it&amp;rsquo;s not easy to encase an engine and keep it cool.&lt;/p>
+&lt;p>In the end, I failed to keep the generator cool enough to for more than 2 hours.&lt;/p>
+&lt;p>I used a &lt;a href="https://www.amazon.com/WEN-56235i-2350-Watt-Generator-Lightweight/dp/B085828BQ6">Wen 56235i&lt;/a> generator. It is a cheaper variant of the Honda EU2200 series.&lt;/p></description></item><item><title>Integrate Zooz ZEN34 with Home Assistant</title><link>https://pcbisolation.com/blog/integrate-zooz-zen34-with-home-assistant/</link><pubDate>Sat, 26 Jun 2021 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/integrate-zooz-zen34-with-home-assistant/</guid><description>&lt;p>This overviews adding a Zooz ZEN34 smart switch to Home Assistant and using it to trigger automations.&lt;/p>
+&lt;p>This guide was written for HA 2021.6.6.&lt;/p>
+&lt;h2 id="prerequisites">Prerequisites&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a href="https://www.home-assistant.io/">Home Assistant&lt;/a>&lt;/li>
+&lt;li>Z-Wave USB Hub&lt;br>
+I recommend either the &lt;a href="https://aeotec.com/z-wave-usb-stick/z-stick-7.html">Aeotec Z-Stick 7&lt;/a> or &lt;a href="https://aeotec.com/z-wave-usb-stick/">Z-Stick 5&lt;/a>.&lt;/li>
+&lt;li>Z-Wave JS integration on Home Assistant&lt;br>
+See setup instructions &lt;a href="https://help.aeotec.com/support/solutions/articles/6000246295-setup-home-assistant-with-z-stick-7">here&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="https://www.amazon.com/gp/product/B08TMWLY74">Zooz ZEN34 Smart Wireless Z-Wave Switch&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;h2 id="add-zen34-to-z-wavejs">Add ZEN34 to Z-WaveJS&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Remove paper battery tabs from switch to power on switch&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Login to Home Assistant&lt;/p></description></item><item><title>Repairing and Adding Bluetooth to an 80’s – 90’s AC Delco Radio</title><link>https://pcbisolation.com/blog/repairing-and-adding-bluetooth-to-a-90s-delco-radio/</link><pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/repairing-and-adding-bluetooth-to-a-90s-delco-radio/</guid><description>&lt;p>&lt;img loading="lazy" src="https://pcbisolation.com/blog/repairing-and-adding-bluetooth-to-a-90s-delco-radio/delco-stereo-7.jpg">&lt;em>AC Delco Model 16131355&lt;/em>&lt;/p>
+&lt;p>This post details the repair of a early 1991 AC Delco stereo. AC Delco made many variants of this stereo for both Chevrolet and GM cars, trucks, and vans from the early 80&amp;rsquo;s to the mid-90&amp;rsquo;s. While many of the stereos have more or less features (cassette players, radio presets, etc), the amplifier section of the radio is fairly standard and unchanged.&lt;/p>
+&lt;h2 id="internal-pinout-and-schematic">Internal Pinout and Schematic&lt;/h2>
+&lt;p>&lt;img loading="lazy" src="https://pcbisolation.com/blog/repairing-and-adding-bluetooth-to-a-90s-delco-radio/delco-stereo-11.jpg">&lt;/p></description></item><item><title>Swapping LEDs and PCB in a Dimmable Nightlight</title><link>https://pcbisolation.com/blog/nightlight-new-leds-and-pcb/</link><pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/nightlight-new-leds-and-pcb/</guid><description>&lt;p>I&amp;rsquo;ve looked and been unsuccessful in finding household nightlights that meet my criteria:&lt;/p>
+&lt;ul>
+&lt;li>auto on/off&lt;/li>
+&lt;li>dimmable&lt;/li>
+&lt;li>1800K CCT&lt;/li>
+&lt;li>decent CRI&lt;/li>
+&lt;li>uniform illumination&lt;/li>
+&lt;li>no flickering&lt;/li>
+&lt;li>power efficient&lt;/li>
+&lt;/ul>
+&lt;p>The closest I found was &lt;a href="https://www.amazon.com/gp/product/B078NH96RT/">this nightlight&lt;/a>. I like everything about it except the 3000K CCT. I believe it&amp;rsquo;s a bit too cool for a nightlight.&lt;/p>
+&lt;p>&lt;img loading="lazy" src="https://pcbisolation.com/blog/nightlight-new-leds-and-pcb/nightlight-01-1024x685.jpg">&lt;/p>
+&lt;p>I ended up swapping the 3000K LEDs for 2200K LEDs. I would have preferred 1800K, but was unable to source them on Digikey.&lt;/p></description></item><item><title>Octopart API Pricing Scheme</title><link>https://pcbisolation.com/blog/octopart-api-pricing/</link><pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/octopart-api-pricing/</guid><description>&lt;p>Octopart, the search engine for electronic and industrial parts, doesn&amp;rsquo;t post the pricing for their &lt;a href="https://octopart.com/api/home">API&lt;/a> on their website. There&amp;rsquo;s a bit of irony, since Octopart scrapes pricing from sites like Digikey, who also tries to &lt;a href="https://news.ycombinator.com/item?id=168735">hide their pricing&lt;/a>.&lt;/p>
+&lt;p>The Octopart API is a great resource for pricing BOMs. &lt;a href="https://github.com/xesscorp/KiCost">KiCost&lt;/a> is a great example of tool that uses the Octopart API (although KiCost has &lt;a href="https://github.com/xesscorp/KiCost/issues/357#issuecomment-495579269">moved away from Octopart&lt;/a> due to the paywall).&lt;/p>
+&lt;p>As of June 2019, the Octopart API is as follows:&lt;/p></description></item><item><title>How To Spot a Counterfeit or Refurbished Motorola Razr V3</title><link>https://pcbisolation.com/blog/how-to-spot-a-counterfeit-motorola-razr-v3/</link><pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/how-to-spot-a-counterfeit-motorola-razr-v3/</guid><description>&lt;p>&lt;em>&lt;strong>Note&lt;/strong> - There are many versions of the Motorola Razr, each with subtle differences. Even similar version have differences between countries. Not all of the differences of this counterfeit/refurbished Razr will apply to your Razr!&lt;/em>&lt;/p>
+&lt;p>This applies specifically to the Motorola Razr V3, but you can find similar discrepancies on a Razr V2 or V3i.&lt;/p>
+&lt;p>If you have a feeling the phone is fake, that&amp;rsquo;s a good indicator that it is.&lt;/p></description></item><item><title>Motorola Razr V3: Real vs Counterfeit Teardown</title><link>https://pcbisolation.com/blog/motorola-razr-v3-real-vs-counterfeit-teardown/</link><pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/motorola-razr-v3-real-vs-counterfeit-teardown/</guid><description>&lt;p>&lt;img loading="lazy" src="https://pcbisolation.com/blog/motorola-razr-v3-real-vs-counterfeit-teardown/razr-real-fake-teardown-01.jpg">Left- Authentic Razr V3, Right - Counterfeit Razr V3&lt;/p>
+&lt;p>I recently bought a Razr V3 on eBay. The listing below shows that it is made by Motorola. The pictures are of an authentic Razr. However I received a counterfeit Razr.&lt;/p>
+&lt;p>PS - I wrote a &lt;a href="https://pcbisolation.com/blog/how-to-spot-a-counterfeit-motorola-razr-v3/">quick guide on spotting counterfeit Motorola Razr V3&lt;/a>&amp;rsquo;s (without disassembly).&lt;/p>
+&lt;p>&lt;img loading="lazy" src="https://pcbisolation.com/blog/motorola-razr-v3-real-vs-counterfeit-teardown/razr-real-fake-teardown-34.jpg">&lt;/p>
+&lt;p>If the phone would have worked, I wouldn&amp;rsquo;t have cared. But it wouldn&amp;rsquo;t get a signal with my SIM, so I complained and got a refund.&lt;/p></description></item></channel></rss>

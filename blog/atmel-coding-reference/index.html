@@ -1,0 +1,363 @@
+<!doctype html><html lang=en dir=auto data-theme=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Atmel ATtiny ATmega AVR Quick Code Reference | PCB Isolation</title>
+<meta name=keywords content><meta name=description content="I usually forget bitwise operators, basic variables, and functions when coding in Atmel Studio for an ATtiny or ATmega project.
+Normally, I look at some of my old code for reference. This is my focused and consolidated version of the important building blocks.
+
+Contents
+I/O Registers
+Bitwise Operators
+Delays
+Interrupts
+Program Memory
+PWM
+I/O Registers
+
+DDR x - Data Direction Register - Configures each pin as an input or output. The 0th bit refers to the 0th pin of the port and the 7th bit refers to the 7th bit of the port.
+PORT x - Data Register - The value of the pin, used for reading input or writing output
+P x n - The nth bit of port x. PB0 refers to the 0th bit of port B and PE7 refers to the 7th bit of port E.
+x - letter (e.g. B, D, E, F, G)
+n - number (0, 1, 2, … 7)
+
+Note that you still should refer to the datasheet for the specifics on these registers and how to set their values."><meta name=author content="PCB Isolation"><link rel=canonical href=https://pcbisolation.com/blog/atmel-coding-reference/><link crossorigin=anonymous href=/assets/css/stylesheet.bba1f2b9e702d80d048e11be078673a07bf37e53aade29a57d0afda5ade90eb4.css integrity="sha256-u6HyuecC2A0EjhG+B4ZzoHvzflOq3imlfQr9pa3pDrQ=" rel="preload stylesheet" as=style><link rel=icon href=https://pcbisolation.com/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://pcbisolation.com/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://pcbisolation.com/favicon-32x32.png><link rel=apple-touch-icon href=https://pcbisolation.com/apple-touch-icon.png><link rel=mask-icon href=https://pcbisolation.com/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=https://pcbisolation.com/blog/atmel-coding-reference/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51);color-scheme:dark}.list{background:var(--theme)}.toc{background:var(--entry)}}</style></noscript><script>localStorage.getItem("pref-theme")==="dark"?document.querySelector("html").dataset.theme="dark":localStorage.getItem("pref-theme")==="light"?document.querySelector("html").dataset.theme="light":window.matchMedia("(prefers-color-scheme: dark)").matches?document.querySelector("html").dataset.theme="dark":document.querySelector("html").dataset.theme="light"</script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@5/dist/photoswipe.css><meta property="og:url" content="https://pcbisolation.com/blog/atmel-coding-reference/"><meta property="og:site_name" content="PCB Isolation"><meta property="og:title" content="Atmel ATtiny ATmega AVR Quick Code Reference"><meta property="og:description" content="I usually forget bitwise operators, basic variables, and functions when coding in Atmel Studio for an ATtiny or ATmega project.
+Normally, I look at some of my old code for reference. This is my focused and consolidated version of the important building blocks.
+Contents I/O Registers
+Bitwise Operators
+Delays
+Interrupts
+Program Memory
+PWM
+I/O Registers DDR x - Data Direction Register - Configures each pin as an input or output. The 0th bit refers to the 0th pin of the port and the 7th bit refers to the 7th bit of the port. PORT x - Data Register - The value of the pin, used for reading input or writing output P x n - The nth bit of port x. PB0 refers to the 0th bit of port B and PE7 refers to the 7th bit of port E. x - letter (e.g. B, D, E, F, G) n - number (0, 1, 2, … 7) Note that you still should refer to the datasheet for the specifics on these registers and how to set their values."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="blog"><meta property="article:published_time" content="2016-09-28T00:00:00+00:00"><meta property="article:modified_time" content="2016-09-28T00:00:00+00:00"><meta property="og:image" content="https://pcbisolation.com/blog/atmel-coding-reference/atmel-reference-2.jpg"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://pcbisolation.com/blog/atmel-coding-reference/atmel-reference-2.jpg"><meta name=twitter:title content="Atmel ATtiny ATmega AVR Quick Code Reference"><meta name=twitter:description content="I usually forget bitwise operators, basic variables, and functions when coding in Atmel Studio for an ATtiny or ATmega project.
+Normally, I look at some of my old code for reference. This is my focused and consolidated version of the important building blocks.
+Contents I/O Registers
+Bitwise Operators
+Delays
+Interrupts
+Program Memory
+PWM
+I/O Registers DDR x - Data Direction Register - Configures each pin as an input or output. The 0th bit refers to the 0th pin of the port and the 7th bit refers to the 7th bit of the port. PORT x - Data Register - The value of the pin, used for reading input or writing output P x n - The nth bit of port x. PB0 refers to the 0th bit of port B and PE7 refers to the 7th bit of port E. x - letter (e.g. B, D, E, F, G) n - number (0, 1, 2, … 7) Note that you still should refer to the datasheet for the specifics on these registers and how to set their values."><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Blogs","item":"https://pcbisolation.com/blog/"},{"@type":"ListItem","position":2,"name":"Atmel ATtiny ATmega AVR Quick Code Reference","item":"https://pcbisolation.com/blog/atmel-coding-reference/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Atmel ATtiny ATmega AVR Quick Code Reference","name":"Atmel ATtiny ATmega AVR Quick Code Reference","description":"I usually forget bitwise operators, basic variables, and functions when coding in Atmel Studio for an ATtiny or ATmega project.\nNormally, I look at some of my old code for reference. This is my focused and consolidated version of the important building blocks.\nContents I/O Registers\nBitwise Operators\nDelays\nInterrupts\nProgram Memory\nPWM\nI/O Registers DDR x - Data Direction Register - Configures each pin as an input or output. The 0th bit refers to the 0th pin of the port and the 7th bit refers to the 7th bit of the port. PORT x - Data Register - The value of the pin, used for reading input or writing output P x n - The nth bit of port x. PB0 refers to the 0th bit of port B and PE7 refers to the 7th bit of port E. x - letter (e.g. B, D, E, F, G) n - number (0, 1, 2, … 7) Note that you still should refer to the datasheet for the specifics on these registers and how to set their values.\n","keywords":[],"articleBody":"I usually forget bitwise operators, basic variables, and functions when coding in Atmel Studio for an ATtiny or ATmega project.\nNormally, I look at some of my old code for reference. This is my focused and consolidated version of the important building blocks.\nContents I/O Registers\nBitwise Operators\nDelays\nInterrupts\nProgram Memory\nPWM\nI/O Registers DDR x - Data Direction Register - Configures each pin as an input or output. The 0th bit refers to the 0th pin of the port and the 7th bit refers to the 7th bit of the port. PORT x - Data Register - The value of the pin, used for reading input or writing output P x n - The nth bit of port x. PB0 refers to the 0th bit of port B and PE7 refers to the 7th bit of port E. x - letter (e.g. B, D, E, F, G) n - number (0, 1, 2, … 7) Note that you still should refer to the datasheet for the specifics on these registers and how to set their values.\nBitwise Operators These commands affect a specific bit in the register without changing other values in the register.\n// ON - writes a 1. Makes Port B, Pin 3 output high PORTB |= ( 1 \u003c\u003c PB3); // OFF - writes a 0. Makes Port B, Pin 3 output low PORTB \u0026= ~( 1 \u003c\u003c PB3 ); // TOGGLE - toggles the current value - a 0 will change to a 1 and a 1 will change to a 0 PORTB ^= ( 1 \u003c\u003c PB3 ); Writing multiple bits in one line. Many people are cautious about this. Be brave.\n// ON - writes a 1 to multiple bits PORTB |= ( 1 \u003c\u003c PB3 ) | ( 1 \u003c\u003c PB5 ) | ( 1 \u003c\u003c PB6 ); // OFF - writes a 0 to multiple bits PORTB \u0026= ~( 1 \u003c\u003c PB3) \u0026 ~( 1 \u003c\u003c PB5 ) \u0026 (1 \u003c\u003c PB6); // Writes 0 to multiple bits // TOGGLE - toggles the current value of multiple bits PORTB ^= ( 1 \u003c\u003c PB3) ^ (1 \u003c\u003c PB5 ) ^ ( 1 \u003c\u003c PB6 ); Delays #define F_CPU 8000000UL // speed of clock, before prescaler (default 8MHz) #include int main(void) { _delay_ms(100); // wait 100 milliseconds _delay_us(100); // wait 100 microseconds } Blinking LED Example\n#define F_CPU 8000000UL // speed of clock, before prescaler (default 8MHz) #include #include int main(void) { DDRB |= ( 1 \u003c\u003c PB3); // this command makes the 3rd bit of port B an output while (1) { PORTB |= ( 1 \u003c\u003c PB3); // make Port B, Pin 3 output high _delay_ms(1000); // wait 1 second PORTB \u0026= ~( 1 \u003c\u003c PB3 ); // make Port B, Pin 3 output low _delay_ms(1000); // wait 1 second } } Interrupts This example is the minimum code for an interrupt. Refer to the datasheet for a list of all interrupts.\n#include ; /////////////////////////////////////////////////////////////////////////////////////// // @name: Timer 0 Compare A Interrupt // @call: When OCR0A is equal to compare value /////////////////////////////////////////////////////////////////////////////////////// ISR(TIM0_COMPA_vect){ // interrupt code here } int main(void) { // set registers for Timer 0 // enable Output Compare Interrupts in Timer 0 registers sei(); // enable interrupts while(1); // wait for interrupts } Program Memory This is for storing and reading large data to program memory.\n#include ; // writing to program memory const unsigned char ANTI_LOG[] PROGMEM = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x04, 0x04, 0x04, 0x04, 0x04, 0x05, 0x05, 0x05, 0x05, 0x06, 0x06, 0x06, 0x07, 0x07, 0x07, 0x08, 0x08, 0x08, 0x09, 0x09, 0x0A, 0x0A, 0x0B, 0x0B, 0x0C, 0x0C, 0x0D, 0x0D, 0x0E, 0x0F, 0x0F, 0x10, 0x11, 0x11, 0x12, 0x13, 0x14, 0x15, 0x16, 0x17, 0x18, 0x19, 0x1A, 0x1B, 0x1C, 0x1D, 0x1F, 0x20, 0x21, 0x23, 0x24, 0x26, 0x27, 0x29, 0x2B, 0x2C, 0x2E, 0x30, 0x32, 0x34, 0x36, 0x38, 0x3A, 0x3C, 0x3E, 0x40, 0x43, 0x45, 0x47, 0x4A, 0x4C, 0x4F, 0x51, 0x54, 0x57, 0x59, 0x5C, 0x5F, 0x62, 0x64, 0x67, 0x6A, 0x6D, 0x70, 0x73, 0x76, 0x79, 0x7C, 0x7F, 0x82, 0x85, 0x88, 0x8B, 0x8E, 0x91, 0x94, 0x97, 0x9A, 0x9C, 0x9F, 0xA2, 0xA5, 0xA7, 0xAA, 0xAD, 0xAF, 0xB2, 0xB4, 0xB7, 0xB9, 0xBB, 0xBE, 0xC0, 0xC2, 0xC4, 0xC6, 0xC8, 0xCA, 0xCC, 0xCE, 0xD0, 0xD2, 0xD3, 0xD5, 0xD7, 0xD8, 0xDA, 0xDB, 0xDD, 0xDE, 0xDF, 0xE1, 0xE2, 0xE3, 0xE4, 0xE5, 0xE6, 0xE7, 0xE8, 0xE9, 0xEA, 0xEB, 0xEC, 0xED, 0xED, 0xEE, 0xEF, 0xEF, 0xF0, 0xF1, 0xF1, 0xF2, 0xF2, 0xF3, 0xF3, 0xF4, 0xF4, 0xF5, 0xF5, 0xF6, 0xF6, 0xF6, 0xF7, 0xF7, 0xF7, 0xF8, 0xF8, 0xF8, 0xF9, 0xF9, 0xF9, 0xF9, 0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0xFB, 0xFB, 0xFB, 0xFB, 0xFB, 0xFB, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFE, 0xFE, 0xFE, 0xFE, 0xFE, 0xFE, 0xFE, 0xFF, 0xFF}; int main(void) { // reading from program memory OCR0A = pgm_read_byte(\u0026ANTI_LOG[3]); // write the value at index 3 of ANTI_LOG to register OCR0A } PWM Simple PWM is accomplished by setting a timer and using the hardware based Output Compare and PWM.\nThe following examples were written on an ATtiny 45, but should work for an ATtiny25, ATtiny45, and ATtiny85. Other Atmel microcontrollers can be used with slight, if any, modification.\n/* * Simple PWM * Produces a PWM output on OC0A (PB0) */ #include int main(void) { // configure Timer 0 TCCR0A |= (1 \u003c\u003c COM0A1) | (1 \u003c\u003c COM0A0) | (1 \u003c\u003c WGM01) | (1 \u003c\u003c WGM00); // Fast PWM on OC0A OCR0A = 0x50; // OCR0A controls the duty cycle TCCR0B |= (1 \u003c\u003c CS01); // Clock = prescaler/8 } This code does the exact same thing as the code above, but uses interrupts. This will sets us up for solving complex situations in the future.\n/* * Simple PWM using Interrupts * Produces a PWM output on OC0A (PB0) */ #include #include /////////////////////////////////////////////////////////////////////////////////////// // @name: Timer 0 Overflow Interrupt // @call: When Timer 0 overflows // @note: Used for 10-bit fast PWM output /////////////////////////////////////////////////////////////////////////////////////// ISR(TIM0_OVF_vect) { PORTB |= ( 1 \u003c\u003c PB0 ); // turn on output } /////////////////////////////////////////////////////////////////////////////////////// // @name: Timer 0 Compare A Interrupt // @call: When OCR0A is equal to compare value // @note: Used for 10-bit fast PWM output /////////////////////////////////////////////////////////////////////////////////////// ISR(TIM0_COMPA_vect){ PORTB \u0026= ~( 1 \u003c\u003c PB0); // turn off output } int main(void) { // set registers for Timer 0 TCCR0A |= (1 \u003c\u003c WGM01) | (1 \u003c\u003c WGM00); // Fast PWM, OC0A disconnected OCR0A = 0x50; // Initial duty cycle TCCR0B |= (1 \u003c\u003c CS01); // Clock = prescaler/8 DDRB |= ( 1 \u003c\u003c PB0 ); // enable output sei(); // enable interrupts while(1); } This example addresses how to change the PWM duty cycle. Note this example does not use any delay functions.\n/* * PWM using Interrupts * Produces a PWM that glows on an off gradually on OC0A (PB0) */ #define F_CPU 8000000UL // speed of clock, before prescaler (default 8MHz) #include #include unsigned char cyclesPWM = 0; // counts number of PWM cycles unsigned char dutyPWM = 20; // 0 = 0% duty cycle, 255 = 100% duty cycle char indexDirPWM = 1; // 1 = increase duty cycle, -1 = decrease duty cycle /////////////////////////////////////////////////////////////////////////////////////// // @name: Timer 0 Overflow Interrupt // @call: When Timer 0 overflows // @note: Used for 10-bit fast PWM output /////////////////////////////////////////////////////////////////////////////////////// ISR(TIM0_OVF_vect) { cyclesPWM++; if (cyclesPWM \u003e= 10){ // change the duty cycle every 10th cycle cyclesPWM = 0; // e.g. change PWM every 10th overflow cyclesPWM += indexDirPWM; // adjust PWM duty cycle by 1 if (dutyPWM \u003e= 254) // if duty cycle = 100%, indexDirPWM = -1; // ramp down else if (dutyPWM \u003c= 0) // else if duty cycle = 0% indexDirPWM = 1; // ramp up OCR0A = dutyPWM; } PORTB |= ( 1 \u003c\u003c PB0 ); // turn on output } /////////////////////////////////////////////////////////////////////////////////////// // @name: Timer 0 Compare A Interrupt // @call: When OCR0A is equal to compare value // @note: Used for 10-bit fast PWM output /////////////////////////////////////////////////////////////////////////////////////// ISR(TIM0_COMPA_vect){ PORTB \u0026= ~( 1 \u003c\u003c PB0); // turn off output } int main(void) { TCCR0A |= (1 \u003c\u003c WGM01) | (1 \u003c\u003c WGM00); // Fast PWM, OC0A disconnected OCR0A = 0x50; // Initial duty cycle TCCR0B |= (1 \u003c\u003c CS01); // Clock = prescaler/8 sei(); // enable interrupts while(1); } The simple linear PWM ramp in the example above doesn’t look good when driving an LED seen by the human eye.\nsimple linear ramp and anti-log ramp\nThis example addresses that issue with a non-linear change in the duty cycle. An anti log function works best. The values came from user BG100 on Stack Overflow.\n/* * Non-Linear PWM using Interrupts * Produces a non-linear PWM that glows on an off gradually on OC0A (PB0) */ #include #include #include #define F_CPU 8000000UL // speed of clock, before prescaler (default 8MHz) const unsigned char ANTI_LOG[] PROGMEM = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x04, 0x04, 0x04, 0x04, 0x04, 0x05, 0x05, 0x05, 0x05, 0x06, 0x06, 0x06, 0x07, 0x07, 0x07, 0x08, 0x08, 0x08, 0x09, 0x09, 0x0A, 0x0A, 0x0B, 0x0B, 0x0C, 0x0C, 0x0D, 0x0D, 0x0E, 0x0F, 0x0F, 0x10, 0x11, 0x11, 0x12, 0x13, 0x14, 0x15, 0x16, 0x17, 0x18, 0x19, 0x1A, 0x1B, 0x1C, 0x1D, 0x1F, 0x20, 0x21, 0x23, 0x24, 0x26, 0x27, 0x29, 0x2B, 0x2C, 0x2E, 0x30, 0x32, 0x34, 0x36, 0x38, 0x3A, 0x3C, 0x3E, 0x40, 0x43, 0x45, 0x47, 0x4A, 0x4C, 0x4F, 0x51, 0x54, 0x57, 0x59, 0x5C, 0x5F, 0x62, 0x64, 0x67, 0x6A, 0x6D, 0x70, 0x73, 0x76, 0x79, 0x7C, 0x7F, 0x82, 0x85, 0x88, 0x8B, 0x8E, 0x91, 0x94, 0x97, 0x9A, 0x9C, 0x9F, 0xA2, 0xA5, 0xA7, 0xAA, 0xAD, 0xAF, 0xB2, 0xB4, 0xB7, 0xB9, 0xBB, 0xBE, 0xC0, 0xC2, 0xC4, 0xC6, 0xC8, 0xCA, 0xCC, 0xCE, 0xD0, 0xD2, 0xD3, 0xD5, 0xD7, 0xD8, 0xDA, 0xDB, 0xDD, 0xDE, 0xDF, 0xE1, 0xE2, 0xE3, 0xE4, 0xE5, 0xE6, 0xE7, 0xE8, 0xE9, 0xEA, 0xEB, 0xEC, 0xED, 0xED, 0xEE, 0xEF, 0xEF, 0xF0, 0xF1, 0xF1, 0xF2, 0xF2, 0xF3, 0xF3, 0xF4, 0xF4, 0xF5, 0xF5, 0xF6, 0xF6, 0xF6, 0xF7, 0xF7, 0xF7, 0xF8, 0xF8, 0xF8, 0xF9, 0xF9, 0xF9, 0xF9, 0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0xFB, 0xFB, 0xFB, 0xFB, 0xFB, 0xFB, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFE, 0xFE, 0xFE, 0xFE, 0xFE, 0xFE, 0xFE, 0xFF, 0xFF}; unsigned char cyclesPWM = 0; char indexDirPWM = 1; unsigned char indexPWM = 70; /////////////////////////////////////////////////////////////////////////////////////// // @name: Timer 0 Overflow Interrupt // @call: When Timer 0 overflows // @note: Used for 10-bit fast PWM output /////////////////////////////////////////////////////////////////////////////////////// ISR(TIM0_OVF_vect) { cyclesPWM++; if (cyclesPWM \u003e= 10){ // change the duty cycle every 10th cycle cyclesPWM = 0; // e.g. change PWM every 10th overflow indexPWM += indexDirPWM; // adjust PWM index if (indexPWM \u003e= 254) // if duty cycle = 100%, indexDirPWM = -1; // ramp down else if (indexPWM \u003c= 0) // else if duty cycle = 0% indexDirPWM = 1; // ramp up OCR0A = pgm_read_byte(\u0026amp;ANTI_LOG[indexPWM]); // set new PWM } PORTB |= ( 1 \u003c\u003c PB0 ); // turn on output } /////////////////////////////////////////////////////////////////////////////////////// // @name: Timer 0 Compare A Interrupt // @call: When OCR1A is equal to compare value // @note: Used for 10-bit fast PWM output /////////////////////////////////////////////////////////////////////////////////////// ISR(TIM0_COMPA_vect){ PORTB \u0026= ~( 1 \u003c\u003c PB0 ); // turn off output } int main(void) { TCCR0A |= (1 \u003c\u003c WGM01) | (1 \u003c\u003c WGM00); // Fast PWM, OC0A disconnected OCR0A = 0x50; // Initial duty cycle TCCR0B |= (1 \u003c\u003c CS01); // Clock = prescaler/8 sei(); // enable interrupts while(1); } If there is any reference info you find useful that isn’t included, comment below!\n","wordCount":"1990","inLanguage":"en","image":"https://pcbisolation.com/blog/atmel-coding-reference/atmel-reference-2.jpg","datePublished":"2016-09-28T00:00:00Z","dateModified":"2016-09-28T00:00:00Z","author":{"@type":"Person","name":"PCB Isolation"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://pcbisolation.com/blog/atmel-coding-reference/"},"publisher":{"@type":"Organization","name":"PCB Isolation","logo":{"@type":"ImageObject","url":"https://pcbisolation.com/favicon.ico"}}}</script></head><body id=top><header class=header><nav class=header-nav><div class=logo><a href=https://pcbisolation.com/ accesskey=h title="PCB Isolation (Alt + H)">PCB Isolation</a><div class=logo-switches><button id=theme-toggle class=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme"><svg class="moon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg class="sun" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu class=menu><li><a href=https://pcbisolation.com/blog/ title=Blog><span>Blog</span></a></li><li><a href=https://pcbisolation.com/projects/ title=Projects><span>Projects</span></a></li><li><a href=https://pcbisolation.com/3d-prints/ title="3D Prints"><span>3D Prints</span></a></li><li><a href=https://pcbisolation.com/contact/ title=Contact><span>Contact</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><nav class=breadcrumbs role=navigation aria-label=Breadcrumb><a href=/>Home</a>
+<svg viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"/></svg>
+<a href=/blog/>Blogs</a><svg viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"/></svg></nav><h1 class="post-title entry-hint-parent">Atmel ATtiny ATmega AVR Quick Code Reference</h1><div class=post-meta><span title='2016-09-28 00:00:00 +0000 UTC'>September 28, 2016</span>&nbsp;·&nbsp;<span>10 min</span>&nbsp;·&nbsp;<span>PCB Isolation</span></div></header><div class="post-content md-content"><p>I usually forget bitwise operators, basic variables, and functions when coding in Atmel Studio for an ATtiny or ATmega project.</p><p>Normally, I look at some of my old code for reference. This is my focused and consolidated version of the important building blocks.</p><p><a href=atmel-reference-2.jpg><img alt=atmel-reference-2 loading=lazy src=/blog/atmel-coding-reference/atmel-reference-2.jpg></a></p><h3 id=contents>Contents<a hidden class=anchor aria-hidden=true href=#contents>#</a></h3><p><a href=/blog/atmel-coding-reference/#io-registers>I/O Registers</a><br><a href=/blog/atmel-coding-reference/#bitwise-operators>Bitwise Operators</a><br><a href=/blog/atmel-coding-reference/#delays>Delays</a><br><a href=/blog/atmel-coding-reference/#interrupts>Interrupts</a><br><a href=/blog/atmel-coding-reference/#program-memory>Program Memory</a><br><a href=/blog/atmel-coding-reference/#pwm>PWM</a></p><h2 id=io-registers>I/O Registers<a hidden class=anchor aria-hidden=true href=#io-registers>#</a></h2><ul><li>DDR <em>x</em> - Data Direction Register - Configures each pin as an input or output. The 0th bit refers to the 0th pin of the port and the 7th bit refers to the 7th bit of the port.</li><li>PORT <em>x</em> - Data Register - The value of the pin, used for reading input or writing output</li><li>P <em>x</em> <em>n</em> - The nth bit of port x. PB0 refers to the 0th bit of port B and PE7 refers to the 7th bit of port E.</li><li><em>x</em> - letter (e.g. B, D, E, F, G)</li><li><em>n</em> - number (0, 1, 2, … 7)</li></ul><p>Note that you still should refer to the datasheet for the specifics on these registers and how to set their values.</p><h2 id=bitwise-operators>Bitwise Operators<a hidden class=anchor aria-hidden=true href=#bitwise-operators>#</a></h2><p>These commands affect a specific bit in the register without changing other values in the register.</p><pre><code>// ON - writes a 1. Makes Port B, Pin 3 output high
+PORTB |= ( 1 &lt;&lt; PB3); 
+
+// OFF - writes a 0. Makes Port B, Pin 3 output low
+PORTB &amp;= ~( 1 &lt;&lt; PB3 ); 
+
+// TOGGLE - toggles the current value - a 0 will change to a 1 and a 1 will change to a 0
+PORTB ^= ( 1 &lt;&lt; PB3 );  
+</code></pre><p>Writing multiple bits in one line. Many people are cautious about this. Be brave.</p><pre><code>// ON - writes a 1 to multiple bits
+PORTB |= ( 1 &lt;&lt; PB3 ) | ( 1 &lt;&lt; PB5 ) | ( 1 &lt;&lt; PB6 );  
+
+// OFF - writes a 0 to multiple bits
+PORTB &amp;= ~( 1 &lt;&lt; PB3) &amp; ~( 1 &lt;&lt; PB5 ) &amp; (1 &lt;&lt; PB6);  // Writes 0 to multiple bits
+
+// TOGGLE - toggles the current value of multiple bits
+PORTB ^= ( 1 &lt;&lt; PB3) ^ (1 &lt;&lt; PB5 ) ^ ( 1 &lt;&lt; PB6 );
+</code></pre><h2 id=delays>Delays<a hidden class=anchor aria-hidden=true href=#delays>#</a></h2><pre><code>#define F_CPU 8000000UL // speed of clock, before prescaler (default 8MHz)
+#include &lt;util/delay.h&gt;
+
+int main(void) {
+
+  _delay_ms(100);  // wait 100 milliseconds
+
+  _delay_us(100); // wait 100 microseconds
+
+}
+</code></pre><p>Blinking LED Example</p><pre><code>#define F_CPU 8000000UL // speed of clock, before prescaler (default 8MHz)
+
+#include &lt;avr/io.h&gt;
+#include &lt;util/delay.h&gt;
+
+int main(void) {
+
+  DDRB |= ( 1 &lt;&lt; PB3);  // this command makes the 3rd bit of port B an output
+
+  while (1) {
+
+    PORTB |= ( 1 &lt;&lt; PB3); // make Port B, Pin 3 output high
+
+    _delay_ms(1000);  // wait 1 second
+
+    PORTB &amp;= ~( 1 &lt;&lt; PB3 ); // make Port B, Pin 3 output low
+
+    _delay_ms(1000);  // wait 1 second
+
+  }
+
+}
+</code></pre><h2 id=interrupts>Interrupts<a hidden class=anchor aria-hidden=true href=#interrupts>#</a></h2><p>This example is the minimum code for an interrupt. Refer to the datasheet for a list of all interrupts.</p><pre><code>#include &lt;avr/interrupt.h&gt;;
+
+///////////////////////////////////////////////////////////////////////////////////////
+// @name: Timer 0 Compare A Interrupt
+// @call: When OCR0A is equal to compare value
+///////////////////////////////////////////////////////////////////////////////////////
+ISR(TIM0_COMPA_vect){
+
+// interrupt code here
+
+}
+
+int main(void) {
+
+// set registers for Timer 0
+
+// enable Output Compare Interrupts in Timer 0 registers
+
+sei();  // enable interrupts
+
+while(1);  // wait for interrupts
+
+}
+</code></pre><h2 id=program-memory>Program Memory<a hidden class=anchor aria-hidden=true href=#program-memory>#</a></h2><p>This is for storing and reading large data to program memory.</p><pre><code>#include &lt;avr/pgmspace.h&gt;;
+
+// writing to program memory
+
+const unsigned char ANTI_LOG[] PROGMEM = {
+  0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01,
+  0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02,
+  0x02, 0x02, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x04, 0x04, 0x04, 0x04, 0x04, 0x05, 0x05, 0x05,
+  0x05, 0x06, 0x06, 0x06, 0x07, 0x07, 0x07, 0x08, 0x08, 0x08, 0x09, 0x09, 0x0A, 0x0A, 0x0B, 0x0B,
+  0x0C, 0x0C, 0x0D, 0x0D, 0x0E, 0x0F, 0x0F, 0x10, 0x11, 0x11, 0x12, 0x13, 0x14, 0x15, 0x16, 0x17,
+  0x18, 0x19, 0x1A, 0x1B, 0x1C, 0x1D, 0x1F, 0x20, 0x21, 0x23, 0x24, 0x26, 0x27, 0x29, 0x2B, 0x2C,
+  0x2E, 0x30, 0x32, 0x34, 0x36, 0x38, 0x3A, 0x3C, 0x3E, 0x40, 0x43, 0x45, 0x47, 0x4A, 0x4C, 0x4F,
+  0x51, 0x54, 0x57, 0x59, 0x5C, 0x5F, 0x62, 0x64, 0x67, 0x6A, 0x6D, 0x70, 0x73, 0x76, 0x79, 0x7C,
+  0x7F, 0x82, 0x85, 0x88, 0x8B, 0x8E, 0x91, 0x94, 0x97, 0x9A, 0x9C, 0x9F, 0xA2, 0xA5, 0xA7, 0xAA,
+  0xAD, 0xAF, 0xB2, 0xB4, 0xB7, 0xB9, 0xBB, 0xBE, 0xC0, 0xC2, 0xC4, 0xC6, 0xC8, 0xCA, 0xCC, 0xCE,
+  0xD0, 0xD2, 0xD3, 0xD5, 0xD7, 0xD8, 0xDA, 0xDB, 0xDD, 0xDE, 0xDF, 0xE1, 0xE2, 0xE3, 0xE4, 0xE5,
+  0xE6, 0xE7, 0xE8, 0xE9, 0xEA, 0xEB, 0xEC, 0xED, 0xED, 0xEE, 0xEF, 0xEF, 0xF0, 0xF1, 0xF1, 0xF2,
+  0xF2, 0xF3, 0xF3, 0xF4, 0xF4, 0xF5, 0xF5, 0xF6, 0xF6, 0xF6, 0xF7, 0xF7, 0xF7, 0xF8, 0xF8, 0xF8,
+  0xF9, 0xF9, 0xF9, 0xF9, 0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0xFB, 0xFB, 0xFB, 0xFB, 0xFB, 0xFB, 0xFC,
+  0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD,
+  0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFE, 0xFE, 0xFE, 0xFE, 0xFE, 0xFE, 0xFE, 0xFF, 0xFF};
+
+
+int main(void) {
+  // reading from program memory
+  OCR0A = pgm_read_byte(&amp;ANTI_LOG[3]); // write the value at index 3 of ANTI_LOG to register OCR0A
+  
+}
+</code></pre><h2 id=pwm>PWM<a hidden class=anchor aria-hidden=true href=#pwm>#</a></h2><p>Simple PWM is accomplished by setting a timer and using the hardware based Output Compare and PWM.</p><p>The following examples were written on an ATtiny 45, but should work for an ATtiny25, ATtiny45, and ATtiny85. Other Atmel microcontrollers can be used with slight, if any, modification.</p><pre><code>/*
+ * Simple PWM
+ * Produces a PWM output on OC0A (PB0)
+ */
+
+#include &lt;avr/io.h&gt;
+
+int main(void) {
+
+  // configure Timer 0
+  TCCR0A |= (1 &lt;&lt; COM0A1) | (1 &lt;&lt; COM0A0) | (1 &lt;&lt; WGM01) | (1 &lt;&lt; WGM00); // Fast PWM on OC0A
+  OCR0A = 0x50; // OCR0A controls the duty cycle
+  TCCR0B |= (1 &lt;&lt; CS01); // Clock = prescaler/8
+
+}
+</code></pre><p>This code does the exact same thing as the code above, but uses interrupts. This will sets us up for solving complex situations in the future.</p><pre><code>/*
+ * Simple PWM using Interrupts
+ * Produces a PWM output on OC0A (PB0)
+ */
+
+#include &lt;avr/io.h&gt;
+#include &lt;avr/interrupt.h&gt;
+
+///////////////////////////////////////////////////////////////////////////////////////
+// @name: Timer 0 Overflow Interrupt
+// @call: When Timer 0 overflows
+// @note: Used for 10-bit fast PWM output
+///////////////////////////////////////////////////////////////////////////////////////
+ISR(TIM0_OVF_vect) {
+
+  PORTB |= ( 1 &lt;&lt; PB0 );  // turn on output
+
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////
+// @name: Timer 0 Compare A Interrupt
+// @call: When OCR0A is equal to compare value
+// @note: Used for 10-bit fast PWM output
+///////////////////////////////////////////////////////////////////////////////////////
+ISR(TIM0_COMPA_vect){
+
+  PORTB &amp;= ~( 1 &lt;&lt; PB0);  // turn off output
+
+}
+
+
+int main(void) {
+
+  // set registers for Timer 0
+  TCCR0A |= (1 &lt;&lt; WGM01) | (1 &lt;&lt; WGM00); // Fast PWM, OC0A disconnected
+  OCR0A = 0x50; // Initial duty cycle
+  TCCR0B |= (1 &lt;&lt; CS01); // Clock = prescaler/8
+
+  DDRB |= ( 1 &lt;&lt; PB0 );  // enable output
+
+  sei();  // enable interrupts
+
+  while(1);
+
+}
+</code></pre><p>This example addresses how to change the PWM duty cycle. Note this example does <em>not</em> use any delay functions.</p><pre><code>/* 
+ * PWM using Interrupts
+ * Produces a PWM that glows on an off gradually on OC0A (PB0)
+ */
+
+#define F_CPU 8000000UL  // speed of clock, before prescaler (default 8MHz)
+
+#include &lt;avr/io.h&gt;
+#include &lt;avr/interrupt.h&gt;
+
+unsigned char cyclesPWM = 0; // counts number of PWM cycles
+unsigned char dutyPWM = 20; // 0 = 0% duty cycle, 255 = 100% duty cycle
+char indexDirPWM = 1; // 1 = increase duty cycle, -1 = decrease duty cycle
+
+///////////////////////////////////////////////////////////////////////////////////////
+// @name: Timer 0 Overflow Interrupt
+// @call: When Timer 0 overflows
+// @note: Used for 10-bit fast PWM output
+///////////////////////////////////////////////////////////////////////////////////////
+ISR(TIM0_OVF_vect) {
+
+  cyclesPWM++;
+  if (cyclesPWM &gt;= 10){ // change the duty cycle every 10th cycle
+    cyclesPWM = 0; // e.g. change PWM every 10th overflow
+
+    cyclesPWM += indexDirPWM; // adjust PWM duty cycle by 1
+
+    if (dutyPWM &gt;= 254) // if duty cycle = 100%,
+    indexDirPWM = -1; // ramp down
+    else if (dutyPWM &lt;= 0) // else if duty cycle = 0%
+    indexDirPWM = 1; // ramp up
+
+    OCR0A = dutyPWM;
+  }
+
+  PORTB |= ( 1 &lt;&lt; PB0 ); // turn on output
+
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////
+// @name: Timer 0 Compare A Interrupt
+// @call: When OCR0A is equal to compare value
+// @note: Used for 10-bit fast PWM output
+///////////////////////////////////////////////////////////////////////////////////////
+ISR(TIM0_COMPA_vect){
+
+  PORTB &amp;= ~( 1 &lt;&lt; PB0); // turn off output
+
+}
+
+
+int main(void) {
+
+  TCCR0A |= (1 &lt;&lt; WGM01) | (1 &lt;&lt; WGM00); // Fast PWM, OC0A disconnected
+  OCR0A = 0x50; // Initial duty cycle
+  TCCR0B |= (1 &lt;&lt; CS01); // Clock = prescaler/8
+
+  sei();  // enable interrupts
+
+  while(1);
+
+}
+</code></pre><p>The simple linear PWM ramp in the example above doesn&rsquo;t look good when driving an LED seen by the human eye.</p><p><a href=atmel-reference-1.jpg><img alt="simple linear ramp and anti-log ramp" loading=lazy src=/blog/atmel-coding-reference/atmel-reference-1.jpg></a><em>simple linear ramp and anti-log ramp</em></p><p>This example addresses that issue with a non-linear change in the duty cycle. An anti log function works best. The values came from user BG100 on <a href=http://electronics.stackexchange.com/a/11100/83064>Stack Overflow</a>.</p><pre><code>/* 
+ * Non-Linear PWM using Interrupts
+ * Produces a non-linear PWM that glows on an off gradually on OC0A (PB0)
+ */
+#include &lt;avr/io.h&gt;
+#include &lt;avr/interrupt.h&gt;
+#include &lt;avr/pgmspace.h&gt;
+
+#define F_CPU 8000000UL // speed of clock, before prescaler (default 8MHz)
+
+const unsigned char ANTI_LOG[] PROGMEM = {
+  0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01,
+  0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02,
+  0x02, 0x02, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x04, 0x04, 0x04, 0x04, 0x04, 0x05, 0x05, 0x05,
+  0x05, 0x06, 0x06, 0x06, 0x07, 0x07, 0x07, 0x08, 0x08, 0x08, 0x09, 0x09, 0x0A, 0x0A, 0x0B, 0x0B,
+  0x0C, 0x0C, 0x0D, 0x0D, 0x0E, 0x0F, 0x0F, 0x10, 0x11, 0x11, 0x12, 0x13, 0x14, 0x15, 0x16, 0x17,
+  0x18, 0x19, 0x1A, 0x1B, 0x1C, 0x1D, 0x1F, 0x20, 0x21, 0x23, 0x24, 0x26, 0x27, 0x29, 0x2B, 0x2C,
+  0x2E, 0x30, 0x32, 0x34, 0x36, 0x38, 0x3A, 0x3C, 0x3E, 0x40, 0x43, 0x45, 0x47, 0x4A, 0x4C, 0x4F,
+  0x51, 0x54, 0x57, 0x59, 0x5C, 0x5F, 0x62, 0x64, 0x67, 0x6A, 0x6D, 0x70, 0x73, 0x76, 0x79, 0x7C,
+  0x7F, 0x82, 0x85, 0x88, 0x8B, 0x8E, 0x91, 0x94, 0x97, 0x9A, 0x9C, 0x9F, 0xA2, 0xA5, 0xA7, 0xAA,
+  0xAD, 0xAF, 0xB2, 0xB4, 0xB7, 0xB9, 0xBB, 0xBE, 0xC0, 0xC2, 0xC4, 0xC6, 0xC8, 0xCA, 0xCC, 0xCE,
+  0xD0, 0xD2, 0xD3, 0xD5, 0xD7, 0xD8, 0xDA, 0xDB, 0xDD, 0xDE, 0xDF, 0xE1, 0xE2, 0xE3, 0xE4, 0xE5,
+  0xE6, 0xE7, 0xE8, 0xE9, 0xEA, 0xEB, 0xEC, 0xED, 0xED, 0xEE, 0xEF, 0xEF, 0xF0, 0xF1, 0xF1, 0xF2,
+  0xF2, 0xF3, 0xF3, 0xF4, 0xF4, 0xF5, 0xF5, 0xF6, 0xF6, 0xF6, 0xF7, 0xF7, 0xF7, 0xF8, 0xF8, 0xF8,
+  0xF9, 0xF9, 0xF9, 0xF9, 0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0xFB, 0xFB, 0xFB, 0xFB, 0xFB, 0xFB, 0xFC,
+  0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD,
+  0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFE, 0xFE, 0xFE, 0xFE, 0xFE, 0xFE, 0xFE, 0xFF, 0xFF};
+
+unsigned char cyclesPWM = 0;
+char indexDirPWM = 1;
+unsigned char indexPWM = 70;
+
+///////////////////////////////////////////////////////////////////////////////////////
+// @name: Timer 0 Overflow Interrupt
+// @call: When Timer 0 overflows
+// @note: Used for 10-bit fast PWM output
+///////////////////////////////////////////////////////////////////////////////////////
+ISR(TIM0_OVF_vect) {
+
+  cyclesPWM++;
+  if (cyclesPWM &gt;= 10){ // change the duty cycle every 10th cycle
+    cyclesPWM = 0; // e.g. change PWM every 10th overflow
+
+    indexPWM += indexDirPWM; // adjust PWM index
+
+    if (indexPWM &gt;= 254) // if duty cycle = 100%,
+      indexDirPWM = -1; // ramp down
+    else if (indexPWM &lt;= 0) // else if duty cycle = 0%
+      indexDirPWM = 1; // ramp up
+
+    OCR0A = pgm_read_byte(&amp;amp;ANTI_LOG[indexPWM]); // set new PWM
+
+    }
+
+  PORTB |= ( 1 &lt;&lt; PB0 ); // turn on output
+
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////
+// @name: Timer 0 Compare A Interrupt
+// @call: When OCR1A is equal to compare value
+// @note: Used for 10-bit fast PWM output
+///////////////////////////////////////////////////////////////////////////////////////
+ISR(TIM0_COMPA_vect){
+
+  PORTB &amp;= ~( 1 &lt;&lt; PB0 ); // turn off output
+
+}
+
+
+int main(void) {
+
+  TCCR0A |= (1 &lt;&lt; WGM01) | (1 &lt;&lt; WGM00); // Fast PWM, OC0A disconnected
+  OCR0A = 0x50; // Initial duty cycle
+  TCCR0B |= (1 &lt;&lt; CS01); // Clock = prescaler/8
+
+  sei(); // enable interrupts
+  while(1);
+
+}
+</code></pre><p>If there is any reference info you find useful that isn&rsquo;t included, comment below!</p></div><footer class=post-footer><ul class=post-tags></ul><nav class=paginav><a class=prev href=https://pcbisolation.com/blog/typedef-struct-c/><span class=title>« Prev</span>
+<span>Why Typedef Is Used For Structs In C</span>
+</a><a class=next href=https://pcbisolation.com/blog/kz-csr-250-205-manual/><span class=title>Next »</span>
+<span>Kawasaki CSR 250 & 305 1979 – 1982 Manuals</span></a></nav></footer><div class=remark42-container style=margin-top:2rem><div id=remark42></div><script>var remark_config={host:"https://comments.pcbisolation.com",site_id:"pcbisolation",components:["embed"],theme:window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"};(function(){var e=document,t=e.createElement("script");t.src=remark_config.host+"/web/embed.js",t.defer=!0,(e.head||e.body).appendChild(t)})()</script></div></article></main><footer class=footer><span>&copy; 2026 <a href=https://pcbisolation.com/>PCB Isolation</a></span> ·
+<span>Powered by
+<a href="https://gohugo.io/?utm_source=papermod" rel=noopener target=_blank>Hugo</a> &
+        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top id=top-link class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey=g><svg viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up"><polyline points="17 11 12 6 7 11"/><polyline points="17 18 12 13 7 18"/></svg>
+</a><script type=module>
+import PhotoSwipeLightbox from 'https://cdn.jsdelivr.net/npm/photoswipe@5/dist/photoswipe-lightbox.esm.js';
+
+document.querySelectorAll('.figure-gallery').forEach((gallery, i) => {
+  if (!gallery.id) gallery.id = 'pswp-gallery-' + i;
+  const lightbox = new PhotoSwipeLightbox({
+    gallery: '#' + gallery.id,
+    children: 'a',
+    pswpModule: () => import('https://cdn.jsdelivr.net/npm/photoswipe@5/dist/photoswipe.esm.js'),
+    wheelToZoom: true,
+    bgOpacity: 0.9,
+  });
+  lightbox.init();
+});
+</script><script>let menu=document.getElementById("menu");if(menu){const e=localStorage.getItem("menu-scroll-position");e&&(menu.scrollLeft=parseInt(e,10)),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}}document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var toplink=document.getElementById("top-link");window.onscroll=function(){const e=window.innerHeight;document.body.scrollTop>e||document.documentElement.scrollTop>e?toplink.classList.remove("hidden"):toplink.classList.add("hidden")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{const e=document.querySelector("html");e.dataset.theme==="dark"?(e.dataset.theme="light",localStorage.setItem("pref-theme","light")):(e.dataset.theme="dark",localStorage.setItem("pref-theme","dark"))})</script><script>document.querySelectorAll("pre > code").forEach(e=>{const n=e.parentNode.parentNode,t=document.createElement("button");t.classList.add("copy-code"),t.innerHTML="copy";function s(){t.innerHTML="copied!",setTimeout(()=>{t.innerHTML="copy"},2e3)}t.addEventListener("click",t=>{if("clipboard"in navigator){navigator.clipboard.writeText(e.textContent),s();return}const n=document.createRange();n.selectNodeContents(e);const o=window.getSelection();o.removeAllRanges(),o.addRange(n);try{document.execCommand("copy"),s()}catch{}o.removeRange(n)}),n.classList.contains("highlight")?n.appendChild(t):n.parentNode.firstChild==n||(e.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName=="TABLE"?e.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(t):e.parentNode.appendChild(t))})</script></body></html>

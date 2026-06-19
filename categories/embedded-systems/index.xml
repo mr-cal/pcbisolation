@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Embedded Systems on PCB Isolation</title><link>https://pcbisolation.com/categories/embedded-systems/</link><description>Recent content in Embedded Systems on PCB Isolation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 14 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pcbisolation.com/categories/embedded-systems/index.xml" rel="self" type="application/rss+xml"/><item><title>Waterproof, Sound Proof Generator Enclosure</title><link>https://pcbisolation.com/blog/waterproof-sound-proof-generator-enclosure/</link><pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/waterproof-sound-proof-generator-enclosure/</guid><description>&lt;div class="figure-gallery"
+style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:0.75rem;margin:1.5rem 0;">
+&lt;a href="generator-enclosure-13.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="generator-enclosure-13.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;a href="generator-enclosure-12.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="generator-enclosure-12.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;/div>
+&lt;p>For RVs and vans, generators are very useful but very loud. I wanted an enclosure that is both waterproof and noise dampening. It&amp;rsquo;s hard to find something like this, because it&amp;rsquo;s not easy to encase an engine and keep it cool.&lt;/p>
+&lt;p>In the end, I failed to keep the generator cool enough to for more than 2 hours.&lt;/p>
+&lt;p>I used a &lt;a href="https://www.amazon.com/WEN-56235i-2350-Watt-Generator-Lightweight/dp/B085828BQ6">Wen 56235i&lt;/a> generator. It is a cheaper variant of the Honda EU2200 series.&lt;/p></description></item><item><title>How To Spot a Counterfeit or Refurbished Motorola Razr V3</title><link>https://pcbisolation.com/blog/how-to-spot-a-counterfeit-motorola-razr-v3/</link><pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/how-to-spot-a-counterfeit-motorola-razr-v3/</guid><description>&lt;p>&lt;em>&lt;strong>Note&lt;/strong> - There are many versions of the Motorola Razr, each with subtle differences. Even similar version have differences between countries. Not all of the differences of this counterfeit/refurbished Razr will apply to your Razr!&lt;/em>&lt;/p>
+&lt;p>This applies specifically to the Motorola Razr V3, but you can find similar discrepancies on a Razr V2 or V3i.&lt;/p>
+&lt;p>If you have a feeling the phone is fake, that&amp;rsquo;s a good indicator that it is.&lt;/p></description></item><item><title>Motorola Razr V3: Real vs Counterfeit Teardown</title><link>https://pcbisolation.com/blog/motorola-razr-v3-real-vs-counterfeit-teardown/</link><pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/motorola-razr-v3-real-vs-counterfeit-teardown/</guid><description>&lt;p>&lt;img loading="lazy" src="https://pcbisolation.com/blog/motorola-razr-v3-real-vs-counterfeit-teardown/razr-real-fake-teardown-01.jpg">Left- Authentic Razr V3, Right - Counterfeit Razr V3&lt;/p>
+&lt;p>I recently bought a Razr V3 on eBay. The listing below shows that it is made by Motorola. The pictures are of an authentic Razr. However I received a counterfeit Razr.&lt;/p>
+&lt;p>PS - I wrote a &lt;a href="https://pcbisolation.com/blog/how-to-spot-a-counterfeit-motorola-razr-v3/">quick guide on spotting counterfeit Motorola Razr V3&lt;/a>&amp;rsquo;s (without disassembly).&lt;/p>
+&lt;p>&lt;img loading="lazy" src="https://pcbisolation.com/blog/motorola-razr-v3-real-vs-counterfeit-teardown/razr-real-fake-teardown-34.jpg">&lt;/p>
+&lt;p>If the phone would have worked, I wouldn&amp;rsquo;t have cared. But it wouldn&amp;rsquo;t get a signal with my SIM, so I complained and got a refund.&lt;/p></description></item><item><title>Why Typedef Is Used For Structs In C</title><link>https://pcbisolation.com/blog/typedef-struct-c/</link><pubDate>Tue, 18 Oct 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/typedef-struct-c/</guid><description>&lt;p>At first glance, adding a typedef to a struct in C seems to complicate the definition. However, it simplifies the declaration of the structure. This is not always recommend, as it can add a layer of obfuscation.&lt;/p>
+&lt;h3 id="structures">Structures&lt;/h3>
+&lt;p>Here is how a normal structure is defined in C.&lt;/p>
+&lt;pre>&lt;code>#include &amp;lt;stdio.h&amp;gt;
+#include &amp;lt;string.h&amp;gt;
+struct Cat { // defining Cat structure
+char name[20]; // members of Cat structure
+int age;
+int weight;
+};
+int main() {
+struct Cat myCat; // declaring Cat structure, myCat
+strcpy( myCat.name, &amp;quot;Cleopatra&amp;quot;); // setting member values
+myCat.age = 4;
+myCat.weight = 10;
+return 0;
+}
+&lt;/code>&lt;/pre>
+&lt;p>In the example above, notice declaring myCat on Line 11 is &amp;ldquo;struct Cats myCat&amp;rdquo;. We are about to see how typedef will shorten this.&lt;/p></description></item><item><title>Atmel ATtiny ATmega AVR Quick Code Reference</title><link>https://pcbisolation.com/blog/atmel-coding-reference/</link><pubDate>Wed, 28 Sep 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/blog/atmel-coding-reference/</guid><description>&lt;p>I usually forget bitwise operators, basic variables, and functions when coding in Atmel Studio for an ATtiny or ATmega project.&lt;/p>
+&lt;p>Normally, I look at some of my old code for reference. This is my focused and consolidated version of the important building blocks.&lt;/p>
+&lt;p>&lt;a href="atmel-reference-2.jpg">&lt;img alt="atmel-reference-2" loading="lazy" src="https://pcbisolation.com/blog/atmel-coding-reference/atmel-reference-2.jpg">&lt;/a>&lt;/p>
+&lt;h3 id="contents">Contents&lt;/h3>
+&lt;p>&lt;a href="https://pcbisolation.com/blog/atmel-coding-reference/#io-registers">I/O Registers&lt;/a>&lt;br>
+&lt;a href="https://pcbisolation.com/blog/atmel-coding-reference/#bitwise-operators">Bitwise Operators&lt;/a>&lt;br>
+&lt;a href="https://pcbisolation.com/blog/atmel-coding-reference/#delays">Delays&lt;/a>&lt;br>
+&lt;a href="https://pcbisolation.com/blog/atmel-coding-reference/#interrupts">Interrupts&lt;/a>&lt;br>
+&lt;a href="https://pcbisolation.com/blog/atmel-coding-reference/#program-memory">Program Memory&lt;/a>&lt;br>
+&lt;a href="https://pcbisolation.com/blog/atmel-coding-reference/#pwm">PWM&lt;/a>&lt;/p>
+&lt;h2 id="io-registers">I/O Registers&lt;/h2>
+&lt;ul>
+&lt;li>DDR &lt;em>x&lt;/em> - Data Direction Register - Configures each pin as an input or output. The 0th bit refers to the 0th pin of the port and the 7th bit refers to the 7th bit of the port.&lt;/li>
+&lt;li>PORT &lt;em>x&lt;/em> - Data Register - The value of the pin, used for reading input or writing output&lt;/li>
+&lt;li>P &lt;em>x&lt;/em> &lt;em>n&lt;/em> - The nth bit of port x. PB0 refers to the 0th bit of port B and PE7 refers to the 7th bit of port E.&lt;/li>
+&lt;li>&lt;em>x&lt;/em> - letter (e.g. B, D, E, F, G)&lt;/li>
+&lt;li>&lt;em>n&lt;/em> - number (0, 1, 2, … 7)&lt;/li>
+&lt;/ul>
+&lt;p>Note that you still should refer to the datasheet for the specifics on these registers and how to set their values.&lt;/p></description></item></channel></rss>
