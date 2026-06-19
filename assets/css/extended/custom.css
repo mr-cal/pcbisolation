@@ -1,0 +1,6 @@
+/* Section divider used between project sections */
+hr.section-break {
+  border: none;
+  border-top: 1px solid var(--border, #404040);
+  margin: 3rem 0 2.5rem;
+}
