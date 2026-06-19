@@ -39,14 +39,14 @@ POSTS_WITH_GALLERIES = {
 
 failures = []
 
-posts = list(CONTENT_DIR.glob("*.md"))
+posts = list(CONTENT_DIR.glob("*/index.md")) or list(CONTENT_DIR.glob("*.md"))
 if len(posts) < EXPECTED_POST_COUNT:
     failures.append(
         f"Post count: {len(posts)} found, expected >= {EXPECTED_POST_COUNT}"
     )
 
 for post in posts:
-    slug = post.stem
+    slug = post.parent.name if post.name == "index.md" else post.stem
     text = post.read_text(encoding="utf-8")
 
     if re.search(r"<table", text, re.IGNORECASE):
