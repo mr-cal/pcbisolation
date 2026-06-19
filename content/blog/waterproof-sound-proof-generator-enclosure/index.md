@@ -9,7 +9,7 @@ cover:
   relative: true
 ---
 
-{{< figure-gallery images="generator-enclosure-01.jpg,generator-enclosure-02.jpg,generator-enclosure-03.jpg,generator-enclosure-04.jpg,generator-enclosure-05.jpg,generator-enclosure-06.jpg,generator-enclosure-07.jpg,generator-enclosure-08.jpg,generator-enclosure-09.jpg,generator-enclosure-10.jpg,generator-enclosure-11.jpg,generator-enclosure-12.jpg,generator-enclosure-13.jpg,generator-enclosure-14.jpg,generator-enclosure-15.jpg,generator-enclosure-16.jpg,generator-enclosure-17.jpg,generator-enclosure-18.jpg,generator-enclosure-19.jpg,generator-enclosure-20.jpg" >}}
+{< figure-gallery images="generator-enclosure-13.jpg,generator-enclosure-12.jpg" >}
 
 For RVs and vans, generators are very useful but very loud. I wanted an enclosure that is both waterproof and noise dampening. It's hard to find something like this, because it's not easy to encase an engine and keep it cool.
 
@@ -18,6 +18,8 @@ In the end, I failed to keep the generator cool enough to for more than 2 hours.
 I used a [Wen 56235i](<https://www.amazon.com/WEN-56235i-2350-Watt-Generator-Lightweight/dp/B085828BQ6>) generator. It is a cheaper variant of the Honda EU2200 series.
 
 ### Frame
+
+{< figure-gallery images="generator-enclosure-07.jpg,generator-enclosure-16.jpg" >}
 
 The enclosure is made of a few layers:
 
@@ -39,11 +41,15 @@ The air inlet, air outlet, and exhaust outlet have a series of baffles to keep w
 
 ### Extra Muffler
 
+{< figure-gallery images="generator-enclosure-05.jpg,generator-enclosure-06.jpg,generator-enclosure-15.jpg" >}
+
 I added a 2″ tube to my generator's exhaust outlet, which originally had a 1/2″ outlet.
 
 The generator's exhaust now connects to flexible steel tube, which then goes through my extra muffler. My extra muffler is a long, L-shaped tunnel surrounded in [SuperWool insulation](<https://www.lynnmfg.com/superwool/>) (like ceramic fiber insulation, but safer to breathe). I used spring wire to keep the insulation from caving in.
 
 It significantly reduces the noise and didn't appear to restrict the exhaust flow.
+
+{< figure-gallery images="generator-enclosure-15.jpg,generator-enclosure-08.jpg,generator-enclosure-09.jpg" >}
 
 ### Secondary gas tank
 
@@ -76,6 +82,10 @@ To get airflow inside the enclosure, I installed two [12V marine bilge fans](<ht
 The inner lining of the ducts are lined in automotive carpet to dampen the noise of the fan.
 
 I built a fan controller using a temperature based PID controller. This was done with an Arduino and a custom shield and OLED display. It worked great while testing, but there was too much EMI inside the enclosure while the generator was running. I improved it with some hardening of the circuit board, but I wasn't willing to put in anymore effort into the PID controller since the enclosure was overheating with the fans running at 100%.
+
+{< figure-gallery images="generator-enclosure-20.jpg,generator-enclosure-19.jpg,generator-enclosure-03.jpg,generator-enclosure-04.jpg" >}
+
+{< figure-gallery images="generator-enclosure-11.jpg,generator-enclosure-10.jpg" >}
 
 ### Performance
 

@@ -9,8 +9,6 @@ cover:
   relative: true
 ---
 
-{{< figure-gallery images="gallon-jug-01.jpg,gallon-jug-02.jpg,gallon-jug-03.jpg,gallon-jug-04.jpg,gallon-jug-05.jpg,gallon-jug-06.jpg" >}}
-
 ![](gallon-jug-01.jpg)_left: Ozark Trail, right: Yeti_  
   
 This is a comparison of Yeti's [1 gallon Rambler jug](<https://www.yeti.com/en_US/drinkware/rambler-one-gallon-jug/YRAMONEJUG.html>) and Walmart's [Ozark Trail 1 gallon jug.](<https://www.walmart.com/ip/Ozark-Trail-1-Gallon-Double-wall-Vacuum-sealed-Stainless-Steel-Water-Jug/285297047>)
@@ -34,6 +32,8 @@ The Ozark Trail is more more narrow and taller than the Yeti.
 The Ozark Trail has an outside diameter 6.2″ of Yeti has an outside diameter of 6.44″. The Ozark Trail has a height of 13.25″ and the Yeti has a height of 12.25″ (not including the handles).
 
 ## Lid
+
+{< figure-gallery images="gallon-jug-05.jpg,gallon-jug-06.jpg" >}
 
 The biggest differences between the two are the lids and drinking caps.
 

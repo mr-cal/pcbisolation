@@ -9,19 +9,21 @@ cover:
   relative: true
 ---
 
-{{< figure-gallery images="van-bench-seat-01.jpg,van-bench-seat-02.jpg,van-bench-seat-03.jpg,van-bench-seat-04.jpg,van-bench-seat-05.jpg,van-bench-seat-06.jpg,van-bench-seat-07.jpg,van-bench-seat-08.jpg,van-bench-seat-09.jpg,van-bench-seat-10.jpg,van-bench-seat-11.jpg,van-bench-seat-12.jpg,van-bench-seat-13.jpg,van-bench-seat-14.jpg,van-bench-seat-15.jpg,van-bench-seat-16.jpg,van-bench-seat-17.jpg,van-bench-seat-18.jpg,van-bench-seat-19.jpg,van-bench-seat-20.jpg,van-bench-seat-21.jpg,van-bench-seat-22.jpg,van-bench-seat-23.jpg,van-bench-seat-26.jpg,van-bench-seat-27.gif,van-bench-seat-28.jpg,van-bench-seat-29.jpg,van-bench-seat-30.jpg,van-bench-seat-31.jpg,van-bench-seat-32.gif,van-bench-seat-33.jpg,van-bench-seat-34.jpg,van-bench-seat-36.jpg,van-bench-seat-37.jpg,van-bench-seat-38.jpg,van-bench-seat-39.jpg,van-bench-seat-40.jpg,van-bench-seat-41.jpg,van-bench-seat-42.jpg" >}}
-
 ![](van-bench-seat-36.jpg)
 
-This post details my process of building and adding fold-down bench seats to an old van. 
+This post details my process of building and adding fold-down bench seats to an old van.
 
 ![](van-bench-seat-32.gif)
 
-I've been restoring a '91 Chevy G30.  I want to be able to use it as a roadtripping and camping van, but not lose the ability to haul cargo and passengers. Ideally, my van would have 2-3 rows of removable seats that can fold down into a large bed. 
+I've been restoring a '91 Chevy G30.  I want to be able to use it as a roadtripping and camping van, but not lose the ability to haul cargo and passengers. Ideally, my van would have 2-3 rows of removable seats that can fold down into a large bed.
 
 As of 2019, it's very difficult to find aftermarket seats like this in the U.S.  There are seats like [this](<https://www.scopema.com/langGB/pdts_BANQUETTES.php>) or [this](<http://www.eclipsecustomcampers.com/options/seating/rib-altair-3p-seat-bed/>), but they are $3,000+ and ship from Europe.  There are also some cheaper [fold-n-tumble seats](<https://www.autozone.com/interior/seat/bestop-seat-39437-15/315165_311042_6071_136166>) for Jeeps, but they are too narrow.
 
 ## Seats
+
+{< figure-gallery images="van-bench-seat-11.jpg,van-bench-seat-12.jpg" >}
+
+{< figure-gallery images="van-bench-seat-14.jpg,van-bench-seat-15.jpg" >}
 
 ![](van-bench-seat-31.jpg)_Ford Econoline bench seats_
 
@@ -33,13 +35,17 @@ In order to support the benches in the lay-down position, I added pipe ends to h
 
 ![](van-bench-seat-16.jpg)_Left: original frame Right: finished frame_
 
+{< figure-gallery images="van-bench-seat-17.jpg,van-bench-seat-42.jpg" >}
+
 I sanded and painted the seat frames and added extra reinforcing bars at the top of the backrest. The top was very weak, so it had got all bent from the previous owner.
 
-In addition to the seats being dirty and stained, they also didn't match my van's color scheme. I bought [khaki and brown duck canvas](<https://www.joann.com/jo-ann-stores-duck-canvas-fabric/prd23683.html>) and reupholstered the seats. This was the most time consuming process. 
+In addition to the seats being dirty and stained, they also didn't match my van's color scheme. I bought [khaki and brown duck canvas](<https://www.joann.com/jo-ann-stores-duck-canvas-fabric/prd23683.html>) and reupholstered the seats. This was the most time consuming process.
 
 Before I get into the mounting of the new seats in the van, let's take a quick aside on the floorboard.
 
 ## Flooring
+
+{< figure-gallery images="van-bench-seat-18.jpg,van-bench-seat-26.jpg" >}
 
 ![](van-bench-seat-25.gif)_Photos in order: original mat, original flooring, new lining, new mat_
 
@@ -53,6 +59,8 @@ There was one corner where sitting water must have sat for a long time. I had to
 
 ## Front Seat Mounts
 
+{< figure-gallery images="van-bench-seat-04.jpg,van-bench-seat-03.jpg,van-bench-seat-07.jpg,van-bench-seat-08.jpg,van-bench-seat-09.jpg,van-bench-seat-10.jpg" >}
+
 The Ford Econoline seats have high quality, metal mounting brackets with quick-disconnect levers. This is one of the primary reasons I bought these seats - they can be installed and removed quickly without any tools.
 
 Since the Ford seats aren't compatible with the Chevy's floor mount, I had to fabricate new mounts.
@@ -60,6 +68,8 @@ Since the Ford seats aren't compatible with the Chevy's floor mount, I had to fa
 The front seats mounts are made of 1/4â€³ steel plate and bolted into the original bucket seat mounting holes with grade 8 bolts. There are large metal brackets underneath the floorboard to keep the bolts from ripping out of the sheet metal floor in a car crash.
 
 ## Rear Seat Mounts
+
+{< figure-gallery images="van-bench-seat-03.jpg,van-bench-seat-05.jpg,van-bench-seat-18.jpg,van-bench-seat-06.jpg,van-bench-seat-19.jpg,van-bench-seat-20.jpg,van-bench-seat-21.jpg" >}
 
 For the rear bench seat, I had to mount it lower to get a comfortable seat height and angle. I cut holes into the floor and welded in custom mounting brackets. For extra safety and peace of mind, I added reinforcing metal straps to keep the seat firmly attached.
 
@@ -74,6 +84,8 @@ The legs are over-engineered and highly satisfying to use. I started with 1-1/2â
 This picture shows how the legs attach to the seats.
 
 ## Mattress
+
+{< figure-gallery images="van-bench-seat-28.jpg,van-bench-seat-29.jpg,van-bench-seat-30.jpg,van-bench-seat-39.jpg,van-bench-seat-37.jpg,van-bench-seat-38.jpg,van-bench-seat-40.jpg" >}
 
 To make a perfectly flat sleeping surface, I cut mattress inserts out of a foam queen-sized mattress. I made mattress covers and a set of mattress toppers. It's very comfortable.
 

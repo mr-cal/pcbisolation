@@ -8,11 +8,11 @@ cover:
   relative: true
 ---
 
-{{< figure-gallery images="frameless-gate-01.jpg,frameless-gate-02.jpg,frameless-gate-04.jpg,frameless-gate-06.jpg,frameless-gate-07.jpg,frameless-gate-08.jpg,frameless-gate-09.jpg,frameless-gate-10.jpg" >}}
-
 This gate has no exterior visible from the front and opens large enough for a vehicle and trailer to drive through.
 
 ## Design
+
+{< figure-gallery images="frameless-gate-01.jpg,frameless-gate-02.jpg" >}
 
 You can download this as a PDF [here](frameless-gate-1.pdf).
 
@@ -38,4 +38,6 @@ I used weld-on hinges to attach the gate. I made an adjustable bracket, which al
 
 ## End Result
 
-The gate turned out really great. It is easy to open and sturdy. I can easily drive a vehicle through the gate. 
+The gate turned out really great. It is easy to open and sturdy. I can easily drive a vehicle through the gate.
+
+{< figure-gallery images="frameless-gate-06.jpg,frameless-gate-07.jpg,frameless-gate-08.jpg,frameless-gate-09.jpg" >}

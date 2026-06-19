@@ -9,8 +9,6 @@ cover:
   relative: true
 ---
 
-{{< figure-gallery images="delco-stereo-1.jpg,delco-stereo-2.jpg,delco-stereo-3.jpg,delco-stereo-4.jpg,delco-stereo-5.jpg,delco-stereo-6.jpg,delco-stereo-7.jpg,delco-stereo-8.jpg,delco-stereo-9.jpg,delco-stereo-10.jpg,delco-stereo-11.jpg,delco-stereo-12.jpg,delco-stereo-13.jpg" >}}
-
 ![](delco-stereo-7.jpg)_AC Delco Model 16131355_
 
 This post details the repair of a early 1991 AC Delco stereo. AC Delco made many variants of this stereo for both Chevrolet and GM cars, trucks, and vans from the early 80's to the mid-90's. While many of the stereos have more or less features (cassette players, radio presets, etc), the amplifier section of the radio is fairly standard and unchanged.
@@ -22,6 +20,8 @@ This post details the repair of a early 1991 AC Delco stereo. AC Delco made many
 There isn't much material online about these stereos, so I had to reverse-engineer the boards to determine these pinouts.
 
 ### Capacitor Replacements
+
+{< figure-gallery images="delco-stereo-1.jpg,delco-stereo-9.jpg" >}
 
 There were three issues with my stereo:
 
@@ -64,6 +64,8 @@ All the boards are hard-wired to each other, which makes it impossible to lay th
 I added JST-XH connectors and a few extra inches of wire to all the board-to-board connections. This made debugging and determining pinouts much easier. It also allows me to easily inject a bluetooth audio signal into the radio.
 
 ## Adding Bluetooth
+
+{< figure-gallery images="delco-stereo-2.jpg,delco-stereo-3.jpg,delco-stereo-13.jpg" >}
 
 I wanted to add bluetooth to this stereo without losing any functionality of the stereo and without adding a completely second amplifier.
 
