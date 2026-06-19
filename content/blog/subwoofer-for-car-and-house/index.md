@@ -7,7 +7,6 @@ tags: ["amp", "amplifier", "car", "cheap", "", "", "", "", "", "", "", "", "", "
 cover:
   image: "tube_subwoofer_01.jpg"
   relative: true
-  hidden: false
 ---
 I have a thing for subwoofers, convenience, and low cost. Arguing over DVCs in $300 subs isn't my thing.
 

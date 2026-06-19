@@ -7,7 +7,6 @@ tags: ["12V", "2012", "amp", "audio", "aux", "auxiliary", "car", "CD", "console"
 cover:
   image: "mazda2-subwoofer-07.jpg"
   relative: true
-  hidden: false
 ---
  
 

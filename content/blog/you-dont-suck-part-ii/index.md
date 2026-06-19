@@ -6,7 +6,6 @@ categories: ["quadcopter"]
 cover:
   image: "quad-1.jpg"
   relative: true
-  hidden: false
 ---
 I could have gone from 1,000 crashes to 100 crashes with a few simple pointers.
 

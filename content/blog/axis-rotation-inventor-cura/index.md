@@ -7,7 +7,6 @@ tags: ["3D", "3D Printer", "3D Printing", "autodesk", "", "", "", "", "", "", ""
 cover:
   image: "inventor-cura-stl-import-08.jpg"
   relative: true
-  hidden: false
 ---
  
 

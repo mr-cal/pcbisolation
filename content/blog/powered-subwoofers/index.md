@@ -7,7 +7,6 @@ tags: ["amp", "audio", "box", "car", "carpet", "", "", "", "", "", "", "", "", "
 cover:
   image: "logitech-z340-06.jpg"
   relative: true
-  hidden: false
 ---
 [![logitech-z340-06](logitech-z340-06.jpg)](<logitech-z340-06.jpg>)
 

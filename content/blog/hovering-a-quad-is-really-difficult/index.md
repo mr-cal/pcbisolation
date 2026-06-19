@@ -6,7 +6,6 @@ categories: ["quadcopter"]
 cover:
   image: "quad-4.jpg"
   relative: true
-  hidden: false
 ---
 The title says it. And you can 10x your skill development as a quad flier with the same amount of practice time.
 

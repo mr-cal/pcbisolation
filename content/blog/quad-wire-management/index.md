@@ -6,7 +6,6 @@ categories: ["quadcopter"]
 cover:
   image: "quad-10.jpg"
   relative: true
-  hidden: false
 ---
 If you like your quadcopter looking like a rat's nest, read no further. If you are sophisticated and proper, read on.
 

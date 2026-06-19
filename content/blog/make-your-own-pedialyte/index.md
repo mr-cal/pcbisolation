@@ -7,7 +7,6 @@ tags: ["children", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
 cover:
   image: "ORS_Recipe_1.jpg"
   relative: true
-  hidden: false
 ---
 [![](ORS_Recipe_1.jpg)](<ORS_Recipe_1.jpg>)
 

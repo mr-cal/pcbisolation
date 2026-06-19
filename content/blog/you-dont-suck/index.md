@@ -6,7 +6,6 @@ categories: ["quadcopter"]
 cover:
   image: "quad-3.jpg"
   relative: true
-  hidden: false
 ---
 [![quad-3](quad-3.jpg)](<quad-3.jpg>)
 

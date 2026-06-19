@@ -5,6 +5,9 @@ theme = "PaperMod"
 [pagination]
   pagerSize = 10
 
+[params.cover]
+  hiddenInSingle = true  # cover image is already inline in post body; show only on listing
+
 [params]
   description = "PCBs, electronics, and DIY projects"
   author = "PCB Isolation"

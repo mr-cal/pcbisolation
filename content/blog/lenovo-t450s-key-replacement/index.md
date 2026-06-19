@@ -7,7 +7,6 @@ tags: ["clean", "", "", "", "", "", "", "", "", "", "", "", ""]
 cover:
   image: "lenovo_t450s_key_replace_2.jpg"
   relative: true
-  hidden: false
 ---
 [![](lenovo_t450s_key_replace_2.jpg)](<lenovo_t450s_key_replace_2.jpg>)
 

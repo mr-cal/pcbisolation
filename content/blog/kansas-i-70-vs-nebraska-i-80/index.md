@@ -6,7 +6,6 @@ categories: ["Uncategorized"]
 cover:
   image: "I70andI80.jpg"
   relative: true
-  hidden: false
 ---
 [![I-70 and I-80](I70andI80.jpg)](<I70andI80.jpg>)
 

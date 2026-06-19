@@ -7,7 +7,6 @@ tags: ["amp", "audio", "box", "brutus", "car amp", "car subwoofer", "", "", "", 
 cover:
   image: "hifonics03.jpg"
   relative: true
-  hidden: false
 ---
 After half a semester of college, I learned that my 8″, 40W woofer wasn't enough. I wanted something bigger, but didn't want to have to upgrade again in the future. So I decided on something reasonable for any 10'x15′ dorm room - two 15″ subwoofers powered by a 1000W car amp. My goals: keep it under $400, design it so one of the two subs can be placed in a car and be powered from a 12V source (like a car battery), and build them to be as durable as possible.
 

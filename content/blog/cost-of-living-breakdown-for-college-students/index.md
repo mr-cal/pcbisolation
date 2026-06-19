@@ -6,7 +6,6 @@ categories: ["Uncategorized"]
 cover:
   image: "house-2.jpg"
   relative: true
-  hidden: false
 ---
 [![house-2](house-2.jpg)](<house-2.jpg>)
 

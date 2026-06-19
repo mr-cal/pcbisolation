@@ -6,7 +6,6 @@ categories: ["DIY", "LED/Lighting"]
 cover:
   image: "flashlight-gopro-mount-8.jpg"
   relative: true
-  hidden: false
 ---
 [![](flashlight-gopro-mount-8.jpg)](<flashlight-gopro-mount-8.jpg>)
 

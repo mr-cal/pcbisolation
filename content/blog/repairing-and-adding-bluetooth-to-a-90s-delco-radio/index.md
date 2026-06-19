@@ -7,7 +7,6 @@ tags: ["ac delco", "am/fm", "bluetooth", "capacitor", "cassette", "", "", "", ""
 cover:
   image: "delco-stereo-7.jpg"
   relative: true
-  hidden: false
 ---
 
 {{< figure-gallery images="delco-stereo-1.jpg,delco-stereo-2.jpg,delco-stereo-3.jpg,delco-stereo-4.jpg,delco-stereo-5.jpg,delco-stereo-6.jpg,delco-stereo-7.jpg,delco-stereo-8.jpg,delco-stereo-9.jpg,delco-stereo-10.jpg,delco-stereo-11.jpg,delco-stereo-12.jpg,delco-stereo-13.jpg" >}}

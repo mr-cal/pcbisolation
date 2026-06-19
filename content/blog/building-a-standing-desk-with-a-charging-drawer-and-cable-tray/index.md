@@ -7,7 +7,6 @@ tags: ["backlight", "cable management", "controller", "", "", "", "", ""]
 cover:
   image: "standing-desk-14.jpg"
   relative: true
-  hidden: false
 ---
 [![](standing-desk-14.jpg)](<standing-desk-14.jpg>)
 

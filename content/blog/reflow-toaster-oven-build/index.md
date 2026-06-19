@@ -7,7 +7,6 @@ tags: ["alignment", "build a reflow oven", "chip", "conversion", "convert", "", 
 cover:
   image: "Reflow_Oven_5.jpg"
   relative: true
-  hidden: false
 ---
 [![](Reflow_Oven_5.jpg)](<Reflow_Oven_5.jpg>)
 

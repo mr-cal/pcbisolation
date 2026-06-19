@@ -6,7 +6,6 @@ categories: ["Audio", "Circuits", "LED/Lighting"]
 cover:
   image: "sound-reactor-1.jpg"
   relative: true
-  hidden: false
 ---
 [![sound-reactor-1](sound-reactor-1.jpg)](<sound-reactor-1.jpg>)
 

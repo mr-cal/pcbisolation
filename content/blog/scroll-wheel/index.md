@@ -7,7 +7,6 @@ tags: ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "
 cover:
   image: "scroll-wheel-13.jpg"
   relative: true
-  hidden: false
 ---
  
 

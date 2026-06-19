@@ -7,7 +7,6 @@ tags: ["18650", "adapter", "battery", "cn-160", "", "", "", "", "", "", "", "", 
 cover:
   image: "Hot_Shoe_LED_Light_3.jpg"
   relative: true
-  hidden: false
 ---
 [![](Hot_Shoe_LED_Light_3.jpg)](<Hot_Shoe_LED_Light_3.jpg>)
 

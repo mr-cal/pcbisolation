@@ -6,7 +6,6 @@ categories: ["DIY"]
 cover:
   image: "seat-repair-1.jpg"
   relative: true
-  hidden: false
 ---
 The #1 vinyl repair kit on Amazon has 2.9 stars. And it's not made to fix an 10″ split seam.
 

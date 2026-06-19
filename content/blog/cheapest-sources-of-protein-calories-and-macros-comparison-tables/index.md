@@ -7,7 +7,6 @@ tags: ["calories", "cheapest protein", "cost analysis", "cost of protein", "", "
 cover:
   image: "hot_dogs_1.jpg"
   relative: true
-  hidden: false
 ---
 [![](hot_dogs_1.jpg)](<hot_dogs_1.jpg>)
 

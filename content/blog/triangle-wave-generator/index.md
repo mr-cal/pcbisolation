@@ -6,7 +6,6 @@ categories: ["Circuits"]
 cover:
   image: "triangle-wave-60.jpg"
   relative: true
-  hidden: false
 ---
    
 While this is not my design, this is my analysis and derivations.

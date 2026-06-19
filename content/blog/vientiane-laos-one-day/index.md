@@ -7,7 +7,6 @@ tags: ["", "", "", "", "", "", "", "", "", "", ""]
 cover:
   image: "IMG_20170708_105239.jpg"
   relative: true
-  hidden: false
 ---
 [![](IMG_20170708_105239.jpg)](<IMG_20170708_105239.jpg>)
 

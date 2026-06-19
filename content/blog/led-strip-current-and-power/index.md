@@ -6,7 +6,6 @@ categories: ["LED/Lighting"]
 cover:
   image: "led-strip-1.jpg"
   relative: true
-  hidden: false
 ---
 [![led-strip-1](led-strip-1.jpg)](<led-strip-1.jpg>)
 

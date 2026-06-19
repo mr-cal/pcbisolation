@@ -7,7 +7,6 @@ tags: ["Backpack", "Carry On", "Comparison", "", "", "", "", "", "", ""]
 cover:
   image: "osprey_porter_46_farpoint_40_1.jpg"
   relative: true
-  hidden: false
 ---
 [![](osprey_porter_46_farpoint_40_1.jpg)](<osprey_porter_46_farpoint_40_1.jpg>)
 

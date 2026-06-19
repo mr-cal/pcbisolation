@@ -6,7 +6,6 @@ categories: ["DIY"]
 cover:
   image: "kz-csr-250-305-2.jpg"
   relative: true
-  hidden: false
 ---
 I had a hard time finding this online for free.
 

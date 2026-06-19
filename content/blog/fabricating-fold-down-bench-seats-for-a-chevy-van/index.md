@@ -7,7 +7,6 @@ tags: ["camper van", "cheverolet", "chevy", "", "", "", "", "", "", "", ""]
 cover:
   image: "van-bench-seat-36.jpg"
   relative: true
-  hidden: false
 ---
 
 {{< figure-gallery images="van-bench-seat-01.jpg,van-bench-seat-02.jpg,van-bench-seat-03.jpg,van-bench-seat-04.jpg,van-bench-seat-05.jpg,van-bench-seat-06.jpg,van-bench-seat-07.jpg,van-bench-seat-08.jpg,van-bench-seat-09.jpg,van-bench-seat-10.jpg,van-bench-seat-11.jpg,van-bench-seat-12.jpg,van-bench-seat-13.jpg,van-bench-seat-14.jpg,van-bench-seat-15.jpg,van-bench-seat-16.jpg,van-bench-seat-17.jpg,van-bench-seat-18.jpg,van-bench-seat-19.jpg,van-bench-seat-20.jpg,van-bench-seat-21.jpg,van-bench-seat-22.jpg,van-bench-seat-23.jpg,van-bench-seat-26.jpg,van-bench-seat-27.gif,van-bench-seat-28.jpg,van-bench-seat-29.jpg,van-bench-seat-30.jpg,van-bench-seat-31.jpg,van-bench-seat-32.gif,van-bench-seat-33.jpg,van-bench-seat-34.jpg,van-bench-seat-36.jpg,van-bench-seat-37.jpg,van-bench-seat-38.jpg,van-bench-seat-39.jpg,van-bench-seat-40.jpg,van-bench-seat-41.jpg,van-bench-seat-42.jpg" >}}

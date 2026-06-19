@@ -7,7 +7,6 @@ tags: ["", "", "", "", "", "", "", "", "", "", "", "", "", ""]
 cover:
   image: "scuba_goggles_4.jpg"
   relative: true
-  hidden: false
 ---
 ![](scuba_goggles_4.jpg)
 

@@ -7,7 +7,6 @@ tags: ["chinese", "Comparison", "", "", "", "", "", "", "", ""]
 cover:
   image: "Artboard-1.jpg"
   relative: true
-  hidden: false
 ---
 _**Note** - There are many versions of the Motorola Razr, each with subtle differences. Even similar version have differences between countries. Not all of the differences of this counterfeit/refurbished Razr will apply to your Razr!_
 

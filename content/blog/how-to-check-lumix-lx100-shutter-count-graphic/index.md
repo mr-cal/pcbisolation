@@ -6,7 +6,6 @@ categories: ["photography"]
 cover:
   image: "LX100-Check-Shutter-Count.jpg"
   relative: true
-  hidden: false
 ---
 A simple guide to checking the shutter count, power on count, and flash fire count on a Lumix LX100. Find the full resolution image [here](<LX100-Check-Shutter-Count.jpg>).
 

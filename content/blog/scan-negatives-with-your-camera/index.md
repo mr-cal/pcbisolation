@@ -6,7 +6,6 @@ categories: ["DIY", "photography"]
 cover:
   image: "film-scan-7.jpg"
   relative: true
-  hidden: false
 ---
 [![](film-scan-7.jpg)](<film-scan-7.jpg>)
 

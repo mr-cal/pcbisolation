@@ -6,7 +6,6 @@ categories: ["Circuits", "DIY", "LED/Lighting"]
 cover:
   image: "Brake-Light-3.jpg"
   relative: true
-  hidden: false
 ---
 A stranger off eBay got me pulled over, from across the world.
 

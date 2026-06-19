@@ -6,7 +6,6 @@ categories: ["embedded systems"]
 cover:
   image: "atmel-reference-2.jpg"
   relative: true
-  hidden: false
 ---
    
 I usually forget bitwise operators, basic variables, and functions when coding in Atmel Studio for an ATtiny or ATmega project.

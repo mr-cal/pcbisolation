@@ -7,7 +7,6 @@ tags: ["cell phone", "chinese", "circuit", "", "", "", "", "", "", "", "", "", "
 cover:
   image: "razr-real-fake-teardown-01.jpg"
   relative: true
-  hidden: false
 ---
 
 {{< figure-gallery images="razr-real-fake-teardown-01.jpg,razr-real-fake-teardown-02.jpg,razr-real-fake-teardown-03.jpg,razr-real-fake-teardown-04.jpg,razr-real-fake-teardown-05.jpg,razr-real-fake-teardown-06.jpg,razr-real-fake-teardown-07.jpg,razr-real-fake-teardown-08.jpg,razr-real-fake-teardown-09.jpg,razr-real-fake-teardown-10.jpg,razr-real-fake-teardown-11.jpg,razr-real-fake-teardown-12.jpg,razr-real-fake-teardown-13.jpg,razr-real-fake-teardown-14.jpg,razr-real-fake-teardown-15.jpg,razr-real-fake-teardown-16.jpg,razr-real-fake-teardown-17.jpg,razr-real-fake-teardown-18.jpg,razr-real-fake-teardown-19.jpg,razr-real-fake-teardown-20.jpg,razr-real-fake-teardown-21.jpg,razr-real-fake-teardown-22.jpg,razr-real-fake-teardown-23.jpg,razr-real-fake-teardown-24.jpg,razr-real-fake-teardown-25.jpg,razr-real-fake-teardown-26.jpg,razr-real-fake-teardown-27.jpg,razr-real-fake-teardown-28.jpg,razr-real-fake-teardown-29.jpg,razr-real-fake-teardown-30.jpg,razr-real-fake-teardown-31.jpg,razr-real-fake-teardown-32.jpg,razr-real-fake-teardown-33.jpg,razr-real-fake-teardown-34.jpg,razr-real-fake-teardown-36.jpg,razr-real-fake-teardown-37.jpg,razr-real-fake-teardown-38.jpg,razr-real-fake-teardown-39.jpg,razr-real-fake-teardown-40.jpg,razr-real-fake-teardown-41.jpg" >}}

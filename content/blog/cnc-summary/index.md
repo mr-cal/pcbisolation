@@ -7,7 +7,6 @@ tags: ["aluminium", "assembly", "autocad", "autodesk", "backlash", "box", "bushi
 cover:
   image: "cnc_overall_2.jpg"
   relative: true
-  hidden: false
 ---
  
 

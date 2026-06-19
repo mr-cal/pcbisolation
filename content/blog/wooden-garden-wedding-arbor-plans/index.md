@@ -7,7 +7,6 @@ tags: ["arbor", "arch", "archway", "build", "", "", "", "", "", "", "", ""]
 cover:
   image: "arbor-04-1024x682.jpg"
   relative: true
-  hidden: false
 ---
 This post contains plans for a wooden arbor or archway for a garden or wedding.
 

@@ -7,7 +7,6 @@ tags: ["bluetooth", "broken", "charging", "connection", "", "", "", "", "", "", 
 cover:
   image: "TDK_Trek_A34_1.jpg"
   relative: true
-  hidden: false
 ---
 [![](TDK_Trek_A34_1.jpg)](<TDK_Trek_A34_1.jpg>)
 

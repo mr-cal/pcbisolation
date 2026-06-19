@@ -7,7 +7,6 @@ tags: ["brochure", "chinese", "", "", "", "", "", "", "", "", "", ""]
 cover:
   image: "Zhangjiajie-National-Park-Map-1-1.jpg"
   relative: true
-  hidden: false
 ---
 # Map 1
 

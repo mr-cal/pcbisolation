@@ -7,7 +7,6 @@ tags: ["bath", "cold", "", "", "", "", "", "", "", "", ""]
 cover:
   image: "shower_1.jpg"
   relative: true
-  hidden: false
 ---
 [![](shower_1.jpg)](<shower_1.jpg>)
 

@@ -7,7 +7,6 @@ tags: ["box", "", "", "", ""]
 cover:
   image: "generator-enclosure-14.jpg"
   relative: true
-  hidden: false
 ---
 
 {{< figure-gallery images="generator-enclosure-01.jpg,generator-enclosure-02.jpg,generator-enclosure-03.jpg,generator-enclosure-04.jpg,generator-enclosure-05.jpg,generator-enclosure-06.jpg,generator-enclosure-07.jpg,generator-enclosure-08.jpg,generator-enclosure-09.jpg,generator-enclosure-10.jpg,generator-enclosure-11.jpg,generator-enclosure-12.jpg,generator-enclosure-13.jpg,generator-enclosure-14.jpg,generator-enclosure-15.jpg,generator-enclosure-16.jpg,generator-enclosure-17.jpg,generator-enclosure-18.jpg,generator-enclosure-19.jpg,generator-enclosure-20.jpg" >}}

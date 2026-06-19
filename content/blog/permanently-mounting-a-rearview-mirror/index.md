@@ -7,7 +7,6 @@ tags: ["3m windshield glue", "chevy", "", "", "", "", "", ""]
 cover:
   image: "rearview-mirror-04-1024x685.jpg"
   relative: true
-  hidden: false
 ---
 This post details a more permanent mounting for a rearview mirror.
 

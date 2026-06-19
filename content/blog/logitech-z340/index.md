@@ -7,7 +7,6 @@ tags: ["9 pin", "9 pin minidin", "box", "", "", "", "", "", "", "", "", "", "", 
 cover:
   image: "logitech-z340-01.jpg"
   relative: true
-  hidden: false
 ---
 Logitech has a large presence in 2.1 systems, where price and appearance dominate. This sub is designed to trick you, there's more to it than what meets the eye.
 

@@ -6,7 +6,6 @@ categories: ["Circuits"]
 cover:
   image: "shortcut_link.jpg"
   relative: true
-  hidden: false
 ---
 Here's a list of the most useful shortcuts in CM - more graphical and intuitive than the built in shortcut list (Ribbon Bar->View->Shortcuts).
 

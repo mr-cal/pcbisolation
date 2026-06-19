@@ -7,7 +7,6 @@ tags: ["128 ounces", "4 liters", "4L", "Comparison", "cooler", "", "", "", ""]
 cover:
   image: "gallon-jug-01.jpg"
   relative: true
-  hidden: false
 ---
 
 {{< figure-gallery images="gallon-jug-01.jpg,gallon-jug-02.jpg,gallon-jug-03.jpg,gallon-jug-04.jpg,gallon-jug-05.jpg,gallon-jug-06.jpg" >}}

@@ -7,7 +7,6 @@ tags: ["1800K", "", "", "", "", ""]
 cover:
   image: "nightlight-01-1024x685.jpg"
   relative: true
-  hidden: false
 ---
 I've looked and been unsuccessful in finding household nightlights that meet my criteria:
 

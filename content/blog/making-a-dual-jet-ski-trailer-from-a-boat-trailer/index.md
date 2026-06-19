@@ -6,7 +6,6 @@ categories: ["DIY"]
 cover:
   image: "jet-ski-trailer-01.jpg"
   relative: true
-  hidden: false
 ---
 
 {{< figure-gallery images="jet-ski-trailer-01.jpg,jet-ski-trailer-02.jpg,jet-ski-trailer-03.jpg,jet-ski-trailer-04.jpg,jet-ski-trailer-05.jpg,jet-ski-trailer-06.jpg,jet-ski-trailer-07.jpg,jet-ski-trailer-08.jpg,jet-ski-trailer-09.jpg,jet-ski-trailer-10.jpg,jet-ski-trailer-11.jpg,jet-ski-trailer-12.jpg,jet-ski-trailer-13.jpg,jet-ski-trailer-14.jpg,jet-ski-trailer-15.jpg" >}}
