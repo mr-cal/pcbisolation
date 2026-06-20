@@ -1,6 +1,6 @@
 # pcbisolation
 
-Source code for https://pcbisolation.com — a Hugo static site about PCB design and electronics.
+Source code for https://pcbisolation.com.
 
 ## Deployment
 
