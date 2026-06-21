@@ -12,11 +12,9 @@ cover:
 
 ![](IMG_0431-1024x768.jpg)
 
-Below you'll find a pdf and jpegs with the dimensions.
+Below you'll find a pdf with the dimensions.
 
-[london-good-delivery-bar-ingot-mold](<london-good-delivery-bar-ingot-mold.pdf>)[Download](<london-good-delivery-bar-ingot-mold.pdf>)
-
-![](ingot-mold-page-1.png) ![](ingot-mold-page-2.png)
+{{< pdf-embed src="london-good-delivery-bar-ingot-mold.pdf" height="500" >}}
 
 See the creation of the molds below:
 

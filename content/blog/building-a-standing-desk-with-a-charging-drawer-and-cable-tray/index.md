@@ -59,7 +59,7 @@ You can fit your hands in the cable openings in the back, so replacements are po
 
 ![](standing-desk-06.jpg)
 
-Both sides of the desk have a USB/AC outlet from Anker. 
+Both sides of the desk have a USB/AC outlet from Anker.
 
 For temporarily connected things, I use the outlets on the sides. For permanently connected things, I use the surge protectors in the cable tray.
 
@@ -87,14 +87,14 @@ I'm very happy with the final result!
 
 ## Video
 
-{{< youtube kmaVLJA67Oc >}} 
+{{< youtube kmaVLJA67Oc >}}
 
 ## Drawings and cutlist
 
 The drawings and cutlist below are available as a PDF. Additionally, Solidworks parts, drawings, and assemblies are available as a zip file.
 
-[standing-desk-drawings](<standing-desk-drawings.pdf>)[Download](<standing-desk-drawings.pdf>)
+{{< pdf-embed src="standing-desk-drawings.pdf" height="500" >}}
 
-[standing-desk-solidworks (direct download)](<standing-desk-solidworks.zip>)[Download](<standing-desk-solidworks.zip>)
+[standing-desk-solidworks (direct download)](<standing-desk-solidworks.zip>)
 
 [standing-desk-solidworks (google drive)](<https://drive.google.com/file/d/1RPzG9ywHR0C245J2KmntbVje8OyFt5pO/view?usp=sharing>)

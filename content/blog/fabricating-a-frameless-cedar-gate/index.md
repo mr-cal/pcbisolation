@@ -4,17 +4,13 @@ date: 2023-10-09
 categories: ["DIY"]
 
 cover:
-  image: "frameless-gate-10.jpg"
+  image: "frameless-gate-08.jpg"
   relative: true
 ---
 
 This gate has no exterior visible from the front and opens large enough for a vehicle and trailer to drive through.
 
 ## Design
-
-{{< figure-gallery images="frameless-gate-01.jpg,frameless-gate-02.jpg" >}}
-
-You can download this as a PDF [here](frameless-gate-1.pdf).
 
 {{< pdf-embed src="frameless-gate-1.pdf" height="500" >}}
 
