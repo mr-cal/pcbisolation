@@ -5,7 +5,7 @@ categories: ["travel"]
 tags: ["1 day", "1 day visa", "2 day", "airport", "best things", "city"]
 
 cover:
-  image: "singapore-route-1.jpg"
+  image: "singapore-route-4.jpg"
   relative: true
 ---
 Singapore is a great place for a 1 day layover. You can fill a day with many of the city's amazing highlights.

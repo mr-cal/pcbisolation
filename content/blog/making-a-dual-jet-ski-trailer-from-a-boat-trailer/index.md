@@ -4,7 +4,7 @@ date: 2023-10-09
 categories: ["DIY"]
 
 cover:
-  image: "jet-ski-trailer-01.jpg"
+  image: "jet-ski-trailer-15.jpg"
   relative: true
 ---
 

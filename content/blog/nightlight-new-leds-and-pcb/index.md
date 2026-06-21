@@ -5,7 +5,7 @@ categories: ["Circuits", "DIY", "LED/Lighting", "tech"]
 tags: ["1800K"]
 
 cover:
-  image: "nightlight-01-1024x685.jpg"
+  image: "nightlight-02.jpg"
   relative: true
 ---
 I've looked and been unsuccessful in finding household nightlights that meet my criteria:

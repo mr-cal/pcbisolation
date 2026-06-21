@@ -4,7 +4,7 @@ date: 2016-09-11
 categories: ["Circuits"]
 
 cover:
-  image: "triangle-wave-60.jpg"
+  image: "triangle-wave-1-thumbnail-150x100.jpg"
   relative: true
 ---
    

@@ -5,7 +5,7 @@ categories: ["travel"]
 tags: ["Backpack", "Carry On", "Comparison"]
 
 cover:
-  image: "osprey_porter_46_farpoint_40_1.jpg"
+  image: "osprey_porter_46_farpoint_40_5.jpg"
   relative: true
 ---
 ![](osprey_porter_46_farpoint_40_1.jpg)

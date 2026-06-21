@@ -4,7 +4,7 @@ date: 2016-07-08
 categories: ["Uncategorized"]
 
 cover:
-  image: "I70andI80.jpg"
+  image: "I-70.jpg"
   relative: true
 ---
 ![I-70 and I-80](I70andI80.jpg)

@@ -4,7 +4,7 @@ date: 2023-10-09
 categories: ["DIY"]
 
 cover:
-  image: "frameless-gate-08.jpg"
+  image: "frameless-gate-11-thumbnail-150x100.jpg"
   relative: true
 ---
 

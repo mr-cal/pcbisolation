@@ -5,7 +5,7 @@ categories: ["CNC", "DIY"]
 tags: ["aluminium", "assembly", "autocad", "autodesk", "backlash", "box", "bushing", "cheap", "CNC", "CNC design", "CNC machine", "computer"]
 
 cover:
-  image: "cnc_overall_2.jpg"
+  image: "cnc_overall_1.jpg"
   relative: true
 ---
  

@@ -5,7 +5,7 @@ categories: ["travel"]
 tags: []
 
 cover:
-  image: "IMG_20170708_105239.jpg"
+  image: "Vientiane-Thumbnail-150x100.jpg"
   relative: true
 ---
 ![](IMG_20170708_105239.jpg)

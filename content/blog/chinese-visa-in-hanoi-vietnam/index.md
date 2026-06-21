@@ -5,7 +5,7 @@ categories: ["travel"]
 tags: ["airplane", "application", "china"]
 
 cover:
-  image: "chinese_visa_3.jpg"
+  image: "chinese_visa_6.jpg"
   relative: true
 ---
 You can get a visa to China in Vietnam. It's not particularly easy, but it is quite possible. I write this because there is little tolerance for error - if you forget to submit some paperwork and get denied, you can't reapply in Vietnam. You'll have to apply in another country.

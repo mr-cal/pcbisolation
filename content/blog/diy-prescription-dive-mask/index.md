@@ -5,7 +5,7 @@ categories: ["DIY"]
 tags: []
 
 cover:
-  image: "scuba_goggles_4.jpg"
+  image: "3D_Printer_59_thumbnail-150x100.jpg"
   relative: true
 ---
 ![](scuba_goggles_4.jpg)

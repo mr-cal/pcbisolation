@@ -5,7 +5,7 @@ categories: ["networking"]
 tags: []
 
 cover:
-  image: "router-fan-01.jpg"
+  image: "router-fan-02.jpg"
   relative: true
 ---
 The DLink DIR-655 is an excellent router. It supports Dynamic DNS, Port Forwarding, Virtual Servers, DMZ and much more. Problem is, in the awful heat and humidity of the midwest, it overheats during periods of high traffic, like large file downloads.

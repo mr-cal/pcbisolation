@@ -5,7 +5,7 @@ categories: ["DIY"]
 tags: ["arbor", "arch", "archway", "build"]
 
 cover:
-  image: "arbor-04-1024x682.jpg"
+  image: "arbor-01-thumbnail-150x100.jpg"
   relative: true
 ---
 This post contains plans for a wooden arbor or archway for a garden or wedding.

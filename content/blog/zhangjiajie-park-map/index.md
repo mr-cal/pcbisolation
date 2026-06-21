@@ -5,7 +5,7 @@ categories: ["travel"]
 tags: ["brochure", "chinese"]
 
 cover:
-  image: "Zhangjiajie-National-Park-Map-1-1.jpg"
+  image: "Zhangjiajie-National-Park-1-thumbnail-150x100.jpg"
   relative: true
 ---
 # Map 1

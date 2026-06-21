@@ -4,7 +4,7 @@ date: 2016-06-30
 categories: ["Circuits"]
 
 cover:
-  image: "shortcut_link.jpg"
+  image: "CM-Shortcuts-Thumbnail-150x100.jpg"
   relative: true
 ---
 Here's a list of the most useful shortcuts in CM - more graphical and intuitive than the built in shortcut list (Ribbon Bar->View->Shortcuts).

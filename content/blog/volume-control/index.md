@@ -4,7 +4,7 @@ date: 2016-09-20
 categories: ["Audio", "Circuits", "DIY"]
 
 cover:
-  image: "audio-control-1.jpg"
+  image: "audio-control-2.jpg"
   relative: true
 ---
 This was for a pair of outdoor speakers in front of KMNR, my college radio station. KMNR was receiving complaints for having the music too loud at night.

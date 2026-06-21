@@ -5,7 +5,7 @@ categories: ["DIY", "networking", "tech"]
 tags: []
 
 cover:
-  image: "zooz-zen34-home-assisstant-setup-01.jpg"
+  image: "zooz-zen34-home-assisstant-setup-03.jpg"
   relative: true
 ---
 This overviews adding a Zooz ZEN34 smart switch to Home Assistant and using it to trigger automations.

@@ -5,7 +5,7 @@ categories: ["Audio"]
 tags: ["bluetooth", "broken", "charging", "connection"]
 
 cover:
-  image: "TDK_Trek_A34_1.jpg"
+  image: "TDK_Trek_A34_11.jpg"
   relative: true
 ---
 ![](TDK_Trek_A34_1.jpg)

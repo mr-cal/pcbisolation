@@ -5,7 +5,7 @@ categories: ["DIY"]
 tags: ["clean"]
 
 cover:
-  image: "lenovo_t450s_key_replace_2.jpg"
+  image: "lenovo_t450s_key_replace_7.jpg"
   relative: true
 ---
 ![](lenovo_t450s_key_replace_2.jpg)

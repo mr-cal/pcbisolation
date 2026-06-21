@@ -4,7 +4,7 @@ date: 2016-08-04
 categories: ["quadcopter"]
 
 cover:
-  image: "quad-10.jpg"
+  image: "quad-11.jpg"
   relative: true
 ---
 If you like your quadcopter looking like a rat's nest, read no further. If you are sophisticated and proper, read on.

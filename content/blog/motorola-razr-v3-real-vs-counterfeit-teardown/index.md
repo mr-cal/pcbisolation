@@ -5,7 +5,7 @@ categories: ["Circuits", "embedded systems", "tech"]
 tags: ["cell phone", "chinese", "circuit"]
 
 cover:
-  image: "razr-real-fake-teardown-01.jpg"
+  image: "razr-real-fake-teardown-14.jpg"
   relative: true
 ---
 

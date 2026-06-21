@@ -5,7 +5,7 @@ categories: ["3D Printing", "DIY"]
 tags: ["3D", "3D Printing", "autodesk"]
 
 cover:
-  image: "inventor-cura-stl-import-01.jpg"
+  image: "inventor-cura-stl-import-02.jpg"
   relative: true
 ---
  

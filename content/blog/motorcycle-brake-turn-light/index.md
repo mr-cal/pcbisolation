@@ -4,7 +4,7 @@ date: 2016-08-21
 categories: ["Circuits", "DIY", "LED/Lighting"]
 
 cover:
-  image: "Brake-Light-3.jpg"
+  image: "Brake-Light-1.jpg"
   relative: true
 ---
 A stranger off eBay got me pulled over, from across the world.

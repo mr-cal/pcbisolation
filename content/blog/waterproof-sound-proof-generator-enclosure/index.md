@@ -5,7 +5,7 @@ categories: ["DIY", "embedded systems", "tech"]
 tags: ["box"]
 
 cover:
-  image: "generator-enclosure-14.jpg"
+  image: "generator-enclosure-thumbnail-150x100.jpg"
   relative: true
 ---
 
