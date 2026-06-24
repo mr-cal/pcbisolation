@@ -22,15 +22,15 @@ As of 2019, it's very difficult to find aftermarket seats like this in the U.S. 
 
 ## Seats
 
-{{< figure-gallery images="van-bench-seat-11.jpg,van-bench-seat-12.jpg" >}}
-
-{{< figure-gallery images="van-bench-seat-14.jpg,van-bench-seat-15.jpg" >}}
-
 ![](van-bench-seat-31.jpg)_Ford Econoline bench seats_
 
 Since I was unable to find any good seats, I had to fab my own. I started by buying 4 bench seats from a 2002 Ford E-series van via Craigslist.  They are fixed bench seats - there is no folding action.
 
+{{< figure-gallery images="van-bench-seat-11.jpg,van-bench-seat-12.jpg" >}}
+
 I started by stripping them down.  I welded 4 full-size door hinges onto each bench.  These give the fold-down action, yet are quite strong.  The seats lock firmly into the upright position with these [extra-long trailer pins](<https://www.ebay.com/itm/10-GOLIATH-EXTRA-LONG-1-4-SQUARE-CANOPY-PTO-TRAILER-HITCH-PINS-LCPTC14-AWNING/371626601025>).
+
+{{< figure-gallery images="van-bench-seat-14.jpg,van-bench-seat-15.jpg,van-bench-seat-43.jpg,van-bench-seat-44.jpg" >}}
 
 In order to support the benches in the lay-down position, I added pipe ends to hold the legs.  PVC tubes are used as legs.
 
@@ -46,8 +46,6 @@ Before I get into the mounting of the new seats in the van, let's take a quick a
 
 ## Flooring
 
-{{< figure-gallery images="van-bench-seat-18.jpg,van-bench-seat-26.jpg" >}}
-
 ![](van-bench-seat-25.gif)_Photos in order: original mat, original flooring, new lining, new mat_
 
 The rubber mat in this van had to be replaced. It tore apart as easily as paper and the padding underneath was turning into compost.
@@ -55,6 +53,8 @@ The rubber mat in this van had to be replaced. It tore apart as easily as paper 
 It took me about 2 weeks to sand and grind all the rust spots away, then another week to prime and coat the flooring with truck bed liner.
 
 I couldn't find a car mat that was at least 7′ x 14′, so I bought a rubber mat for a garage floor. This fit pretty well into the van.
+
+{{< figure-gallery images="van-bench-seat-18.jpg,van-bench-seat-26.jpg" >}}
 
 There was one corner where sitting water must have sat for a long time. I had to cut out that section and replace it with fresh metal.
 

@@ -5,7 +5,7 @@ categories: ["DIY", "embedded systems", "tech"]
 tags: ["box"]
 
 cover:
-  image: "generator-enclosure-thumbnail-150x100.jpg"
+  image: "generator-enclosure-02.jpg"
   relative: true
 slug: "waterproof-sound-proof-generator-enclosure"
 ---
@@ -14,7 +14,7 @@ slug: "waterproof-sound-proof-generator-enclosure"
 
 For RVs and vans, generators are very useful but very loud. I wanted an enclosure that is both waterproof and noise dampening. It's hard to find something like this, because it's not easy to encase an engine and keep it cool.
 
-In the end, I failed to keep the generator cool enough to for more than 2 hours. 
+In the end, I failed to keep the generator cool enough to for more than 2 hours.
 
 I used a [Wen 56235i](<https://www.amazon.com/WEN-56235i-2350-Watt-Generator-Lightweight/dp/B085828BQ6>) generator. It is a cheaper variant of the Honda EU2200 series.
 
@@ -34,7 +34,7 @@ The enclosure is made of a few layers:
 
 ### Waterproofing
 
-I used aluminum tread plate so the enclosure would be waterproof, lightweight, and not rust. 
+I used aluminum tread plate so the enclosure would be waterproof, lightweight, and not rust.
 
 ![](generator-enclosure-14.jpg)_1 of the 3 baffles is cross-sectioned in the upper left_
 
@@ -100,6 +100,6 @@ Unfortunately, this enclosure was a total failure. Keeping the generator cool is
 
 I tried running with the lid cracked open, with the access panel cracked open, and with extra fans. It always overheated within 20 minutes to 2 hours of runtime, depending on ambient temperature and load.
 
-Not adding an extra muffler may have helped. Using a higher quality (Honda) generator may have worked better than a cheaper (Wen) generator. 
+Not adding an extra muffler may have helped. Using a higher quality (Honda) generator may have worked better than a cheaper (Wen) generator.
 
 Still, I would never try this again. It was expensive (a few hundred dollars) and I wasn't close to being able to maintain a reasonable temperature.
