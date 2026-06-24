@@ -1,6 +1,6 @@
 HUGO ?= hugo
 
-.PHONY: serve build validate lint fmt clean
+.PHONY: serve build validate lint fmt clean strip-exif
 
 serve:
 	$(HUGO) serve --buildDrafts --disableFastRender
@@ -19,3 +19,6 @@ fmt:
 
 clean:
 	rm -rf public/ resources/
+
+strip-exif:
+	scripts/strip-exif.sh
