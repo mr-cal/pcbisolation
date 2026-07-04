@@ -29,15 +29,15 @@ See setup instructions [here](<https://help.aeotec.com/support/solutions/article
   1. Remove paper battery tabs from switch to power on switch
   2. Login to Home Assistant
   3. Go to Z-Wave JS and press "Add/Remove Device"  
-![](zooz-zen34-home-assisstant-setup-01.jpg)  
+[![](zooz-zen34-home-assisstant-setup-01.jpg)](<zooz-zen34-home-assisstant-setup-01.jpg>)  
 
   4. Select "Secure Inclusion" and press "Start"  
-![](zooz-zen34-home-assisstant-setup-02.jpg)  
+[![](zooz-zen34-home-assisstant-setup-02.jpg)](<zooz-zen34-home-assisstant-setup-02.jpg>)  
 
   5. The switch should show up on the Z-Wave JS Control Panel.  
 If the fields are fully filled in (they shown "unknown" or "dead"), wait 5 minutes.  
 If the fields still haven't shown up, press the upper paddle 7 times to force the switch to wake up and send/receive configuration data.  
-![](zooz-zen34-home-assisstant-setup-03.jpg)  
+[![](zooz-zen34-home-assisstant-setup-03.jpg)](<zooz-zen34-home-assisstant-setup-03.jpg>)  
 
 
 
@@ -51,7 +51,7 @@ When the switch is pressed, a `zwave_js_value_notification` event is generated. 
   1. Go to Developer Tools->Events
   2. Under "Listen to events", enter `zwave_js_value_notification` and press "Start Listening"  
 Note - you can also enter "*" to listen to all events.  
-![](zooz-zen34-home-assisstant-setup-04.jpg)  
+[![](zooz-zen34-home-assisstant-setup-04.jpg)](<zooz-zen34-home-assisstant-setup-04.jpg>)  
 
   3. Press a button on the switch. You should see the event appear.  
 The important data are `event_type`, `device_id`, `label`, and `value`.  
@@ -59,7 +59,7 @@ The important data are `event_type`, `device_id`, `label`, and `value`.
 - `label` - "Scene 001" = upper button, "Scene 002" = lower button  
 - `value` - how many times the button has been pressed  
   
-![](zooz-zen34-home-assisstant-setup-05.jpg)
+[![](zooz-zen34-home-assisstant-setup-05.jpg)](<zooz-zen34-home-assisstant-setup-05.jpg>)
 
 
 
@@ -68,7 +68,7 @@ We can now use this data to trigger an automation.
 ## Trigger an Automation
 
   1. Go to Configuration->Automation->Add Automation  
-![](zooz-zen34-home-assisstant-setup-06.jpg)  
+[![](zooz-zen34-home-assisstant-setup-06.jpg)](<zooz-zen34-home-assisstant-setup-06.jpg>)  
 
   2. Under Triggers:  
 - Trigger Type: `Event`  
@@ -77,7 +77,7 @@ We can now use this data to trigger an automation.
 `device_id: <your_device_id>  
 label: <your_label>  
 value: <your_value>`  
-![](zooz-zen34-home-assisstant-setup-07.jpg)  
+[![](zooz-zen34-home-assisstant-setup-07.jpg)](<zooz-zen34-home-assisstant-setup-07.jpg>)  
 
   3. Add the rest of your automation's conditions and actions.  
   

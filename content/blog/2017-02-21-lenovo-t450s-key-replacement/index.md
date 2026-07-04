@@ -9,7 +9,7 @@ cover:
   relative: true
 slug: "lenovo-t450s-key-replacement"
 ---
-![](lenovo_t450s_key_replace_2.jpg)
+[![](lenovo_t450s_key_replace_2.jpg)](<lenovo_t450s_key_replace_2.jpg>)
 
 This guide is for removing keys off a Lenovo ThinkPad T450s and should also work for the T430, T440, T450, and T460.
 
@@ -19,7 +19,7 @@ There are fragile retaining clips on the underside of each key. Repetitive remov
 
 ## Key Removal
 
-![](lenovo_t450s_key_replace_4.jpg)
+[![](lenovo_t450s_key_replace_4.jpg)](<lenovo_t450s_key_replace_4.jpg>)
 
 Wedge your finger underneath the upper left and pull directly up until you hear a single click.
 
@@ -27,7 +27,7 @@ Wedge your finger underneath the upper left and pull directly up until you hear 
 
  
 
-![](lenovo_t450s_key_replace_5.jpg)
+[![](lenovo_t450s_key_replace_5.jpg)](<lenovo_t450s_key_replace_5.jpg>)
 
 Now wedge your finger underneath the upper right and pull directly up until you hear another single click.
 
@@ -35,9 +35,9 @@ Now wedge your finger underneath the upper right and pull directly up until you 
 
  
 
-![](lenovo_t450s_key_replace_6.jpg)
+[![](lenovo_t450s_key_replace_6.jpg)](<lenovo_t450s_key_replace_6.jpg>)
 
-![](lenovo_t450s_key_replace_7.jpg)
+[![](lenovo_t450s_key_replace_7.jpg)](<lenovo_t450s_key_replace_7.jpg>)
 
 The key should now be free to be removed.
 
@@ -47,7 +47,7 @@ If you're just replacing the key or removing debris underneath the key, then you
 
 ## Plastic Bracket Removal
 
-![](lenovo_t450s_key_replace_8.jpg)
+[![](lenovo_t450s_key_replace_8.jpg)](<lenovo_t450s_key_replace_8.jpg>)
 
  
 
@@ -57,7 +57,7 @@ Using a small flathead screwdriver or razor blade, gently push forwards on the l
 
  
 
-![](lenovo_t450s_key_replace_9.jpg)
+[![](lenovo_t450s_key_replace_9.jpg)](<lenovo_t450s_key_replace_9.jpg>)
 
 The arm has been pushed upwards. You can see it is now free.
 
@@ -65,7 +65,7 @@ The arm has been pushed upwards. You can see it is now free.
 
  
 
-![](lenovo_t450s_key_replace_10.jpg)
+[![](lenovo_t450s_key_replace_10.jpg)](<lenovo_t450s_key_replace_10.jpg>)
 
 We'll repeat the same procedure on the other side. The second side always requires less force.
 
@@ -73,7 +73,7 @@ We'll repeat the same procedure on the other side. The second side always requir
 
  
 
-![](lenovo_t450s_key_replace_11.jpg)
+[![](lenovo_t450s_key_replace_11.jpg)](<lenovo_t450s_key_replace_11.jpg>)
 
 And it is free. The lower part of the bracket slips out on its own.
 
@@ -81,7 +81,7 @@ And it is free. The lower part of the bracket slips out on its own.
 
  
 
-![](lenovo_t450s_key_replace_12.jpg)
+[![](lenovo_t450s_key_replace_12.jpg)](<lenovo_t450s_key_replace_12.jpg>)
 
 Continue to use your screwdriver or screwdriver to wiggle the bracket free.
 
@@ -89,7 +89,7 @@ Continue to use your screwdriver or screwdriver to wiggle the bracket free.
 
  
 
-![](lenovo_t450s_key_replace_13.jpg)
+[![](lenovo_t450s_key_replace_13.jpg)](<lenovo_t450s_key_replace_13.jpg>)
 
 And the bracket has been freed!
 
@@ -99,4 +99,4 @@ Reassembly follows the same steps in reverse.
 
  
 
-![](lenovo_t450s_key_replace_14.jpg)
+[![](lenovo_t450s_key_replace_14.jpg)](<lenovo_t450s_key_replace_14.jpg>)

@@ -15,7 +15,7 @@ This how-to is for correcting axis orientations or rotation issues when exportin
 
  
 
-![](inventor-cura-stl-import-08.jpg)
+[![](inventor-cura-stl-import-08.jpg)](<inventor-cura-stl-import-08.jpg>)
 
 _improper orientation causes this issue in Cura_
 
@@ -29,7 +29,7 @@ Export as an STL and import into Cura (how to export a STL here)
 
 Do not rotate the model in Cura
 
-![](inventor-cura-stl-import-08.jpg)
+[![](inventor-cura-stl-import-08.jpg)](<inventor-cura-stl-import-08.jpg>)
 
  
 
@@ -39,7 +39,7 @@ Do not rotate the model in Cura
 
 Rotate your view in Inventor to match the Cura model. This will make the next steps more intuitive.
 
-![](inventor-cura-rotate-axis-03.jpg)
+[![](inventor-cura-rotate-axis-03.jpg)](<inventor-cura-rotate-axis-03.jpg>)
 
  
 
@@ -47,7 +47,7 @@ Rotate your view in Inventor to match the Cura model. This will make the next st
 
 ## Step 3
 
-Under the Modify section, click "Move Parts"![](inventor-cura-rotate-axis-05.jpg)
+Under the Modify section, click "Move Parts"[![](inventor-cura-rotate-axis-05.jpg)](<inventor-cura-rotate-axis-05.jpg>)
 
  
 
@@ -57,7 +57,7 @@ Under the Modify section, click "Move Parts"![](inventor-cura-rotate-axis-05.jpg
 
 In the "Move Bodies" dialog box, select the last item from the drop-down - "Rotate about line"
 
-![](inventor-cura-rotate-axis-06.jpg)
+[![](inventor-cura-rotate-axis-06.jpg)](<inventor-cura-rotate-axis-06.jpg>)
 
  
 
@@ -69,7 +69,7 @@ Select the line you'd like to rotate around.
 
 This should be the same rotation you'd like the part in Cura to rotate.
 
-![](inventor-cura-rotate-axis-07.jpg)
+[![](inventor-cura-rotate-axis-07.jpg)](<inventor-cura-rotate-axis-07.jpg>)
 
  
 
@@ -79,7 +79,7 @@ This should be the same rotation you'd like the part in Cura to rotate.
 
 Click "Bodies", then click your part.
 
-![](inventor-cura-rotate-axis-08.jpg)
+[![](inventor-cura-rotate-axis-08.jpg)](<inventor-cura-rotate-axis-08.jpg>)
 
  
 
@@ -91,7 +91,7 @@ You can change the angle, if needed.
 
 Press OK to rotate the model.
 
-![](inventor-cura-rotate-axis-09.jpg)
+[![](inventor-cura-rotate-axis-09.jpg)](<inventor-cura-rotate-axis-09.jpg>)
 
  
 
@@ -99,7 +99,7 @@ Press OK to rotate the model.
 
 Export a new STL and import into Cura
 
-![](inventor-cura-rotate-axis-10.jpg)
+[![](inventor-cura-rotate-axis-10.jpg)](<inventor-cura-rotate-axis-10.jpg>)
 
  
 
@@ -107,4 +107,4 @@ Export a new STL and import into Cura
 
 The model should now be properly oriented in Cura!
 
-![](inventor-cura-rotate-axis-11.jpg)
+[![](inventor-cura-rotate-axis-11.jpg)](<inventor-cura-rotate-axis-11.jpg>)

@@ -13,7 +13,7 @@ slug: "zhangjiajie-park-map"
 
 Download [PDF](<Zhangjiajie-National-Park-Map-1.pdf>) or full size [JPG](<Zhangjiajie-National-Park-Map-1-1.jpg>)
 
-![](Zhangjiajie-National-Park-Map-1-1.jpg)
+[![](Zhangjiajie-National-Park-Map-1-1.jpg)](<Zhangjiajie-National-Park-Map-1-1.jpg>)
 
  
 
@@ -21,4 +21,4 @@ Download [PDF](<Zhangjiajie-National-Park-Map-1.pdf>) or full size [JPG](<Zhangj
 
 Download [PDF](<Zhangjiajie-National-Park-Map-2.pdf>) or full size [JPG](<Zhangjiajie-National-Park-Map-2-1.jpg>)
 
-![](Zhangjiajie-National-Park-Map-2-1.jpg)
+[![](Zhangjiajie-National-Park-Map-2-1.jpg)](<Zhangjiajie-National-Park-Map-2-1.jpg>)

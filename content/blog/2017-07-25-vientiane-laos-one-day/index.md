@@ -9,7 +9,7 @@ cover:
   relative: true
 slug: "vientiane-laos-one-day"
 ---
-![](IMG_20170708_105239.jpg)
+[![](IMG_20170708_105239.jpg)](<IMG_20170708_105239.jpg>)
 
 You can see the highlights of Vientiane, Laos in one long day.
 

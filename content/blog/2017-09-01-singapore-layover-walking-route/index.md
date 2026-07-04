@@ -11,7 +11,7 @@ slug: "singapore-layover-walking-route"
 ---
 Singapore is a great place for a 1 day layover. You can fill a day with many of the city's amazing highlights.
 
-![](singapore-route-1.jpg)
+[![](singapore-route-1.jpg)](<singapore-route-1.jpg>)
 
 ## Arriving at the Airport
 
@@ -43,7 +43,7 @@ Google Maps is excellent in Singapore. The highlights, parks, and photo ops are 
 
 ## Arab Street and Little India
 
-![](singapore-route-2.jpg)
+[![](singapore-route-2.jpg)](<singapore-route-2.jpg>)
 
 Take the metro to Bugis. Walk northeast to Arab St until you see (or hear) the mosque. This area is more than just one street, so walk around. Then head northwest to Little India to see how the Indians live in Singapore. You should end near the Little India metro station.
 
@@ -55,13 +55,13 @@ Take the metro from Little India to Dhoby Ghaut. Orchard Road is the shopping ce
 
 Take the metro from Orchard Road to Newton, transfer to the Blue Line, and take it to the Downtown stop.
 
-![](singapore-route-3.jpg)
+[![](singapore-route-3.jpg)](<singapore-route-3.jpg>)
 
 _Merlion Park_
 
 Walk through the Telok Ayer Food Market on the way to the Boat Quay. The Boat Quay has some expensive restaurants with a good view. Walk along the waterfront to Merlion Park for a view of the skyline. Then across the Esplanade Bridge towards the Helix Bridge. Cross that bridge to get to the Art Science Museum. Some floors of the museum are free.
 
-![](singapore-route-4.jpg)
+[![](singapore-route-4.jpg)](<singapore-route-4.jpg>)
 
 _View from Marina Park_
 

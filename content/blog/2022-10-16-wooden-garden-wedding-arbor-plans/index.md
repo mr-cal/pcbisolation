@@ -11,7 +11,7 @@ slug: "wooden-garden-wedding-arbor-plans"
 ---
 This post contains plans for a wooden arbor or archway for a garden or wedding.
 
-![](arbor-01.jpg)
+[![](arbor-01.jpg)](<arbor-01.jpg>)
 
 I used cedar for this arbor. The total cost was about $200. You can find the plans at the bottom of this post. Otherwise, read on for some notes and details about the process.
 
@@ -29,7 +29,7 @@ This will give the best looking and strongest arch, because the arch will be fro
 
 #### Option 3 - Adding overlapping sections of small arcs
 
-![](arbor-02.png)
+[![](arbor-02.png)](<arbor-02.png>)
 
 This process involves cutting out small sections of the arch from a straight piece of wood, then overlapping them to form the entire arch.
 
@@ -37,25 +37,25 @@ I think this is the best choice when using cedar, since it can be done affordabl
 
 I calculated using 2×8's, 2×10's, and 2×12's. These wider pieces of lumber can make longer sections of the arch (e.g. using a 2×8 will make a 60 degree section). However, the 2×6's end up being the most affordable size and waste the least amount of material.
 
-![](arbor-03.jpg)
+[![](arbor-03.jpg)](<arbor-03.jpg>)
 
 I used a router with a cove bit add detail to the all the edges (see above).
 
-![](arbor-04.jpg)
+[![](arbor-04.jpg)](<arbor-04.jpg>)
 
 To connect the 1×4's to the arch (see above), I cut out grooves in the arch and inserted the 1×4's. Then I secured them with decking screws and covered them with wood plugs.
 
-![](arbor-05.jpg)
+[![](arbor-05.jpg)](<arbor-05.jpg>)
 
 Cedar diamond lattice can be purchased in 4'x8′ sheets at most hardware or landscaping stores. I routed out a 1″ deep groove to fit the lattice (see above).
 
-![](arbor-06.jpg)
+[![](arbor-06.jpg)](<arbor-06.jpg>)
 
 I used extra pieces of 4×4's as braces to secure the legs to the arch (see above).
 
 To finish the arbor, I used boiled linseed oil.
 
-![](arbor-07.jpg)
+[![](arbor-07.jpg)](<arbor-07.jpg>)
 
 ## Plans
 

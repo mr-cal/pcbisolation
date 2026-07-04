@@ -8,7 +8,7 @@ cover:
   relative: true
 slug: "led-strip-current-and-power"
 ---
-![led-strip-1](led-strip-1.jpg)
+[![led-strip-1](led-strip-1.jpg)](<led-strip-1.jpg>)
 
 Trying to figure out which power supply, transformer, or wire gauge you need for a LED strip project? Look no further.
 

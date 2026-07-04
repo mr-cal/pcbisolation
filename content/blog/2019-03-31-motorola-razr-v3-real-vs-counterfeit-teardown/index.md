@@ -10,13 +10,13 @@ cover:
 slug: "motorola-razr-v3-real-vs-counterfeit-teardown"
 ---
 
-![](razr-real-fake-teardown-01.jpg)Left- Authentic Razr V3, Right - Counterfeit Razr V3
+[![](razr-real-fake-teardown-01.jpg)](<razr-real-fake-teardown-01.jpg>)Left- Authentic Razr V3, Right - Counterfeit Razr V3
 
 I recently bought a Razr V3 on eBay. The listing below shows that it is made by Motorola. The pictures are of an authentic Razr. However I received a counterfeit Razr.
 
 PS - I wrote a [quick guide on spotting counterfeit Motorola Razr V3](</blog/how-to-spot-a-counterfeit-motorola-razr-v3/>)'s (without disassembly).
 
-![](razr-real-fake-teardown-34.jpg)
+[![](razr-real-fake-teardown-34.jpg)](<razr-real-fake-teardown-34.jpg>)
 
 If the phone would have worked, I wouldn't have cared. But it wouldn't get a signal with my SIM, so I complained and got a refund.
 
@@ -37,7 +37,7 @@ The counterfeit phone looks new from the outside, but contains a dirty (used) mo
 
 {{< figure-gallery images="razr-real-fake-teardown-37.jpg,razr-real-fake-teardown-10.jpg" >}}
 
-![](razr-real-fake-teardown-13.jpg)The clear plastic pieces in the center are the antennas
+[![](razr-real-fake-teardown-13.jpg)](<razr-real-fake-teardown-13.jpg>)The clear plastic pieces in the center are the antennas
 
 On the back of the board, the counterfeit phone's EMI shielding is rusting. Hm…
 
@@ -89,15 +89,15 @@ The flexible keypad circuit are quite similar.
 
 {{< figure-gallery images="razr-real-fake-teardown-27.jpg,razr-real-fake-teardown-29.jpg" >}}
 
-![](razr-real-fake-teardown-32.jpg)
+[![](razr-real-fake-teardown-32.jpg)](<razr-real-fake-teardown-32.jpg>)
 
 However, the difference in keypad cover's quality is outstanding when held up to the light.
 
-![](razr-real-fake-teardown-28.jpg)
+[![](razr-real-fake-teardown-28.jpg)](<razr-real-fake-teardown-28.jpg>)
 
 The frame and hinge mechanism are almost identical, albeit the counterfeit is made of more fragile plastic.
 
-![](razr-real-fake-teardown-33.jpg)
+[![](razr-real-fake-teardown-33.jpg)](<razr-real-fake-teardown-33.jpg>)
 
 I don't have closure on this yet - I can't decide if the counterfeit phone has an authentic motherboard or not.
 

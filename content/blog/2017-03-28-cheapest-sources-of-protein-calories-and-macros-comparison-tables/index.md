@@ -9,7 +9,7 @@ cover:
   relative: true
 slug: "cheapest-sources-of-protein-calories-and-macros-comparison-tables"
 ---
-![](hot_dogs_1.jpg)
+[![](hot_dogs_1.jpg)](<hot_dogs_1.jpg>)
 
 Recently I looked at the back of a hot dog package and I regret it. Not because of the ingredients list. The nutrition facts.
 

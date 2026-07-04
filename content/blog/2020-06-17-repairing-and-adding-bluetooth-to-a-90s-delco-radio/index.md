@@ -10,13 +10,13 @@ cover:
 slug: "repairing-and-adding-bluetooth-to-a-90s-delco-radio"
 ---
 
-![](delco-stereo-7.jpg)_AC Delco Model 16131355_
+[![](delco-stereo-7.jpg)](<delco-stereo-7.jpg>)_AC Delco Model 16131355_
 
 This post details the repair of a early 1991 AC Delco stereo. AC Delco made many variants of this stereo for both Chevrolet and GM cars, trucks, and vans from the early 80's to the mid-90's. While many of the stereos have more or less features (cassette players, radio presets, etc), the amplifier section of the radio is fairly standard and unchanged.
 
 ## Internal Pinout and Schematic
 
-![](delco-stereo-11.jpg)
+[![](delco-stereo-11.jpg)](<delco-stereo-11.jpg>)
 
 There isn't much material online about these stereos, so I had to reverse-engineer the boards to determine these pinouts.
 
@@ -36,7 +36,7 @@ There were three issues with my stereo:
 
 For me, it was a capacitor failure. The caps on this board are very close to the amplifier ICs and get hot, accelerating failure rates. Because the caps are much easier to source and replace, I'd recommend replacing them before bothering with the IC's.
 
-![](delco-stereo-12.jpg)
+[![](delco-stereo-12.jpg)](<delco-stereo-12.jpg>)
 
 The image above lists the capacitors that I replaced. C1, C2, C3, C4, C5, C6, C7, C8, and C9 are the most likely to fail and cause an issue, but I recommend replacing all of the caps.
 
@@ -55,7 +55,7 @@ Component
   
 ### Board-to-Board Connections
 
-![](delco-stereo-10.jpg)_Added JST-XH connectors  
+[![](delco-stereo-10.jpg)](<delco-stereo-10.jpg>)_Added JST-XH connectors  
 (I later re-did these connections on the backs of the PCBs)_
 
 These stereos are a real bastard to assemble and disassemble. The PCBs are part of the structure of radio. All the parts have to come together at once when assembling, which is challenging.
@@ -70,7 +70,7 @@ I wanted to add bluetooth to this stereo without losing any functionality of the
 
 I bought this [TP Link bluetooth audio receiver](<https://www.amazon.com/gp/product/B00YPATOEE>). I like this adapter for automotive applications because it doesn't require you to press reset/pairing buttons, so it can be hidden and never be seen by the user. Also, it doesn't have any bright LEDs on it.
 
-![](delco-stereo-4.jpg)_12V to 5V converter_
+[![](delco-stereo-4.jpg)](<delco-stereo-4.jpg>)_12V to 5V converter_
 
 To power the bluetooth receiver, I made a simple 12V to 5V adapter with a LM7805 that outputs to a micro USB connector. This lives in a little 3D printed box to keep it from shorting out.
 
@@ -80,11 +80,11 @@ The bluetooth outputs line-level audio into the audio IC's input on the amplifie
 
 This chain of bluetooth components sneaks in between the main stereo board and the amplifier board, at connector F.
 
-![](delco-stereo-6.jpg)
+[![](delco-stereo-6.jpg)](<delco-stereo-6.jpg>)
 
 This stereo lacks a cassette player, so there is a cavity of open space. The bluetooth parts sit comfortably here. It makes it's easy to install the stereo, since all the components are self-contained.
 
-![](delco-stereo-7.jpg)
+[![](delco-stereo-7.jpg)](<delco-stereo-7.jpg>)
 
 I couldn't think of an easy solution that wouldn't require a switch on the front of the stereo to switch between AM/FM and bluetooth. I tried to make this switch as discrete as possible. You can see it in the image above, in the bottom right corner.
 

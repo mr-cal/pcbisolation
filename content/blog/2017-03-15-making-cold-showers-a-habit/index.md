@@ -9,7 +9,7 @@ cover:
   relative: true
 slug: "making-cold-showers-a-habit"
 ---
-![](shower_1.jpg)
+[![](shower_1.jpg)](<shower_1.jpg>)
 
  
 

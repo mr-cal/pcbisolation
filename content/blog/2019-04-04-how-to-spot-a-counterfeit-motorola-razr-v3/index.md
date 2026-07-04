@@ -15,7 +15,7 @@ This applies specifically to the Motorola Razr V3, but you can find similar disc
 
 If you have a feeling the phone is fake, that's a good indicator that it is. 
 
-![](Artboard-1.jpg)
+[![](Artboard-1.jpg)](<Artboard-1.jpg>)
 
 First notice the camera text. The authentic phone says "VGA ZOOM 4X" whereas the counterfeit phone says "MEGAPIXEL". To quip, the cameras are 0.3 megapixels.
 
@@ -23,7 +23,7 @@ Second, the Motorola "M" logo. On the authentic phone, it has a textured, shiny 
 
 Third, the speaker grill. On this counterfeit phone, it isn't shaped quite right.
 
-![](razr-real-fake-teardown-36.jpg)
+[![](razr-real-fake-teardown-36.jpg)](<razr-real-fake-teardown-36.jpg>)
 
 Opening the phones, you should first notice the difference in keyboard color. It should be a reflective silver, not a matte black. This is the quickest indicator for a counterfeit phone. It doesn't matter if the outside of the Razr is silver, pink, black, or anything else - the keyboard on a Razr V3 is always reflective silver.
 

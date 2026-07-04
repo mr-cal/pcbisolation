@@ -10,11 +10,11 @@ cover:
 slug: "fabricating-fold-down-bench-seats-for-a-chevy-van"
 ---
 
-![](van-bench-seat-36.jpg)
+[![](van-bench-seat-36.jpg)](<van-bench-seat-36.jpg>)
 
 This post details my process of building and adding fold-down bench seats to an old van.
 
-![](van-bench-seat-32.gif)
+[![](van-bench-seat-32.gif)](<van-bench-seat-32.gif>)
 
 I've been restoring a '91 Chevy G30.  I want to be able to use it as a roadtripping and camping van, but not lose the ability to haul cargo and passengers. Ideally, my van would have 2-3 rows of removable seats that can fold down into a large bed.
 
@@ -22,7 +22,7 @@ As of 2019, it's very difficult to find aftermarket seats like this in the U.S. 
 
 ## Seats
 
-![](van-bench-seat-31.jpg)_Ford Econoline bench seats_
+[![](van-bench-seat-31.jpg)](<van-bench-seat-31.jpg>)_Ford Econoline bench seats_
 
 Since I was unable to find any good seats, I had to fab my own. I started by buying 4 bench seats from a 2002 Ford E-series van via Craigslist.  They are fixed bench seats - there is no folding action.
 
@@ -34,7 +34,7 @@ I started by stripping them down.  I welded 4 full-size door hinges onto each be
 
 In order to support the benches in the lay-down position, I added pipe ends to hold the legs.  PVC tubes are used as legs.
 
-![](van-bench-seat-16.jpg)_Left: original frame Right: finished frame_
+[![](van-bench-seat-16.jpg)](<van-bench-seat-16.jpg>)_Left: original frame Right: finished frame_
 
 {{< figure-gallery images="van-bench-seat-17.jpg,van-bench-seat-42.jpg" >}}
 
@@ -46,7 +46,7 @@ Before I get into the mounting of the new seats in the van, let's take a quick a
 
 ## Flooring
 
-![](van-bench-seat-25.gif)_Photos in order: original mat, original flooring, new lining, new mat_
+[![](van-bench-seat-25.gif)](<van-bench-seat-25.gif>)_Photos in order: original mat, original flooring, new lining, new mat_
 
 The rubber mat in this van had to be replaced. It tore apart as easily as paper and the padding underneath was turning into compost.
 
@@ -76,11 +76,11 @@ For the rear bench seat, I had to mount it lower to get a comfortable seat heigh
 
 ## Seat Legs
 
-![](van-bench-seat-27.gif)_Magnet mounting assembly_
+[![](van-bench-seat-27.gif)](<van-bench-seat-27.gif>)_Magnet mounting assembly_
 
 The legs are over-engineered and highly satisfying to use. I started with 1-1/2″ PVC pipe, bent them with a heat gun, added tennis ball feet, and a set of magnets for quick installation and removal.
 
-![](van-bench-seat-33.jpg)
+[![](van-bench-seat-33.jpg)](<van-bench-seat-33.jpg>)
 
 This picture shows how the legs attach to the seats.
 
@@ -92,6 +92,6 @@ To make a perfectly flat sleeping surface, I cut mattress inserts out of a foam 
 
 ## Conclusion
 
-![](van-bench-seat-36.jpg) ![](van-bench-seat-32.gif)
+[![](van-bench-seat-36.jpg)](<van-bench-seat-36.jpg>) [![](van-bench-seat-32.gif)](<van-bench-seat-32.gif>)
 
 These seats were a huge success. The bench seats are comfortable for both driving and sleeping and takes 2-3 minutes to convert between driving and sleeping. They can hold lots of people and things, look mostly OEM, and are easy to remove, allowing the entire van to be used for cargo.

@@ -9,7 +9,7 @@ cover:
   relative: true
 slug: "make-your-own-pedialyte"
 ---
-![](ORS_Recipe_1.jpg)
+[![](ORS_Recipe_1.jpg)](<ORS_Recipe_1.jpg>)
 
 This ORS (oral rehydration solution) is 10 times cheaper than Pedialyte and contains a wider array of electrolytes. Gatorade, in comparison, is a [low electrolyte, high sugar mix](<https://paleoleap.com/all-about-electrolytes/>) and has nothing on this ORS besides marketing.
 
@@ -17,7 +17,7 @@ I wanted something to mute hangovers or to drink after a long day of sweating. B
 
 I'm not a doctor and don't know much about anything. So be careful. Nonetheless, all these ingredients are commonly used in food and safe to ingest, so I feel comfortable with these mixes.
 
-![](ORS_Recipe_2.jpg)
+[![](ORS_Recipe_2.jpg)](<ORS_Recipe_2.jpg>)
 
 ### There Are More Electrolytes Than Sodium
 
@@ -71,7 +71,7 @@ Zinc Gluconate| 55mg| [[buy]](<https://www.amazon.com/BulkSupplements-Pure-Gluco
 
  
 
-![](ORS_Recipe_3.jpg)
+[![](ORS_Recipe_3.jpg)](<ORS_Recipe_3.jpg>)
 
 ### Breakdown
 

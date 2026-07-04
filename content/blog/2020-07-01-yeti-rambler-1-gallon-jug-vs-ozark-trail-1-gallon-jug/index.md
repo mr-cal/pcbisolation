@@ -10,7 +10,7 @@ cover:
 slug: "yeti-rambler-1-gallon-jug-vs-ozark-trail-1-gallon-jug"
 ---
 
-![](gallon-jug-01.jpg)_left: Ozark Trail, right: Yeti_  
+[![](gallon-jug-01.jpg)](<gallon-jug-01.jpg>)_left: Ozark Trail, right: Yeti_  
   
 This is a comparison of Yeti's [1 gallon Rambler jug](<https://www.yeti.com/en_US/drinkware/rambler-one-gallon-jug/YRAMONEJUG.html>) and Walmart's [Ozark Trail 1 gallon jug.](<https://www.walmart.com/ip/Ozark-Trail-1-Gallon-Double-wall-Vacuum-sealed-Stainless-Steel-Water-Jug/285297047>)
 
@@ -18,15 +18,15 @@ Both are stainless steel, double-wall insulated. The Yeti jug costs $130 and the
 
 ## Body
 
-![](gallon-jug-02.jpg)_left: Ozark Trail, right: Yeti_
+[![](gallon-jug-02.jpg)](<gallon-jug-02.jpg>)_left: Ozark Trail, right: Yeti_
 
 Physically, they are very similar. There are no noticeable differences in the steel or the construction of the steel. The thickness between the two steel walls is also similar for both jugs.
 
-![](gallon-jug-03.jpg)_left: Ozark Trail, right: Yeti_
+[![](gallon-jug-03.jpg)](<gallon-jug-03.jpg>)_left: Ozark Trail, right: Yeti_
 
 The opening on the Yeti is significantly bigger. This makes it easier to fill (especially for ice) or wash out.
 
-![](gallon-jug-04.jpg)_left: Ozark Trail, right: Yeti_
+[![](gallon-jug-04.jpg)](<gallon-jug-04.jpg>)_left: Ozark Trail, right: Yeti_
 
 The Ozark Trail is more more narrow and taller than the Yeti.
 
@@ -50,7 +50,7 @@ Both jugs seem very watertight. I haven't had any issue with either leaking. The
 
 ## Conclusion
 
-![](gallon-jug-01.jpg)
+[![](gallon-jug-01.jpg)](<gallon-jug-01.jpg>)
 
 The Yeti is slightly nicer in every respect, but I can't say it's worth $100 more than the Ozark Trails. Yes, it's more durable, but how important is that? 
 
