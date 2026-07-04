@@ -66,8 +66,6 @@ I added JST-XH connectors and a few extra inches of wire to all the board-to-boa
 
 ## Adding Bluetooth
 
-{{< figure-gallery images="delco-stereo-2.jpg,delco-stereo-3.jpg,delco-stereo-13.jpg" >}}
-
 I wanted to add bluetooth to this stereo without losing any functionality of the stereo and without adding a completely second amplifier.
 
 I bought this [TP Link bluetooth audio receiver](<https://www.amazon.com/gp/product/B00YPATOEE>). I like this adapter for automotive applications because it doesn't require you to press reset/pairing buttons, so it can be hidden and never be seen by the user. Also, it doesn't have any bright LEDs on it.
@@ -75,6 +73,8 @@ I bought this [TP Link bluetooth audio receiver](<https://www.amazon.com/gp/prod
 ![](delco-stereo-4.jpg)_12V to 5V converter_
 
 To power the bluetooth receiver, I made a simple 12V to 5V adapter with a LM7805 that outputs to a micro USB connector. This lives in a little 3D printed box to keep it from shorting out.
+
+{{< figure-gallery images="delco-stereo-2.jpg,delco-stereo-3.jpg,delco-stereo-13.jpg" >}}
 
 The bluetooth outputs line-level audio into the audio IC's input on the amplifier board. This is where the AM/FM audio signal is normally received. I had to add a DPDT switch to switch between AM/FM and bluetooth.
 

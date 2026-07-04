@@ -5,7 +5,7 @@ categories: ["Circuits", "tech"]
 tags: ["api", "automatic", "bom"]
 
 cover:
-  image: "octopart-api-pricing-thumbnail.jpg"
+  image: "octopart-pricing-01.jpg"
   relative: true
 slug: "octopart-api-pricing"
 ---
@@ -15,7 +15,7 @@ The Octopart API is a great resource for pricing BOMs. [KiCost](<https://github.
 
 As of June 2019, the Octopart API is as follows:
 
-  * $25/month - up to 1,000 HTTP requests per month  
+  * $25/month - up to 1,000 HTTP requests per month
 
   * $50/month - up to 5,000 HTTP requests per month
   * $100/month - up to 12,000 HTTP requests per month

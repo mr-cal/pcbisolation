@@ -46,11 +46,11 @@ The air inlet, air outlet, and exhaust outlet have a series of baffles to keep w
 
 I added a 2″ tube to my generator's exhaust outlet, which originally had a 1/2″ outlet.
 
+{{< figure-gallery images="generator-enclosure-15.jpg,generator-enclosure-08.jpg,generator-enclosure-09.jpg" >}}
+
 The generator's exhaust now connects to flexible steel tube, which then goes through my extra muffler. My extra muffler is a long, L-shaped tunnel surrounded in [SuperWool insulation](<https://www.lynnmfg.com/superwool/>) (like ceramic fiber insulation, but safer to breathe). I used spring wire to keep the insulation from caving in.
 
 It significantly reduces the noise and didn't appear to restrict the exhaust flow.
-
-{{< figure-gallery images="generator-enclosure-15.jpg,generator-enclosure-08.jpg,generator-enclosure-09.jpg" >}}
 
 ### Secondary gas tank
 
@@ -78,15 +78,16 @@ The outlet is a standard residential exterior waterproof outlet.
 
 ### Airflow
 
+{{< figure-gallery images="generator-enclosure-20.jpg,generator-enclosure-19.jpg,generator-enclosure-03.jpg,generator-enclosure-04.jpg,generator-enclosure-18.jpg" >}}
+
 To get airflow inside the enclosure, I installed two [12V marine bilge fans](<https://www.amazon.com/gp/product/B0166S2PA2>). They are rated to move 270 CFM. One fan pulls air into the enclosure and the other fan pushes air out of the enclosure.
 
 The inner lining of the ducts are lined in automotive carpet to dampen the noise of the fan.
 
+{{< figure-gallery images="generator-enclosure-11.jpg,generator-enclosure-10.jpg" >}}
+
 I built a fan controller using a temperature based PID controller. This was done with an Arduino and a custom shield and OLED display. It worked great while testing, but there was too much EMI inside the enclosure while the generator was running. I improved it with some hardening of the circuit board, but I wasn't willing to put in anymore effort into the PID controller since the enclosure was overheating with the fans running at 100%.
 
-{{< figure-gallery images="generator-enclosure-20.jpg,generator-enclosure-19.jpg,generator-enclosure-03.jpg,generator-enclosure-04.jpg,generator-enclosure-18.jpg" >}}
-
-{{< figure-gallery images="generator-enclosure-11.jpg,generator-enclosure-10.jpg" >}}
 
 ### Performance
 

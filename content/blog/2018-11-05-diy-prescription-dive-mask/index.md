@@ -5,7 +5,7 @@ categories: ["DIY"]
 tags: []
 
 cover:
-  image: "3D_Printer_59_thumbnail-150x100.jpg"
+  image: "scuba_goggles_2-1024x685.jpg"
   relative: true
 slug: "diy-prescription-dive-mask"
 ---
