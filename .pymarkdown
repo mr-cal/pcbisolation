@@ -3,20 +3,20 @@
     "strict-config": true
   },
   "extensions": {
-    "front-matter": { "enabled": true }
+    "front-matter": { "enabled": true },
+    "markdown-tables": { "enabled": true }
   },
   "plugins": {
-    "md003": { "enabled": false },
-    "md009": { "enabled": false },
-    "md012": { "enabled": false },
-    "md013": { "enabled": false },
-    "md022": { "enabled": false },
-    "md023": { "enabled": false },
-    "md026": { "enabled": false },
+    "md013": {
+      "enabled": true,
+      "line_length": 120,
+      "heading_line_length": 250,
+      "code_block_line_length": 120,
+      "code_blocks": false,
+      "tables": false
+    },
+    "md029": { "enabled": false },
     "md036": { "enabled": false },
-    "md041": { "enabled": false },
-    "md045": { "enabled": false },
-    "md007": { "enabled": false },
-    "md029": { "enabled": false }
+    "md041": { "enabled": false }
   }
 }

@@ -3,13 +3,12 @@ title: "Vientiane in One Long Day \u2013 Walk, Bicycle, and Scooter Routes"
 date: 2017-07-25
 categories: ["travel"]
 tags: []
-
 cover:
   image: "Vientiane-Thumbnail-150x100.jpg"
   relative: true
 slug: "vientiane-laos-one-day"
 ---
-[![](IMG_20170708_105239.jpg)](<IMG_20170708_105239.jpg>)
+[![IMG 20170708 105239](IMG_20170708_105239.jpg)](<IMG_20170708_105239.jpg>)
 
 You can see the highlights of Vientiane, Laos in one long day.
 
@@ -19,7 +18,7 @@ A bicycle will allow you to see everything in 5 hours.
 
 Walking is a great option as well, as you can use a tuktuk at the end of the day!
 
-### Sights
+## Sights
 
 **A** - [Sisaket Temple](<https://en.wikipedia.org/wiki/Wat_Si_Saket>)
 
@@ -45,10 +44,6 @@ Daily meditations, massages, and sauna nearby!
 
 **H** - [Night Market](<http://www.visit-laos.com/vientiane/shopping/riverside-night-market.htm>)
 
- 
+## Walking or Bicycling Route ([Open on Maps](<https://www.google.com/maps/d/u/0/viewer?hl=en&mid=196Wuci2YyP2Qqa1xlnoRSmIC21I&ll=17.96089221276485%2C102.62204830688484&z=14>))
 
- 
-
-### Walking or Bicycling Route ([Open on Maps](<https://www.google.com/maps/d/u/0/viewer?hl=en&mid=196Wuci2YyP2Qqa1xlnoRSmIC21I&ll=17.96089221276485%2C102.62204830688484&z=14>))
-
-### Scooter Route ([Open on Maps](<https://www.google.com/maps/d/u/0/viewer?hl=en&mid=1oeCT6gd8mck_v63voyEBAGELRGk&ll=17.92581482106419%2C102.68517677825935&z=12>))
+## Scooter Route ([Open on Maps](<https://www.google.com/maps/d/u/0/viewer?hl=en&mid=1oeCT6gd8mck_v63voyEBAGELRGk&ll=17.92581482106419%2C102.68517677825935&z=12>))

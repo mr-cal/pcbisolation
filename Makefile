@@ -12,8 +12,8 @@ validate:
 	python3 scripts/validate_content.py
 
 lint: build
-	htmlproofer public/ --disable-external --ignore-missing-alt --allow-hash-href --no-enforce-https
 	uvx pymarkdownlnt --config .pymarkdown scan --recurse content/
+	lychee --offline --include-fragments public/ --root-dir public
 
 format:
 	$(HUGO) --minify 2>/dev/null; true
@@ -25,4 +25,4 @@ strip-exif:
 	scripts/strip-exif.sh
 
 setup:
-	gem install html-proofer
+	cargo install lychee
