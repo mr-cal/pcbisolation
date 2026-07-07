@@ -25,7 +25,7 @@ Walking is a great option as well, as you can use a tuktuk at the end of the day
 
 **B** - [That Dam](<https://www.renown-travel.com/laos/temples/that-dam.html>)
 
-**C** - [Patuxay Monument ](<https://en.wikipedia.org/wiki/Patuxai>)
+**C** - [Patuxay Monument](<https://en.wikipedia.org/wiki/Patuxai>)
 
 Inspired by the [Arc de Triomphe](<https://en.wikipedia.org/wiki/Arc_de_Triomphe>)
 

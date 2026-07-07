@@ -14,7 +14,7 @@ Here's a list of the most useful shortcuts in CM - more graphical and intuitive 
 
 Pro Tip: When the tools aren't working correctly, press ESC a few times.
 
-# Schematic Shortcuts
+## Schematic Shortcuts
 
 Crtl+Scroll | Zoom |   
 ---|---|---  
@@ -47,7 +47,7 @@ Ctrl+Shift+Tab | Go to Previous Tab |  [![Sch+Crtl+Tab](SchCrtlTab.jpg)](<SchCrt
 
  
 
-# PCB Shortcuts
+## PCB Shortcuts
 
 Crtl+Scroll | Zoom |   
 ---|---|---  

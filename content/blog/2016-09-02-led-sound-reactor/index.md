@@ -38,8 +38,9 @@ A final switch determines whether the lights get brighter or dimmer upon the bas
 
 My circuit uses 8 op-amps and no digital circuitry.
 
-Stereo audio comes through a set of high-impedance buffers. This is traditionally done with an expensive instrumentation amplifier. I opted for a cheaper and still effective bootstrap design. The input impedance is brought into the megaohm level, to reduce load on the audio source. [  
-](<sound-reactor-4.jpg>)
+Stereo audio comes through a set of high-impedance buffers. This is traditionally done with an expensive instrumentation amplifier. I opted for a cheaper and still effective bootstrap design. The input impedance is brought into the megaohm level, to reduce load on the audio source.
+
+[![](sound-reactor-4.jpg)](<sound-reactor-4.jpg>)
 
 Next, we sum both signals into a 4-pole low-pass butterworth. I used Analog Device's [Filter Wizard](<http://www.analog.com/designtools/en/filterwizard/>) for this section. 32dB of gain, f3dB at 150Hz, and -50dB at 1kHz. See the response below.
 
@@ -135,7 +136,7 @@ The schematic design and simulation was in [LTSpice](<http://www.linear.com/desi
 
 [![Version 2 designed in FreePCB](sound-reactor-15.jpg)](<sound-reactor-15.jpg>)_Version 2 designed in FreePCB_
 
-For versions 1 and 2, I designed the PCB in FreePCB. Afterwards, I learned there are better free alternatives available ([KiCad ](<http://kicad-pcb.org/>)and [CircuitMaker](<http://circuitmaker.com/>) by Altium) so I don't recommend using FreePCB. Additionally, importing a circuit [from LTSpice to FreePCB](<http://andyc.diy-audio-engineering.org/ltspice_freepcb_1.html>) is tedious.
+For versions 1 and 2, I designed the PCB in FreePCB. Afterwards, I learned there are better free alternatives available ([KiCad](<http://kicad-pcb.org/>)and [CircuitMaker](<http://circuitmaker.com/>) by Altium) so I don't recommend using FreePCB. Additionally, importing a circuit [from LTSpice to FreePCB](<http://andyc.diy-audio-engineering.org/ltspice_freepcb_1.html>) is tedious.
 
  
 

@@ -9,7 +9,7 @@ cover:
   relative: true
 slug: "zhangjiajie-park-map"
 ---
-# Map 1
+## Map 1
 
 Download [PDF](<Zhangjiajie-National-Park-Map-1.pdf>) or full size [JPG](<Zhangjiajie-National-Park-Map-1-1.jpg>)
 
@@ -17,7 +17,7 @@ Download [PDF](<Zhangjiajie-National-Park-Map-1.pdf>) or full size [JPG](<Zhangj
 
  
 
-# Map 2
+## Map 2
 
 Download [PDF](<Zhangjiajie-National-Park-Map-2.pdf>) or full size [JPG](<Zhangjiajie-National-Park-Map-2-1.jpg>)
 

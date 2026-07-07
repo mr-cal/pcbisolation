@@ -55,6 +55,7 @@ Note - you can also enter "*" to listen to all events.
 
   3. Press a button on the switch. You should see the event appear.  
 The important data are `event_type`, `device_id`, `label`, and `value`.  
+
 - `device_id` - identifies the switch  
 - `label` - "Scene 001" = upper button, "Scene 002" = lower button  
 - `value` - how many times the button has been pressed  
@@ -71,6 +72,7 @@ We can now use this data to trigger an automation.
 [![](zooz-zen34-home-assisstant-setup-06.jpg)](<zooz-zen34-home-assisstant-setup-06.jpg>)  
 
   2. Under Triggers:  
+
 - Trigger Type: `Event`  
 - Event Type: `zwave_js_value_notification`  
 - Event Data (from the "Listen for Events" step) :   
@@ -85,11 +87,11 @@ value: <your_value>`
 
 
 
-#### List of Event Data
+### List of Event Data
 
 The ZEN34 switch supports multiple presses (up to 5 presses) and long holds.
 
-The table below shows the `label `and `value `data to use in your automation trigger's event data.
+The table below shows the `label` and `value` data to use in your automation trigger's event data.
 
 Button| Action| Label| Value  
 ---|---|---|---  

@@ -24,7 +24,7 @@ This standing desk features a drawer for charging electronics, a cable tray for 
   * Backlight dimmer - [ALOVECO 12 Volt DC Dimmer](<https://www.amazon.com/dp/B07Y2XC225>)
   * Backlights - [COB 12V LED Strips, 3000K](<https://www.amazon.com/dp/B0C4DY6JZS>)
   * Monitor arms - [ErgoFocus Single Monitor Desk Mount](<https://www.amazon.com/dp/B0C8D3SPTX>)
-  * Monitors - [Dell G3223Q 32-Inch 4K, 144Hz ](<https://www.amazon.com/Dell-Inspiron-5400-Touchscreen-Computer/dp/B0B1319VJ4>)
+  * Monitors - [Dell G3223Q 32-Inch 4K, 144Hz](<https://www.amazon.com/Dell-Inspiron-5400-Touchscreen-Computer/dp/B0B1319VJ4>)
   * Webcam - [Anker C200 Webcam](<https://www.amazon.com/Anker-PowerConf-Microphones-Adjustable-Correction/dp/B09MFMTMPD>)
   * Webcam arm - [GorillaPod Arm Smart](<https://www.amazon.com/dp/B08LYPGW1K>)
 

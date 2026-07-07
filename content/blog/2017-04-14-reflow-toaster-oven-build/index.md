@@ -13,7 +13,7 @@ slug: "reflow-toaster-oven-build"
 
 This is a conversion of a convection toaster oven into a SMD reflow oven.  I took a standard toaster oven then added insulation, ControlLeo2 controller, temperature sensor, cooling fan, and a front panel.  It has excellent thermal properties and follows a reflow profile well.
 
-I bought the [ControlLeo2 ](<http://www.whizoo.com/>)for the reflow controller.  It features PID control and is overall good.  Still has shortcomings.  I had to heavily modify it to make it fit in the front panel.  A different LCD (8×2 or 8×4) and a new PCB layout would make this board slim enough to fit.  Additionally, I had some issues with LCD corruption and had to modify the software.  I am also disappointed with the lack of PID control for the cooling fan.
+I bought the [ControlLeo2](<http://www.whizoo.com/>)for the reflow controller.  It features PID control and is overall good.  Still has shortcomings.  I had to heavily modify it to make it fit in the front panel.  A different LCD (8×2 or 8×4) and a new PCB layout would make this board slim enough to fit.  Additionally, I had some issues with LCD corruption and had to modify the software.  I am also disappointed with the lack of PID control for the cooling fan.
 
 The ControlLeo2 can be bought standalone for $70.  For $205, you can buy it and all the convection oven parts.  I don't recommend this as you can save money by buying parts individually.  Also, this kit still doesn't have quite enough Reflect-A-Gold tape, includes low quality SSRs, and an unnecessary servo kit.
 

@@ -174,7 +174,7 @@ R1 and R2 form a voltage divider.  I recommend anything in between 10 kΩ and 1 
 
 ### Step 3 - Calculate R3
 
-##### [![](triangle-wave-65.jpg)](<triangle-wave-65.jpg>)
+#### [![](triangle-wave-65.jpg)](<triangle-wave-65.jpg>)
 
 I calculated R3 = 521.5 kΩ, which is close to the standard 520 kΩ.
 
@@ -219,7 +219,7 @@ _view this circuit[here](<http://falstad.com/circuit/circuitjs.html?cct=$+17+0.0
 The most common design for an op-amp triangle wave generator uses two op-amps.  It looks something like this:
 
 [![triangle-wave-6](triangle-wave-6.jpg)](<triangle-wave-6.jpg>)_Typical Two Op-Amp Design_  
- _source: http://www.circuitstoday.com/triangular-wave-generator_
+ _source: <http://www.circuitstoday.com/triangular-wave-generator>_
 
 The two op-amp design generators a square wave then integrates it to produce a triangle wave.   It uses an active integrator, instead of a passive RC integrator.
 

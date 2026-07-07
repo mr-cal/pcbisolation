@@ -28,7 +28,7 @@ I wasn't able to find a good quality brake/turn light combo that looked good for
 
  
 
-[![pcb layout - designed in circuitmaker ](Brake-Light-5.jpg)](<Brake-Light-5.jpg>)_pcb layout - designed in [circuitmaker](<http://www.circuitmaker.com>) (extra traces for heat dissipation)_
+[![pcb layout - designed in circuitmaker](Brake-Light-5.jpg)](<Brake-Light-5.jpg>)_pcb layout - designed in [circuitmaker](<http://www.circuitmaker.com>) (extra traces for heat dissipation)_
 
 I removed the board from my broken eBay brake light and designed a board that would fit into the same enclosure. The PCB is from [OSH Park](<http://www.oshpark.com>).
 

@@ -70,7 +70,7 @@ I am able to scan 300-400 slides an hour using this method.
 
 ### Post Processing
 
-I use [Lightroom ](<http://www.adobe.com/products/photoshop-lightroom.html>)to manage and edit photos. This process is best done with a physical print of the image to reference.
+I use [Lightroom](<http://www.adobe.com/products/photoshop-lightroom.html>)to manage and edit photos. This process is best done with a physical print of the image to reference.
 
 [![](film-scan-11.jpg)](<film-scan-11.jpg>)
 

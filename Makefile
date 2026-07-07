@@ -1,6 +1,6 @@
 HUGO ?= hugo
 
-.PHONY: serve build validate lint fmt clean strip-exif
+.PHONY: serve build validate lint format clean strip-exif setup
 
 serve:
 	$(HUGO) serve --buildDrafts --disableFastRender
@@ -13,8 +13,9 @@ validate:
 
 lint: build
 	htmlproofer public/ --disable-external --ignore-missing-alt --allow-hash-href --no-enforce-https
+	uvx pymarkdownlnt --config .pymarkdown scan --recurse content/
 
-fmt:
+format:
 	$(HUGO) --minify 2>/dev/null; true
 
 clean:
@@ -22,3 +23,6 @@ clean:
 
 strip-exif:
 	scripts/strip-exif.sh
+
+setup:
+	gem install html-proofer

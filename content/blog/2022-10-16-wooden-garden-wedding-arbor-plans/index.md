@@ -19,15 +19,15 @@ I used cedar for this arbor. The total cost was about $200. You can find the pla
 
 The curved section is the most challenging part of the design. There are 3 approaches:
 
-#### Option 1 - Steam forming/bending
+### Option 1 - Steam forming/bending
 
 This involves heating and steaming wood, then bending it into the right shape. I chose not to do this because of a lack of experience and equipment.
 
-#### Option 2 - Cutting a single piece from plywood
+### Option 2 - Cutting a single piece from plywood
 
 This will give the best looking and strongest arch, because the arch will be from a single piece of engineered material. If you are going to paint your arbor, this could be a good option.
 
-#### Option 3 - Adding overlapping sections of small arcs
+### Option 3 - Adding overlapping sections of small arcs
 
 [![](arbor-02.png)](<arbor-02.png>)
 
@@ -63,7 +63,7 @@ The plans below are available as a JPG, PDF, Solidworks drawings, or STL files:
 
 {{< pdf-embed src="arbor-plans.pdf" height="500" >}}
 
-[Solidworks drawings - direct download (zip file)](<arbor-plans-solidworks.zip>)[Download](<arbor-plans-solidworks.zip>)
+[Solidworks drawings - direct download (zip file)](<arbor-plans-solidworks.zip>)
 
 [Solidworks drawings - Google Drive link (zip file)](<https://drive.google.com/file/d/1IEzNxmPd5hLp9MpFFktD-5XdBTWabFxC/view?usp=sharing>)
 
