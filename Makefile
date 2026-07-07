@@ -26,3 +26,4 @@ strip-exif:
 
 setup:
 	cargo install lychee
+	sudo snap install hugo
