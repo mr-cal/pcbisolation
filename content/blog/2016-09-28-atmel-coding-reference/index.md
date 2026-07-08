@@ -18,12 +18,12 @@ building blocks.
 
 ## Contents
 
-[I/O Registers](</blog/atmel-coding-reference/#io-registers>)
-[Bitwise Operators](</blog/atmel-coding-reference/#bitwise-operators>)
-[Delays](</blog/atmel-coding-reference/#delays>)
-[Interrupts](</blog/atmel-coding-reference/#interrupts>)
-[Program Memory](</blog/atmel-coding-reference/#program-memory>)
-[PWM](</blog/atmel-coding-reference/#pwm>)
+[I/O Registers](#io-registers)
+[Bitwise Operators](#bitwise-operators)
+[Delays](#delays)
+[Interrupts](#interrupts)
+[Program Memory](#program-memory)
+[PWM](#pwm)
 
 ## I/O Registers
 
