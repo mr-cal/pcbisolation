@@ -10,13 +10,13 @@
     "md013": {
       "enabled": true,
       "line_length": 120,
-      "heading_line_length": 250,
+      "heading_line_length": 250, // headings are allowed to exceed the normal line length
       "code_block_line_length": 120,
-      "code_blocks": false,
-      "tables": false
+      "code_blocks": false, // code blocks are not checked for line length
+      "tables": false // tables are not checked for line length
     },
-    "md029": { "enabled": false },
-    "md036": { "enabled": false },
-    "md041": { "enabled": false }
+    "md029": { "enabled": false }, // ordered lists may use arbitrary start numbers (e.g. for numbered references)
+    "md036": { "enabled": false }, // bold/italic text may be used for emphasis rather than headings
+    "md041": { "enabled": false } // Hugo front matter defines the page title so no H1 heading is required
   }
 }
