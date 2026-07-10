@@ -2,6 +2,7 @@ public/
 node_modules/
 # plans/ is intentionally tracked
 resources/
+plans/
 
 # secrets
 .env
