@@ -16,18 +16,17 @@ backlights, outlets on the sides, and a hidden desk-height controller.
 ## Hardware
 
 - Frame - [Topsky electric adjustable standing desk frame](<https://www.amazon.com/dp/B09DY37YSP>)
-- Sliders - Blum [12″](<https://www.amazon.com/dp/B018UQC602>) and [15″ Tandem drawer
-  slides](<https://www.amazon.com/dp/B018UQC63O>) Outlets - [Anker AC / USB-C
-  outlet](<https://www.amazon.com/dp/B08ZNSL1DB>) USB charger - [112W Anker USB desktop
-  charger](<https://www.amazon.com/dp/B0CM6WDH6S>) Power strips - [Amazon Basics 6 outlet surge
-  protectors](<https://www.amazon.com/dp/B014EKQ5AA>) Extension cord - [TROND Flat 3 outlet extension cord,
-  10ft](<https://www.amazon.com/dp/B0CHYYRR6B>) Backlight dimmer - [ALOVECO 12 Volt DC
-  Dimmer](<https://www.amazon.com/dp/B07Y2XC225>) Backlights - [COB 12V LED Strips,
-  3000K](<https://www.amazon.com/dp/B0C4DY6JZS>) Monitor arms - [ErgoFocus Single Monitor Desk
-  Mount](<https://www.amazon.com/dp/B0C8D3SPTX>) Monitors - [Dell G3223Q 32-Inch 4K,
-  144Hz](<https://www.amazon.com/Dell-Inspiron-5400-Touchscreen-Computer/dp/B0B1319VJ4>)
-  Webcam - [Anker C200 Webcam](<https://www.amazon.com/Anker-PowerConf-Microphones-Adjustable-Correction/dp/B09MFMTMPD>)
-  Webcam arm - [GorillaPod Arm Smart](<https://www.amazon.com/dp/B08LYPGW1K>)
+- Sliders - Blum [12″](<https://www.amazon.com/dp/B018UQC602>) and [15″ Tandem drawer slides](<https://www.amazon.com/dp/B018UQC63O>)
+- Outlets - [Anker AC / USB-C outlet](<https://www.amazon.com/dp/B08ZNSL1DB>)
+- USB charger - [112W Anker USB desktop charger](<https://www.amazon.com/dp/B0CM6WDH6S>)-
+- Power strips - [Amazon Basics 6 outlet surge protectors](<https://www.amazon.com/dp/B014EKQ5AA>)
+- Extension cord - [TROND Flat 3 outlet extension cord, 10ft](<https://www.amazon.com/dp/B0CHYYRR6B>)
+- Backlight dimmer - [ALOVECO 12 Volt DC Dimmer](<https://www.amazon.com/dp/B07Y2XC225>)
+- Backlights - [COB 12V LED Strips, 3000K](<https://www.amazon.com/dp/B0C4DY6JZS>)
+- Monitor arms - [ErgoFocus Single Monitor Desk Mount](<https://www.amazon.com/dp/B0C8D3SPTX>)
+- Monitors - [Dell G3223Q 32-Inch 4K, 144Hz](<https://www.amazon.com/Dell-Inspiron-5400-Touchscreen-Computer/dp/B0B1319VJ4>)
+- Webcam - [Anker C200 Webcam](<https://www.amazon.com/Anker-PowerConf-Microphones-Adjustable-Correction/dp/B09MFMTMPD>)
+- Webcam arm - [GorillaPod Arm Smart](<https://www.amazon.com/dp/B08LYPGW1K>)
 
 The lumber cutlist can be found at the bottom of this post.
 

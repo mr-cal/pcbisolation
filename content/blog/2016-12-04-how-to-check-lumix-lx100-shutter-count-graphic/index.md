@@ -3,7 +3,7 @@ title: "How to Check Lumix LX100 Shutter Count (Graphic)"
 date: 2016-12-04
 categories: ["photography"]
 cover:
-  image: "LX100-Check-Shutter-Count.jpg"
+  image: "LX100-Check-Shutter-Count-2.jpg"
   relative: true
 slug: "how-to-check-lumix-lx100-shutter-count-graphic"
 ---

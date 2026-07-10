@@ -28,13 +28,7 @@ flashlight very quick.
 
 ## Building the Mount
 
-[![flashlight gopro mount 1](flashlight-gopro-mount-1.jpg)](<flashlight-gopro-mount-1.jpg>)
-
-[![flashlight gopro mount 2](flashlight-gopro-mount-2.jpg)](<flashlight-gopro-mount-2.jpg>)
-
-[![flashlight gopro mount 4](flashlight-gopro-mount-4.jpg)](<flashlight-gopro-mount-4.jpg>)
-
-[![flashlight gopro mount 5](flashlight-gopro-mount-5.jpg)](<flashlight-gopro-mount-5.jpg>)
+{{< figure-gallery images="flashlight-gopro-mount-1.jpg,flashlight-gopro-mount-2.jpg,flashlight-gopro-mount-4.jpg,flashlight-gopro-mount-5.jpg" >}}
 
 I used a dremel to make a notch in the GoPro buckle to hold the flashlight mount. I used an exacto knife to trim the
 flashlight holder too. After this trimming, these two parts fit together very firmly.

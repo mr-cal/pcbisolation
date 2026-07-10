@@ -16,15 +16,10 @@ This guide was written for HA 2021.6.6.
 
 1. [Home Assistant](<https://www.home-assistant.io/>)
 2. Z-Wave USB Hub
-
-I recommend either the [Aeotec Z-Stick 7](<https://aeotec.com/z-wave-usb-stick/z-stick-7.html>) or [Z-Stick
+    - I recommend either the [Aeotec Z-Stick 7](<https://aeotec.com/z-wave-usb-stick/z-stick-7.html>) or [Z-Stick
 5](<https://aeotec.com/z-wave-usb-stick/>).
-
 3. Z-Wave JS integration on Home Assistant
-
-See setup instructions
-[here](<https://help.aeotec.com/support/solutions/articles/6000246295-setup-home-assistant-with-z-stick-7>).
-
+    - See setup instructions [here](<https://help.aeotec.com/support/solutions/articles/6000246295-setup-home-assistant-with-z-stick-7>).
 4. [Zooz ZEN34 Smart Wireless Z-Wave Switch](<https://www.amazon.com/gp/product/B08TMWLY74>)
 
 ## Add ZEN34 to Z-WaveJS

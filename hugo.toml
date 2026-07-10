@@ -2,6 +2,10 @@ baseURL = "https://pcbisolation.com/"
 locale = "en-us"
 title = "PCB Isolation"
 theme = "PaperMod"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
 [pagination]
   pagerSize = 10
 

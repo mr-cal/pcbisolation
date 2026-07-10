@@ -55,43 +55,40 @@ On the back of the board, the counterfeit phone's EMI shielding is rusting. Hmâ€
 
 On the front of the motherboard:
 
-| Authentic (left) | Counterfeit (right) |
-| --- | --- |
+**Authentic (left):**
 
-- Freescale SC29332VKP Baseband Processor
-- Intel 4050L0YBQ0 256 Mbit Flash and 64 Mbit SRAM
-- Murata LBMA1U4AU which contains:
+<ul>
+<li style="color:#EF3B39;"><span style="color:#404040">Freescale SC29332VKP Baseband Processor</span></li>
+<li style="color:#164CF9;"><span style="color:#404040">Intel 4050L0YBQ0 256 Mbit Flash and 64 Mbit SRAM</span></li>
+<li style="color:#0DFF00;"><span style="color:#404040">Murata LBMA1U4AU which contains:<br>Broadcom BCM2035KWB Bluetooth 1.1/1.2 Controller</span></li>
+<li style="color:#FFFF00;"><span style="color:#404040">Freescale MC13777F Front End RF IC</span></li>
+<li style="color:#08DEF4;"><span style="color:#404040">SAWTEK 890036 RF Filter</span></li>
+</ul>
 
-Broadcom BCM2035KWB Bluetooth 1.1/1.2 Controller
+**Counterfeit (right):**
 
-- Freescale MC13777F Front End RF IC
-- SAWTEK 890036 RF Filter
-
-|
-
-- Freescale SC29343VKP Baseband Processor
-
-(this is a newer model than the authentic processor, hence why this phone seems faster)
-
-- ST M36L0R806 128Mbit Flash and 32 Mbit SRAM
-- Unlabeled package containing:
-
-Broadcom BCM2035KWB Bluetooth 1.1/1.2 Controller
-
-- RF Micro Devices RF6027 Front End RF IC
+<ul>
+<li style="color:#EF3B39;"><span style="color:#404040">Freescale SC29343VKP Baseband Processor (this is a newer model than the authentic processor, hence why this phone seems faster)</span></li>
+<li style="color:#164CF9;"><span style="color:#404040">ST M36L0R806 128Mbit Flash and 32 Mbit SRAM</span></li>
+<li style="color:#0DFF00;"><span style="color:#404040">Unlabeled package containing:<br>Broadcom BCM2035KWB Bluetooth 1.1/1.2 Controller</span></li>
+<li style="color:#F408F4;"><span style="color:#404040">RF Micro Devices RF6027 Front End RF IC</span></li>
+</ul>
 
 {{< figure-gallery images="razr-real-fake-teardown-40.jpg,razr-real-fake-teardown-41.jpg" >}}
 
-| Authentic (left) | Counterfeit (right) |
-| --- | --- |
+**Authentic (left):**
 
-- Motorola 5185941F02 PMIC and Audio
-- Skyworks SKY77501-14 GSM PMIC and Tx
+<ul>
+<li style="color:#EF3B39;"><span style="color:#404040">Motorola 5185941F02 PMIC and Audio</span></li>
+<li style="color:#164CF9;"><span style="color:#404040">Skyworks SKY77501-14 GSM PMIC and Tx</span></li>
+</ul>
 
-|
+**Counterfeit (right):**
 
-- Freescale SC13890P23A PMIC and Audio
-- RF Micro Devices RF3178 GSM PMIC and Tx
+<ul>
+<li style="color:#EF3B39;"><span style="color:#404040">Freescale SC13890P23A PMIC and Audio</span></li>
+<li style="color:#164CF9;"><span style="color:#404040">RF Micro Devices RF3178 GSM PMIC and Tx</span></li>
+</ul>
 
 {{< figure-gallery
 images="razr-real-fake-teardown-14.jpg,razr-real-fake-teardown-16.jpg,razr-real-fake-teardown-17.jpg,razr-real-fake-teardown-21.jpg,razr-real-fake-teardown-22.jpg"

@@ -3,7 +3,7 @@ title: "Why Typedef Is Used For Structs In C"
 date: 2016-10-18
 categories: ["embedded systems"]
 cover:
-  image: "typedef-1-thumbnail.jpg"
+  image: "typedef-1.png"
   relative: true
 slug: "typedef-struct-c"
 ---

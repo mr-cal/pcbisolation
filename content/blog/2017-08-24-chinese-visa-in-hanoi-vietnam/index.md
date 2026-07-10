@@ -20,18 +20,22 @@ for the visa!
 This takes a total of 5 business days. Best case scenario would be submitting on Monday and collecting your passport on
 Friday.
 
-Day 1 - Submit documents and passport to Chinese Embassy
+[Day 1](#day-1) – Submit documents and passport to Chinese Embassy
 
-Day 3 - Check application status at Chinese Embassy. Pay $140 at the ICBC Bank
+[Day 3](#day-3) – Check application status at Chinese Embassy. Pay $140 at the ICBC Bank
 
-Day 5 - Pick up passport at Chinese Embassy
+[Day 5](#day-5) – Pick up passport at Chinese Embassy
 
 ## Map
+
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1EFjNVCY4YEpfOz-5sl_ZS4yff1s" width="640" height="480"></iframe>
 
 ## Day 1
 
 Go to the Chinese Embassy. It is located at 46 Hoang Dieu, Hanoi. The entrance is on the east side of the block, near
 the northwest corner of the park.
+
+<iframe style="border: 0;" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ3VrfnKKrNTER4OqhsUgcPCs&key=AIzaSyAx5c88w23wkASAORjm-vLLbJUpHyWCB_A" width="600" height="450" frameborder="0" allowfullscreen></iframe>
 
 The embassy is open from 8:30am-11am. It feels like being at the DMV, so you may wait anywhere from 5 minutes to an
 hour. Show up 10 minutes before opening to shorten your wait time.
@@ -86,14 +90,17 @@ It may be possible to only have an entry ticket, but I didn't risk it. You can b
 you don't know when you'll leave.
 
 _Do I need to book all of my accomodation before submitting the application?_
+
 Probably not. In my itenarary, I listed hostels I planned to stay at but had not booked. I only booked the first hostel.
 I submitted this a copy of this first booking with my application.
 
 _Do I need to book flight or trains in and out of the country?_
+
 Yes. At least entry transportation is required. I recommend buying exit transportation as well. You could book
 refundable tickets if you aren’t sure of your dates yet.
 
 _Can I get a 1 year or 10 year visa?_
+
 Maybe. You have to have a good reason to need a long visa (student, work, spouse). Not having to reapply in the future
 is not a valid reason. LIkely, you’ll get a 60 day multiple entry visa.
 
@@ -109,10 +116,12 @@ payment.
 
 Bank location: 360 Kim Ma, Hanoi
 
+<iframe loading="lazy" style="border: 0;" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJNRVbYGyrNTERBuvvEdFJ9PE&key=AIzaSyAx5c88w23wkASAORjm-vLLbJUpHyWCB_A" width="600" height="450" frameborder="0" allowfullscreen></iframe>
+
 _Can I pay in VND or RMB?_
 No, you must pay in US dollars. The bank recommended this nearby currency exchange at 389 Kim Ma, Hanoi:
 
-﻿
+<iframe loading="lazy" style="border: 0;" src="https://www.google.com/maps/embed/v1/place?q=389%20Kim%20Ma%2C%20Hanoi&key=AIzaSyAx5c88w23wkASAORjm-vLLbJUpHyWCB_A" width="600" height="450" frameborder="0" allowfullscreen></iframe>
 
 ## Day 5
 

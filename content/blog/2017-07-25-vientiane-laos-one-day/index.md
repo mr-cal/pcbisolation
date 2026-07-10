@@ -4,7 +4,7 @@ date: 2017-07-25
 categories: ["travel"]
 tags: []
 cover:
-  image: "Vientiane-Thumbnail-150x100.jpg"
+  image: "IMG_20170708_105239.jpg"
   relative: true
 slug: "vientiane-laos-one-day"
 ---
@@ -46,4 +46,8 @@ Daily meditations, massages, and sauna nearby!
 
 ## Walking or Bicycling Route ([Open on Maps](<https://www.google.com/maps/d/u/0/viewer?hl=en&mid=196Wuci2YyP2Qqa1xlnoRSmIC21I&ll=17.96089221276485%2C102.62204830688484&z=14>))
 
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=196Wuci2YyP2Qqa1xlnoRSmIC21I" width="640" height="480"></iframe>
+
 ## Scooter Route ([Open on Maps](<https://www.google.com/maps/d/u/0/viewer?hl=en&mid=1oeCT6gd8mck_v63voyEBAGELRGk&ll=17.92581482106419%2C102.68517677825935&z=12>))
+
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1oeCT6gd8mck_v63voyEBAGELRGk" width="640" height="480"></iframe>

@@ -27,23 +27,21 @@ in food and safe to ingest, so I feel comfortable with these mixes.
 ## There Are More Electrolytes Than Sodium
 
 Almost every recipe for an ORS starts with "you need to replenish your
-[electrolytes](<https://en.wikipedia.org/wiki/Electrolyte#Physiological_importance>)." Then, they follow the same recipe
-
-- salt, sugar, and water. Example recipes [here](<https://www.mamanatural.com/natural-pedialyte-recipe/>),
-
-[here](<https://www.100daysofrealfood.com/homemade-pedialyte/>), and [here](<http://jenniraincloud.com/diy-pedialyte/>).
+[electrolytes](<https://en.wikipedia.org/wiki/Electrolyte#Physiological_importance>)."
+Then, they follow the same recipe - salt, sugar, and water. Example
+recipes [here](<https://www.mamanatural.com/natural-pedialyte-recipe/>),
+[here](<https://www.100daysofrealfood.com/homemade-pedialyte/>), and
+[here](<http://jenniraincloud.com/diy-pedialyte/>).
 
 Yet there are more electrolytes than Sodium and Chloride. Some important electrolytes:
 
-- [Sodium](<http://www.merckmanuals.com/home/hormonal-and-metabolic-disorders/electrolyte-balance/overview-of-sodium-s-role-in-the-body>)
-  ([more info](<https://en.wikipedia.org/wiki/Sodium_in_biology#Humans>))
-  [Chloride](<https://traceminerals.com/chloride-the-forgotten-essential-mineral/>)
-  [Potassium](<http://www.merckmanuals.com/home/hormonal-and-metabolic-disorders/electrolyte-balance/overview-of-potassium-s-role-in-the-body>)
-  ([more info](<http://www.umm.edu/health/medical/altmed/supplement/potassium>))
-  [Magnesium](<http://www.merckmanuals.com/home/hormonal-and-metabolic-disorders/electrolyte-balance/overview-of-magnesium-s-role-in-the-body>)
-  [Calcium](<http://www.merckmanuals.com/home/hormonal-and-metabolic-disorders/electrolyte-balance/overview-of-calcium-s-role-in-the-body>)
-  [Phosphate/Phosphorus](<http://www.merckmanuals.com/home/hormonal-and-metabolic-disorders/electrolyte-balance/overview-of-phosphate-s-role-in-the-body>)
-  [Bicarbonate](<http://www.mgwater.com/bicarb.shtml>)
+- [Sodium](<http://www.merckmanuals.com/home/hormonal-and-metabolic-disorders/electrolyte-balance/overview-of-sodium-s-role-in-the-body>) ([more info](<https://en.wikipedia.org/wiki/Sodium_in_biology#Humans>))
+- [Chloride](<https://traceminerals.com/chloride-the-forgotten-essential-mineral/>)
+- [Potassium](<http://www.merckmanuals.com/home/hormonal-and-metabolic-disorders/electrolyte-balance/overview-of-potassium-s-role-in-the-body>) ([more info](<http://www.umm.edu/health/medical/altmed/supplement/potassium>))
+- [Magnesium](<http://www.merckmanuals.com/home/hormonal-and-metabolic-disorders/electrolyte-balance/overview-of-magnesium-s-role-in-the-body>)
+- [Calcium](<http://www.merckmanuals.com/home/hormonal-and-metabolic-disorders/electrolyte-balance/overview-of-calcium-s-role-in-the-body>)
+- [Phosphate/Phosphorus](<http://www.merckmanuals.com/home/hormonal-and-metabolic-disorders/electrolyte-balance/overview-of-phosphate-s-role-in-the-body>)
+- [Bicarbonate](<http://www.mgwater.com/bicarb.shtml>)
 
 In my recipe, I included Sodium, Chloride, Potassium, Magnesium, and Zinc. Pedialyte includes zinc. Zinc is [lost in
 sweat](<https://www.ncbi.nlm.nih.gov/pubmed/8220392>) and a [deficiency is found in
@@ -81,7 +79,7 @@ possible (using Sodium Chloride, Sodium Citrate, Potassium Citrate, and Zinc Glu
 | Flavoring (Lemonade Kool-Aid Powder) | 3g (half packet) | [[buy]](<https://www.amazon.com/Kool-Aid-Soft-Drink-Mix-Unsweetened/dp/B00IIWPM5K>) | $0.160 |
 | Magnesium Glycinate | 1.8g | [[buy]](<https://www.amazon.com/BulkSupplements-Magnesium-Glycinate-Powder-grams/dp/B00F7OZJQE>) | $0.092 |
 | Zinc Gluconate | 55mg | [[buy]](<https://www.amazon.com/BulkSupplements-Pure-Gluconate-Powder-grams/dp/B00GW1C4H8>) | $0.003 |
-| Total - 20g| | Total - $0.41
+| | **Total - 20g** | | **Total - $0.41** |
 
 [![ORS Recipe 3](ORS_Recipe_3.jpg)](<ORS_Recipe_3.jpg>)
 

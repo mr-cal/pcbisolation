@@ -28,9 +28,8 @@ The enclosure is made of a few layers:
 1. Frame of 1″ AL square tubing
 2. 1/16″ AL treadplate
 3. [Dynamat sound dampening](<https://www.amazon.com/gp/product/B0751CBXBT>)
-4. [Residential reflective
-   insulation](<https://www.homedepot.com/p/Everbilt-48-in-x-25-ft-Double-Reflective-Insulation-48x25RI/315103268>)
-   [Automotiv](<https://www.amazon.com/gp/product/B008NF84J8>)e sound dampening carpet liner
+4. [Residential reflective insulation](<https://www.homedepot.com/p/Everbilt-48-in-x-25-ft-Double-Reflective-Insulation-48x25RI/315103268>)
+5. [Automotive](<https://www.amazon.com/gp/product/B008NF84J8>) sound dampening carpet liner
 
 ## Waterproofing
 
