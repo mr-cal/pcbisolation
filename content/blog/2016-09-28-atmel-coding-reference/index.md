@@ -18,19 +18,22 @@ building blocks.
 
 ## Contents
 
-[I/O Registers](#io-registers)
-[Bitwise Operators](#bitwise-operators)
-[Delays](#delays)
-[Interrupts](#interrupts)
-[Program Memory](#program-memory)
-[PWM](#pwm)
+- [I/O Registers](#io-registers)
+- [Bitwise Operators](#bitwise-operators)
+- [Delays](#delays)
+- [Interrupts](#interrupts)
+- [Program Memory](#program-memory)
+- [PWM](#pwm)
 
 ## I/O Registers
 
-- DDR _x_ - Data Direction Register - Configures each pin as an input or output. The 0th bit refers to the 0th pin of
-  the port and the 7th bit refers to the 7th bit of the port. PORT _x_ - Data Register - The value of the pin, used for
-  reading input or writing output P _x_ _n_ - The nth bit of port x. PB0 refers to the 0th bit of port B and PE7 refers
-  to the 7th bit of port E. _x_ - letter (e.g. B, D, E, F, G) _n_ - number (0, 1, 2, … 7)
+- DDRx - Data Direction Register - Configures each pin as an input or output. The 0th bit refers to the 0th pin of
+  the port and the 7th bit refers to the 7th bit of the port.
+- PORTx - Data Register - The value of the pin, used for reading input or writing output
+- Pxn - The nth bit of port x. PB0 refers to the 0th bit of port B and PE7 refers
+  to the 7th bit of port E.
+- _x_ - letter (e.g. B, D, E, F, G)
+- _n_ - number (0, 1, 2, … 7)
 
 Note that you still should refer to the datasheet for the specifics on these registers and how to set their values.
 
