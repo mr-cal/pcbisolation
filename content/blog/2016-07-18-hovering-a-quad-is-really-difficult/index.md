@@ -13,15 +13,13 @@ The title says it. And you can 10x your skill development as a quad flier with t
 
 [![quad-4](quad-4.jpg)](<quad-4.jpg>)
 
-##
-
-It easy to keep a position in 2D space, because you can place a marker or a cone on the ground. In the air, you can't
+It's easy to keep a position in 2D space, because you can place a marker or a cone on the ground. In the air, you can't
 mark the spot you are trying to hover by.
 
 Targeting a point in 3D space and maintaining a quadcopter is difficult, because it's hard to remember where that point
 was, especially when a little quad is zooming all around that point.
 
-"_I 'm going to keep this quad in the middle of the room_." The quad drifts to the left and down a bit. You bring it to
+"_I'm going to keep this quad in the middle of the room_." The quad drifts to the left and down a bit. You bring it to
 the right but it also goes towards you. Still dropping. More thrust and pull it back to you. Is that where you started?
 Probably not.
 

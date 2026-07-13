@@ -31,6 +31,6 @@ No. I argue that this skill is secondary.
 
 Quit hovering 4 inches above the floor. Take off quickly and get _in_ the air.
 
-You know what's more important? Hovering. Maintaining a position in midair. If you can't hover, you'll _can 't _land.
+You know what's more important? Hovering. Maintaining a position in midair. If you can't hover, you'll _can't_ land.
 
 Struggling with hovering? That's ok. Check out my [article on hovering](</blog/hovering-a-quad-is-really-difficult/>).

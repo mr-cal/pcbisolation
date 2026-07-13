@@ -19,9 +19,7 @@ The DIR655 has a usb output on the back designed for printers and network storag
 wired a small computer fan to a USB male plug (5V and gnd). Many 12V computer fans will spin off 5V. To disassemble, I
 took two screws under the feet at the bottom and popped the top off.
 
-[![router-fan-02](router-fan-02.jpg)](<router-fan-02.jpg>)
-
-[![router-fan-03](router-fan-03.jpg)](<router-fan-03.jpg>)
+{{< figure-gallery images="router-fan-02.jpg,router-fan-03.jpg" >}}
 
 I dremeled a hole, glued the fan in, and put a protector on top. The protector's purpose is to keep dust or anything
 that could damage the router from falling in.

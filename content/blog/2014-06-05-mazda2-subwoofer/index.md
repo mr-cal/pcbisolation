@@ -28,9 +28,7 @@ I started with removing the front section of the center console. It pulls off pr
 
 Look at the auxiliary input, depress the push tabs on the side and pull it out.
 
-[![mazda2-subwoofer-01](mazda2-subwoofer-01.jpg)](<mazda2-subwoofer-01.jpg>)
-
-[![mazda2-subwoofer-02](mazda2-subwoofer-02.jpg)](<mazda2-subwoofer-02.jpg>)
+{{< figure-gallery images="mazda2-subwoofer-01.jpg,mazda2-subwoofer-02.jpg" >}}
 
 Depress the green push tabs and wiggle out the board.
 
@@ -61,9 +59,7 @@ enough to not make an audible difference from pulling the signal from just one c
 Next up, wiring. Everything is terminated with plugs to simplify removal and maintenance. There isn't much to it, only
 two sets of wires to run. Enjoy!
 
-[![mazda2-subwoofer-08](mazda2-subwoofer-08-1024x683.jpg)](<mazda2-subwoofer-08-1024x683.jpg>)
-
-[![mazda2-subwoofer-07](mazda2-subwoofer-07.jpg)](<mazda2-subwoofer-07.jpg>)
+{{< figure-gallery images="mazda2-subwoofer-08-1024x683.jpg,mazda2-subwoofer-07.jpg" >}}
 
 If I want to reclaim trunk space, I unplug two wires and remove the sub. I really like being able to remove this sub in
 under 10 seconds. There are two compromises, first is the power, you are limited to 300W (wiring from cigarette

@@ -55,9 +55,9 @@ something for the house. We limit the max spending per semester to $300.
 
 All of our utilities went through the city except for gas, which was through Ameren.
 
-Average Utility Cost per Month
+### Average Utility Cost per Month
 
-| **All Year (including summer)** | **August-May (school term only)**
+| |  **All Year (including summer)** | **August-May (school term only)**
 ---|---|---
 Elec | $162.11 | $180.82
 Water | $24.36 | $26.98
@@ -99,7 +99,7 @@ people is $200 per person. Everyone writes a check (or Paypal or VenMo) for $200
 
 ## Totals
 
-| **Average Monthly** | **Average Monthly Per Person**
+|  | **Average Monthly** | **Average Monthly Per Person**
 ---|---|---
 Rent | $825.00 | $165.00
 Utilities | $328.36 | $65.67

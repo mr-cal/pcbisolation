@@ -35,11 +35,8 @@ majority of features were self-imagined, but I found inspiration for a few key d
 PVC & threaded rod combination to stabilize the gantry, a torsion box base, and delrin for the anti-backlash nut
 material.
 
-[![cnc_papers](cnc_papers.jpg)](<cnc_papers.jpg>)
 
-[![cnc_computer_1](cnc_computer_1.jpg)](<cnc_computer_1.jpg>)
-
-[![cnc_computer_2](cnc_computer_2.jpg)](<cnc_computer_2.jpg>)
+{{< figure-gallery images="cnc_papers.jpg,cnc_computer_1.jpg,cnc_computer_2.jpg" >}}
 
 On a tight budget, I couldn't afford to make mistakes. As you can see, the design is very thorough and includes a
 tabulation of every part, down to the washer. This kind of detailed planning allows a $1000 machine to be built for

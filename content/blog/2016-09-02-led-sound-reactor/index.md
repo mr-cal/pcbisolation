@@ -45,8 +45,6 @@ Stereo audio comes through a set of high-impedance buffers. This is traditionall
 amplifier. I opted for a cheaper and still effective bootstrap design. The input impedance is brought into the megaohm
 level, to reduce load on the audio source.
 
-[![sound reactor 4](sound-reactor-4.jpg)](<sound-reactor-4.jpg>)
-
 Next, we sum both signals into a 4-pole low-pass butterworth. I used Analog Device's [Filter
 Wizard](<http://www.analog.com/designtools/en/filterwizard/>) for this section. 32dB of gain, f3dB at 150Hz, and -50dB
 at 1kHz. See the response below.
@@ -168,11 +166,11 @@ Version 3 changes:
    simple. High unique part count. 4 dual op-amps costs nearly as much as a microcontroller. The potentiometers could
    be replaced with buttons in a digital design, lowering the cost further.
 
-And further, it's really not all analog. I'm using analog components to simulate a digital function - PWM. Hell, I'm
-driving a discrete digital devices - Light Emitting Diodes.
-
+   And further, it's really not all analog. I'm using analog components to simulate a digital function - PWM. Hell, I'm
+   driving a discrete digital devices - Light Emitting Diodes.
 2. It only drives single color LEDs. To drive RGB LEDs, I'd need to nearly triple the components. In a digital design,
-   it'd only be an extra output from the microcontroller. So it doesn't scale well either. My circuit pushes the limits
+   it'd only be an extra output from the microcontroller. So it doesn't scale well either.
+3. My circuit pushes the limits
    of the op-amps. The low pass filter is aggressive, especially with the high gain on the
    final stage. Due to part tolerance, some boards may have higher gain than other. So sometimes, the op-amps
    saturate when the gain is too high. I could not design for great response, a wide range of adjustability, and low

@@ -62,18 +62,18 @@ and it may take flight.
 
 You have two options here:
 
--Slow down the fan (slightly) with a high power resistor and tolerate the noise. I did this for a year and a half.
+- Slow down the fan (slightly) with a high power resistor and tolerate the noise. I did this for a year and a half.
 
--Make a circuit that measures the temperature and controls the fan speed at reasonable volumes
+- Make a circuit that measures the temperature and controls the fan speed at reasonable volumes
 
 [![hifonics09](hifonics09.jpg)](<hifonics09.jpg>)
 
 The second option is more technical. Again, you have 2 options:
 
--Drive the fan with PWM using a 555 timer. The duty time is determined by the temperature sensor and discrete
+- Drive the fan with PWM using a 555 timer. The duty time is determined by the temperature sensor and discrete
 components.
 
--Drive the fan with PWM using a microcontroller. The duty time is determined by the temperature sensor and your code.
+- Drive the fan with PWM using a microcontroller. The duty time is determined by the temperature sensor and your code.
 
 I chose the second option for a few reasons. First, I can adjust the behavior of the fan easily; I can change the
 minimum temperature for the fan starting and how the fan speed scales with temperature. Second, I can generate a second
