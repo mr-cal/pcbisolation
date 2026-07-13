@@ -35,7 +35,7 @@ Friday.
 Go to the Chinese Embassy. It is located at 46 Hoang Dieu, Hanoi. The entrance is on the east side of the block, near
 the northwest corner of the park.
 
-<iframe style="border: 0;" src="https://maps.google.com/maps?q=place_id:ChIJ3VrfnKKrNTER4OqhsUgcPCs&output=embed" width="600" height="450" frameborder="0" allowfullscreen></iframe>
+<iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d500!2d105.8435!3d21.0285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135aba29cdf5add%3A0x2b3c1c48b1a1eae0!2sChinese+Embassy!5e0!3m2!1sen!2sus!4v1720000000000!5m2!1sen!2sus" width="600" height="450" frameborder="0" allowfullscreen></iframe>
 
 The embassy is open from 8:30am-11am. It feels like being at the DMV, so you may wait anywhere from 5 minutes to an
 hour. Show up 10 minutes before opening to shorten your wait time.
@@ -116,7 +116,7 @@ payment.
 
 Bank location: 360 Kim Ma, Hanoi
 
-<iframe loading="lazy" style="border: 0;" src="https://maps.google.com/maps?q=place_id:ChIJNRVbYGyrNTERBuvvEdFJ9PE&output=embed" width="600" height="450" frameborder="0" allowfullscreen></iframe>
+<iframe loading="lazy" style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d500!2d105.8099!3d21.0262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab6c605b1535%3A0xf1f449d111efeb06!2s360+Kim+Ma!5e0!3m2!1sen!2sus!4v1720000000000!5m2!1sen!2sus" width="600" height="450" frameborder="0" allowfullscreen></iframe>
 
 _Can I pay in VND or RMB?_
 No, you must pay in US dollars. The bank recommended this nearby currency exchange at 389 Kim Ma, Hanoi:
