@@ -60,7 +60,8 @@ On the front of the motherboard:
 <ul>
 <li style="color:#EF3B39;"><span style="color:#404040">Freescale SC29332VKP Baseband Processor</span></li>
 <li style="color:#164CF9;"><span style="color:#404040">Intel 4050L0YBQ0 256 Mbit Flash and 64 Mbit SRAM</span></li>
-<li style="color:#0DFF00;"><span style="color:#404040">Murata LBMA1U4AU which contains:<br>Broadcom BCM2035KWB Bluetooth 1.1/1.2 Controller</span></li>
+<li style="color:#0DFF00;"><span style="color:#404040">Murata LBMA1U4AU which contains:
+  <br>Broadcom BCM2035KWB Bluetooth 1.1/1.2 Controller</span></li>
 <li style="color:#FFFF00;"><span style="color:#404040">Freescale MC13777F Front End RF IC</span></li>
 <li style="color:#08DEF4;"><span style="color:#404040">SAWTEK 890036 RF Filter</span></li>
 </ul>
@@ -68,9 +69,11 @@ On the front of the motherboard:
 **Counterfeit (right):**
 
 <ul>
-<li style="color:#EF3B39;"><span style="color:#404040">Freescale SC29343VKP Baseband Processor (this is a newer model than the authentic processor, hence why this phone seems faster)</span></li>
+<li style="color:#EF3B39;"><span style="color:#404040">Freescale SC29343VKP Baseband Processor
+  (this is a newer model than the authentic processor, hence why this phone seems faster)</span></li>
 <li style="color:#164CF9;"><span style="color:#404040">ST M36L0R806 128Mbit Flash and 32 Mbit SRAM</span></li>
-<li style="color:#0DFF00;"><span style="color:#404040">Unlabeled package containing:<br>Broadcom BCM2035KWB Bluetooth 1.1/1.2 Controller</span></li>
+<li style="color:#0DFF00;"><span style="color:#404040">Unlabeled package containing:
+  <br>Broadcom BCM2035KWB Bluetooth 1.1/1.2 Controller</span></li>
 <li style="color:#F408F4;"><span style="color:#404040">RF Micro Devices RF6027 Front End RF IC</span></li>
 </ul>
 

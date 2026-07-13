@@ -37,7 +37,9 @@ departure gate. That leaves you with 2.5 hours in the city, assuming no delays.
 
 ## Walking and Metro Route ([Open on Maps](<https://www.google.com/maps/d/viewer?mid=1Vv610JdunePnYQbVs-wpLiqWris&hl=en&usp=sharing>))
 
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Vv610JdunePnYQbVs-wpLiqWris" width="640" height="480"></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Vv610JdunePnYQbVs-wpLiqWris"
+  width="640" height="480">
+</iframe>
 
 Google Maps is excellent in Singapore. The highlights, parks, and photo ops are easily found on the map.
 

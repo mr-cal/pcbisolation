@@ -8,6 +8,7 @@ cover:
 slug: "triangle-wave-generator"
 ---
 
+<!-- pyml disable md013 -->
 While this is not my design, this is my analysis and derivations.
 
 I used this in my [sound reactive lighting project](</blog/led-sound-reactor/>).  I had only one op-amp to spare for a

@@ -18,6 +18,7 @@ lint: build
 
 format:
 	$(HUGO) --minify 2>/dev/null; true
+	uvx pymarkdownlnt --config .pymarkdown fix --recurse content/
 
 clean:
 	rm -rf public/ resources/

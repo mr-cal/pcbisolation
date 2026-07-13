@@ -28,6 +28,7 @@ flashlight very quick.
 
 ## Building the Mount
 
+<!-- pyml disable-next-line md013 -->
 {{< figure-gallery images="flashlight-gopro-mount-1.jpg,flashlight-gopro-mount-2.jpg,flashlight-gopro-mount-4.jpg,flashlight-gopro-mount-5.jpg" >}}
 
 I used a dremel to make a notch in the GoPro buckle to hold the flashlight mount. I used an exacto knife to trim the

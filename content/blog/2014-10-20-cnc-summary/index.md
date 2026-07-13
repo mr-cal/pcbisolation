@@ -35,7 +35,6 @@ majority of features were self-imagined, but I found inspiration for a few key d
 PVC & threaded rod combination to stabilize the gantry, a torsion box base, and delrin for the anti-backlash nut
 material.
 
-
 {{< figure-gallery images="cnc-papers.jpg,cnc-computer-01.jpg,cnc-computer-02.jpg" >}}
 
 On a tight budget, I couldn't afford to make mistakes. As you can see, the design is very thorough and includes a

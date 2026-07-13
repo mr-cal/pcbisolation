@@ -35,8 +35,10 @@ recipes [here](<https://www.mamanatural.com/natural-pedialyte-recipe/>),
 
 Yet there are more electrolytes than Sodium and Chloride. Some important electrolytes:
 
+<!-- pyml disable-next-line md013 -->
 - [Sodium](<http://www.merckmanuals.com/home/hormonal-and-metabolic-disorders/electrolyte-balance/overview-of-sodium-s-role-in-the-body>) ([more info](<https://en.wikipedia.org/wiki/Sodium_in_biology#Humans>))
 - [Chloride](<https://traceminerals.com/chloride-the-forgotten-essential-mineral/>)
+<!-- pyml disable-next-line md013 -->
 - [Potassium](<http://www.merckmanuals.com/home/hormonal-and-metabolic-disorders/electrolyte-balance/overview-of-potassium-s-role-in-the-body>) ([more info](<http://www.umm.edu/health/medical/altmed/supplement/potassium>))
 - [Magnesium](<http://www.merckmanuals.com/home/hormonal-and-metabolic-disorders/electrolyte-balance/overview-of-magnesium-s-role-in-the-body>)
 - [Calcium](<http://www.merckmanuals.com/home/hormonal-and-metabolic-disorders/electrolyte-balance/overview-of-calcium-s-role-in-the-body>)
