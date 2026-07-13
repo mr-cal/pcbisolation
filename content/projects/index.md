@@ -26,7 +26,7 @@ More details are available at
 
 ## Big Nugget v2 - 5V 4A Power Supply
 
-{{< figure-gallery images="5V4AR1_1.jpg,5V4AR1_2.jpg,5V4AR1_3.jpg" >}}
+{{< figure-gallery images="5v4ar1-01.jpg,5v4ar1-02.jpg,5v4ar1-03.jpg" >}}
 
 The Big Nugget is best for high current projects needing long runtime from a battery source. It's great for Raspberry
 Pi, BeagleBone, Arduino, IoT, and more.
@@ -60,7 +60,7 @@ More details are available at [www.flashcandy.us/products/big-nugget-v2](https:/
 
 ## Big Nugget v1 - 5V 3.5A Power Supply
 
-{{< figure-gallery images="5V3AUPSR2_1.jpg,5V3AUPSR2_2.jpg" >}}
+{{< figure-gallery images="5v3aupsr2-01.jpg,5v3aupsr2-02.jpg" >}}
 
 This is the first version of the Big Nugget. Version 2 improves considerably on this design. Compared to version 2, this
 has a single cell battery, 2 USB type A outputs, and a different set of power management ICs.
@@ -104,7 +104,7 @@ The boards and design files are available at
 
 ## Reflow Toaster Oven
 
-{{< figure-gallery images="Reflow_Oven_4.jpg,Reflow_Oven_5.jpg,Reflow_Oven_6.jpg,Reflow_Oven_7.jpg,Reflow_Oven_8.jpg"
+{{< figure-gallery images="reflow-oven-04.jpg,reflow-oven-05.jpg,reflow-oven-06.jpg,reflow-oven-07.jpg,reflow-oven-08.jpg"
 >}}
 
 This is my retrofitted Black and Decker toaster oven for reflow soldering. To reduce the temperature gradient, the unit
@@ -159,7 +159,7 @@ to this design, particularly for scalability. Read more [here](/blog/led-sound-r
 
 ## Motorcycle Brake and Turn Light
 
-{{< figure-gallery images="Brake-Light-3.jpg,Brake-Light-4.jpg,Brake-Light-5.jpg" >}}
+{{< figure-gallery images="brake-light-03.jpg,brake-light-04.jpg,brake-light-05.jpg" >}}
 
 I was unsatisfied with the brake and turn signal combos available online, so I made my own. It has running lights, brake
 lights, turn signals, and license plate illumination. I used high output LEDs and used the extra space on the PCB for
@@ -174,7 +174,7 @@ More details about the brake light [here](/blog/motorcycle-brake-turn-light/).
 
 ## Designing and Building a CNC Machine
 
-{{< figure-gallery images="cnc_overall_2.jpg,cnc_computer_2.jpg" >}}
+{{< figure-gallery images="cnc-overall-02.jpg,cnc-computer-02.jpg" >}}
 
 I designed and built a CNC machine with 12″x12″x4″ of cutting space. It uses 270 oz-in steppers, a regular old router, a
 HobbyCNC controller, and Mach 3 as the driving software. It's accurate down to at least 1/100″. It cost $400 and is made

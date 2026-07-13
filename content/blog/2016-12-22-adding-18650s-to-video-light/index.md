@@ -4,11 +4,11 @@ date: 2016-12-22
 categories: ["DIY", "LED/Lighting", "photography"]
 tags: ["18650", "adapter", "battery", "cn-160"]
 cover:
-  image: "Hot_Shoe_LED_Light_3.jpg"
+  image: "hot-shoe-led-light-03.jpg"
   relative: true
 slug: "adding-18650s-to-video-light"
 ---
-[![Hot Shoe LED Light 3](Hot_Shoe_LED_Light_3.jpg)](<Hot_Shoe_LED_Light_3.jpg>)
+[![Hot Shoe LED Light 3](hot-shoe-led-light-03.jpg)](<hot-shoe-led-light-03.jpg>)
 
 I use Neewer's hot shoe LED lights for a variety of purposes - photography, video, and [scanning
 negatives](</blog/scan-negatives-with-your-camera/>). The
@@ -20,25 +20,25 @@ I use [18650 batteries](<https://www.reddit.com/r/flashlight/wiki/18650>) for my
 I added a voltage monitor so I didn't accidentally drain the batteries. I added a DC barrel jack for connecting to a
 wall adapter. This was for scanning thousands of negatives - I needed full brightness for many hours.
 
-[![Hot Shoe LED Light 4](Hot_Shoe_LED_Light_4.jpg)](<Hot_Shoe_LED_Light_4.jpg>)
+[![Hot Shoe LED Light 4](hot-shoe-led-light-04.jpg)](<hot-shoe-led-light-04.jpg>)
 
 Notice the parts are just loosely fitted in the back. Not a very professional, but the back cover secures everything
 well. The voltage monitor came from eBay (search for "Two Wire LCD Voltmeter"). The battery holder and 2.1mm barrel jack
 also came from eBay.
 
-[![Hot Shoe LED Light 6](Hot_Shoe_LED_Light_6.jpg)](<Hot_Shoe_LED_Light_6.jpg>)
+[![Hot Shoe LED Light 6](hot-shoe-led-light-06.jpg)](<hot-shoe-led-light-06.jpg>)
 
 Begin by removing the highlighted screws.
 
-[![Hot Shoe LED Light 8](Hot_Shoe_LED_Light_8.jpg)](<Hot_Shoe_LED_Light_8.jpg>)
+[![Hot Shoe LED Light 8](hot-shoe-led-light-08.jpg)](<hot-shoe-led-light-08.jpg>)
 
 The front will come apart, revealing four more screws. Remove them.
 
-[![Hot Shoe LED Light 9](Hot_Shoe_LED_Light_9.jpg)](<Hot_Shoe_LED_Light_9.jpg>)
+[![Hot Shoe LED Light 9](hot-shoe-led-light-09.jpg)](<hot-shoe-led-light-09.jpg>)
 
 Stick all your wires inside and solder them to the existing power input leads.
 
-[![Hot Shoe LED Light 1](Hot_Shoe_LED_Light_1.jpg)](<Hot_Shoe_LED_Light_1.jpg>)
+[![Hot Shoe LED Light 1](hot-shoe-led-light-01.jpg)](<hot-shoe-led-light-01.jpg>)
 
 This unit can accept 6 x 1.5V AA, or a maximum of 9V. I used 2 18650 batteries in parallel, which give a maximum voltage
 of 8.4V. The batteries last a few hours, but 4 batteries (2 x 2 configuration) would be most ideal.

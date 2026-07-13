@@ -59,7 +59,7 @@ enough to not make an audible difference from pulling the signal from just one c
 Next up, wiring. Everything is terminated with plugs to simplify removal and maintenance. There isn't much to it, only
 two sets of wires to run. Enjoy!
 
-{{< figure-gallery images="mazda2-subwoofer-08-1024x683.jpg,mazda2-subwoofer-07.jpg" >}}
+{{< figure-gallery images="mazda2-subwoofer-08.jpg,mazda2-subwoofer-07.jpg" >}}
 
 If I want to reclaim trunk space, I unplug two wires and remove the sub. I really like being able to remove this sub in
 under 10 seconds. There are two compromises, first is the power, you are limited to 300W (wiring from cigarette

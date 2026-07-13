@@ -4,7 +4,7 @@ date: 2020-05-18
 categories: ["DIY", "misc"]
 tags: ["3m windshield glue", "chevy"]
 cover:
-  image: "rearview-mirror-04-1024x685.jpg"
+  image: "rearview-mirror-04.jpg"
   relative: true
 slug: "permanently-mounting-a-rearview-mirror"
 ---
@@ -19,7 +19,7 @@ mirrors to stay attached.
 
 After being fooled twice, I made a more permanent mirror attachment.
 
-[![rearview mirror 04](rearview-mirror-04-1024x685.jpg)](<rearview-mirror-04-1024x685.jpg>)
+[![rearview mirror 04](rearview-mirror-04.jpg)](<rearview-mirror-04.jpg>)
 
 On the far left is a metal mounting plate with 3x #10 nuts welded on.
 
@@ -27,20 +27,20 @@ In the middle is a metal bar with 3 holes on one end and the original mirror mou
 
 The way the mirror attaches hasn't changed - it's slides onto the original mirror mount and is secured with a screw.
 
-[![rearview mirror 03](rearview-mirror-03-1024x685.jpg)](<rearview-mirror-03-1024x685.jpg>)
+[![rearview mirror 03](rearview-mirror-03.jpg)](<rearview-mirror-03.jpg>)
 
 I drilled 3 holes and dremeled an access hole in frame to slide in the metal mounting plate. There are a few other large
 cutouts in this part of the frame (not pictured), so I don't feel guilty adding another cutout.
 
 I coated the hole with primer and paint to prevent rust.
 
-[![rearview mirror 02](rearview-mirror-02-1024x685.jpg)](<rearview-mirror-02-1024x685.jpg>)
+[![rearview mirror 02](rearview-mirror-02.jpg)](<rearview-mirror-02.jpg>)
 
 Next, I slid the metal mounting plate inside the frame and bolted in the metal bar.
 
 There is a piece of soft velcro sandwiched between the frame and metal bar. This prevents metal-to-metal contact and
 give some vibration dampening.
 
-[![rearview mirror 01](rearview-mirror-01-1024x685.jpg)](<rearview-mirror-01-1024x685.jpg>)
+[![rearview mirror 01](rearview-mirror-01.jpg)](<rearview-mirror-01.jpg>)
 
 When fully assembled, it looks quite nice. I hope it doesn't fall off again!

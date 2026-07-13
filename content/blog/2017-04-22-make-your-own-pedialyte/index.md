@@ -4,11 +4,11 @@ date: 2017-04-22
 categories: ["DIY", "Health"]
 tags: ["children"]
 cover:
-  image: "ORS_Recipe_1.jpg"
+  image: "ors-recipe-01.jpg"
   relative: true
 slug: "make-your-own-pedialyte"
 ---
-[![ORS Recipe 1](ORS_Recipe_1.jpg)](<ORS_Recipe_1.jpg>)
+[![ORS Recipe 1](ors-recipe-01.jpg)](<ors-recipe-01.jpg>)
 
 This ORS (oral rehydration solution) is 10 times cheaper than Pedialyte and contains a wider array of electrolytes.
 Gatorade, in comparison, is a [low electrolyte, high sugar mix](<https://paleoleap.com/all-about-electrolytes/>) and has
@@ -22,7 +22,7 @@ Compared to a $4 bottle of Pedialyte, 1 liter of this ORS costs about 41 cents!
 I'm not a doctor and don't know much about anything. So be careful. Nonetheless, all these ingredients are commonly used
 in food and safe to ingest, so I feel comfortable with these mixes.
 
-[![ORS Recipe 2](ORS_Recipe_2.jpg)](<ORS_Recipe_2.jpg>)
+[![ORS Recipe 2](ors-recipe-02.jpg)](<ors-recipe-02.jpg>)
 
 ## There Are More Electrolytes Than Sodium
 
@@ -81,7 +81,7 @@ possible (using Sodium Chloride, Sodium Citrate, Potassium Citrate, and Zinc Glu
 | Zinc Gluconate | 55mg | [[buy]](<https://www.amazon.com/BulkSupplements-Pure-Gluconate-Powder-grams/dp/B00GW1C4H8>) | $0.003 |
 | | **Total - 20g** | | **Total - $0.41** |
 
-[![ORS Recipe 3](ORS_Recipe_3.jpg)](<ORS_Recipe_3.jpg>)
+[![ORS Recipe 3](ors-recipe-03.jpg)](<ors-recipe-03.jpg>)
 
 ## Breakdown
 

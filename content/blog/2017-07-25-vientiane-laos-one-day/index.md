@@ -4,11 +4,11 @@ date: 2017-07-25
 categories: ["travel"]
 tags: []
 cover:
-  image: "IMG_20170708_105239.jpg"
+  image: "vientiane-01.jpg"
   relative: true
 slug: "vientiane-laos-one-day"
 ---
-[![IMG 20170708 105239](IMG_20170708_105239.jpg)](<IMG_20170708_105239.jpg>)
+[![IMG 20170708 105239](vientiane-01.jpg)](<vientiane-01.jpg>)
 
 You can see the highlights of Vientiane, Laos in one long day.
 

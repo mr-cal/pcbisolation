@@ -4,11 +4,11 @@ date: 2017-03-15
 categories: ["Health"]
 tags: ["bath", "cold"]
 cover:
-  image: "shower_1.jpg"
+  image: "shower-01.jpg"
   relative: true
 slug: "making-cold-showers-a-habit"
 ---
-[![shower 1](shower_1.jpg)](<shower_1.jpg>)
+[![shower 1](shower-01.jpg)](<shower-01.jpg>)
 
 Cold showers are like meditating - there should be more of it in your life, but it's difficult to habitualize. I enjoy
 hot showers, so cold showers are difficult for me. And most of the advice on the subject hinders rather than helps.

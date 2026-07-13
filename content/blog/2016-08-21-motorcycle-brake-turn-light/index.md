@@ -3,7 +3,7 @@ title: "Motorcycle Brake/Turn Light PCB"
 date: 2016-08-21
 categories: ["Circuits", "DIY", "LED/Lighting"]
 cover:
-  image: "Brake-Light-1.jpg"
+  image: "brake-light-01.jpg"
   relative: true
 slug: "motorcycle-brake-turn-light"
 ---
@@ -12,23 +12,23 @@ A stranger off eBay got me pulled over, from across the world.
 I have a 1983 Kawasaki CSR 305 that has a hint of a cafe racer. For the look, I replaced the stock brake and turn lights
 with a LED brake/turn light combo from eBay. It was manufactured overseas, _very_ cheaply.
 
-[![Brake-Light-3](Brake-Light-3.jpg)](<Brake-Light-3.jpg>)_typical cheap brake/turn light_
+[![Brake-Light-3](brake-light-03.jpg)](<brake-light-03.jpg>)_typical cheap brake/turn light_
 
 Something failed and the lights went out…at night…while riding. This upset the local authorities.
 
 I wasn't able to find a good quality brake/turn light combo that looked good for under $100, so I decided to build my
 own.
 
-[![Brake-Light-4](Brake-Light-4.jpg)](<Brake-Light-4.jpg>)
+[![Brake-Light-4](brake-light-04.jpg)](<brake-light-04.jpg>)
 _simple current control for running, plate, brake, left, and right turn lights_
 
-[![pcb layout - designed in circuitmaker](Brake-Light-5.jpg)](<Brake-Light-5.jpg>)
+[![pcb layout - designed in circuitmaker](brake-light-05.jpg)](<brake-light-05.jpg>)
 _pcb layout - designed in [circuitmaker](<http://www.circuitmaker.com>) (extra traces for heat dissipation)_
 
 I removed the board from my broken eBay brake light and designed a board that would fit into the same enclosure. The PCB
 is from [OSH Park](<http://www.oshpark.com>).
 
-[![Brake-Light-2](Brake-Light-2.jpg)](<Brake-Light-2.jpg>)
+[![Brake-Light-2](brake-light-02.jpg)](<brake-light-02.jpg>)
 
 I bought 1000mcd 120° red and amber LEDs. They are astoundingly bright.
 

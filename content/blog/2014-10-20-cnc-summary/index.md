@@ -16,12 +16,12 @@ tags:
   - "CNC machine"
   - "computer"
 cover:
-  image: "cnc_overall_1.jpg"
+  image: "cnc-overall-01.jpg"
   relative: true
 slug: "cnc-summary"
 ---
 
-[![cnc_overall_2](cnc_overall_2.jpg)](<cnc_overall_2.jpg>)
+[![cnc_overall_2](cnc-overall-02.jpg)](<cnc-overall-02.jpg>)
 
 In May 2012, the end of my junior year of high school, I began to develop great interest in a personal CNC machine. A
 CNC machine is a beautiful thing, and the process of homebuilding a CNC machine emcompasses design, building, and
@@ -36,46 +36,46 @@ PVC & threaded rod combination to stabilize the gantry, a torsion box base, and 
 material.
 
 
-{{< figure-gallery images="cnc_papers.jpg,cnc_computer_1.jpg,cnc_computer_2.jpg" >}}
+{{< figure-gallery images="cnc-papers.jpg,cnc-computer-01.jpg,cnc-computer-02.jpg" >}}
 
 On a tight budget, I couldn't afford to make mistakes. As you can see, the design is very thorough and includes a
 tabulation of every part, down to the washer. This kind of detailed planning allows a $1000 machine to be built for
 $400. The building was the fun part, the large MDF pieces were cut on my high school's CNC machine, I lathed the
 couplers, and for the rest, I used a drill press and hand tools.
 
-[![cnc_cnc_cut](cnc_cnc_cut.jpg)](<cnc_cnc_cut.jpg>)Above: Cutting CNC Parts
+[![cnc_cnc_cut](cnc-cut.jpg)](<cnc-cut.jpg>)Above: Cutting CNC Parts
 
-[![cnc_parts](cnc_parts.jpg)](<cnc_parts.jpg>)
+[![cnc_parts](cnc-parts.jpg)](<cnc-parts.jpg>)
 
-[![cnc_x_backlash](cnc_x_backlash.jpg)](<cnc_x_backlash.jpg>)
+[![cnc_x_backlash](cnc-x-backlash.jpg)](<cnc-x-backlash.jpg>)
 Above: The underside of the worktable. Bushing pressed into PVC guides on left and right, delrin pressed into center
 guide, and tapped with a homemade tap.
 
-[![cnc_torsion](cnc_torsion-1024x768.jpg)](<cnc_torsion-1024x768.jpg>)
+[![cnc_torsion](cnc-torsion.jpg)](<cnc-torsion.jpg>)
 Above: Torsion box base. This prevents warping of the MDF causing misalignment and binding.
 
-[![cnc_coupler](cnc_coupler.jpg)](<cnc_coupler.jpg>)
+[![cnc_coupler](cnc-coupler.jpg)](<cnc-coupler.jpg>)
 Above: Homemade couplers with 1/8″ delrin rods as as the coupling linkage.
 
-[![cnc_x_motor](cnc_x_motor.jpg)](<cnc_x_motor.jpg>)
+[![cnc_x_motor](cnc-x-motor.jpg)](<cnc-x-motor.jpg>)
 Above: On the left, my personally designed rail alignment mounts. This allows precise adjustment of the rail's
 parallelism to each other and to the drive shaft. This overcomes the difficulty in aligning pieces of wood and
 accurately drilling holes. In the center, stepper motor and coupler, mounted with 3/8″ tapped aluminium spacers and a
 homemade bearing mount, comprising of 4 nuts and 2 bearings torqued against the MDF.
 
-[![cnc_y_motor](cnc_y_motor.jpg)](<cnc_y_motor.jpg>)
+[![cnc_y_motor](cnc-y-motor.jpg)](<cnc-y-motor.jpg>)
 Above: Y-axis stepper motor and rail mounts on a 1/4″ aluminium plate
 
-[![cnc_z_gantry](cnc_z_gantry.jpg)](<cnc_z_gantry.jpg>)Above: The z-axis and router mount
+[![cnc_z_gantry](cnc-z-gantry.jpg)](<cnc-z-gantry.jpg>)Above: The z-axis and router mount
 
-[![cnc_overall_1](cnc_overall_1.jpg)](<cnc_overall_1.jpg>)
+[![cnc_overall_1](cnc-overall-01.jpg)](<cnc-overall-01.jpg>)
 Above: Mostly complete. Z-axis is assembled and the router is mounted, but still missing limit switches and motor
 connections.
 
-[![cnc_driver](cnc_driver.jpg)](<cnc_driver.jpg>)Above: 3 x 220 oz-in stepper motors and a 3-axis HobbyPro driver board
+[![cnc_driver](cnc-driver.jpg)](<cnc-driver.jpg>)Above: 3 x 220 oz-in stepper motors and a 3-axis HobbyPro driver board
 
 Currently, this CNC machine is at my college radio station, cutting out speaker molds and engraving parts. This project
 was easily one of the biggest projects I have undertaken through high school. What I learned about design, planning, the
 mechanics of big machinery, metalworking, woodworking, control systems, and routing have proved invaluable.
 
-[![cnc_overall_2](cnc_overall_2.jpg)](<cnc_overall_2.jpg>)
+[![cnc_overall_2](cnc-overall-02.jpg)](<cnc-overall-02.jpg>)

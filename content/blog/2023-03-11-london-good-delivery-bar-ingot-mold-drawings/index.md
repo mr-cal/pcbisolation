@@ -4,7 +4,7 @@ date: 2023-03-11
 categories: ["DIY", "metalurgy", "tech"]
 tags: ["aluminium", "casting", "copper"]
 cover:
-  image: "IMG_0431-scaled.jpg"
+  image: "london-ingot-mold-01.jpg"
   relative: true
 slug: "london-good-delivery-bar-ingot-mold-drawings"
 ---
@@ -13,7 +13,7 @@ slug: "london-good-delivery-bar-ingot-mold-drawings"
 ingots. These are usually the ingots you see in movies. This post contains drawings I created for molds made from 1/4″
 (6mm) mild steel.
 
-[![IMG 0431 scaled](IMG_0431-scaled.jpg)](<IMG_0431-scaled.jpg>)
+[![IMG 0431 scaled](london-ingot-mold-01.jpg)](<london-ingot-mold-01.jpg>)
 
 Below you'll find a pdf with the dimensions.
 

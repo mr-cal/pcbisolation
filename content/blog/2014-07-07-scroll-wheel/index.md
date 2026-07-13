@@ -56,7 +56,7 @@ Note, the motor isn't being used as motor, it simply acts as a spinning mount fo
 This jar lid will be the optical encoding wheel. I hollowed out the center and created teeth, so it can be mounted
 between the motor and platter. The IR beam penetrated the black plastic, so I painted the teeth.
 
-{{< figure-gallery images="scroll-wheel-04.jpg,scroll-wheel-05.jpg,scroll-wheel-06.jpg,scroll-wheel-09-300x225.jpg" >}}
+{{< figure-gallery images="scroll-wheel-04.jpg,scroll-wheel-05.jpg,scroll-wheel-06.jpg,scroll-wheel-09.jpg" >}}
 
 Here you can see the IR LED on the right (it blends in with the hot glue) and IR receiver on the left. Both have been
 extended away from the board and hot glued into place ~1/4″ apart. Test the alignment during this step, it needs to be

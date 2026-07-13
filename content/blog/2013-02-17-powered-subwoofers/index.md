@@ -20,7 +20,7 @@ they are going to be for a home sound system. I like the early 2000's sub look t
 cones, paint chipped rusting frame, rotting seal, and corroded leads. At one point they were very nice, now they are
 fair. I can deal with fair speakers if they are free.
 
-{{< figure-gallery images="powered-subwoofer-01-300x184.jpg,powered-subwoofer-02.jpg" >}}
+{{< figure-gallery images="powered-subwoofer-01.jpg,powered-subwoofer-02.jpg" >}}
 
 I started by drawing a slanted front prism box. I found [a PDF from Kicker](<kicker-freeair.pdf>) that recommended
 0.35cu.ft. for each 6.5″ sub and used that to dimension a slanted front prism. I integrated space for the amp and power
@@ -39,7 +39,7 @@ glue and sawdust. The sawdust makes the glue more viscous and reduces how much g
 goods I make to save $$$). An alternative to wood glue sawdust is silicone caulk, both stick to wood easily and provide
 a durable seal.
 
-{{< figure-gallery images="powered-subwoofer-06.jpg,powered-subwoofer-08-1024x768.jpg" >}}
+{{< figure-gallery images="powered-subwoofer-06.jpg,powered-subwoofer-08.jpg" >}}
 
 I decided to cover the box in carpet, although that gives it a car trunk look, I don't like the look of MDF, I don't
 want to paint it, and carpet is cheap and easy to apply. I spent $9 on ebay for 3'x4′ of speaker box carpet, which is

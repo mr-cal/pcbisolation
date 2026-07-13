@@ -3,7 +3,7 @@ title: "Designing a Single Op-Amp Triangle Wave Generator"
 date: 2016-09-11
 categories: ["Circuits"]
 cover:
-  image: "triangle-wave-1.png"
+  image: "triangle-wave-01.png"
   relative: true
 slug: "triangle-wave-generator"
 ---

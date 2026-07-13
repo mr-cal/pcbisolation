@@ -4,11 +4,11 @@ date: 2017-01-18
 categories: ["travel"]
 tags: ["Backpack", "Carry On", "Comparison"]
 cover:
-  image: "osprey_porter_46_farpoint_40_5.jpg"
+  image: "osprey-porter-46-farpoint-40-05.jpg"
   relative: true
 slug: "osprey-porter-46-vs-farpoint-40-side-by-side-photo-comparison"
 ---
-[![osprey porter 46 farpoint 40 1](osprey_porter_46_farpoint_40_1.jpg)](<osprey_porter_46_farpoint_40_1.jpg>)
+[![osprey porter 46 farpoint 40 1](osprey-porter-46-farpoint-40-01.jpg)](<osprey-porter-46-farpoint-40-01.jpg>)
 
 The [Osprey Porter 46](<https://www.ospreypacks.com/us/en/product/porter-46-PORTER46.html>) and [Osprey Farpoint
 40](<https://www.ospreypacks.com/us/en/product/farpoint-40-FARPNT40.html>) backpacks are both excellent choices for
@@ -25,12 +25,12 @@ There is no affiliate or referral links here. It is all my unbiased opinion.
 
 ## Comparison
 
-[![osprey porter 46 farpoint 40 5](osprey_porter_46_farpoint_40_5.jpg)](<osprey_porter_46_farpoint_40_5.jpg>)
+[![osprey porter 46 farpoint 40 5](osprey-porter-46-farpoint-40-05.jpg)](<osprey-porter-46-farpoint-40-05.jpg>)
 
 Both have two compression straps. Both have a cover over the main zippers to prevent rain from coming in. All other
 zippers have waterproof seams on both backpacks. The zippers can be locked with a padlock.
 
-[![osprey porter 46 farpoint 40 4](osprey_porter_46_farpoint_40_4.jpg)](<osprey_porter_46_farpoint_40_4.jpg>)
+[![osprey porter 46 farpoint 40 4](osprey-porter-46-farpoint-40-04.jpg)](<osprey-porter-46-farpoint-40-04.jpg>)
 
 According to Osprey, the Porter 46 is only 6 liters larger than the Farpoint 40. It seems like a greater difference in
 these photos. In defense of the Farpoint 40, I didn't fully stuff it.
@@ -40,7 +40,7 @@ partially empty). The Farpoint 40 seems to be accurate at 40 liters.
 
 The side carry handles are large and very comfortable on both.
 
-[![osprey porter 46 farpoint 40 2](osprey_porter_46_farpoint_40_2.jpg)](<osprey_porter_46_farpoint_40_2.jpg>)
+[![osprey porter 46 farpoint 40 2](osprey-porter-46-farpoint-40-02.jpg)](<osprey-porter-46-farpoint-40-02.jpg>)
 
 Both backpacks have shoulder straps, hip straps, sternum straps, and load lifter straps.
 
@@ -54,21 +54,21 @@ multi-day hikes (I am 5′ 11″ (180 cm)).
 
 This is a minor point. It's likely one of the most comfortable 40L backpacks that is airplane carry-on friendly.
 
-[![osprey porter 46 farpoint 40 3](osprey_porter_46_farpoint_40_3.jpg)](<osprey_porter_46_farpoint_40_3.jpg>)
+[![osprey porter 46 farpoint 40 3](osprey-porter-46-farpoint-40-03.jpg)](<osprey-porter-46-farpoint-40-03.jpg>)
 
 Both backpacks have stowable straps when checked on an airplane. They take the same amount of time to store or pull out
 (30-60 seconds).
 
 The top carry handles are both large and very comfortable.
 
-[![osprey porter 46 farpoint 40 14](osprey_porter_46_farpoint_40_14.jpg)](<osprey_porter_46_farpoint_40_14.jpg>)
+[![osprey porter 46 farpoint 40 14](osprey-porter-46-farpoint-40-14.jpg)](<osprey-porter-46-farpoint-40-14.jpg>)
 
 The Farpoint 40 has two water bottle mesh holders. I find this a very convenient feature, however they aren't very
 elastic and it is difficult to holder more than one small water bottle in each pocket.
 
 If you have a 32 oz (1 L) waterbottle and your bag is full, you really have to force the bottle into the pocket.
 
-[![osprey porter 46 farpoint 40 6](osprey_porter_46_farpoint_40_6.jpg)](<osprey_porter_46_farpoint_40_6.jpg>)
+[![osprey porter 46 farpoint 40 6](osprey-porter-46-farpoint-40-06.jpg)](<osprey-porter-46-farpoint-40-06.jpg>)
 
 Both backpacks unzip fully. Amazing!
 
@@ -79,23 +79,23 @@ The Farpoint 40 is much thinner. The sides are a single layer of canvas. Your lu
 empty, it wilts over, like a school backpack would. Additionally, the Farpoint 40 has two interior straps to hold down
 luggage.
 
-[![osprey porter 46 farpoint 40 9](osprey_porter_46_farpoint_40_9.jpg)](<osprey_porter_46_farpoint_40_9.jpg>)
+[![osprey porter 46 farpoint 40 9](osprey-porter-46-farpoint-40-09.jpg)](<osprey-porter-46-farpoint-40-09.jpg>)
 
 Both have a big pouch. The Farpoint 40 is mesh and has a zipper.
 
-[![osprey porter 46 farpoint 40 8](osprey_porter_46_farpoint_40_8.jpg)](<osprey_porter_46_farpoint_40_8.jpg>)
+[![osprey porter 46 farpoint 40 8](osprey-porter-46-farpoint-40-08.jpg)](<osprey-porter-46-farpoint-40-08.jpg>)
 
 There are two side pouches in the Porter 46. On the left, a solid pouch and on the right, a mesh pouch.
 
-[![osprey porter 46 farpoint 40 7](osprey_porter_46_farpoint_40_7.jpg)](<osprey_porter_46_farpoint_40_7.jpg>)
+[![osprey porter 46 farpoint 40 7](osprey-porter-46-farpoint-40-07.jpg)](<osprey-porter-46-farpoint-40-07.jpg>)
 
 Close up of the Porter 46 side pouch.
 
-[![osprey porter 46 farpoint 40 10](osprey_porter_46_farpoint_40_10.jpg)](<osprey_porter_46_farpoint_40_10.jpg>)
+[![osprey porter 46 farpoint 40 10](osprey-porter-46-farpoint-40-10.jpg)](<osprey-porter-46-farpoint-40-10.jpg>)
 
 Both backpacks have a section of little pockets.
 
-[![osprey porter 46 farpoint 40 11](osprey_porter_46_farpoint_40_11.jpg)](<osprey_porter_46_farpoint_40_11.jpg>)
+[![osprey porter 46 farpoint 40 11](osprey-porter-46-farpoint-40-11.jpg)](<osprey-porter-46-farpoint-40-11.jpg>)
 
 The Porter 46 has a lot of weird little pockets. A big mesh pocket will hold a tablet or small laptop (13″ max). Notice
 how the zipper has a little cover in the upper left to tuck under. It's so you can put a big laptop in front of it
@@ -104,14 +104,14 @@ without scratching the laptop.
 The Porter 46 is secure and firm, so I would be confident that my laptop won't be getting smashed or bent when
 traveling.
 
-[![osprey porter 46 farpoint 40 12](osprey_porter_46_farpoint_40_12.jpg)](<osprey_porter_46_farpoint_40_12.jpg>)
+[![osprey porter 46 farpoint 40 12](osprey-porter-46-farpoint-40-12.jpg)](<osprey-porter-46-farpoint-40-12.jpg>)
 
 The Farpoint 40 has two pockets. A big one with a velcro strap and a smaller zippered mesh one. A 13″ laptop would fit
 in either pocket.
 
 I'm not sure if the velcro (black patch with bird logo) does much.
 
-[![osprey porter 46 farpoint 40 13](osprey_porter_46_farpoint_40_13.jpg)](<osprey_porter_46_farpoint_40_13.jpg>)
+[![osprey porter 46 farpoint 40 13](osprey-porter-46-farpoint-40-13.jpg)](<osprey-porter-46-farpoint-40-13.jpg>)
 
 And finally, an easy access pouch.
 

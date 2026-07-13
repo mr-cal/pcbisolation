@@ -4,7 +4,7 @@ date: 2014-01-05
 categories: ["Audio"]
 tags: ["amp", "amplifier", "car", "cheap"]
 cover:
-  image: "tube_subwoofer_02.jpg"
+  image: "tube-subwoofer-02.jpg"
   relative: true
 slug: "subwoofer-for-car-and-house"
 ---
@@ -12,12 +12,12 @@ I have a thing for subwoofers, convenience, and low cost. Arguing over DVCs in $
 
 This 8-inch tube subwoofer was $1 a garage sale.
 
-[![tube_subwoofer_01](tube_subwoofer_01.jpg)](<tube_subwoofer_01.jpg>)
+[![tube_subwoofer_01](tube-subwoofer-01.jpg)](<tube-subwoofer-01.jpg>)
 
 Tube subs are popular for their size and portability, you can set it in a car trunk or behind a truck seat with no
 thought or effort. The enclosure is plastic so they are lightweight. To reclaim trunk space, pull it out.
 
-[![tube_subwoofer_03](tube_subwoofer_03.jpg)](<tube_subwoofer_03.jpg>)
+[![tube_subwoofer_03](tube-subwoofer-03.jpg)](<tube-subwoofer-03.jpg>)
 
 I picked up a 45W RMS powered sub from Goodwill for $5. The amplifier inside runs off 12-18V. This means it can be
 powered from 2 very common sources:
@@ -25,7 +25,7 @@ powered from 2 very common sources:
 - an old laptop charger
 - a car
 
-[![tube_subwoofer_02](tube_subwoofer_02.jpg)](<tube_subwoofer_02.jpg>)
+[![tube_subwoofer_02](tube-subwoofer-02.jpg)](<tube-subwoofer-02.jpg>)
 
 I removed the amp out of the powered sub, screwed it into the back of the tube, surrounded it with wood, and covered it
 in plexiglass.

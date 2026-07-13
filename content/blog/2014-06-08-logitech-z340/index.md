@@ -26,7 +26,7 @@ This sub requires a lot of hammering and unscrewing to free the amp. If you had 
 the amp without destroying the box. Otherwise, you will have to rip off the front Revolutionary Subwoofer Panel and
 smash open the screw-free, super glued box.
 
-[![Logitech Z340 Mini Din Pinout](Logitech-Z340-Mini-Din-Pinout.jpg)](<Logitech-Z340-Mini-Din-Pinout.jpg>)
+[![Logitech Z340 Mini Din Pinout](logitech-z340-mini-din-pinout.jpg)](<logitech-z340-mini-din-pinout.jpg>)
 
 Fortunately, everything here is simple. The picture of the PCB is where the mini-din connector attaches to the PCB.
 

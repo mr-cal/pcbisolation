@@ -4,7 +4,7 @@ date: 2017-08-24
 categories: ["travel"]
 tags: ["airplane", "application", "china"]
 cover:
-  image: "chinese_visa_6.jpg"
+  image: "chinese-visa-06.jpg"
   relative: true
 slug: "chinese-visa-in-hanoi-vietnam"
 ---
@@ -44,7 +44,7 @@ You’ll pass through security. The guard will sit you down and eventually send 
 
 After submitting the proper paperwork (listed below), you'll be given this receipt.
 
-[![chinese visa 3](chinese_visa_3.jpg)](<chinese_visa_3.jpg>)
+[![chinese visa 3](chinese-visa-03.jpg)](<chinese-visa-03.jpg>)
 
 ### What To Bring
 
@@ -55,11 +55,11 @@ the Embassy. Your brain will quiver from the sheer volume of information require
 
 You’ll need an itinerary. See an example itinerary below (don't plagiarize!).
 
-[![chinese visa 2](chinese_visa_2.jpg)](<chinese_visa_2.jpg>)
+[![chinese visa 2](chinese-visa-02.jpg)](<chinese-visa-02.jpg>)
 
 The application asks for a reference. As a tourist, you don't need this.
 
-[![chinese visa 1](chinese_visa_1.jpg)](<chinese_visa_1.jpg>)
+[![chinese visa 1](chinese-visa-01.jpg)](<chinese-visa-01.jpg>)
 
 They asked for a local phone number. I provided them with my hostel’s phone number. They didn't call.
 
@@ -109,7 +109,7 @@ is not a valid reason. LIkely, you’ll get a 60 day multiple entry visa.
 Go back to the embassy. Hand them your receipt. They’ll hand you the following piece of paper, showing your application
 has been approved.
 
-[![chinese visa 6](chinese_visa_6.jpg)](<chinese_visa_6.jpg>)
+[![chinese visa 6](chinese-visa-06.jpg)](<chinese-visa-06.jpg>)
 
 Now you go to the Industrial and Commercial Bank of China to pay $140. The bank will stamp your paper, proving your
 payment.

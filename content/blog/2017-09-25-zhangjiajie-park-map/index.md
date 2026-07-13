@@ -4,18 +4,18 @@ date: 2017-09-25
 categories: ["travel"]
 tags: ["brochure", "chinese"]
 cover:
-  image: "Zhangjiajie-National-Park-Map-1-1.jpg"
+  image: "zhangjiajie-map-01.jpg"
   relative: true
 slug: "zhangjiajie-park-map"
 ---
 ## Map 1
 
-Download [PDF](<Zhangjiajie-National-Park-Map-1.pdf>) or full size [JPG](<Zhangjiajie-National-Park-Map-1-1.jpg>)
+Download [PDF](<Zhangjiajie-National-Park-Map-1.pdf>) or full size [JPG](<zhangjiajie-map-01.jpg>)
 
-[![Zhangjiajie National Park Map 1 1](Zhangjiajie-National-Park-Map-1-1.jpg)](<Zhangjiajie-National-Park-Map-1-1.jpg>)
+[![Zhangjiajie National Park Map 1 1](zhangjiajie-map-01.jpg)](<zhangjiajie-map-01.jpg>)
 
 ## Map 2
 
-Download [PDF](<Zhangjiajie-National-Park-Map-2.pdf>) or full size [JPG](<Zhangjiajie-National-Park-Map-2-1.jpg>)
+Download [PDF](<Zhangjiajie-National-Park-Map-2.pdf>) or full size [JPG](<zhangjiajie-map-02.jpg>)
 
-[![Zhangjiajie National Park Map 2 1](Zhangjiajie-National-Park-Map-2-1.jpg)](<Zhangjiajie-National-Park-Map-2-1.jpg>)
+[![Zhangjiajie National Park Map 2 1](zhangjiajie-map-02.jpg)](<zhangjiajie-map-02.jpg>)

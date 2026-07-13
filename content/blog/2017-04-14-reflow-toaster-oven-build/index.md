@@ -4,11 +4,11 @@ date: 2017-04-14
 categories: ["Circuits", "DIY"]
 tags: ["alignment", "build a reflow oven", "chip", "conversion", "convert"]
 cover:
-  image: "Reflow_Oven_5.jpg"
+  image: "reflow-oven-05.jpg"
   relative: true
 slug: "reflow-toaster-oven-build"
 ---
-[![Reflow Oven 5](Reflow_Oven_5.jpg)](<Reflow_Oven_5.jpg>)
+[![Reflow Oven 5](reflow-oven-05.jpg)](<reflow-oven-05.jpg>)
 
 This is a conversion of a convection toaster oven into a SMD reflow oven.  I took a standard toaster oven then added
 insulation, ControlLeo2 controller, temperature sensor, cooling fan, and a front panel.  It has excellent thermal
@@ -42,21 +42,21 @@ Save yourself the time and frustration by skipping the servo door opener.
 
 ## The Build
 
-[![Reflow Oven 1](Reflow_Oven_1.jpg)](<Reflow_Oven_1.jpg>)
+[![Reflow Oven 1](reflow-oven-01.jpg)](<reflow-oven-01.jpg>)
 
 I started with this $40 [Black and Decker Convection
 Oven](<https://www.amazon.com/BLACK-DECKER-TO1675B-Convection-Countertop/dp/B0060VQFQ6>) from Amazon.
 
-[![Reflow Oven 2](Reflow_Oven_2.jpg)](<Reflow_Oven_2.jpg>)
+[![Reflow Oven 2](reflow-oven-02.jpg)](<reflow-oven-02.jpg>)
 
 I removed all the electronics and control panel.
 
-[![Reflow Oven 3](Reflow_Oven_3.jpg)](<Reflow_Oven_3.jpg>)
+[![Reflow Oven 3](reflow-oven-03.jpg)](<reflow-oven-03.jpg>)
 
 I added [ceramic blanket insulation](<https://www.amazon.com/gp/product/B00NDKU14Y>) and an aluminium mounting plate to
 hold the electronics.
 
-[![Reflow Oven 6](Reflow_Oven_6.jpg)](<Reflow_Oven_6.jpg>)
+[![Reflow Oven 6](reflow-oven-06.jpg)](<reflow-oven-06.jpg>)
 
 This is a side view of the completed oven.  I added a door for quick access to the electronics.  On the far left is the
 ControlLeo2 board.  I soldered wires out for the LEDs, buttons, and LCD.
@@ -69,7 +69,7 @@ convection fan wasn't needed - it never turns off.
 At the bottom, a 5VDC power adapter is used for the ControlLeo2 and the relays.  A 5V-12V boost converter powers the
 12VDC fans (you can find MT3608 based converters on eBay for less than $5).
 
-[![Reflow Oven 5](Reflow_Oven_5.jpg)](<Reflow_Oven_5.jpg>)
+[![Reflow Oven 5](reflow-oven-05.jpg)](<reflow-oven-05.jpg>)
 
 The front panel is 1/32″ brass sheet.  I used JB Weld to attach it.  JB Weld can withstand 260C continuously and 316C
 for 10 minutes, which makes it the perfect adhesive to use in a reflow oven.
@@ -92,7 +92,7 @@ put four 1/2″ holes in the front and the back of the tray to improve air circu
 
 A K-type thermocouple measures in the back of the oven.
 
-[![Reflow Oven 4](Reflow_Oven_4.jpg)](<Reflow_Oven_4.jpg>)
+[![Reflow Oven 4](reflow-oven-04.jpg)](<reflow-oven-04.jpg>)
 
 On the far left, a computer fan can swing inwards to cool the oven during the cooling stage.  Because there is no PID
 control for this fan, I manual point the fan inwards to keep the cooling rate between 2C and 6C/second.
@@ -104,15 +104,15 @@ and temperature output.
 
 ## Results
 
-[![Reflow Oven 7](Reflow_Oven_7.jpg)](<Reflow_Oven_7.jpg>)
+[![Reflow Oven 7](reflow-oven-07.jpg)](<reflow-oven-07.jpg>)
 
 On this board, I hand placed components with [solder paste](<https://en.wikipedia.org/wiki/Solder_paste>).
 
-[![Reflow Oven 8](Reflow_Oven_8.jpg)](<Reflow_Oven_8.jpg>)
+[![Reflow Oven 8](reflow-oven-08.jpg)](<reflow-oven-08.jpg>)
 
 Board reflowing in the oven.
 
-[![Reflow Oven 9](Reflow_Oven_9.jpg)](<Reflow_Oven_9.jpg>)
+[![Reflow Oven 9](reflow-oven-09.jpg)](<reflow-oven-09.jpg>)
 
 Board after reflow.  Looks great!
 
