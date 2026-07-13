@@ -3,7 +3,7 @@ title: "Best Shortcuts in CircuitMaker by Altium"
 date: 2016-06-30
 categories: ["Circuits"]
 cover:
-  image: "CM-Shortcuts-Thumbnail-150x100.jpg"
+  image: "shortcut_link.jpg"
   relative: true
 slug: "circuitmaker-shortcuts"
 ---
