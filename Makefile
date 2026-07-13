@@ -12,6 +12,7 @@ validate:
 	python3 scripts/validate_content.py
 
 lint: build
+	uvx pre-commit run --all-files
 	uvx pymarkdownlnt --config .pymarkdown scan --recurse content/
 	lychee --offline --include-fragments public/ --root-dir public
 
@@ -25,5 +26,6 @@ strip-exif:
 	scripts/strip-exif.sh
 
 setup:
+	uvx pre-commit install
 	cargo install lychee
 	sudo snap install hugo
