@@ -19,7 +19,7 @@ Imagine flying a microquad in a gymnasium. You can practice a banked turn and go
 Then you bring it back toward you and try again.
 
 Now imagine flying in your living room. You try a banked turn, using half the room to gain speed. You aren't turning
-sharp enough. How do you avoid the wall? More thrust? Less elevator?  _BAM!_ You hit the freaking wall.
+sharp enough. How do you avoid the wall? More thrust? Less elevator? _BAM!_ You hit the freaking wall.
 
 For any learned skill, people follow the same [path toward mastery](<http://www.davidmansaray.com/becoming-an-expert>).
 At first, 100% of your conscious effort goes towards turning the quad. As you practice, it becomes less and less of a

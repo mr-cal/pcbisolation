@@ -15,14 +15,14 @@ This post details my process of building and adding fold-down bench seats to an 
 
 [![van bench seat 32](van-bench-seat-32.gif)](<van-bench-seat-32.gif>)
 
-I've been restoring a '91 Chevy G30.  I want to be able to use it as a roadtripping and camping van, but not lose the
+I've been restoring a '91 Chevy G30. I want to be able to use it as a roadtripping and camping van, but not lose the
 ability to haul cargo and passengers. Ideally, my van would have 2-3 rows of removable seats that can fold down into a
 large bed.
 
-As of 2019, it's very difficult to find aftermarket seats like this in the U.S.  There are seats like
+As of 2019, it's very difficult to find aftermarket seats like this in the U.S. There are seats like
 [this](<https://www.scopema.com/langGB/pdts_BANQUETTES.php>) or
 [this](<http://www.eclipsecustomcampers.com/options/seating/rib-altair-3p-seat-bed/>), but they are $3,000+ and ship
-from Europe.  There are also some cheaper [fold-n-tumble
+from Europe. There are also some cheaper [fold-n-tumble
 seats](<https://www.autozone.com/interior/seat/bestop-seat-39437-15/315165_311042_6071_136166>) for Jeeps, but they are
 too narrow.
 
@@ -31,17 +31,17 @@ too narrow.
 [![van bench seat 31](van-bench-seat-31.jpg)](<van-bench-seat-31.jpg>)_Ford Econoline bench seats_
 
 Since I was unable to find any good seats, I had to fab my own. I started by buying 4 bench seats from a 2002 Ford
-E-series van via Craigslist.  They are fixed bench seats - there is no folding action.
+E-series van via Craigslist. They are fixed bench seats - there is no folding action.
 
 {{< figure-gallery images="van-bench-seat-11.jpg,van-bench-seat-12.jpg" >}}
 
-I started by stripping them down.  I welded 4 full-size door hinges onto each bench.  These give the fold-down action,
-yet are quite strong.  The seats lock firmly into the upright position with these [extra-long trailer
+I started by stripping them down. I welded 4 full-size door hinges onto each bench. These give the fold-down action,
+yet are quite strong. The seats lock firmly into the upright position with these [extra-long trailer
 pins](<https://www.ebay.com/itm/10-GOLIATH-EXTRA-LONG-1-4-SQUARE-CANOPY-PTO-TRAILER-HITCH-PINS-LCPTC14-AWNING/371626601025>).
 
 {{< figure-gallery images="van-bench-seat-14.jpg,van-bench-seat-15.jpg,van-bench-seat-43.jpg,van-bench-seat-44.jpg" >}}
 
-In order to support the benches in the lay-down position, I added pipe ends to hold the legs.  PVC tubes are used as
+In order to support the benches in the lay-down position, I added pipe ends to hold the legs. PVC tubes are used as
 legs.
 
 [![van bench seat 16](van-bench-seat-16.jpg)](<van-bench-seat-16.jpg>)_Left: original frame Right: finished frame_

@@ -54,10 +54,10 @@ and government.
  * This program is used to control the outdoor speakers of KMNR.
  * From 10a to 8p, we run the speakers at full volume.
  *
- * Past 8p, we attenuate the signal using a voltage divider.  One of the
+ * Past 8p, we attenuate the signal using a voltage divider. One of the
  * resistors is a digital potentiometer controlled via SPI.
  *
- * We use the ds1307 RTC to get time and date.  Battery should last at least 17 years.
+ * We use the ds1307 RTC to get time and date. Battery should last at least 17 years.
  * The ds1307 communicates over I2C.
  *
  * The Status LED indicates when the device is running at full volume.
@@ -174,10 +174,10 @@ void loop() {
   * This program is used to control the outdoor speakers of KMNR.
   * From 10a to 8p, we run the speakers at full volume.
   *
-  * Past 8p, we attenuate the signal using a voltage divider.  One of the
+  * Past 8p, we attenuate the signal using a voltage divider. One of the
   * resistors is a digital potentiometer controlled via SPI.
   *
-  * We use the ds1307 RTC to get time and date.  Battery should last at least 17 years.
+  * We use the ds1307 RTC to get time and date. Battery should last at least 17 years.
   * The ds1307 communicates over I2C.
   *
   * The Status LED indicates when the device is running at full volume.
@@ -185,16 +185,16 @@ void loop() {
   *
   * DAYLIGHT SAVINGS
   * -------------------------------------
-  * The RTC does not track daylight savings.  Government and location affect this
+  * The RTC does not track daylight savings. Government and location affect this
   * too much, so it is too difficult to implement.
   *
-  * In the spring, an hour is gained.  It happens on the second sunday of march.
+  * In the spring, an hour is gained. It happens on the second sunday of march.
   * Thus the spring change will occur between 3/8 and 3/14, regardless of the year.
   *
-  * In the fall, hour is lost.  It happens on the first sunday on november.
+  * In the fall, hour is lost. It happens on the first sunday on november.
   * And the fall change will occur between 11/1 and 11/7, regardless of the year.
   *
-  * We set this up in September, so we are in daylight savings.  Ho hum.
+  * We set this up in September, so we are in daylight savings. Ho hum.
   *
   * When daylight savings end (winter months), we will subtract an hour from our time
   *
@@ -205,10 +205,10 @@ void loop() {
   * Between the dates 11/7 and 3/8, we subtract an hour from the start time.
   * Between the dates 11/1 and 3/14, we subtract an hour from the end time.
   *
-  * So it doesn't make sense.  Sue me.  We're pretty sure this is the most surefire way
+  * So it doesn't make sense. Sue me. We're pretty sure this is the most surefire way
   * to maximize the amount of time we blast KMNR.
   *
-  * The speakers should turn on at 10am and off at 8p.  Exception - during the transition
+  * The speakers should turn on at 10am and off at 8p. Exception - during the transition
   * periods 11/1 to 11/7 and 3/8 to 3/14, that won't be true.
   *
  */

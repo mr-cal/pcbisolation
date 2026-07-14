@@ -18,8 +18,8 @@ I've looked and been unsuccessful in finding household nightlights that meet my 
 - no flickering
 - power efficient
 
-The closest I found was [this nightlight](<https://www.amazon.com/gp/product/B078NH96RT/>).  I like everything about it
-except the 3000K CCT.  I believe it's a bit too cool for a nightlight.
+The closest I found was [this nightlight](<https://www.amazon.com/gp/product/B078NH96RT/>). I like everything about it
+except the 3000K CCT. I believe it's a bit too cool for a nightlight.
 
 [![nightlight 01](nightlight-01.jpg)](<nightlight-01.jpg>)
 
@@ -28,7 +28,7 @@ Digikey.
 
 [![nightlight 04](nightlight-04.jpg)](<nightlight-04.jpg>)
 
-On the left is the original nightlight.  It has 4x 3V 3000K LEDs.  They are connected in series to a 12VDC power supply.
+On the left is the original nightlight. It has 4x 3V 3000K LEDs. They are connected in series to a 12VDC power supply.
 
 Overall, the nightlight and power supply are good quality.
 
@@ -37,7 +37,7 @@ existing board. Anyways, I had to break the original PCB to remove it.
 
 [![nightlight 03](nightlight-03.jpg)](<nightlight-03.jpg>)
 
-You can find my new PCB [here on OSHPark](<https://oshpark.com/shared_projects/cPf28g08>).  I bought [these
+You can find my new PCB [here on OSHPark](<https://oshpark.com/shared_projects/cPf28g08>). I bought [these
 LEDs](<https://www.digikey.com/product-detail/en/lumileds/L130-2280001400001/1416-2063-1-ND/10070628>) from Digikey and
 reflowed with hot air.
 
