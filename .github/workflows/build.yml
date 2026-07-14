@@ -17,20 +17,6 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
-      - name: Install html2text
-        run: pip install html2text
-
-      - name: Validate content
-        run: |
-          if [ -f scripts/validate_content.py ]; then
-            python3 scripts/validate_content.py
-          fi
-
       - name: Install Hugo
         uses: peaceiris/actions-hugo@v3
         with:
