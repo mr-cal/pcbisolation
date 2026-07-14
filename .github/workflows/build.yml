@@ -57,7 +57,7 @@ jobs:
       - name: Install lychee
         run: |
           curl -fsSL "https://github.com/lycheeverse/lychee/releases/download/lychee-v${LYCHEE_VERSION}/lychee-x86_64-unknown-linux-gnu.tar.gz" \
-            | tar -xz lychee
+            | tar -xz --strip-components=1 "lychee-x86_64-unknown-linux-gnu/lychee"
           sudo mv lychee /usr/local/bin/lychee
 
       - name: Check links
