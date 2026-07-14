@@ -12,9 +12,9 @@ slug: "scroll-wheel"
 [![scroll-wheel-13](scroll-wheel-13.jpg)](<scroll-wheel-13.jpg>)
 
 The idea is simple, take the scrolling mechanism out of a mouse, and move it to a large, heavy spinning wheel of some
-sort. The benefits of this are that scrolling long webpages and folders is tireless and editing video is a quicker process, as
-you are able to scrub easily and quickly. The more you use a jog wheel, the quicker and more painless navigating and
-using a computer becomes.
+sort. The benefits of this are that scrolling long webpages and folders is tireless and editing video is a quicker
+process, as you are able to scrub easily and quickly. The more you use a jog wheel, the quicker and more painless
+navigating and using a computer becomes.
 
 You can buy jog wheels. A popular consumer version is the [Griffin
 Powermate](<http://www.amazon.com/Griffin-Technology-NA16029-Multimedia-Controller/dp/B003VWU2WA>).

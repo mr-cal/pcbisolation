@@ -32,8 +32,8 @@ The opening on the Yeti is significantly bigger. This makes it easier to fill (e
 
 The Ozark Trail is more narrow and taller than the Yeti.
 
-The Ozark Trail has an outside diameter of 6.2″. The Yeti has an outside diameter of 6.44″. The Ozark Trail has a height of
-13.25″ and the Yeti has a height of 12.25″ (not including the handles).
+The Ozark Trail has an outside diameter of 6.2″. The Yeti has an outside diameter of 6.44″. The Ozark Trail has a height
+of 13.25″ and the Yeti has a height of 12.25″ (not including the handles).
 
 ## Lid
 
@@ -65,10 +65,10 @@ it was dropped.
 The Yeti is slightly nicer in every respect, but I can't say it's worth $100 more than the Ozark Trail. Yes, it's more
 durable, but how important is that?
 
-These are heavy jugs that are useful for keeping a drink hot or cold for a few days. They will probably sit around at a
-home, farm, job-site, or in a car or truck. These are situations where other sources of water are readily available, so you
-don't need to spend $130 on a super-durable Yeti water jug. Hell, for the price of 1 Yeti, you could buy 4 Ozark Trail
-jugs.
+These are heavy jugs that are useful for keeping a drink hot or cold for a few days. They will probably sit around at
+a home, farm, job-site, or in a car or truck. These are situations where other sources of water are readily available,
+so you don't need to spend $130 on a super-durable Yeti water jug. Hell, for the price of 1 Yeti, you could buy 4 Ozark
+Trail jugs.
 
 On the other hand, if you're part of Yeti's core consumer group (deep-sea fishers, hunters, and other remote scenarios),
 then the Yeti is probably the best choice.

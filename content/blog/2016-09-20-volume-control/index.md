@@ -10,8 +10,8 @@ slug: "volume-control"
 This was for a pair of outdoor speakers in front of KMNR, my college radio station. KMNR was receiving complaints for
 having the music too loud at night.
 
-An Arduino checks the clock and adjusts the volume using digital potentiometers. This post is a walkthrough of the design and
-implementation.
+An Arduino checks the clock and adjusts the volume using digital potentiometers. This post is a walkthrough of the
+design and implementation.
 
 ## Design
 

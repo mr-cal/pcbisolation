@@ -14,12 +14,12 @@ seconds, move back and forth, then a spectator roars.
 
 "_Land it in my hands!_ "
 
-This is not easy. First, it is not simple to hold a microquad in one position for 5-10 seconds as you lower into
-someone's hand. Second, hands are small - much smaller than the floor. Third, you get some [Ground
-Effect](<http://www.rchelicopterfun.com/ground-effect.html>) and maybe [Vortex Ring
+This is not easy. First, it is not simple to hold a microquad in one position for 5-10 seconds as
+you lower into someone's hand. Second, hands are small - much smaller than the floor. Third, you
+get some [Ground Effect](<http://www.rchelicopterfun.com/ground-effect.html>) and maybe [Vortex Ring
 State](<http://quadcopter101.blogspot.com/2014/10/vortex-ring-state-wobble-of-death.html>) from hitting your own [prop
-wash](<https://www.reddit.com/r/Multicopter/comments/1ud0be/can_you_school_me_on_prop_wash/>), all of which make holding a
-precise position that much harder. Fourth, if you bought a microquad, the motors heat up and slow down mid-flight -
+wash](<https://www.reddit.com/r/Multicopter/comments/1ud0be/can_you_school_me_on_prop_wash/>), all of which make holding
+a precise position that much harder. Fourth, if you bought a microquad, the motors heat up and slow down mid-flight -
 throwing off the trim you wasted an entire battery perfecting.
 
 You struggle with the landing, whether it is a pair of hands or a coffee table. How discouraging. Why is landing so
