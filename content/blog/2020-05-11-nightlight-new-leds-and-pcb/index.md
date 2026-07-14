@@ -32,7 +32,7 @@ On the left is the original nightlight. It has 4x 3V 3000K LEDs. They are connec
 
 Overall, the nightlight and power supply are good quality.
 
-However, the original LED PCB is very cheap. It was easier to build a new PCB that to desolder and resolder on the
+However, the original LED PCB is very cheap. It was easier to build a new PCB than to desolder and resolder on the
 existing board. Anyways, I had to break the original PCB to remove it.
 
 [![nightlight 03](nightlight-03.jpg)](<nightlight-03.jpg>)

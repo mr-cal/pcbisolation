@@ -8,8 +8,8 @@ cover:
   relative: true
 slug: "logitech-z340"
 ---
-Logitech has a large presence in 2.1 systems, where price and appearance dominate. This sub is designed to trick you,
-there's more to it than what meets the eye.
+Logitech has a large presence in 2.1 systems, where price and appearance dominate. This sub is designed to trick you;
+there's more to it than meets the eye.
 
 I picked up a used Logitech Z340 2.1, sans the 2. I got a woofer with no satellites or volume control.
 

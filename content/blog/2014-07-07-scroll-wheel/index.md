@@ -12,7 +12,7 @@ slug: "scroll-wheel"
 [![scroll-wheel-13](scroll-wheel-13.jpg)](<scroll-wheel-13.jpg>)
 
 The idea is simple, take the scrolling mechanism out of a mouse, and move it to a large, heavy spinning wheel of some
-sort. The benefits of this, scrolling long webpages and folders is tireless and editing video is a quicker process, as
+sort. The benefits of this are that scrolling long webpages and folders is tireless and editing video is a quicker process, as
 you are able to scrub easily and quickly. The more you use a jog wheel, the quicker and more painless navigating and
 using a computer becomes.
 
@@ -49,7 +49,7 @@ head](<http://www.instructables.com/id/Spinner-Jog-Wheel-Inside-of-a-VCR-Head/>)
 wheel](<http://www.instructables.com/id/Desktop-Scroll-Wheel-and-Volume-Control/?ALLSTEPS>), or a [metal disk made on a
 lathe](<http://www.instructables.com/id/Computer-scroll-wheel-bearings-version/?ALLSTEPS>).
 
-Note, the motor isn't being used as motor, it simply acts as a spinning mount for the wheel.
+Note, the motor isn't being used as a motor; it simply acts as a spinning mount for the wheel.
 
 {{< figure-gallery images="scroll-wheel-02.jpg,scroll-wheel-03.jpg" >}}
 

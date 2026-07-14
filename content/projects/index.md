@@ -146,7 +146,7 @@ Elektronik FCC Compliant reference design.
 
 {{< figure-gallery images="sound-reactor-2.jpg,sound-reactor-3.jpg" >}}
 
-This is a LED controller for fans of music. You plug in LED lights and a power source. Turn the first knob and the
+This is an LED controller for fans of music. You plug in LED lights and a power source. Turn the first knob and the
 device acts as a simple light dimmer.
 
 Now add a music source. The lights will react to the bass of the song (pulsing with the beat). You can adjust how

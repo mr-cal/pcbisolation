@@ -49,9 +49,9 @@ Test periodically!
 
 To have volume control and keep the left and right channel separate, you need a dual gang pot, or two separate pots. I
 didn't want to spend $8-$10 on a dual gang pot, so I went with two 10K pots I already had. It's stupider than one pot,
-but its cheaper and I don't have to combine the left and right channels.
+but it's cheaper and I don't have to combine the left and right channels.
 
-_Update: You can get probably away with one pot pulling the signal from one channel. The impedance of the sub was high
+_Update: You can probably get away with one pot pulling the signal from one channel. The impedance of the sub was high
 enough to not make an audible difference from pulling the signal from just one channel._
 
 [![mazda2-subwoofer-06](mazda2-subwoofer-06.jpg)](<mazda2-subwoofer-06.jpg>)

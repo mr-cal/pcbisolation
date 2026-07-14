@@ -10,13 +10,13 @@ slug: "volume-control"
 This was for a pair of outdoor speakers in front of KMNR, my college radio station. KMNR was receiving complaints for
 having the music too loud at night.
 
-An Arduino checks clock and adjusts volume using digital potentiometers This post is a walkthrough of the design and
+An Arduino checks the clock and adjusts the volume using digital potentiometers. This post is a walkthrough of the design and
 implementation.
 
 ## Design
 
-I interfaced an Arduino with a RTC (real time clock) to get the time. The RTC is Maxim's DS1307 and it should last 17
-years on it's backup battery. It communicates over I2C and you can find already written code
+I interfaced an Arduino with an RTC (real time clock) to get the time. The RTC is Maxim's DS1307 and it should last 17
+years on its backup battery. It communicates over I2C and you can find already written code
 [here](<https://www.sparkfun.com/products/12708>).
 
 To control the volume, I use a resistor and potentiometer to form a voltage divider. Both are 10k, so the audio output
@@ -24,7 +24,7 @@ can be anywhere between 0% and 50% of the original input.
 
 The potentiometers are Microchip's [MCP4131](<http://ww1.microchip.com/downloads/en/DeviceDoc/22060b.pdf>), which are
 adjusted digitally over SPI. It has 128 discrete values of resistance. The MCP4131 multiplexes SDI and SDO, but you
-shouldn't ever have to read data out of the pot, you can ignore SDO. I had no problem controlling both pots via SPI at
+shouldn't ever have to read data out of the pot, so you can ignore SDO. I had no problem controlling both pots via SPI at
 the same time.
 
 I also added a status LED to indicate when the audio was being attenuated.

@@ -34,7 +34,7 @@ Here's my process.
 [![film scan 3](film-scan-3.jpg)](<film-scan-3.jpg>)
 
 Take a shoebox-sized box and make a negative holder. I used thin pieces of cardboard and a lot of packaging tape. It is
-easy to slide the negatives through the holder. One downside, my holder doesn't flatten a curved role of film as well as
+easy to slide the negatives through the holder. One downside, my holder doesn't flatten a curved roll of film as well as
 a plastic negative holder. You can buy plastic negative holders
 [online](<http://www.ebay.com/sch/i.html?_from=R40&_trksid=p2050601.m570.l1313.TR2.TRC0.A0.H0.Xnegative+holder.TRS0&_nkw=negative+holder&_sacat=0>).
 
@@ -67,7 +67,7 @@ mount. All we want is the acrylic material.
 
 I have a point and shoot, so I used an Opteka Macro Lens Attachment. To get great resolution, you want to fill as much
 of the sensor as possible with the image of the negative. Using a point and shoot _without_ a macro attachment will
-produce as lower quality, lower resolution, distorted results.
+produce lower quality, lower resolution, distorted results.
 
 [![film scan 7](film-scan-7.jpg)](<film-scan-7.jpg>)
 
@@ -77,7 +77,7 @@ shutter speed, and RAW capture.
 I slide the camera back and forth a bit between every shot to get the best focus. This whole process is much faster with
 two people. One person focuses and slides negatives through and the other boxes and unboxes the negatives.
 
-Most the pictures are between 1/40 and 1/125 of a second. Since the camera is firmly resting on the books, I don't have
+Most of the pictures are between 1/40 and 1/125 of a second. Since the camera is firmly resting on the books, I don't have
 any issues with camera shake.
 
 I am able to scan 300-400 slides an hour using this method.
@@ -85,7 +85,7 @@ I am able to scan 300-400 slides an hour using this method.
 ## Post Processing
 
 I use [Lightroom](<http://www.adobe.com/products/photoshop-lightroom.html>)to manage and edit photos. This process is
-best done with a physical print of the image to reference.
+best done with a physical print of the image for reference.
 
 [![film scan 11](film-scan-11.jpg)](<film-scan-11.jpg>)
 
@@ -98,12 +98,12 @@ Invert the Tone Curve. Holding Shift while moving a point makes this easy.
 
 [![film scan 14](film-scan-14.jpg)](<film-scan-14.jpg>)
 
-Here are my final tone curves. It's difficult to adjust, because once the image is inverted, every adjust does exactly
+Here are my final tone curves. It's difficult to adjust, because once the image is inverted, every adjustment does exactly
 the opposite of what you expect. If you have a better set of curves or method, let me know in the comments below.
 
 [![film scan 15](film-scan-15.jpg)](<film-scan-15.jpg>)
 
-After the tone curve and some exposure adjustments, I found this image look very similar to the original 4'x6′ print.
+After the tone curve and some exposure adjustments, I found this image looks very similar to the original 4'x6′ print.
 The colors are slightly off, but it is more than adequate for my purposes. The resolution, while not amazing, is great
 and would print well.
 

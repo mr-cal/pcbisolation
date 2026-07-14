@@ -16,8 +16,8 @@ The title says it. And you can 10x your skill development as a quad flier with t
 It's easy to keep a position in 2D space, because you can place a marker or a cone on the ground. In the air, you can't
 mark the spot you are trying to hover by.
 
-Targeting a point in 3D space and maintaining a quadcopter is difficult, because it's hard to remember where that point
-was, especially when a little quad is zooming all around that point.
+Targeting a point in 3D space and maintaining a quadcopter at that point is difficult, because it's hard to remember
+where that point was, especially when a little quad is zooming all around that point.
 
 "_I'm going to keep this quad in the middle of the room_." The quad drifts to the left and down a bit. You bring it to
 the right but it also goes towards you. Still dropping. More thrust and pull it back to you. Is that where you started?
@@ -60,7 +60,7 @@ Read my article on [flying indoors](</blog/you-dont-suck-part-ii/>).
 
 [![quad-8](quad-8.jpg)](<quad-8.jpg>)
 
-You equipment and environment can make a big difference in the speed of your mastery. But it boils down to you. Are you
+Your equipment and environment can make a big difference in the speed of your mastery. But it boils down to you. Are you
 mindlessly flying? Or are you paying attention to every maneuver and thinking about how to improve it?
 
 10x your skill development by being a conscious flier - plan, practice, observe, and improve.

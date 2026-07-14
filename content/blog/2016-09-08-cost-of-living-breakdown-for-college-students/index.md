@@ -35,8 +35,8 @@ This saves money. We can buy the bulk sizes of everything. We can buy the bigges
 get used for 3-4 nights of dinner. We can make an enormous croc-pot of chili for 2 nights.
 
 Lasagna was a good example. Every semester, we made ~100 pounds of homemade lasagna. For 4 hours, it'd be a big assembly
-line. Someone was spent the entire time browning ground beef and sausage while someone else spent the entire time mixing
-cheese and boiling noodle. We froze all of the lasagnas and had one every week during the semester.
+line. Someone spent the entire time browning ground beef and sausage while someone else spent the entire time mixing
+cheese and boiling noodles. We froze all of the lasagnas and had one every week during the semester.
 
 Overall, family dinner night saves time and money and is very much worth the effort.
 
@@ -84,14 +84,14 @@ summer months. The house is unoccupied in the summer months.
 ## Rent
 
 We pay $825/month to the realty company. [Zillow.com](<http://www.zillow.com>) and I both think we should be paying
-$600-$700 a month. $825 divided by 5 people is $165 per person per month. On the 3rd year, we moved a sixth roommate
+$600-$700 a month. $825 divided by 5 people is $165 per person per month. In the 3rd year, we moved a sixth roommate
 into the house, lowering rent to $137.50/person/month.
 
 ## Calculating Monthly Bills
 
 This is the method I have used and recommend. It's quite simple.
 
-Set up a house bank account. Everyone deposits $300. They'll get this money back when they move out. With 5 people.
+Set up a house bank account. Everyone deposits $300. They'll get this money back when they move out. With 5 people,
 there is now $1500 in the bank account. Use this money to pay for food, utilities, and rent throughout the month.
 
 At the end of the month, check the balance. Suppose $500 is remaining. That means you spent $1500-$500= $1000. $1000/5

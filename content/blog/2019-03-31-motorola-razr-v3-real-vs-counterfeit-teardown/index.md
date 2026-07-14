@@ -23,7 +23,7 @@ V3](</blog/how-to-spot-a-counterfeit-motorola-razr-v3/>)'s (without disassembly)
 If the phone would have worked, I wouldn't have cared. But it wouldn't get a signal with my SIM, so I complained and got
 a refund.
 
-I decided to purchase an authentic Razr V3 to for a comparison teardown.
+I decided to purchase an authentic Razr V3 for a comparison teardown.
 The authentic black Razr is on the left. The counterfeit silver Razr is on the right.
 
 {{< figure-gallery images="razr-real-fake-teardown-01.jpg" >}}
@@ -103,13 +103,13 @@ I suspect the camera module is made by the same manufacturer.
 
 {{< figure-gallery images="razr-real-fake-teardown-30.jpg,razr-real-fake-teardown-31.jpg" >}}
 
-The flexible keypad circuit are quite similar.
+The flexible keypad circuits are quite similar.
 
 {{< figure-gallery images="razr-real-fake-teardown-27.jpg,razr-real-fake-teardown-29.jpg" >}}
 
 [![razr real fake teardown 32](razr-real-fake-teardown-32.jpg)](<razr-real-fake-teardown-32.jpg>)
 
-However, the difference in keypad cover's quality is outstanding when held up to the light.
+However, the difference in the keypad covers' quality is outstanding when held up to the light.
 
 [![razr real fake teardown 28](razr-real-fake-teardown-28.jpg)](<razr-real-fake-teardown-28.jpg>)
 
@@ -127,5 +127,5 @@ in 2004.
 Second, the counterfeit phone's motherboard is used. It has wear markings that indicate it was likely from an authentic
 Razr. I think it's more believable that a working phone's motherboard was refurbished, not a counterfeit's motherboard.
 
-Either way, it's a testament to the Razr's popularity that counterfeits versions are still being sold today (15 years
+Either way, it's a testament to the Razr's popularity that counterfeit versions are still being sold today (15 years
 later, as of 2019).

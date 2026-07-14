@@ -13,7 +13,7 @@ slug: "diy-prescription-dive-mask"
 This is a custom bracket for holding a pair of prescription lenses inside a scuba dive mask.
 
 The goggles here are the [Atomic Frameless 2](<https://www.atomicaquatics.com/masks_frameless2.html>). These goggles are
-great quality, have a wide field-of view, and have enough clearance to fit a pair of glasses inside.
+great quality, have a wide field of view, and have enough clearance to fit a pair of glasses inside.
 
 [![scuba goggles 1](scuba-goggles-01.jpg)](<scuba-goggles-01.jpg>)
 

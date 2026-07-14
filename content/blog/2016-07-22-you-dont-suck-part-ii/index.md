@@ -9,7 +9,7 @@ slug: "you-dont-suck-part-ii"
 ---
 I could have gone from 1,000 crashes to 100 crashes with a few simple pointers.
 
-There are two big reasons why you are crashing. This is for the pilots who moving from beginner and intermediate.
+There are two big reasons why you are crashing. This is for the pilots who are moving from beginner to intermediate.
 
 [![quad-1](quad-1.jpg)](<quad-1.jpg>)
 
@@ -38,12 +38,12 @@ do well outdoors, provided there is no wind. In the midwest, dawn and dusk are o
 
 This is something I wish I would have known. I spent two months with a [Blade Nano
 QX](<https://www.amazon.com/BLADE-Nano-QX-RTF-Quadcopter/dp/B00SNEJA92/ref=sr_1_3?s=toys-and-games&ie=UTF8&qid=1469195993&sr=1-3>).
-I was getting progressively better then hit a figurative wall. I started crashing more and more.
+I was getting progressively better and then hit a figurative wall. I started crashing more and more.
 
 I had a need for speed. I became overconfident and had the Blade running full speed the entire flight. Great pilots can
 do this, but I wasn't there.
 
-Flying at 3/4 or even 1/2 speed gives you much more maneuverability. If you are turning at half speed and you are little
+Flying at 3/4 or even 1/2 speed gives you much more maneuverability. If you are turning at half speed and you are a little
 wide, no problem. Add extra rudder and throttle, maybe more pitch, and you can tighten it to what you intended.
 
 If you are turning at full speed and you are a little wide, well…tough luck. Your options are to slow down, lose

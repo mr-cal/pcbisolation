@@ -8,7 +8,7 @@ cover:
 slug: "typedef-struct-c"
 ---
 At first glance, adding a typedef to a struct in C seems to complicate the definition. However, it simplifies the
-declaration of the structure. This is not always recommend, as it can add a layer of obfuscation.
+declaration of the structure. This is not always recommended, as it can add a layer of obfuscation.
 
 ## Structures
 
@@ -68,7 +68,7 @@ When declaring many structs throughout a large project, this can save some typin
 
 ## Criticism
 
-Typedefs on structure isn't popular with everyone. Most prominently, the Linux kernel does not use typedefs for
+Typedefs on structures aren't popular with everyone. Most prominently, the Linux kernel does not use typedefs for
 structures. A quote from the [Linux Kernel Coding Style](<https://www.kernel.org/doc/Documentation/CodingStyle>):
 
 >*It's a **mistake** to use typedef for structures and pointers. When you see a*

@@ -23,7 +23,7 @@ slug: "cnc-summary"
 
 [![cnc_overall_2](cnc-overall-02.jpg)](<cnc-overall-02.jpg>)
 
-In May 2012, the end of my junior year of high school, I began to develop great interest in a personal CNC machine. A
+In May 2012, the end of my junior year of high school, I began to develop a great interest in a personal CNC machine. A
 CNC machine is a beautiful thing, and the process of homebuilding a CNC machine emcompasses design, building, and
 utilization. The design demonstrates creativity and planning, building demonstrates an understanding of mechanics and
 craftsmanship, and utilization restarts the process at design again. A tool to make new things, limited mostly by one's
@@ -32,14 +32,14 @@ creativity.
 I built this machine for the experience, the usefulness of having a CNC machine, and mainly for isolation routing of
 printed circuit boards. Research and drawings took about 20 hours, then 30-40 hours in CAD software. The design and
 majority of features were self-imagined, but I found inspiration for a few key designs on www.cnczone.com. This includes
-PVC & threaded rod combination to stabilize the gantry, a torsion box base, and delrin for the anti-backlash nut
+a PVC & threaded rod combination to stabilize the gantry, a torsion box base, and delrin for the anti-backlash nut
 material.
 
 {{< figure-gallery images="cnc-papers.jpg,cnc-computer-01.jpg,cnc-computer-02.jpg" >}}
 
 On a tight budget, I couldn't afford to make mistakes. As you can see, the design is very thorough and includes a
 tabulation of every part, down to the washer. This kind of detailed planning allows a $1000 machine to be built for
-$400. The building was the fun part, the large MDF pieces were cut on my high school's CNC machine, I lathed the
+$400. The building was the fun part. The large MDF pieces were cut on my high school's CNC machine, I lathed the
 couplers, and for the rest, I used a drill press and hand tools.
 
 [![cnc_cnc_cut](cnc-cut.jpg)](<cnc-cut.jpg>)Above: Cutting CNC Parts
@@ -54,7 +54,7 @@ guide, and tapped with a homemade tap.
 Above: Torsion box base. This prevents warping of the MDF causing misalignment and binding.
 
 [![cnc_coupler](cnc-coupler.jpg)](<cnc-coupler.jpg>)
-Above: Homemade couplers with 1/8″ delrin rods as as the coupling linkage.
+Above: Homemade couplers with 1/8″ delrin rods as the coupling linkage.
 
 [![cnc_x_motor](cnc-x-motor.jpg)](<cnc-x-motor.jpg>)
 Above: On the left, my personally designed rail alignment mounts. This allows precise adjustment of the rail's

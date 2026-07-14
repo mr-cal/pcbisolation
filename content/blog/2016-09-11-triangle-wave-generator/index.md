@@ -59,7 +59,7 @@ _Right: simplified diagram when comparator output is low (V<sub>1</sub> = 0V)._
 _View circuit
 [here](<http://falstad.com/circuit/circuitjs.html?cct=$+16+0.000005+10.20027730826997+50+5+50%0Ar+32+224+32+144+0+1000%0Ar+112+224+112+144+0+1000%0Ar+192+224+192+144+0+1000%0Av+32+288+32+224+0+0+40+550+0+0+0.5%0Av+192+288+192+224+0+0+40+550+0+0+0.5%0Aw+32+288+112+288+0%0Aw+112+288+192+288+0%0Aw+112+224+112+288+0%0Aw+32+144+112+144+0%0Aw+112+144+192+144+0%0Aw+384+144+464+144+0%0Aw+304+144+384+144+0%0Aw+384+224+384+288+0%0Aw+384+288+464+288+0%0Aw+304+288+384+288+0%0Av+464+288+464+224+0+0+40+0+0+0+0.5%0Av+304+288+304+224+0+0+40+5+0+0+0.5%0Ar+464+224+464+144+0+1000%0Ar+384+224+384+144+0+1000%0Ar+304+224+304+144+0+1000%0Ag+32+288+32+304+0%0Ag+304+288+304+304+0%0Ax+58+264+84+267+4+16+Vcc%0Ax+49+193+69+196+4+16+R1%0Ax+128+190+148+193+4+16+R2%0Ax+207+190+227+193+4+16+R3%0Ax+401+191+421+194+4+16+R2%0Ax+481+189+501+192+4+16+R3%0Ax+319+191+339+194+4+16+R1%0Ax+213+262+232+265+4+16+V1%0Ax+487+262+506+265+4+16+V1%0A>)_
 
-This simplified diagram shows all inputs for V<sub>3</sub>. In this diagram, we're simplified the comparator output (V<sub>1</sub>) as a
+This simplified diagram shows all inputs for V<sub>3</sub>. In this diagram, we've simplified the comparator output (V<sub>1</sub>) as a
 voltage source. V<sub>CC</sub>, R<sub>1</sub>, and R<sub>2</sub> form a voltage divider where the divided voltage is V<sub>3</sub>. So does V<sub>CC</sub>, R<sub>3</sub>, and R<sub>2</sub>.
 
 When the comparator output V<sub>1</sub> is high, the voltage at V<sub>3</sub> increases. This sets the upper threshold for the triangle
@@ -255,7 +255,7 @@ The most common design for an op-amp triangle wave generator uses two op-amps. I
 [![triangle-wave-6](triangle-wave-6.jpg)](<triangle-wave-6.jpg>) _Typical Two Op-Amp Design_
 ([_source_](<http://www.circuitstoday.com/triangular-wave-generator>))
 
-The two op-amp design generators a square wave then integrates it to produce a triangle wave. It uses an active
+The two op-amp design generates a square wave then integrates it to produce a triangle wave. It uses an active
 integrator, instead of a passive RC integrator.
 
 The two op-amp design uses 8 discrete components and 2 op-amps whereas the single op-amp design uses 5 discrete

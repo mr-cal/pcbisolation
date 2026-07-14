@@ -196,7 +196,7 @@ int main(void) {
 }
 ```
 
-This code does the exact same thing as the code above, but uses interrupts. This will sets us up for solving complex
+This code does the exact same thing as the code above, but uses interrupts. This will set us up for solving complex
 situations in the future.
 
 ```c

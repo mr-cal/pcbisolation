@@ -11,15 +11,15 @@ slug: "kansas-i-70-vs-nebraska-i-80"
 
 Trying to decide which one to take? I've driven both, so you don't have to.
 
-I-80 through Nebraska runs on slow, gradual hills. Driving to from Kansas City to Denver is deceiving, because after the
+I-80 through Nebraska runs on slow, gradual hills. Driving from Kansas City to Denver is deceiving, because after the
 5 hours through Kansas, you still have 3 hours in Colorado that looks remarkably similar to Kansas.
 
 There isn't much along the highway either. Few towns, trees, signs, or radio stations.
 
 [![Highway I-70](i-70.jpg)](<i-70.jpg>)_Highway I-70 through Kansas_
 
-The open space is beautiful in it's own right, but I-70 Kansas gets such a bad rep because of its neighboring states. A
-few hours East for the endless forests of Missouri. A few hours West for the snowy mountains of Colorado.
+The open space is beautiful in its own right, but I-70 Kansas gets such a bad rep because of its neighboring states. A
+few hours east are the endless forests of Missouri. A few hours west are the snowy mountains of Colorado.
 
 I-80 through Nebraska doesn't look like I-70, although Google Maps makes both look equally treacherous. Compared to
 Kansas, this section of Nebraska has many more rolling hills, trees, towns, signs, and radio stations. Still, it is one

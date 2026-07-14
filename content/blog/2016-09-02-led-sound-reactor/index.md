@@ -28,7 +28,7 @@ post-mortem.
 
 ## What It Does
 
-There are two modes to the Sound Reactor. First, it acts as simple dimmer. You turn a knob to adjust brightness.
+There are two modes to the Sound Reactor. First, it acts as a simple dimmer. You turn a knob to adjust brightness.
 
 Flip a switch and it becomes a sound reactive dimmer. The first knob adjusts the brightness when there is no bass. The
 second knob adjusts the sensitivity - how much brighter the lights get to the music.
@@ -57,7 +57,7 @@ at 1kHz. See the response below.
 
 [![sound-reactor-6](sound-reactor-6.jpg)](<sound-reactor-6.jpg>)
 
-So far, we have a buffered, amplified AC signal. I want to convert this into a useable signal, a voltage that show the
+So far, we have a buffered, amplified AC signal. I want to convert this into a useable signal, a voltage that shows the
 average intensity. Look at the rectifier circuit below. It's a peak detector, tuned to have a good decay for signals as
 low as 20Hz.
 
@@ -155,7 +155,7 @@ Version 3 changes:
 - Add power led indicator
 - Change audio from 3 pin to 4 pin connectors
 - Redesign triangle and PWM section for stability
-- Linearize adjusts of potentiometers
+- Linearize adjustments of potentiometers
 - Double gain of LPF
 
 ## Why I Failed
@@ -167,11 +167,11 @@ Version 3 changes:
    be replaced with buttons in a digital design, lowering the cost further.
 
    And further, it's really not all analog. I'm using analog components to simulate a digital function - PWM. Hell, I'm
-   driving a discrete digital devices - Light Emitting Diodes.
+   driving discrete digital devices - Light Emitting Diodes.
 2. It only drives single color LEDs. To drive RGB LEDs, I'd need to nearly triple the components. In a digital design,
    it'd only be an extra output from the microcontroller. So it doesn't scale well either.
 3. My circuit pushes the limits
    of the op-amps. The low pass filter is aggressive, especially with the high gain on the
-   final stage. Due to part tolerance, some boards may have higher gain than other. So sometimes, the op-amps
+   final stage. Due to part tolerance, some boards may have higher gain than others. So sometimes, the op-amps
    saturate when the gain is too high. I could not design for great response, a wide range of adjustability, and low
    cost. Pick two!

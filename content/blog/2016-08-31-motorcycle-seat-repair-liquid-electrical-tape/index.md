@@ -7,7 +7,7 @@ cover:
   relative: true
 slug: "motorcycle-seat-repair-liquid-electrical-tape"
 ---
-The #1 vinyl repair kit on Amazon has 2.9 stars. And it's not made to fix an 10″ split seam.
+The #1 vinyl repair kit on Amazon has 2.9 stars. And it's not made to fix a 10″ split seam.
 
 [![seat-repair-1](seat-repair-1.jpg)](<seat-repair-1.jpg>)
 

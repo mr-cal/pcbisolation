@@ -55,7 +55,7 @@ And it is free. The lower part of the bracket slips out on its own.
 
 [![lenovo t450s key replace 12](lenovo-t450s-key-replace-12.jpg)](<lenovo-t450s-key-replace-12.jpg>)
 
-Continue to use your screwdriver or screwdriver to wiggle the bracket free.
+Continue to use your screwdriver or razor blade to wiggle the bracket free.
 
 [![lenovo t450s key replace 13](lenovo-t450s-key-replace-13.jpg)](<lenovo-t450s-key-replace-13.jpg>)
 

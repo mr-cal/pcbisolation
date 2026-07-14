@@ -10,7 +10,7 @@ slug: "inventor-to-cura-stl-export"
 ---
 
 This how-to is for exporting a part from Autodesk Inventor and importing to Ultimaker Cura for 3D Printing. Once you
-export a STL file, it can be used with programs other than Cura.
+export an STL file, it can be used with programs other than Cura.
 
 ## Step 1
 

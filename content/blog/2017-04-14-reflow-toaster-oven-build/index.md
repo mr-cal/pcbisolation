@@ -25,7 +25,7 @@ Reflect-A-Gold tape, includes low quality SSRs, and an unnecessary servo kit.
 
 ## You Don't Need Solid State Relays and A Fancy Servo Door Opener
 
-The included solid state relays certainly underrated compared to their advertised ampacity. Whizoo has probably not
+The included solid state relays are certainly underrated compared to their advertised ampacity. Whizoo has probably not
 sourced quality Fotek SSRs, because genuine 25A SSRs are expensive. Check out [this disassembly of Fotek
 SSRs](<http://www.instructables.com/id/The-inner-workings-of-Counterfeit-FOTEK-SSRs/>). These relays will still work
 for your oven, but I'd much rather use a good quality mechanical relay. I bought 4 [Omron
@@ -95,7 +95,7 @@ A K-type thermocouple measures in the back of the oven.
 [![Reflow Oven 4](reflow-oven-04.jpg)](<reflow-oven-04.jpg>)
 
 On the far left, a computer fan can swing inwards to cool the oven during the cooling stage. Because there is no PID
-control for this fan, I manual point the fan inwards to keep the cooling rate between 2C and 6C/second.
+control for this fan, I manually point the fan inwards to keep the cooling rate between 2C and 6C/second.
 
 I added a USB port from [Parts
 Express](<https://www.parts-express.com/neutrik-nausb-w-feed-thru-reversible-usb-a-b-adapter-d-panel-mount-nickel--092-278>)

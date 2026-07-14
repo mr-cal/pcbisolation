@@ -46,7 +46,7 @@ amount of material.
 
 [![arbor 03](arbor-03.jpg)](<arbor-03.jpg>)
 
-I used a router with a cove bit add detail to the all the edges (see above).
+I used a router with a cove bit to add detail to all the edges (see above).
 
 [![arbor 04](arbor-04.jpg)](<arbor-04.jpg>)
 

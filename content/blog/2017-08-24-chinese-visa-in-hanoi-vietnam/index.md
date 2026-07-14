@@ -72,7 +72,7 @@ One gets glued to the application. The security guard has gluesticks and a stapl
 through the front of your passport, even though your passport says “Contains sensitive electronics. Do not perforate.”
 Ha.
 
-[This page](<http://www.china-embassy.org/eng/visas/zyxx/P020161206204655391310.jpg>) list the photo requirements - must
+[This page](<http://www.china-embassy.org/eng/visas/zyxx/P020161206204655391310.jpg>) lists the photo requirements - must
 be approximately 1.3″ x 1.9″.
 
 #### 3\. Copy of passport information page and Vietnam visa
@@ -95,7 +95,7 @@ you don't know when you'll leave.
 _Do I need to book all of my accomodation before submitting the application?_
 
 Probably not. In my itenarary, I listed hostels I planned to stay at but had not booked. I only booked the first hostel.
-I submitted this a copy of this first booking with my application.
+I submitted a copy of this first booking with my application.
 
 _Do I need to book flight or trains in and out of the country?_
 

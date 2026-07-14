@@ -11,7 +11,7 @@ slug: "repairing-and-adding-bluetooth-to-a-90s-delco-radio"
 
 [![delco stereo 7](delco-stereo-7.jpg)](<delco-stereo-7.jpg>)_AC Delco Model 16131355_
 
-This post details the repair of a early 1991 AC Delco stereo. AC Delco made many variants of this stereo for both
+This post details the repair of an early 1991 AC Delco stereo. AC Delco made many variants of this stereo for both
 Chevrolet and GM cars, trucks, and vans from the early 80's to the mid-90's. While many of the stereos have more or less
 features (cassette players, radio presets, etc), the amplifier section of the radio is fairly standard and unchanged.
 
@@ -64,7 +64,7 @@ Component
 [![delco stereo 10](delco-stereo-10.jpg)](<delco-stereo-10.jpg>)_Added JST-XH connectors
 (I later re-did these connections on the backs of the PCBs)_
 
-These stereos are a real bastard to assemble and disassemble. The PCBs are part of the structure of radio. All the parts
+These stereos are a real bastard to assemble and disassemble. The PCBs are part of the structure of the radio. All the parts
 have to come together at once when assembling, which is challenging.
 
 All the boards are hard-wired to each other, which makes it impossible to lay them all flat on a table. Additionally,
@@ -97,8 +97,8 @@ This chain of bluetooth components sneaks in between the main stereo board and t
 
 [![delco stereo 6](delco-stereo-6.jpg)](<delco-stereo-6.jpg>)
 
-This stereo lacks a cassette player, so there is a cavity of open space. The bluetooth parts sit comfortably here. It
-makes it's easy to install the stereo, since all the components are self-contained.
+This stereo lacks a cassette player, so there is a cavity of open space. The bluetooth parts sit comfortably here. This
+makes it easy to install the stereo, since all the components are self-contained.
 
 [![delco stereo 7](delco-stereo-7.jpg)](<delco-stereo-7.jpg>)
 

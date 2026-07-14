@@ -26,7 +26,7 @@ _How much walking is there?_
 This route is about 20 km. I can do it in 10 hours at a quick pace. If you stop to eat, relax, get a view of the city
 from a skyscraper, then budget for 12 hours.
 
-_What if I have an 6 hour layover?_
+_What if I have a 6-hour layover?_
 
 No problem! Limit yourself to the downtown walking route.
 
@@ -74,7 +74,7 @@ the Helix Bridge. Cross that bridge to get to the Art Science Museum. Some floor
 _View from Marina Park_
 
 Wander through the enormous SkyPark building. If you have the money, you can grab a cocktail from the top for an
-excellent view of the city. You're headed towards Garden in the Sky. This park has hours worth of exploring. If you have
+excellent view of the city. You're headed towards Garden in the Sky. This park has hours' worth of exploring. If you have
 the time and money, go into the Skyway, the Flower Dome, and Cloud Forest. If it's almost sunset, you can walk to Marina
 Barrage for an excellent view of the city at dusk. Finally, walk back to SkyPark to the Bayfront metro stop and head
 back to the airport!

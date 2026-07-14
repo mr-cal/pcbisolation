@@ -49,7 +49,7 @@ legs.
 {{< figure-gallery images="van-bench-seat-17.jpg,van-bench-seat-42.jpg" >}}
 
 I sanded and painted the seat frames and added extra reinforcing bars at the top of the backrest. The top was very weak,
-so it had got all bent from the previous owner.
+so it had gotten all bent from the previous owner.
 
 In addition to the seats being dirty and stained, they also didn't match my van's color scheme. I bought [khaki and
 brown duck canvas](<https://www.joann.com/jo-ann-stores-duck-canvas-fabric/prd23683.html>) and reupholstered the seats.
@@ -73,7 +73,7 @@ into the van.
 
 {{< figure-gallery images="van-bench-seat-18.jpg,van-bench-seat-26.jpg" >}}
 
-There was one corner where sitting water must have sat for a long time. I had to cut out that section and replace it
+There was one corner where standing water must have sat for a long time. I had to cut out that section and replace it
 with fresh metal.
 
 ## Front Seat Mounts
@@ -87,7 +87,7 @@ primary reasons I bought these seats - they can be installed and removed quickly
 
 Since the Ford seats aren't compatible with the Chevy's floor mount, I had to fabricate new mounts.
 
-The front seats mounts are made of 1/4″ steel plate and bolted into the original bucket seat mounting holes with grade 8
+The front seat mounts are made of 1/4″ steel plate and bolted into the original bucket seat mounting holes with grade 8
 bolts. There are large metal brackets underneath the floorboard to keep the bolts from ripping out of the sheet metal
 floor in a car crash.
 
@@ -126,6 +126,6 @@ covers and a set of mattress toppers. It's very comfortable.
 [![van bench seat 36](van-bench-seat-36.jpg)](<van-bench-seat-36.jpg>)
 [![van bench seat 32](van-bench-seat-32.gif)](<van-bench-seat-32.gif>)
 
-These seats were a huge success. The bench seats are comfortable for both driving and sleeping and takes 2-3 minutes to
+These seats were a huge success. The bench seats are comfortable for both driving and sleeping and take 2-3 minutes to
 convert between driving and sleeping. They can hold lots of people and things, look mostly OEM, and are easy to remove,
 allowing the entire van to be used for cargo.

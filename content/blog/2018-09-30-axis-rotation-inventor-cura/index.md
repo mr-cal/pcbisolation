@@ -9,7 +9,7 @@ cover:
 slug: "axis-rotation-inventor-cura"
 ---
 
-This how-to is for correcting axis orientations or rotation issues when exporting a file from Inventor to Cura.
+This how-to guide is for correcting axis orientation or rotation issues when exporting a file from Inventor to Cura.
 
 [![inventor cura stl import 08](inventor-cura-stl-import-08.jpg)](<inventor-cura-stl-import-08.jpg>)
 
@@ -19,7 +19,7 @@ _improper orientation causes this issue in Cura_
 
 Open Inventor.
 
-Export as an STL and import into Cura (how to export a STL here)
+Export as an STL and import into Cura (how to export an STL here)
 
 Do not rotate the model in Cura
 

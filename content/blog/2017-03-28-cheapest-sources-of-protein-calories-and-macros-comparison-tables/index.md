@@ -19,7 +19,7 @@ cheaper than chicken breast!
 
 ## Hot Dogs Are Priced Like A Luxury Food
 
-So if a hot dog has 1/4 the protein of chicken, _shouldn 't hot dogs cost 1/4 the price_? That's what I thought. Hot
+So if a hot dog has 1/4 the protein of chicken, _shouldn't hot dogs cost 1/4 the price_? That's what I thought. Hot
 dogs are supposed to be a cheap source of meat. But I can buy a pound of chicken at $2.50/lb and a pound of hot dogs at
 $1.50/lb at Walmart.
 
@@ -92,13 +92,13 @@ _You may need to scroll horizontally for more data_
 | Beef T-Bone Steak (Uncooked, Trimmed to 1/8" Fat, Choice Grade) | 454 | 1 lb | $7.00 | 21 | 263 | $7.34 | $1.54 | $5.86 | 84.0 | 0 / 67 / 33 |
 | Canned Tuna in Water, undrained 5 oz - Wild Planet | 140 | 5 oz | $3.50 | 25 | 143 | $10.00 | $2.50 | $17.48 | 100.0 | 0 / 26 / 74 |
 
-In table above, I've added data about cost per calorie and Fat/Carb/Protein ratio. This changes how we interpret the
-data. Peanut butter, which is cheap source of protein, has a Fat/Carb/Protein ratio of 16/71/14 (ignoring the rounding
+In the table above, I've added data about cost per calorie and Fat/Carb/Protein ratio. This changes how we interpret the
+data. Peanut butter, which is a cheap source of protein, has a Fat/Carb/Protein ratio of 16/71/14 (ignoring the rounding
 errors). Every gram of protein comes with 5 grams of fat. Or you could say every calorie of protein has 11 calories of
 fat.
 
 In the table below, I've added more data about fat, carbs, and calories. Although the sample size is small, it's one of
-the most complete cost analysis of macronutrients and calories available on the internet. If you know of similar work,
+the most complete cost analyses of macronutrients and calories available on the internet. If you know of similar work,
 let me know in the comments below.
 
 | Item | Package Weight (g) | Package Weight (oz/lbs) | Package Cost | Carbs (g) per 100g of Food | Fat (g) per 100g of Food | Protein (g) per 100g of Food | Total Calories per 100g of Food | Cost of 100g Carb | Cost of 100g Fat | Cost of 100g Protein | Cost of 100g of Food | Cost per 1000 Calorie | Carbs (cal) per 100g of Food | Fat (cal) per 100g of Food | Protein (cal) per 100g of Food | % of Calories from Carbs | % of Calories from Fat | % of Calories from Protein | Carb / Fat / Protein Calorie Ratio |
@@ -127,7 +127,7 @@ let me know in the comments below.
 
 ## Quit Telling Us Canned Tuna Is Cheap Protein
 
-Canned tuna, which contains 0 carbs and almost 0 fat, is utilitarian. It's protein in a can. Perhaps it's value lies in
+Canned tuna, which contains 0 carbs and almost 0 fat, is utilitarian. It's protein in a can. Perhaps its value lies in
 the absence of fat and carbs. At $4.96/100g protein, cheap tuna is the 4th most expensive source of protein out of 21
 foods I analyzed. And a nice can of tuna, like Wild Planet, tops the chart out at a whopping $10/100g of protein!!
 

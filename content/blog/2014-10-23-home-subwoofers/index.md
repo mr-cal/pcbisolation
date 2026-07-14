@@ -14,7 +14,7 @@ subwoofers powered by a 1000W car amp. My goals: keep it under $400, design it s
 car and be powered from a 12V source (like a car battery), and build them to be as durable as possible.
 
 I chose the best subwoofers for the price I could find, Hifonic Brutus 15″s. They are terrific budget subs at
-$70/speaker. Once you know the environment and the speakers, you have everything begin designing the boxes.
+$70/speaker. Once you know the environment and the speakers, you have everything to begin designing the boxes.
 
 [![hifonics03](hifonics03.jpg)](<hifonics03.jpg>)
 
@@ -50,14 +50,14 @@ dormies to hear a floor above and below, but wasn't enough for me.
 [![hifonics06](hifonics06.jpg)](<hifonics06.jpg>)
 
 There exists a power supply for large servers that only outputs 12V. They usually come in redundant pairs, and the one I
-found on eBay, supplies 106A. This 1300W device is a little bigger than a standard ATX PSU, and can be bought used for
+found on eBay supplies 106A. This 1300W device is a little bigger than a standard ATX PSU, and can be bought used for
 $15-$20. They are very popular in the RC community for their ability to charge numerous Lithium batteries quickly.
 
 [![hifonics08](hifonics08.jpg)](<hifonics08.jpg>)
 
 There is a downside to taking advantage of the inexpensive amplifiers and speakers from the car audio market, getting
 12V to your amp. Any large power supply will probably be from a server, where noise is secondary to reliability.
-Therefore, the fans on this baby are loud as possible. You could use this thing as a leafblower. Or attach wings to it
+Therefore, the fans on this baby are as loud as possible. You could use this thing as a leafblower. Or attach wings to it
 and it may take flight.
 
 You have two options here:
@@ -78,7 +78,7 @@ components.
 I chose the second option for a few reasons. First, I can adjust the behavior of the fan easily; I can change the
 minimum temperature for the fan starting and how the fan speed scales with temperature. Second, I can generate a second
 output. If I control the internal fans with my circuit, the PSU doesn't get the right feedback signal from the fans,
-shutting off the PSU. I created a faux fan feedback signal (a 2kHz square wave) and feed it back to the PSU.
+shutting off the PSU. I created a faux fan feedback signal (a 2kHz square wave) and fed it back to the PSU.
 
 In summary, I use a microcontroller to control the fans to my liking. And I trick the PSU into thinking it controls the
 fans. Everybody wins.
@@ -91,7 +91,7 @@ This is a TMA 1000.1 mono subwoofer car amp. As far as non-name brand amplifiers
 [![hifonics10](hifonics10.jpg)](<hifonics10.jpg>)
 
 Fully assembled, this is what the subwoofers look like. Each box is 22″x25″x18″ and require two people to move. It cost
-under $400 for both. To buy something like this new, I would easily have spend over $1500. They are loud, probably
+under $400 for both. To buy something like this new, I would easily have spent over $1500. They are loud, probably
 unnecessarily loud. But that's not the point, they are a result of my favorite process: imagining and implementing. Plus
 they're fun to use.
 

@@ -19,7 +19,7 @@ waterproofing. Mine still seems very water resistant, but I wouldn't dunk it in 
 [![TDK Trek A34 2](tdk-trek-a34-02.jpg)](<tdk-trek-a34-02.jpg>)
 
 Start by removing 11 screws from the bottom. 4 of those screws are hidden under the rubber feet. You can get to them by
-only partially lifting up the feet. The bottom battery cover pry up with a plastic tool.
+only partially lifting up the feet. The bottom battery cover pries up with a plastic tool.
 
 [![TDK Trek A34 3](tdk-trek-a34-03.jpg)](<tdk-trek-a34-03.jpg>)
 
@@ -48,7 +48,7 @@ reassembly.
 
 [![TDK Trek A34 8](tdk-trek-a34-08.jpg)](<tdk-trek-a34-08.jpg>)
 
-On the top of the speaker, there's 10 screws. Once the screws are out, pull up firmly on one side of the top plastic. It
+On the top of the speaker, there are 10 screws. Once the screws are out, pull up firmly on one side of the top plastic. It
 should remove similar to the bottom plastic. The above picture is after the top plastic is removed.
 
 [![TDK Trek A34 10](tdk-trek-a34-10.jpg)](<tdk-trek-a34-10.jpg>)

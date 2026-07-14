@@ -10,7 +10,7 @@ slug: "motorcycle-brake-turn-light"
 A stranger off eBay got me pulled over, from across the world.
 
 I have a 1983 Kawasaki CSR 305 that has a hint of a cafe racer. For the look, I replaced the stock brake and turn lights
-with a LED brake/turn light combo from eBay. It was manufactured overseas, _very_ cheaply.
+with an LED brake/turn light combo from eBay. It was manufactured overseas, _very_ cheaply.
 
 [![Brake-Light-3](brake-light-03.jpg)](<brake-light-03.jpg>)_typical cheap brake/turn light_
 

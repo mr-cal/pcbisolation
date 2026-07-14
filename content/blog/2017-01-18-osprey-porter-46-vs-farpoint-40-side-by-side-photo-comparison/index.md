@@ -21,7 +21,7 @@ This is a set of side-by-side comparison photos of the two backpacks along with 
 
 In all the photos, the Osprey Porter 46 is on the left and the Farpoint 40 is on the right.
 
-There is no affiliate or referral links here. It is all my unbiased opinion.
+There are no affiliate or referral links here. It is all my unbiased opinion.
 
 ## Comparison
 
@@ -48,7 +48,7 @@ However the Farpoint 40 is significantly more comfortable. It has a mesh back an
 Porter 46 would cause some discomfort after an hour or so. The Farpoint 40 takes a few hours before it begins to cause
 any discomfort.
 
-Unlike true hiking backpacks, neither or these backpacks allow you to adjust the distance between the shoulder and hip
+Unlike true hiking backpacks, neither of these backpacks allow you to adjust the distance between the shoulder and hip
 belt. I find slightly-too-small distance between the shoulder and hip belt of the Farpoint 40 a bit uncomfortable for
 multi-day hikes (I am 5′ 11″ (180 cm)).
 
@@ -64,7 +64,7 @@ The top carry handles are both large and very comfortable.
 [![osprey porter 46 farpoint 40 14](osprey-porter-46-farpoint-40-14.jpg)](<osprey-porter-46-farpoint-40-14.jpg>)
 
 The Farpoint 40 has two water bottle mesh holders. I find this a very convenient feature, however they aren't very
-elastic and it is difficult to holder more than one small water bottle in each pocket.
+elastic and it is difficult to hold more than one small water bottle in each pocket.
 
 If you have a 32 oz (1 L) waterbottle and your bag is full, you really have to force the bottle into the pocket.
 
@@ -151,6 +151,6 @@ stowed when the backpack is checked as luggage.
 
 I traveled with the Farpoint 40 through Asia for 8 months and the backpack looks like new. I love the pack. It's perfect
 for backpackers, but you have to pack light. I often get the comment, "is that all you brought?" If 40L isn't enough,
-get the Farpoint 60, it's bigger brother, very similar in design and a terrific backpack.
+get the Farpoint 60, its bigger brother, very similar in design and a terrific backpack.
 
-I've been using this backpack almost everyday for a year to bicycle to work. It's holding up great!
+I've been using this backpack almost every day for a year to bicycle to work. It's holding up great!

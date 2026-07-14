@@ -8,7 +8,7 @@ cover:
 slug: "fabricating-a-frameless-cedar-gate"
 ---
 
-This gate has no exterior visible from the front and opens large enough for a vehicle and trailer to drive through.
+This gate has no exterior frame visible from the front and opens wide enough for a vehicle and trailer to drive through.
 
 ## Design
 
@@ -18,7 +18,7 @@ This gate has no exterior visible from the front and opens large enough for a ve
 
 [![frameless gate 10](frameless-gate-10.jpg)](<frameless-gate-10.jpg>)
 
-The frame is made of 3/4″ angle iron at 1/8″ thick as the frame. I ended up double up on the angle iron (welding them
+The frame is made of 3/4″ angle iron at 1/8″ thick. I ended up doubling up on the angle iron (welding them
 back-to-back). I wish I would have used a thinner-walled square tube instead. It would have been much stronger for the
 same weight and price.
 

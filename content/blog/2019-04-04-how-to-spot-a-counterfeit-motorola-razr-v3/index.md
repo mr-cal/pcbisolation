@@ -8,7 +8,7 @@ cover:
   relative: true
 slug: "how-to-spot-a-counterfeit-motorola-razr-v3"
 ---
-_**Note** - There are many versions of the Motorola Razr, each with subtle differences. Even similar version have
+_**Note** - There are many versions of the Motorola Razr, each with subtle differences. Even similar versions have
 differences between countries. Not all of the differences of this counterfeit/refurbished Razr will apply to your
 Razr!_
 
@@ -21,7 +21,7 @@ If you have a feeling the phone is fake, that's a good indicator that it is.
 First notice the camera text. The authentic phone says "VGA ZOOM 4X" whereas the counterfeit phone says "MEGAPIXEL". To
 quip, the cameras are 0.3 megapixels.
 
-Second, the Motorola "M" logo. On the authentic phone, it has a textured, shiny embossing. It's a different finish that
+Second, the Motorola "M" logo. On the authentic phone, it has a textured, shiny embossing. It's a different finish than
 the rest of the plastic, regardless of the phone's color. On the counterfeit phone, the logo has no embossing.
 
 Third, the speaker grill. On this counterfeit phone, it isn't shaped quite right.
@@ -38,7 +38,7 @@ press a few keys at once.
 
 Third, notice the quality of the letters and symbols. They are clean and precisely cut on an authentic phone.
 
-Finally, the coloring for the "call" and "hang up" keys are poorly aligned on the fake phone.
+Finally, the coloring for the "call" and "hang up" keys is poorly aligned on the fake phone.
 
 Have you found other indicators that a Razr V3 is fake? Let me know in the comments below.
 

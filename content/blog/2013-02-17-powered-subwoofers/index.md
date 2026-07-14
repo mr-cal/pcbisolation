@@ -15,7 +15,7 @@ upgrades.
 
 I picked up two used 6.5″ Kicker Free Air subwoofers. "Free Air" is a misnomer, they still need an enclosure. However
 the enclosure space can be relatively large. The trunk of your car could be considered an enclosure, as long as the
-space in front of these speaker is sealed off from the space behind these speakers. I don't plan to put these in a car,
+space in front of these speakers is sealed off from the space behind these speakers. I don't plan to put these in a car,
 they are going to be for a home sound system. I like the early 2000's sub look that these Kickers have: thickly stitched
 cones, paint chipped rusting frame, rotting seal, and corroded leads. At one point they were very nice, now they are
 fair. I can deal with fair speakers if they are free.
@@ -30,7 +30,7 @@ cut on a CNC machine(not [my CNC](</blog/cnc-summary/>)).
 {{< figure-gallery images="powered-subwoofer-03.jpg,powered-subwoofer-04.jpg" >}}
 
 I cut the parts out of a half sheet(4'x4′) of 1/2″ MDF. That cost $15. I used 2 layers of 1/2″ MDF for the front where
-the speakers mount, for the some additional sturdiness. It turned out to be overkill and unnecessary. These little
+the speakers mount, for some additional sturdiness. It turned out to be overkill and unnecessary. These little
 things don't generate force like [1000 watts into a pair of 15″ subs](</blog/home-subwoofers/>).
 
 Assembling the box was as easy as assembling a Lego set of a cube. Each part was within 1/64″ of where it belonged
@@ -43,7 +43,7 @@ a durable seal.
 
 I decided to cover the box in carpet, although that gives it a car trunk look, I don't like the look of MDF, I don't
 want to paint it, and carpet is cheap and easy to apply. I spent $9 on ebay for 3'x4′ of speaker box carpet, which is
-different than regular carpet. Its more stretchy, thin, smoother on one side for gluing. I wrapped one continuous piece
+different than regular carpet. It's more stretchy, thin, and smoother on one side for gluing. I wrapped one continuous piece
 around the box, then added the inlayed sides. Contact cement worked great.
 
 [![powered-subwoofer-05](powered-subwoofer-05.jpg)](<powered-subwoofer-05.jpg>)
@@ -58,16 +58,16 @@ response, OVP, OCP, OTP(temp protection), small size, and integrated fan.
 
 This amp would run at 14V (its minimum voltage), but the more voltage you give it (up to 39V), the more power it can
 output. It is easy for me to give it 24V, I have room for 2 ATX PSUs, delivering up to 15A (more than enough current). I
-attached the upper supply to the lower power supplies input and switch. One plug and one switch control both power
+attached the upper supply to the lower power supply's input and switch. One plug and one switch control both power
 supplies.
 
 [![powered-subwoofer-12](powered-subwoofer-12.jpg)](<powered-subwoofer-12.jpg>)
 
 To wire power supplies in series, [the 'upper' 12 V must not be earth
 grounded](<http://hildstrom.com/projects/atxbenchpowersupply/index.html> "24V ATX Bench Power Supply"), for that would
-create a short circuit. I removed the ground connection to metal chassis of one power supply. The positive 12V end of
+create a short circuit. I removed the ground connection to the metal chassis of one power supply. The positive 12V end of
 the lower supply connects to the ground of the upper supply. The positive 12V of the upper supply and the ground of the
-lower supply go to the amp, provided 24V of power.
+lower supply go to the amp, providing 24V of power.
 
 [![powered-subwoofer-10](powered-subwoofer-10.jpg)](<powered-subwoofer-10.jpg>)
 

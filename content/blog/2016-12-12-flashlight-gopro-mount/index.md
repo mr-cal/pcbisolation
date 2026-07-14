@@ -14,7 +14,7 @@ flashlight to a helmet or anywhere else you'd need a securely mounted flashlight
 
 There are a few 3D-printed gopro flashlight holders on [thingiverse.com](<http://www.thingiverse.com>), but they all
 seem to be either bulky or fragile and all require a screwdriver for installation and removal. My design uses a gopro
-mount, is secure, and forgiving to abuse. It uses velcro to accommodate many different flashlight and makes removing the
+mount, is secure, and forgiving to abuse. It uses velcro to accommodate many different flashlights and makes removing the
 flashlight very quick.
 
 ## Parts

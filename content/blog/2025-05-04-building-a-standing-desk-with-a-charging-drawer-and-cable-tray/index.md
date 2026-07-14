@@ -48,7 +48,7 @@ Installing Blum Tandem drawer slides.
 
 [![standing desk 04](standing-desk-04.jpg)](<standing-desk-04.jpg>)
 
-A custom cable management arm holds cables for a USB charge, the standing desk height controller, and LED backlight.
+A custom cable management arm holds cables for a USB charger, the standing desk height controller, and the LED backlight.
 
 [![standing desk 05](standing-desk-05.jpg)](<standing-desk-05.jpg>)
 

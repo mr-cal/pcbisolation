@@ -10,7 +10,7 @@ slug: "subwoofer-for-car-and-house"
 ---
 I have a thing for subwoofers, convenience, and low cost. Arguing over DVCs in $300 subs isn't my thing.
 
-This 8-inch tube subwoofer was $1 a garage sale.
+This 8-inch tube subwoofer was $1 at a garage sale.
 
 [![tube_subwoofer_01](tube-subwoofer-01.jpg)](<tube-subwoofer-01.jpg>)
 
@@ -27,7 +27,7 @@ powered from 2 very common sources:
 
 [![tube_subwoofer_02](tube-subwoofer-02.jpg)](<tube-subwoofer-02.jpg>)
 
-I removed the amp out of the powered sub, screwed it into the back of the tube, surrounded it with wood, and covered it
+I removed the amp from the powered sub, screwed it into the back of the tube, surrounded it with wood, and covered it
 in plexiglass.
 
 I use this subwoofer all the time, normally it is in my car. Since there are [only two cables leading to

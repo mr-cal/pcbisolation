@@ -8,7 +8,7 @@ cover:
   relative: true
 slug: "integrate-zooz-zen34-with-home-assistant"
 ---
-This overviews adding a Zooz ZEN34 smart switch to Home Assistant and using it to trigger automations.
+This provides an overview of adding a Zooz ZEN34 smart switch to Home Assistant and using it to trigger automations.
 
 This guide was written for HA 2021.6.6.
 
@@ -24,8 +24,8 @@ This guide was written for HA 2021.6.6.
 
 ## Add ZEN34 to Z-WaveJS
 
-1. Remove paper battery tabs from switch to power on switch
-2. Login to Home Assistant
+1. Remove the paper battery tabs from the switch to power it on
+2. Log in to Home Assistant
 3. Go to Z-Wave JS and press "Add/Remove Device"
 
 [![zooz zen34 home assisstant setup 01](zooz-zen34-home-assisstant-setup-01.jpg)](<zooz-zen34-home-assisstant-setup-01.jpg>)
@@ -36,7 +36,7 @@ This guide was written for HA 2021.6.6.
 
 5. The switch should show up on the Z-Wave JS Control Panel.
 
-If the fields are fully filled in (they shown "unknown" or "dead"), wait 5 minutes.
+If the fields aren't fully filled in (they show "unknown" or "dead"), wait 5 minutes.
 If the fields still haven't shown up, press the upper paddle 7 times to force the switch to wake up and send/receive
 configuration data.
 [![zooz zen34 home assisstant setup 03](zooz-zen34-home-assisstant-setup-03.jpg)](<zooz-zen34-home-assisstant-setup-03.jpg>)
