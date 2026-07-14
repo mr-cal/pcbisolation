@@ -8,38 +8,80 @@ on:
 permissions:
   contents: write
 
+env:
+  HUGO_VERSION: "0.147.1"
+  LYCHEE_VERSION: "0.24.2"
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v4
         with:
           submodules: recursive
           fetch-depth: 0
 
-      - name: Install Hugo
-        uses: peaceiris/actions-hugo@v3
+      - name: Cache Hugo resources
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
         with:
-          hugo-version: "0.147.1"
-          extended: true
+          path: resources/
+          key: hugo-resources-${{ hashFiles('content/**', 'assets/**', 'layouts/**') }}
+          restore-keys: hugo-resources-
+
+      - name: Install Hugo
+        run: |
+          curl -fsSL "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz" \
+            | tar -xz hugo
+          sudo mv hugo /usr/local/bin/hugo
 
       - name: Build
         run: hugo --minify
 
-      - name: Install htmlproofer
-        run: sudo gem install html-proofer
+      - name: Upload build artifact
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: hugo-public
+          path: public/
+          retention-days: 1
+
+  lint:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: hugo-public
+          path: public/
+
+      - name: Install lychee
+        run: |
+          curl -fsSL "https://github.com/lycheeverse/lychee/releases/download/lychee-v${LYCHEE_VERSION}/lychee-v${LYCHEE_VERSION}-x86_64-unknown-linux-gnu.tar.gz" \
+            | tar -xz lychee
+          sudo mv lychee /usr/local/bin/lychee
 
       - name: Check links
         run: |
-          htmlproofer public/ \
-            --disable-external \
-            --ignore-missing-alt \
-            --allow-hash-href \
-            --no-enforce-https
-        continue-on-error: false
+          lychee --offline --include-fragments \
+            --root-dir public/ \
+            'public/**/*.html'
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: [build, lint]
+    steps:
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v4
+        with:
+          fetch-depth: 0
+
+      - name: Download build artifact
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: hugo-public
+          path: public/
 
       - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-pages@v4
+        uses: peaceiris/actions-gh-pages@329bcc8f12caed2cefe5a5b80781499a6f3b361b # v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
@@ -47,8 +89,28 @@ jobs:
           force_orphan: true
 
       - name: Trigger vps-infra deploy
-        uses: peter-evans/repository-dispatch@v3
+        uses: peter-evans/repository-dispatch@ff45666b9427631e3450c54a1bcbee4d9ff4d7c0 # v3
         with:
           token: ${{ secrets.VPSINFRA_PAT }}
           repository: mr-cal/vps-infra
           event-type: pcbisolation-updated
+
+  smoke:
+    runs-on: ubuntu-latest
+    needs: deploy
+    steps:
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: Install Playwright
+        run: npm ci && npx playwright install chromium --with-deps
+
+      - name: Run smoke tests
+        run: npx playwright test --project=chromium
+        env:
+          BASE_URL: "https://pcbisolation.com"
