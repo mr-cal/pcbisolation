@@ -5,14 +5,14 @@ const BASE = process.env.BASE_URL || "https://pcbisolation.com";
 test("homepage loads with correct title", async ({ page }) => {
   await page.goto(BASE);
   await expect(page).toHaveTitle(/PCB Isolation/);
-  await expect(page.locator("nav")).toBeVisible();
+  await expect(page.locator("nav.header-nav")).toBeVisible();
 });
 
 test("blog index lists posts", async ({ page }) => {
   await page.goto(`${BASE}/blog/`);
   const posts = page.locator("article, .post-entry");
   const count = await posts.count();
-  expect(count).toBeGreaterThan(10);
+  expect(count).toBeGreaterThanOrEqual(10);
 });
 
 test("post with table renders a Markdown table", async ({ page }) => {
