@@ -26,7 +26,7 @@ Probably not.
 Watch yourself hover. You will most likely wander over time.
 
 Instead of mastering hovering, I accepted that I wander and instead focused on skills that involve slow continuous
-movement instead (like a back and forth). Indirectly, you will get  _really_ good at hovering with little effort!
+movement instead (like a back and forth). Indirectly, you will get _really_ good at hovering with little effort!
 
 ## 2 - You Bought a Mini Quadcopter
 

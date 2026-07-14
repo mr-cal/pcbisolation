@@ -30,21 +30,21 @@ Before we begin, assume the op-amp is acting like an [ideal comparator](<https:/
 The highest voltage the comparator can output is V<sub>CC</sub> and the lowest is 0V. These high and low output voltages are
 determined by the power supply connected to the op amp (which isn't shown in the schematic).
 
-Start at V<sub>1</sub> . For now, let's ignore R<sub>3</sub> . Currently, V<sub>1</sub> is equal to V<sub>CC</sub>  - this voltage comes  from the comparator
-output. The output is V<sub>CC</sub>  because the noninverting input is greater than the inverting input.
+Start at V<sub>1</sub>. For now, let's ignore R<sub>3</sub>. Currently, V<sub>1</sub> is equal to V<sub>CC</sub> - this voltage comes from the comparator
+output. The output is V<sub>CC</sub> because the noninverting input is greater than the inverting input.
 
-Connected to the comparator output is R<sub>4</sub> and C<sub>1</sub> . Together, they act as an
+Connected to the comparator output is R<sub>4</sub> and C<sub>1</sub>. Together, they act as an
 [integrator](<https://en.wikipedia.org/wiki/Passive_integrator_circuit>). As the voltage on the capacitor ramps up, it
 produces the up ramp of a triangle wave. This triangle wave appears at V<sub>2</sub>.
 
 As V<sub>2</sub> is increasing, it eventually becomes greater than V<sub>3</sub>. When this occurs, the comparator sees the inverting input
 is now greater than the non-inverting input. Accordingly, the comparator switches its output from a high voltage (V<sub>CC</sub>)
-to a low voltage (0V). With a comparator output of 0V, C<sub>1</sub> drains through R<sub>4</sub> . This produces the down ramp of a
+to a low voltage (0V). With a comparator output of 0V, C<sub>1</sub> drains through R<sub>4</sub>. This produces the down ramp of a
 triangle wave.
 
 Eventually, V<sub>2</sub> becomes less than V<sub>3</sub> - the comparator output goes back up to V<sub>CC</sub> and the cycle repeats.
 
-So far, we've ignored R<sub>3</sub> . However, it is a very important resistor. It allows for the cyclic action by adding
+So far, we've ignored R<sub>3</sub>. However, it is a very important resistor. It allows for the cyclic action by adding
 [hysteresis](<https://en.wikipedia.org/wiki/Hysteresis>). It affects the voltage V<sub>3</sub>. We'll look at R<sub>3</sub> in more detail
 below.
 
@@ -60,7 +60,7 @@ _View circuit
 [here](<http://falstad.com/circuit/circuitjs.html?cct=$+16+0.000005+10.20027730826997+50+5+50%0Ar+32+224+32+144+0+1000%0Ar+112+224+112+144+0+1000%0Ar+192+224+192+144+0+1000%0Av+32+288+32+224+0+0+40+550+0+0+0.5%0Av+192+288+192+224+0+0+40+550+0+0+0.5%0Aw+32+288+112+288+0%0Aw+112+288+192+288+0%0Aw+112+224+112+288+0%0Aw+32+144+112+144+0%0Aw+112+144+192+144+0%0Aw+384+144+464+144+0%0Aw+304+144+384+144+0%0Aw+384+224+384+288+0%0Aw+384+288+464+288+0%0Aw+304+288+384+288+0%0Av+464+288+464+224+0+0+40+0+0+0+0.5%0Av+304+288+304+224+0+0+40+5+0+0+0.5%0Ar+464+224+464+144+0+1000%0Ar+384+224+384+144+0+1000%0Ar+304+224+304+144+0+1000%0Ag+32+288+32+304+0%0Ag+304+288+304+304+0%0Ax+58+264+84+267+4+16+Vcc%0Ax+49+193+69+196+4+16+R1%0Ax+128+190+148+193+4+16+R2%0Ax+207+190+227+193+4+16+R3%0Ax+401+191+421+194+4+16+R2%0Ax+481+189+501+192+4+16+R3%0Ax+319+191+339+194+4+16+R1%0Ax+213+262+232+265+4+16+V1%0Ax+487+262+506+265+4+16+V1%0A>)_
 
 This simplified diagram shows all inputs for V<sub>3</sub>. In this diagram, we're simplified the comparator output (V<sub>1</sub>) as a
-voltage source. V<sub>CC</sub> , R<sub>1</sub> , and R<sub>2</sub> form a voltage divider where the divided voltage is V<sub>3</sub> . So does V<sub>CC</sub> , R<sub>3</sub> , and R<sub>2</sub>.
+voltage source. V<sub>CC</sub>, R<sub>1</sub>, and R<sub>2</sub> form a voltage divider where the divided voltage is V<sub>3</sub>. So does V<sub>CC</sub>, R<sub>3</sub>, and R<sub>2</sub>.
 
 When the comparator output V<sub>1</sub> is high, the voltage at V<sub>3</sub> increases. This sets the upper threshold for the triangle
 wave - the voltage the comparator's inverting input must reach in order to cause the comparator output to switch low (0V) and
@@ -106,12 +106,12 @@ We won't be solving directly for V<sub>tri,max</sub> or V<sub>tri,min</sub> with
 - V<sub>tri,min</sub> is the minimum voltage of the triangle
   wave. Like V<sub>tri,max</sub> we will need this value to determine frequency.
 
-Again, our goal is to solve for R<sub>3</sub> . We can set the two equations from above equal to each other and get the following:
+Again, our goal is to solve for R<sub>3</sub>. We can set the two equations from above equal to each other and get the following:
 
 <img src="triangle-wave-56.jpg" width="496" alt="triangle wave 56">
 
 To further reduce this equation, we can set R<sub>1</sub> equal to R<sub>2</sub>. This is a fine assumption for 99% of applications. We'll
-also replace V<sub>tri,max</sub> - V<sub>tri,min</sub> with V<sub>tri,amp</sub> .<img src="triangle-wave-64.jpg" width="433" alt="triangle wave 64">
+also replace V<sub>tri,max</sub> - V<sub>tri,min</sub> with V<sub>tri,amp</sub>.<img src="triangle-wave-64.jpg" width="433" alt="triangle wave 64">
 
 After reducing, we're left with the following formula:
 
@@ -119,13 +119,13 @@ After reducing, we're left with the following formula:
 
 where all resistances are in ohms and voltages are in volts.
 
-You choose the value of R<sub>1</sub> in order to calculate R<sub>3</sub> . As it is a simple voltage divider, anything between 10 kΩ and 1
+You choose the value of R<sub>1</sub> in order to calculate R<sub>3</sub>. As it is a simple voltage divider, anything between 10 kΩ and 1
 MΩ is fine. In the example at the bottom of this page, I chose 100 kΩ.
 
 ## Determining Frequency
 
 As mentioned early, the frequency is determined by the R<sub>4</sub> and C<sub>1</sub> integrator. Our goal here will be to choose a value
-for C<sub>1</sub> then calculate R<sub>4</sub> .
+for C<sub>1</sub> then calculate R<sub>4</sub>.
 
 <img src="triangle-wave-37.jpg" width="391" alt="triangle wave 37">
 
@@ -141,7 +141,7 @@ Graphing the formula above as a function of time produces something like this:
 
 [![triangle wave 39](triangle-wave-39.jpg)](<triangle-wave-39.jpg>)
 
-The graph above shows that V<sub>tri,min</sub> occurs at time t<sub>a</sub> and V<sub>tri,max</sub> occurs at time t<sub>b</sub> . The time from t<sub>a</sub> to t<sub>b</sub> is the
+The graph above shows that V<sub>tri,min</sub> occurs at time t<sub>a</sub> and V<sub>tri,max</sub> occurs at time t<sub>b</sub>. The time from t<sub>a</sub> to t<sub>b</sub> is the
 upramp of the triangle wave.
 
 V<sub>tri,min</sub> and V<sub>tri,max</sub> will be needed to determine frequency. Assuming R<sub>1</sub> is equal to R<sub>2</sub>, we can calculate them with the
@@ -149,14 +149,14 @@ following formulas:
 
 <img src="triangle-wave-34.jpg" width="294" alt="triangle wave 34">
 
-t<sub>a</sub> and t<sub>b</sub> don't need to be calculated. However, what we need is Δt -  the time between t<sub>a</sub> and t<sub>b</sub> . This Δt is one half
+t<sub>a</sub> and t<sub>b</sub> don't need to be calculated. However, what we need is Δt - the time between t<sub>a</sub> and t<sub>b</sub>. This Δt is one half
 of the period, so we can express it in terms of frequency:<img src="triangle-wave-43.jpg" width="250" alt="triangle wave
 43">
 
 Notice the 2 in the denominator. It's because we are calculating the up ramp of the triangle wave, which is only half
 of a period.
 
-We can create two equations. One at time t<sub>a</sub> and another at time t<sub>b</sub> :
+We can create two equations. One at time t<sub>a</sub> and another at time t<sub>b</sub>:
 
 <img src="triangle-wave-49.jpg" width="561" alt="triangle wave 49">
 
@@ -180,12 +180,12 @@ resistance in ohms.
 Note - you have to choose C<sub>1</sub> first. I recommend starting with 100nF. See more details on this in the Example Design
 section.
 
-C<sub>2</sub>, R<sub>5</sub> , R<sub>6</sub> , and the output load will change the frequency. As long as the output load is high impedance(100k+), the
+C<sub>2</sub>, R<sub>5</sub>, R<sub>6</sub>, and the output load will change the frequency. As long as the output load is high impedance(100k+), the
 frequency _shouldn't_ change more than 1%.
 
 ## Output Stage
 
-If you want to remove DC bias from the output, then you'll need to add  a [coupling
+If you want to remove DC bias from the output, then you'll need to add a [coupling
 capacitor](<http://www.learningaboutelectronics.com/Articles/What-is-a-coupling-capacitor>) on the output.
 
 ## Example Design
@@ -197,11 +197,11 @@ This is an example from my [Sound Reactor](/blog/led-sound-reactor/) project.
 For this example, we'll use the following criteria:
 
 - f = 1.1 kHz
-- V<sub>tri,amp</sub>  = 1 V
-- V<sub>CC</sub>  = 12 V
-- V<sub>O,max</sub>  = 11.715 V (this value came from the comparator datasheet when the comparator is powered by 12V. I used the
+- V<sub>tri,amp</sub> = 1 V
+- V<sub>CC</sub> = 12 V
+- V<sub>O,max</sub> = 11.715 V (this value came from the comparator datasheet when the comparator is powered by 12V. I used the
   MC4558)
-- V<sub>O,min</sub>  = 0.285 V (this value was from the comparator datasheet)
+- V<sub>O,min</sub> = 0.285 V (this value was from the comparator datasheet)
 
 ### Step 2 - Choose R<sub>1</sub> = R<sub>2</sub>
 
@@ -218,7 +218,7 @@ I calculated R<sub>3</sub> = 521.5 kΩ, which is close to the standard 520 kΩ.
 
 <img src="triangle-wave-34.jpg" width="294" alt="triangle wave 34">
 
-This is an intermediate step to get values for R<sub>4</sub> and C<sub>1</sub> .
+This is an intermediate step to get values for R<sub>4</sub> and C<sub>1</sub>.
 
 I calculated V<sub>tri,min</sub> = 5.5 V and V<sub>tri,max</sub> = 6.5 V.
 

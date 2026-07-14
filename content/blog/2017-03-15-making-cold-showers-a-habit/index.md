@@ -26,7 +26,7 @@ the fourth day, because you had a long day at work. Habit gone. Broken. Good luc
 
 **Don 't do cold showers in the evening.** This may apply more to those who normally shower in the evening, like me.
 Before I shower, I am relaxed and within an hour of bedtime. But a cold shower is an exciting and awakening experience.
-So when I shower, I don't want to have a cold shower. And how do you form a habit of something you  _really_ don't want
+So when I shower, I don't want to have a cold shower. And how do you form a habit of something you _really_ don't want
 to do?
 
 Separate the purposes of each shower. The evening shower is 5-15 minutes with the purpose of cleaning your body. The

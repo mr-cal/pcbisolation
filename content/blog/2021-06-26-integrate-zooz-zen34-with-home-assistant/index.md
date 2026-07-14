@@ -78,7 +78,7 @@ We can now use this data to trigger an automation.
 
 - Trigger Type: `Event`
 - Event Type: `zwave_js_value_notification`
-- Event Data (from the "Listen for Events" step) :
+- Event Data (from the "Listen for Events" step):
 
 `device_id: <your_device_id>
 label: <your_label>
