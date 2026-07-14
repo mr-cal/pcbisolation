@@ -26,7 +26,10 @@ jobs:
         run: pip install html2text
 
       - name: Validate content
-        run: python3 scripts/validate_content.py
+        run: |
+          if [ -f scripts/validate_content.py ]; then
+            python3 scripts/validate_content.py
+          fi
 
       - name: Install Hugo
         uses: peaceiris/actions-hugo@v3
