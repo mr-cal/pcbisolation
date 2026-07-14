@@ -63,7 +63,9 @@
   {{- partial "comments.html" . }}
   {{- end }}
 
+  {{- if eq .Section "blog" }}
   {{- partial "remark42.html" . }}
+  {{- end }}
 </article>
 
 {{- end }}{{/* end main */}}
