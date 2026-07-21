@@ -13,6 +13,17 @@ Two old-URL sources are covered:
 Outputs:
   scripts/image_redirect_map.json  — human-readable mapping for review
   ~/dev/cal/vps-infra/caddy/pcbisolation-image-redirects.caddy — Caddy rules
+
+IMPORTANT — additive only: once a redirect is published (deployed to
+production Caddy), it is a permanent contract with search engines/bookmarks
+and must never change or disappear, even if a later run's hash-matching
+would compute a different (or no) target. This script therefore treats the
+currently-committed scripts/image_redirect_map.json as the permanent record:
+existing old_url → target entries are always preserved as-is; only brand-new
+old_url keys are added. If a freshly computed target ever disagrees with an
+already-recorded one, that's printed as a conflict for manual review — it is
+never applied automatically. Run this manually after a migration/rename to
+discover new redirects to add; it is not (and should not be) run in CI.
 """
 import hashlib
 import json
@@ -187,6 +198,14 @@ def pick_best_hugo_url(wp_path: str, candidates: list[tuple[Path, str]]) -> str:
     return candidates[0][1]
 
 
+def load_existing_redirects(map_path: Path) -> dict[str, str]:
+    """Load the permanent baseline of already-published redirects, if any."""
+    if not map_path.exists():
+        return {}
+    data = json.loads(map_path.read_text())
+    return dict(data.get("redirects", {}))
+
+
 def main() -> None:
     print("Scanning current Hugo images…")
     # Build hash → [(path, hugo_url)] map (preserve all candidates for duplicate resolution)
@@ -289,11 +308,36 @@ def main() -> None:
         old_url = "/" + old_path.removeprefix("content/")
         redirects[old_url] = hugo_url
 
-    total_redirects = len(redirects)
-    print(f"\nTotal redirect rules: {total_redirects}")
+    computed_total = len(redirects)
+    print(f"\nTotal computed redirect rules: {computed_total}")
+
+    # Merge additively against the permanent, already-published baseline.
+    # Existing entries are NEVER changed or removed, even if recomputing
+    # would now produce a different (or no) target — they may already be
+    # live in production Caddy and bookmarked/indexed externally. Only
+    # brand-new old_url keys are added.
+    map_path = ROOT / "scripts" / "image_redirect_map.json"
+    existing_redirects = load_existing_redirects(map_path)
+    final_redirects = dict(existing_redirects)
+    new_keys: list[str] = []
+    conflicts: list[tuple[str, str, str]] = []
+    for old_url, new_url in redirects.items():
+        if old_url not in final_redirects:
+            final_redirects[old_url] = new_url
+            new_keys.append(old_url)
+        elif final_redirects[old_url] != new_url:
+            conflicts.append((old_url, final_redirects[old_url], new_url))
+
+    print(f"  New redirects to add:        {len(new_keys)}")
+    if conflicts:
+        print(f"  WARNING: {len(conflicts)} conflicting recompute(s) — kept existing target, NOT applied:")
+        for old_url, kept, recomputed in conflicts:
+            print(f"    {old_url}\n      kept:      {kept}\n      recomputed: {recomputed}")
+
+    total_redirects = len(final_redirects)
+    print(f"\nTotal redirect rules (existing + new): {total_redirects}")
 
     # Write JSON map
-    map_path = ROOT / "scripts" / "image_redirect_map.json"
     map_data = {
         "summary": {
             "matched_originals": len(matched_originals),
@@ -302,9 +346,13 @@ def main() -> None:
             "unmatched_resizes": unmatched_resizes,
             "matched_old_section_urls": len(matched_section),
             "unmatched_old_section_urls": unmatched_section,
+            "new_redirects_added": new_keys,
+            "conflicts_not_applied": [
+                {"old_url": u, "kept": k, "recomputed": r} for u, k, r in conflicts
+            ],
             "total_redirects": total_redirects,
         },
-        "redirects": dict(sorted(redirects.items())),
+        "redirects": dict(sorted(final_redirects.items())),
     }
     map_path.write_text(json.dumps(map_data, indent=2) + "\n")
     print(f"Written: {map_path}")
@@ -318,7 +366,7 @@ def main() -> None:
         "# image URLs → new page-bundle image URLs",
         "",
     ]
-    for old_url, new_url in sorted(redirects.items()):
+    for old_url, new_url in sorted(final_redirects.items()):
         lines.append(f"redir {old_url} {new_url} 301")
     caddy_path.write_text("\n".join(lines) + "\n")
     print(f"Written: {caddy_path}")
