@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Projects on PCB Isolation</title><link>https://pcbisolation.com/projects/</link><description>Recent content in Projects on PCB Isolation</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 21 Jun 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://pcbisolation.com/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Big Nugget v2 - 5V 4A Power Supply</title><link>https://pcbisolation.com/projects/big-nugget-v2/</link><pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/projects/big-nugget-v2/</guid><description>&lt;div class="figure-gallery"
+style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:0.75rem;margin:1.5rem 0;">
+&lt;a href="big-nugget-v2-01.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="big-nugget-v2-01.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;a href="big-nugget-v2-02.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="big-nugget-v2-02.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;a href="big-nugget-v2-03.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="big-nugget-v2-03.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;/div>
+&lt;p>The Big Nugget is best for high current projects needing long runtime from a battery source. It&amp;rsquo;s great for Raspberry
+Pi, BeagleBone, Arduino, IoT, and more.&lt;/p>
+&lt;p>It can power a Raspberry Pi drawing 1A for about 7 hours. An optional header allows you to connect larger batteries for
+extended runtime.&lt;/p>
+&lt;p>The input can provide power to the output and charge the battery simultaneously. When the input power is removed, the
+battery supplies power to the output.&lt;/p></description></item><item><title>Little Nugget v2 - 5V 2A Power Supply</title><link>https://pcbisolation.com/projects/little-nugget-v2/</link><pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/projects/little-nugget-v2/</guid><description>&lt;div class="figure-gallery"
+style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:0.75rem;margin:1.5rem 0;">
+&lt;a href="little-nugget-v2-01.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="little-nugget-v2-01.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;a href="little-nugget-v2-02.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="little-nugget-v2-02.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;/div>
+&lt;p>This 5 Volt 2 Amp power supply runs off a single Li-Ion cell and is charged via micro USB. It has 2 USB type A outputs.&lt;/p>
+&lt;p>The input can provide power to the output and charge the battery simultaneously. When the input power is removed, the
+battery supplies power to the output.&lt;/p>
+&lt;p>An ATtiny45 microcontroller handles power management. There are two LED indicators for status and battery charge level.&lt;/p></description></item><item><title>Big Nugget v1 - 5V 3.5A Power Supply</title><link>https://pcbisolation.com/projects/big-nugget-v1/</link><pubDate>Tue, 30 Jan 2018 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/projects/big-nugget-v1/</guid><description>&lt;div class="figure-gallery"
+style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:0.75rem;margin:1.5rem 0;">
+&lt;a href="big-nugget-v1-01.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="big-nugget-v1-01.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;a href="big-nugget-v1-02.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="big-nugget-v1-02.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;/div>
+&lt;p>This is the first version of the Big Nugget. Version 2 improves considerably on this design. Compared to version 2, this
+has a single cell battery, 2 USB type A outputs, and a different set of power management ICs.&lt;/p>
+&lt;p>The microUSB input can negotiate from 100mA to 3.25A with USB MaxCharge and High Voltage Adapters.&lt;/p>
+&lt;p>The Big Nugget v1 is based on the Texas Instruments &lt;a href="http://www.ti.com/lit/ds/symlink/bq25895.pdf" title="Texas
+Instruments BQ25895 Datasheet">BQ25895&lt;/a> power management IC and the Microchip
+&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/20005572A.pdf" title="Microchip MIC2876 Datasheet">MIC2876&lt;/a> boost IC.&lt;/p></description></item><item><title>Reflow Toaster Oven</title><link>https://pcbisolation.com/projects/reflow-toaster-oven/</link><pubDate>Thu, 02 Feb 2017 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/projects/reflow-toaster-oven/</guid><description>&lt;div class="figure-gallery"
+style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:0.75rem;margin:1.5rem 0;">
+&lt;a href="reflow-toaster-oven-01.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="reflow-toaster-oven-01.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;a href="reflow-toaster-oven-02.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="reflow-toaster-oven-02.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;a href="reflow-toaster-oven-03.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="reflow-toaster-oven-03.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;a href="reflow-toaster-oven-04.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="reflow-toaster-oven-04.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;a href="reflow-toaster-oven-05.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="reflow-toaster-oven-05.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;/div>
+&lt;p>This is my retrofitted Black and Decker toaster oven for reflow soldering. To reduce the temperature gradient, the unit
+is insulated with 1″ ceramic blanket, Reflect-a-Gold tape, door sealant, and Boom Mat.&lt;/p>
+&lt;p>The controller is the popular ControlLeo2. A fan is used to improve the cooling speed. A temperature sensor and
+independent top and bottom heaters provide a consistent and accurate reflow profile.&lt;/p></description></item><item><title>Little Nugget v1 - 1.8v/3.3V/5v 2A Power Supply</title><link>https://pcbisolation.com/projects/little-nugget-v1/</link><pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/projects/little-nugget-v1/</guid><description>&lt;div class="figure-gallery"
+style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:0.75rem;margin:1.5rem 0;">
+&lt;a href="little-nugget-v1-01.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="little-nugget-v1-01.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;a href="little-nugget-v1-02.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="little-nugget-v1-02.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;/div>
+&lt;p>This 5 Volt 2 Amp power supply runs off a single Li-Ion cell and is charged via micro USB. There are 3 versions of this
+power supply - 1.8V, 3.3V, and 5V output.&lt;/p>
+&lt;p>This board requires a battery to operate. Version 2 improves on this - it operates with or without a battery installed.&lt;/p>
+&lt;p>An ATtiny45 microcontroller handles power management. There are two LED indicators for status and battery charge level.&lt;/p></description></item><item><title>ZigBee Mesh Node</title><link>https://pcbisolation.com/projects/zigbee-mesh-node/</link><pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/projects/zigbee-mesh-node/</guid><description>&lt;div class="figure-gallery"
+style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:0.75rem;margin:1.5rem 0;">
+&lt;a href="zigbee-mesh-node-01.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="zigbee-mesh-node-01.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;a href="zigbee-mesh-node-02.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="zigbee-mesh-node-02.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;a href="zigbee-mesh-node-03.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="zigbee-mesh-node-03.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;/div>
+&lt;p>This board is for a node within a mesh of ZigBee hubs, ideally for an Internet of Things application.&lt;/p>
+&lt;p>I used the Atmel &lt;a href="http://www.atmel.com/devices/atmega256rfr2.aspx">ATmega256RFR2&lt;/a>, an ATmega with a RF front-end
+designed for 2.4GHz communication. The main module is the Dresden Elektronik
+&lt;a href="https://www.dresden-elektronik.de/funktechnik/products/radio-modules/overview/?L=1">deRFmega256&lt;/a>. I chose this module
+because of its low cost, antenna diversity, power amp, and FCC certification. The design is based on the Dresden
+Elektronik FCC Compliant reference design.&lt;/p></description></item><item><title>Motorcycle Brake and Turn Light</title><link>https://pcbisolation.com/projects/motorcycle-brake-and-turn-light/</link><pubDate>Thu, 10 Mar 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/projects/motorcycle-brake-and-turn-light/</guid><description>&lt;div class="figure-gallery"
+style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:0.75rem;margin:1.5rem 0;">
+&lt;a href="motorcycle-brake-and-turn-light-01.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="motorcycle-brake-and-turn-light-01.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;a href="motorcycle-brake-and-turn-light-02.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="motorcycle-brake-and-turn-light-02.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;a href="motorcycle-brake-and-turn-light-03.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="motorcycle-brake-and-turn-light-03.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;/div>
+&lt;p>I was unsatisfied with the brake and turn signal combos available online, so I made my own. It has running lights, brake
+lights, turn signals, and license plate illumination. I used high output LEDs and used the extra space on the PCB for
+heat sinking.&lt;/p>
+&lt;p>If you&amp;rsquo;re curious about the bike, it&amp;rsquo;s a 1983 Kawasaki CSR 305. Here&amp;rsquo;s &lt;a href="motorcycle-brake-and-turn-light-04.jpg">a picture of it&lt;/a> next to the
+Mississippi River.&lt;/p></description></item><item><title>MFRC522 RFID Reader and Writer</title><link>https://pcbisolation.com/projects/mfrc522-rfid-reader-and-writer/</link><pubDate>Thu, 03 Mar 2016 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/projects/mfrc522-rfid-reader-and-writer/</guid><description>&lt;div class="figure-gallery"
+style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:0.75rem;margin:1.5rem 0;">
+&lt;a href="mfrc522-rfid-reader-and-writer-01.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="mfrc522-rfid-reader-and-writer-01.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;/div>
+&lt;p>This RFID board uses NXP&amp;rsquo;s MFRC522 RFID chip. It&amp;rsquo;s an excellent chip, but the only development boards currently
+available are poor quality and poor design (see example &lt;a href="mfrc522-rfid-reader-and-writer-02.jpg">here&lt;/a>).&lt;/p>
+&lt;p>I designed this as a high quality alternative. It uses a much larger board and more components, but the increase in
+read/write range is phenomenal! You can find my design files
+&lt;a href="http://circuitmaker.com/Projects/Details/John-Kovacs-2/MFRC522RFIDboard">here&lt;/a>.&lt;/p></description></item><item><title>LED Sound Reactor</title><link>https://pcbisolation.com/projects/led-sound-reactor/</link><pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/projects/led-sound-reactor/</guid><description>&lt;div class="figure-gallery"
+style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:0.75rem;margin:1.5rem 0;">
+&lt;a href="led-sound-reactor-01.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="led-sound-reactor-01.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;a href="led-sound-reactor-02.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="led-sound-reactor-02.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;/div>
+&lt;p>This is an LED controller for fans of music. You plug in LED lights and a power source. Turn the first knob and the
+device acts as a simple light dimmer.&lt;/p>
+&lt;p>Now add a music source. The lights will react to the bass of the song (pulsing with the beat). You can adjust how
+sensitive the lights are to the music and more with the control knobs.&lt;/p></description></item><item><title>Designing and Building a CNC Machine</title><link>https://pcbisolation.com/projects/designing-and-building-a-cnc-machine/</link><pubDate>Tue, 19 Jun 2012 00:00:00 +0000</pubDate><guid>https://pcbisolation.com/projects/designing-and-building-a-cnc-machine/</guid><description>&lt;div class="figure-gallery"
+style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:0.75rem;margin:1.5rem 0;">
+&lt;a href="designing-and-building-a-cnc-machine-01.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="designing-and-building-a-cnc-machine-01.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;a href="designing-and-building-a-cnc-machine-02.jpg"
+data-pswp-width="1"
+data-pswp-height="1"
+style="display:block;overflow:hidden;border-radius:6px;background:#111;">
+&lt;img src="designing-and-building-a-cnc-machine-02.jpg"
+loading="lazy"
+style="width:100%;height:220px;object-fit:cover;display:block;transition:opacity .2s;"
+alt=""
+onload="var a=this.closest('a');a.dataset.pswpWidth=this.naturalWidth;a.dataset.pswpHeight=this.naturalHeight;"
+onmouseover="this.style.opacity='0.85'"
+onmouseout="this.style.opacity='1'">
+&lt;/a>
+&lt;/div>
+&lt;p>I designed and built a CNC machine with 12″x12″x4″ of cutting space. It uses 270 oz-in steppers, a regular old router, a
+HobbyCNC controller, and Mach 3 as the driving software. It&amp;rsquo;s accurate down to at least 1/100″. It cost $400 and is made
+mostly from MDF. Because it is made of wood, it is designed to be very accurate and adjustable.&lt;/p></description></item></channel></rss>
