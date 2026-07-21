@@ -1,8 +1,14 @@
 #!/usr/bin/env python3
-"""Generate 301 redirect rules from old WP image URLs to new Hugo image URLs.
+"""Generate 301 redirect rules from old image URLs to current Hugo image URLs.
 
 Matches by content hash (SHA-256 of file content), then groups WP resizes
 to their original via base-name matching.
+
+Two old-URL sources are covered:
+1. WordPress uploads (static/wp-content/uploads/... at WP_COMMIT)
+2. Old flat 3d-prints/projects section images (content/3d-prints/*.jpg,
+   content/projects/*.jpg at PRE_MIGRATION_COMMIT, before they were split into
+   page bundles and renamed to match their slug)
 
 Outputs:
   scripts/image_redirect_map.json  — human-readable mapping for review
@@ -12,20 +18,51 @@ import hashlib
 import json
 import re
 import subprocess
+import tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
 CONTENT = ROOT / "content"
 VPSINFRA = ROOT.parent / "vps-infra"
 WP_COMMIT = "7371138~1"
+# Commit immediately before the 3d-prints/projects page-bundle migration
+# (parent of the migration commit) — content/3d-prints/ and content/projects/
+# were still flat "mega pages" with images directly alongside index.md.
+PRE_MIGRATION_COMMIT = "68c0d246b38303938a95861852f164f94cab6281"
 IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".webp", ".gif"}
+# Extensions scripts/strip-exif.sh strips metadata from (gif/svg are excluded
+# there, per .pre-commit-config.yaml). WP-era blobs still have their original
+# EXIF; current content/ images had theirs stripped in a later commit, so WP
+# blobs must go through the same normalization before hash-comparing.
+EXIF_STRIPPED_EXTS = {".jpg", ".jpeg", ".png", ".webp", ".tiff", ".tif"}
 
 _slug_cache: dict[Path, str] = {}
 
 
-def sha256_of_blob(blob_sha: str) -> str:
+def sha256_of_blob(blob_sha: str, ext: str = "") -> str:
     data = subprocess.check_output(["git", "cat-file", "blob", blob_sha], cwd=ROOT)
+    if ext.lower() in EXIF_STRIPPED_EXTS:
+        data = strip_exif_bytes(data, ext)
     return hashlib.sha256(data).hexdigest()
+
+
+def strip_exif_bytes(data: bytes, ext: str) -> bytes:
+    """Run the same exiftool normalization as scripts/strip-exif.sh on in-memory bytes.
+
+    WP-era blobs still carry their original EXIF; current content/ images had
+    theirs stripped in a later commit (58a7cf3). Without this, hash-matching
+    against WP blobs silently fails for almost every image.
+    """
+    with tempfile.NamedTemporaryFile(suffix=ext) as tmp:
+        tmp.write(data)
+        tmp.flush()
+        subprocess.run(
+            ["exiftool", "-all=", "-tagsfromfile", "@", "-orientation", "-overwrite_original", tmp.name],
+            check=True,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+        )
+        return Path(tmp.name).read_bytes()
 
 
 def sha256_of_file(path: Path) -> str:
@@ -50,6 +87,35 @@ def get_wp_files() -> dict[str, str]:
         ext = Path(wp_path).suffix.lower()
         if ext in IMAGE_EXTS:
             result[wp_path] = blob_sha
+    return result
+
+
+def get_old_section_files() -> dict[str, str]:
+    """Return {old_flat_path: blob_sha} for 3d-prints/projects images at PRE_MIGRATION_COMMIT.
+
+    Before the page-bundle migration, these images lived directly under
+    content/3d-prints/ and content/projects/ (flat, one directory level).
+    """
+    out = subprocess.check_output(
+        [
+            "git", "ls-tree", "-r", PRE_MIGRATION_COMMIT,
+            "--", "content/3d-prints/", "content/projects/",
+        ],
+        cwd=ROOT,
+        text=True,
+    )
+    result = {}
+    for line in out.splitlines():
+        parts = line.split("\t", 1)
+        if len(parts) != 2:
+            continue
+        path = parts[1]
+        blob_sha = parts[0].split()[2]
+        ext = Path(path).suffix.lower()
+        # Only flat, top-level section images (skip anything already nested,
+        # e.g. if this commit is re-run after a future migration).
+        if ext in IMAGE_EXTS and len(Path(path).parts) == 3:
+            result[path] = blob_sha
     return result
 
 
@@ -149,7 +215,7 @@ def main() -> None:
         p = Path(wp_path)
         if is_wp_resize(p.name):
             continue
-        h = sha256_of_blob(blob_sha)
+        h = sha256_of_blob(blob_sha, p.suffix)
         candidates = hash_to_hugo.get(h)
         if candidates:
             hugo_url = pick_best_hugo_url(wp_path, candidates)
@@ -175,7 +241,7 @@ def main() -> None:
         if not is_wp_resize(p.name):
             continue
         # Strategy A: direct hash match
-        h = sha256_of_blob(blob_sha)
+        h = sha256_of_blob(blob_sha, p.suffix)
         candidates = hash_to_hugo.get(h)
         if candidates:
             matched_resizes[wp_path] = pick_best_hugo_url(wp_path, candidates)
@@ -199,6 +265,30 @@ def main() -> None:
         old_url = "/" + wp_path.removeprefix("static/")
         redirects[old_url] = hugo_url
 
+    print(f"\nTotal WP redirect rules: {len(redirects)}")
+
+    # Old flat 3d-prints/projects section image URLs → new nested/renamed Hugo URL
+    print("\nLoading old flat 3d-prints/projects images from git history…")
+    old_section_files = get_old_section_files()
+    print(f"  {len(old_section_files)} old section image files found")
+
+    matched_section: dict[str, str] = {}
+    unmatched_section: list[str] = []
+    for old_path, blob_sha in old_section_files.items():
+        h = sha256_of_blob(blob_sha, Path(old_path).suffix)
+        candidates = hash_to_hugo.get(h)
+        if candidates:
+            matched_section[old_path] = pick_best_hugo_url(old_path, candidates)
+        else:
+            unmatched_section.append(old_path)
+
+    print(f"  Matched:   {len(matched_section)}")
+    print(f"  Unmatched: {len(unmatched_section)}")
+
+    for old_path, hugo_url in matched_section.items():
+        old_url = "/" + old_path.removeprefix("content/")
+        redirects[old_url] = hugo_url
+
     total_redirects = len(redirects)
     print(f"\nTotal redirect rules: {total_redirects}")
 
@@ -210,6 +300,8 @@ def main() -> None:
             "unmatched_originals": unmatched_originals,
             "matched_resizes": len(matched_resizes),
             "unmatched_resizes": unmatched_resizes,
+            "matched_old_section_urls": len(matched_section),
+            "unmatched_old_section_urls": unmatched_section,
             "total_redirects": total_redirects,
         },
         "redirects": dict(sorted(redirects.items())),
@@ -222,7 +314,8 @@ def main() -> None:
     caddy_path = caddy_dir / "pcbisolation-image-redirects.caddy"
     lines = [
         "# Auto-generated by scripts/generate_image_redirects.py",
-        "# WordPress → Hugo image 301 redirects",
+        "# WordPress → Hugo image 301 redirects, plus old flat 3d-prints/projects",
+        "# image URLs → new page-bundle image URLs",
         "",
     ]
     for old_url, new_url in sorted(redirects.items()):
