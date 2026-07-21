@@ -14,16 +14,24 @@ Outputs:
   scripts/image_redirect_map.json  — human-readable mapping for review
   ~/dev/cal/vps-infra/caddy/pcbisolation-image-redirects.caddy — Caddy rules
 
-IMPORTANT — additive only: once a redirect is published (deployed to
-production Caddy), it is a permanent contract with search engines/bookmarks
-and must never change or disappear, even if a later run's hash-matching
-would compute a different (or no) target. This script therefore treats the
-currently-committed scripts/image_redirect_map.json as the permanent record:
-existing old_url → target entries are always preserved as-is; only brand-new
-old_url keys are added. If a freshly computed target ever disagrees with an
-already-recorded one, that's printed as a conflict for manual review — it is
-never applied automatically. Run this manually after a migration/rename to
-discover new redirects to add; it is not (and should not be) run in CI.
+IMPORTANT — never a dead link, but always collapse to the best current
+target: once a redirect is published (deployed to production Caddy), that
+old_url must always resolve to *something valid* — it is never removed or
+left dangling, even if a later run's hash-matching can no longer find a
+match. But the *target* should always point directly at the current final
+location (single hop), not at a stale intermediate URL, per standard
+redirect-chain-collapsing practice (fewer hops = less latency, no diluted
+SEO value, avoids crawlers giving up after N hops). So this script treats
+the currently-committed scripts/image_redirect_map.json as a floor, not a
+frozen record: every old_url key that was ever published stays in the
+output forever, but its target is refreshed to the newly computed match
+whenever one is found. Only if a previously-published old_url can no
+longer be matched at all in the current run is its last-known-good target
+kept as a fallback — and that's printed as a warning for manual review,
+since "stopped matching entirely" (e.g. the EXIF-stripping regression this
+script once hit) is the actual danger sign, not "matches a different, still
+valid, more direct URL now." Run this manually after a migration/rename to
+discover/refresh redirects; it is not (and should not be) run in CI.
 """
 import hashlib
 import json
@@ -311,31 +319,37 @@ def main() -> None:
     computed_total = len(redirects)
     print(f"\nTotal computed redirect rules: {computed_total}")
 
-    # Merge additively against the permanent, already-published baseline.
-    # Existing entries are NEVER changed or removed, even if recomputing
-    # would now produce a different (or no) target — they may already be
-    # live in production Caddy and bookmarked/indexed externally. Only
-    # brand-new old_url keys are added.
+    # Merge against the permanent record of every old_url ever published:
+    # - refresh the target for any key that matched again this run (collapses
+    #   stale intermediate hops to the current final destination — that's an
+    #   improvement, not a regression, since the new target is guaranteed
+    #   valid: it comes straight from this run's scan of current content/).
+    # - never remove a previously-published key; if it didn't match at all
+    #   this run, keep its last-known-good target as a fallback and warn,
+    #   since "stopped matching" is the actual danger sign to investigate.
     map_path = ROOT / "scripts" / "image_redirect_map.json"
     existing_redirects = load_existing_redirects(map_path)
     final_redirects = dict(existing_redirects)
     new_keys: list[str] = []
-    conflicts: list[tuple[str, str, str]] = []
+    updated_keys: list[tuple[str, str, str]] = []
     for old_url, new_url in redirects.items():
         if old_url not in final_redirects:
-            final_redirects[old_url] = new_url
             new_keys.append(old_url)
         elif final_redirects[old_url] != new_url:
-            conflicts.append((old_url, final_redirects[old_url], new_url))
+            updated_keys.append((old_url, final_redirects[old_url], new_url))
+        final_redirects[old_url] = new_url
 
-    print(f"  New redirects to add:        {len(new_keys)}")
-    if conflicts:
-        print(f"  WARNING: {len(conflicts)} conflicting recompute(s) — kept existing target, NOT applied:")
-        for old_url, kept, recomputed in conflicts:
-            print(f"    {old_url}\n      kept:      {kept}\n      recomputed: {recomputed}")
+    stale_keys = sorted(set(existing_redirects) - set(redirects))
+
+    print(f"  New redirects added:            {len(new_keys)}")
+    print(f"  Targets refreshed/collapsed:    {len(updated_keys)}")
+    if stale_keys:
+        print(f"  WARNING: {len(stale_keys)} previously-published URL(s) did not match this run — kept last-known-good target:")
+        for old_url in stale_keys:
+            print(f"    {old_url} -> {final_redirects[old_url]}")
 
     total_redirects = len(final_redirects)
-    print(f"\nTotal redirect rules (existing + new): {total_redirects}")
+    print(f"\nTotal redirect rules: {total_redirects}")
 
     # Write JSON map
     map_data = {
@@ -347,9 +361,10 @@ def main() -> None:
             "matched_old_section_urls": len(matched_section),
             "unmatched_old_section_urls": unmatched_section,
             "new_redirects_added": new_keys,
-            "conflicts_not_applied": [
-                {"old_url": u, "kept": k, "recomputed": r} for u, k, r in conflicts
+            "targets_refreshed": [
+                {"old_url": u, "previous": p, "current": c} for u, p, c in updated_keys
             ],
+            "stale_urls_kept_as_is": stale_keys,
             "total_redirects": total_redirects,
         },
         "redirects": dict(sorted(final_redirects.items())),
